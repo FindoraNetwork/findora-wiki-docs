@@ -12,13 +12,13 @@ If you followed the first tutorial on creating your NFT smart contract, you alre
 
 To install web3, run
 
-```
+```shell
 npm install web3
 ```
 
 and update `mint-nft.js` with the following line
 
-```
+```typescript
 const Web3 = require('web3')
 ```
 
@@ -26,7 +26,7 @@ const Web3 = require('web3')
 
 Inside your scripts directory, create a `mint-nft.js` file and add the following lines of code:
 
-```
+```typescript
 require("dotenv").config()const PRIVATE_KEY = process.env.PRIVATE_KEY
 ```
 
@@ -70,8 +70,22 @@ Now, we’re going to want to upload one more document to Pinata. But before we 
 
 In your root directory, make a new file called `nft-metadata.json` and add the following json code:
 
-```
-{  "attributes": [    {      "trait_type": "Breed",      "value": "Mutt"    },    {      "trait_type": "Eye color",      "value": "Black"    }  ],  "description": "First dog NFT ever minted on Findora -- priceless.",  "image": "ipfs://QmT5fenaMZ17nBSqBaWyv4PbDV5EZeErRQaDpso5nNBViz",  "name": "Doggie Alpha-Omega-001"}
+```json
+{
+  "attributes": [
+    {
+      "trait_type": "Breed",
+      "value": "Mutt"
+    },
+    {
+      "trait_type": "Eye color",
+      "value": "Black"
+    }
+  ],
+  "description": "First dog NFT ever minted on Findora -- priceless.",
+  "image": "ipfs://QmT5fenaMZ17nBSqBaWyv4PbDV5EZeErRQaDpso5nNBViz",
+  "name": "Doggie Alpha-Omega-001"
+}
 ```
 
 Feel free to change the data in the json. You can remove or add to the attributes section. Most importantly, make sure image field points to the location of your IPFS image — otherwise, your NFT will include a photo of a (very cute!) dog.
@@ -94,8 +108,9 @@ In the above example, our contract address is `0x1A6c013c9951d84273176390CeB1Ccf
 
 Next, we will use the [Web3 contract method](https://web3js.readthedocs.io/en/v1.2.0/web3-eth-contract.html?highlight=constructor#web3-eth-contract) to create our contract using the ABI and address. In your `mint-nft.js` file, add the following:
 
-```
-const contractAddress = "0x1A6c013c9951d84273176390CeB1Ccfadb45EEce"const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
+```typescript
+const contractAddress = "0x1A6c013c9951d84273176390CeB1Ccfadb45EEce"
+const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 ```
 
 #### Step 6: Update .env File[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/Mint%20NFTs/p2\_mint\_nfts#step-6-update-env-file) <a href="#step-6-update-env-file" id="step-6-update-env-file"></a>
@@ -107,7 +122,9 @@ Add your public key to your .env file and also add the `API_URL` that points to 
 — if you completed part 1 of the tutorial, our `.env` file should now look like this:
 
 ```
-API_URL = "https://prod-testnet.prod.findora.org:8545"PRIVATE_KEY = "your-private-account-address"PUBLIC_KEY = "your-public-account-address"
+API_URL = "https://prod-testnet.prod.findora.org:8545"
+PRIVATE_KEY = "your-private-account-address"
+PUBLIC_KEY = "your-public-account-address"
 ```
 
 #### Step 7: Create Transaction[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/Mint%20NFTs/p2\_mint\_nfts#step-7-create-transaction) <a href="#step-7-create-transaction" id="step-7-create-transaction"></a>
@@ -126,8 +143,29 @@ First, let’s define a function named `mintNFT(tokenData)` and create our trans
 
 Your `mint-nft.js` file should look like this now:
 
-```
-   require('dotenv').config();   const Web3 = require('web3');      const API_URL = process.env.API_URL;   const PUBLIC_KEY = process.env.PUBLIC_KEY;   const PRIVATE_KEY = process.env.PRIVATE_KEY;   const web3 = new Web3(API_URL)   const contract = require("../artifacts/contracts/FindoraNFT.sol/FindoraNFT.json");   const contractAddress = "0x8f64ac5cbc4ce428c416f9358bc4606ffc611576";   const nftContract = new web3.eth.Contract(contract.abi, contractAddress);   async function mintNFT(tokenURI) {     const nonce = await web3.eth.getTransactionCount(PUBLIC_KEY, 'latest');     const tx = {       'from': PUBLIC_KEY,       'to': contractAddress,       'nonce': nonce,       'gas': 800000,       'data': nftContract.methods.mintNFT(PUBLIC_KEY, tokenURI).encodeABI()     };   }
+```typescript
+   require('dotenv').config();
+   const Web3 = require('web3');
+   
+   const API_URL = process.env.API_URL;
+   const PUBLIC_KEY = process.env.PUBLIC_KEY;
+   const PRIVATE_KEY = process.env.PRIVATE_KEY;
+   const web3 = new Web3(API_URL)
+
+   const contract = require("../artifacts/contracts/FindoraNFT.sol/FindoraNFT.json");
+   const contractAddress = "0x8f64ac5cbc4ce428c416f9358bc4606ffc611576";
+   const nftContract = new web3.eth.Contract(contract.abi, contractAddress);
+
+   async function mintNFT(tokenURI) {
+     const nonce = await web3.eth.getTransactionCount(PUBLIC_KEY, 'latest');
+     const tx = {
+       'from': PUBLIC_KEY,
+       'to': contractAddress,
+       'nonce': nonce,
+       'gas': 800000,
+       'data': nftContract.methods.mintNFT(PUBLIC_KEY, tokenURI).encodeABI()
+     };
+   }
 ```
 
 #### Step 8: Sign Transaction[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/Mint%20NFTs/p2\_mint\_nfts#step-8-sign-transaction) <a href="#step-8-sign-transaction" id="step-8-sign-transaction"></a>
@@ -136,8 +174,54 @@ Now that we’ve created our transaction, we need to sign it in order to send it
 
 `web3.eth.sendSignedTransaction` will give us the transaction hash, which we can use to make sure our transaction was mined and didn't get dropped by the network. You'll notice in the transaction signing section, we've added some error checking so we know if our transaction successfully went through.
 
-```
-require("dotenv").config()const Web3 = require('web3')    const API_URL = process.env.API_URLconst PUBLIC_KEY = process.env.PUBLIC_KEYconst PRIVATE_KEY = process.env.PRIVATE_KEYconst web3 = new Web3(API_URL)const contract = require("../artifacts/contracts/FindoraNFT.sol/FindoraNFT.json")const contractAddress = "0x1A6c013c9951d84273176390CeB1Ccfadb45EEce"const nftContract = new web3.eth.Contract(contract.abi, contractAddress)async function mintNFT(tokenURI) {  const nonce = await web3.eth.getTransactionCount(PUBLIC_KEY, "latest")   const tx = {    from: PUBLIC_KEY,    to: contractAddress,    nonce: nonce,    gas: 800000,    data: nftContract.methods.mintNFT(PUBLIC_KEY, tokenURI).encodeABI(),  }  const signPromise = web3.eth.accounts.signTransaction(tx, PRIVATE_KEY)  signPromise    .then((signedTx) => {      web3.eth.sendSignedTransaction(        signedTx.rawTransaction,        function (err, hash) {          if (!err) {            console.log(              "The hash of your transaction is: ",              hash,              "\nCheck Findora Anvil Testnet block explorer to view the status of your transaction!"            )          } else {            console.log(              "Something went wrong when submitting your transaction:",              err            )          }        }      )    })    .catch((err) => {      console.log(" Promise failed:", err)    })}
+```typescript
+require("dotenv").config()
+const Web3 = require('web3')
+    
+const API_URL = process.env.API_URL
+const PUBLIC_KEY = process.env.PUBLIC_KEY
+const PRIVATE_KEY = process.env.PRIVATE_KEY
+const web3 = new Web3(API_URL)
+
+const contract = require("../artifacts/contracts/FindoraNFT.sol/FindoraNFT.json")
+const contractAddress = "0x1A6c013c9951d84273176390CeB1Ccfadb45EEce"
+const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
+
+async function mintNFT(tokenURI) {
+  const nonce = await web3.eth.getTransactionCount(PUBLIC_KEY, "latest") 
+  const tx = {
+    from: PUBLIC_KEY,
+    to: contractAddress,
+    nonce: nonce,
+    gas: 800000,
+    data: nftContract.methods.mintNFT(PUBLIC_KEY, tokenURI).encodeABI(),
+  }
+
+  const signPromise = web3.eth.accounts.signTransaction(tx, PRIVATE_KEY)
+  signPromise
+    .then((signedTx) => {
+      web3.eth.sendSignedTransaction(
+        signedTx.rawTransaction,
+        function (err, hash) {
+          if (!err) {
+            console.log(
+              "The hash of your transaction is: ",
+              hash,
+              "\nCheck Findora Anvil Testnet block explorer to view the status of your transaction!"
+            )
+          } else {
+            console.log(
+              "Something went wrong when submitting your transaction:",
+              err
+            )
+          }
+        }
+      )
+    })
+    .catch((err) => {
+      console.log(" Promise failed:", err)
+    })
+}
 ```
 
 #### Step 9: Call mintNFT and Run Node mint-nft.js[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/Mint%20NFTs/p2\_mint\_nfts#step-9-call-mintnft-and-run-node-mint-nftjs) <a href="#step-9-call-mintnft-and-run-node-mint-nftjs" id="step-9-call-mintnft-and-run-node-mint-nftjs"></a>
@@ -156,14 +240,64 @@ The page should look similar to the screenshot below:
 
 Altogether, your code should look something like this:
 
-```
-require("dotenv").config()const Web3 = require('web3')const API_URL = process.env.API_URLconst PUBLIC_KEY = process.env.PUBLIC_KEYconst PRIVATE_KEY = process.env.PRIVATE_KEYconst web3 = new Web3(API_URL)const contract = require("../artifacts/contracts/FindoraNFT.sol/FindoraNFT.json")const contractAddress = "0x1A6c013c9951d84273176390CeB1Ccfadb45EEce"const nftContract = new web3.eth.Contract(contract.abi, contractAddress)async function mintNFT(tokenURI) {  const nonce = await web3.eth.getTransactionCount(PUBLIC_KEY, "latest") //get latest nonce  //the transaction  const tx = {    from: PUBLIC_KEY,    to: contractAddress,    nonce: nonce,    gas: 500000,    data: nftContract.methods.mintNFT(PUBLIC_KEY, tokenURI).encodeABI(),  }  const signPromise = web3.eth.accounts.signTransaction(tx, PRIVATE_KEY)  signPromise    .then((signedTx) => {      web3.eth.sendSignedTransaction(        signedTx.rawTransaction,        function (err, hash) {          if (!err) {            console.log(              "The hash of your transaction is: ",              hash,              "\nCheck Findora Anvil Testnet block explorer to view the status of your transaction!"            )          } else {            console.log(              "Something went wrong when submitting your transaction:",              err            )          }        }      )    })    .catch((err) => {      console.log("Promise failed:", err)    })}mintNFT("ipfs://QmRNrn4f9hkcRT7V8zxae4Ab9qouZfmfDpsrVGgyZumGBT")
+```typescript
+require("dotenv").config()
+const Web3 = require('web3')
+
+const API_URL = process.env.API_URL
+const PUBLIC_KEY = process.env.PUBLIC_KEY
+const PRIVATE_KEY = process.env.PRIVATE_KEY
+const web3 = new Web3(API_URL)
+
+const contract = require("../artifacts/contracts/FindoraNFT.sol/FindoraNFT.json")
+const contractAddress = "0x1A6c013c9951d84273176390CeB1Ccfadb45EEce"
+const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
+
+async function mintNFT(tokenURI) {
+  const nonce = await web3.eth.getTransactionCount(PUBLIC_KEY, "latest") //get latest nonce
+
+  //the transaction
+  const tx = {
+    from: PUBLIC_KEY,
+    to: contractAddress,
+    nonce: nonce,
+    gas: 500000,
+    data: nftContract.methods.mintNFT(PUBLIC_KEY, tokenURI).encodeABI(),
+  }
+
+  const signPromise = web3.eth.accounts.signTransaction(tx, PRIVATE_KEY)
+  signPromise
+    .then((signedTx) => {
+      web3.eth.sendSignedTransaction(
+        signedTx.rawTransaction,
+        function (err, hash) {
+          if (!err) {
+            console.log(
+              "The hash of your transaction is: ",
+              hash,
+              "\nCheck Findora Anvil Testnet block explorer to view the status of your transaction!"
+            )
+          } else {
+            console.log(
+              "Something went wrong when submitting your transaction:",
+              err
+            )
+          }
+        }
+      )
+    })
+    .catch((err) => {
+      console.log("Promise failed:", err)
+    })
+}
+
+mintNFT("ipfs://QmRNrn4f9hkcRT7V8zxae4Ab9qouZfmfDpsrVGgyZumGBT")
 ```
 
 Now, run
 
-```
-    node scripts/mint-nft.js 
+```shell
+node scripts/mint-nft.js 
 ```
 
 from your root directory to deploy your NFT. After a couple of seconds, you should see a response like this in your terminal:

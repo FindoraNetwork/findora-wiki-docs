@@ -4,7 +4,7 @@ In order to explain how the most basic confidential transfers work in Findora, l
 
 An asset transfer is executed simply by posting a transfer note to the Findora ledger, denoted **`XfrNote`** for short.
 
-```typescript
+```rust
 pub struct XfrNote {
     pub body: XfrBody,
     pub multisig: XfrMultiSig,
@@ -13,7 +13,7 @@ pub struct XfrNote {
 
 The **`XfrBody`**` ``` contains a list of input asset records and output asset records. For confidentiality these asset records are blinded, using cryptographic commitments. These are implemented using Pedersen commitments over the “Ristretto” elliptic curve.
 
-```typescript
+```rust
 pub struct XfrBody {    
     pub inputs: Vec<BlindAssetRecord>,
     pub outputs: Vec<BlindAssetRecord>,
@@ -25,7 +25,7 @@ t}
 
 We call the blinded record data structure a **`BlindAssetRecord`** to distinguish it from a plain AssetRecord.
 
-```typescript
+```rust
 pub struct AssetRecord {
     pub open_asset_record: OpenAssetRecord,ty
     pub tracing_policies: TracingPolicies,
@@ -35,7 +35,7 @@ pub struct AssetRecord {
 }
 ```
 
-```typescript
+```rust
 pub struct BlindAssetRecord {
     pub amount: XfrAmount,        // Amount being transferred    
     pub asset_type: XfrAssetType, // Asset type being transferred    
