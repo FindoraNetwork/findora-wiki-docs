@@ -36,4 +36,4 @@ Then, install all SDK dependencies:
 yarn
 ```
 
-**NOTE:** For more details about configuring and integrating `Findora SDK` please refer to the [SDK integration page](../sdk-setup.md).
+**NOTE:** For more details about configuring and integrating `Findora SDK` please refer to the [SDK integration page](https://wiki.findora.org/docs/developers/utxo/utxo-guides/sdk\_setup).

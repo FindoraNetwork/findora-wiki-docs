@@ -14,17 +14,17 @@ Step 3: FindoraBot will automatically detect commands requesting Testnet FRA EVM
 
 Bot Request Format:
 
-```bash
+```
 !faucet <\wallet address> <Email> <\Will you run a validator? yes/no> > <\Are you a developer? yes/no>
 ```
 
 Example:
 
-```bash
+```
 !faucet fra19rtfg2g58x6jxxxxxxxxxxxxxxxxx example@gmail.com no no
 ```
 
-> Note: You can only ask for FRA tokens once every 24 hours, so make sure your receiving wallet address is correct.
+> Note: You can only ask for FRA tokens once evenry 24 hours, so make sure your receiving wallet address is correct.
 
 #### Check FRA UTXO Balance[​](https://wiki.findora.org/docs/evm\_guides/get\_fra/faucet#check-fra-utxo-balance) <a href="#check-fra-utxo-balance" id="check-fra-utxo-balance"></a>
 

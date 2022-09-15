@@ -1,6 +1,6 @@
 # Network Settings
 
-Findora's `Smart Chain` is an EVM-compatible chain that can run all solidity code and use existing EVM tools while `Native Chain` is a UTXO-based chain with native support for confidential transfers. Both Smart and Native Chain are part of Findora and operate under one consensus.
+Findora's `Smart Chain` is a EVM-compatible chain that can run all solidity code and use existing EVM tools while `Native Chain` is a UTXO-based chain with native support for confidential transfers. Both Smart and Native Chain are part of Findora and operate under one consensus.
 
 To connect to the Findora network, use the configuration settings below. Be sure to use the configuration info for the correct chain (Smart Chain or Native Chain) you wish to connect to.
 
