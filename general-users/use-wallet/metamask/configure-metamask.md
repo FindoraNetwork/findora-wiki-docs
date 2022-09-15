@@ -6,7 +6,19 @@ If you have used Metamask for any sort of development work on the EVM, then sett
 
 The first step is to install Metamask from [Metamask](https://metamask.io/).
 
-Next up, click on the bar that would typically show your last connected network.
+Now let's add Findora to Metamask.
+
+## Add with Chainlist
+
+You can quickly add Findora to your Metamask by simply connecting your wallet on Chainlist.
+
+**Mainnet**: [https://chainlist.org/chain/2152](https://chainlist.org/chain/2152)
+
+**Testnet**: [https://chainlist.org/chain/2153](https://chainlist.org/chain/2153)
+
+## Add Manually
+
+Click on dropdown bar that would typically show your last connected network.
 
 ![metamask](https://wiki.findora.org/assets/images/metamask-01-cae92c7a91b2af56ecdd708d90b392f7.png)
 
@@ -16,7 +28,7 @@ You should get a drop-down and a button that shows `Add Network`. Click on that 
 
 Next, configure Metamask to connect to Findora’s EVM network (aka Smart Chain). The network details can be found here:
 
-|          | Mainnet                         | Testnet                                    |
+| Field    | Mainnet                         | Testnet                                    |
 | -------- | ------------------------------- | ------------------------------------------ |
 | Chain ID | 2152                            | 2153                                       |
 | RPC      | https://rpc-mainnet.findora.org | https://prod-testnet.prod.findora.org:8545 |

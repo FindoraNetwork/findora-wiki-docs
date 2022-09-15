@@ -33,7 +33,7 @@ yarn cli
 If installed correctly, you will see:
 
 ```bash
- ~/t/t/findora-sdk $ yarn cli
+$ yarn cli
 yarn run v1.22.11
 $ yarn cli:build && yarn cli:run "$npm_config"
 $ tsc
@@ -55,21 +55,21 @@ $ nodemon dist/cli.js --ignore cache/ "$npm_config" ''
 
 To see a list of all commands (and usage instructions), run the following terminal command:
 
-```
+```bash
 yarn cli
 ```
 
 In the output you will see a list of all available CLI commands and related options:
 
-```
+```bash
 "2021-12-08, 12:07:09 p.m." - please run as "yarn cli fund --address=fraXXX --amountToFund=1 ""2021-12-08, 12:07:09 p.m." - please run as "yarn cli createWallet""2021-12-08, 12:07:09 p.m." - please run as "yarn cli restoreWallet --mnemonicString='XXX ... ... XXX'"
 ```
 
 As you can see, at the moment there are three available commands:
 
-* fund
-* createWallet
-* runRestoreWallet
+* `fund`
+* `createWallet`
+* `runRestoreWallet`
 
 **2.** **"Fund" Command**
 
@@ -103,8 +103,10 @@ output insect settle weather spray lava seven day rice swamp captain upgrade lay
 
 As well as, the address and both keys (see below):
 
-```
-    publickey: 'C_0GxCvI8OBYZRO9mNZOhh8MykvOrOLx7F7U-ug8vUM='    address: 'fra1p07sd3ptercwqkr9zw7e34jwsc0sejjte6kw9u0vtm2046puh4pszj0rs4'    privateStr: 'epG6XtjssaZdyCyRwijTQM92ptqyScZRtMz1lpRC-O8='
+```bash
+    publickey: 'C_0GxCvI8OBYZRO9mNZOhh8MykvOrOLx7F7U-ug8vUM='
+    address: 'fra1p07sd3ptercwqkr9zw7e34jwsc0sejjte6kw9u0vtm2046puh4pszj0rs4'
+    privateStr: 'epG6XtjssaZdyCyRwijTQM92ptqyScZRtMz1lpRC-O8='
 ```
 
 Store these values for later use.
@@ -115,7 +117,7 @@ To **restore** a previously created wallet, (for example to use it as a **sender
 
 For example, to restore the wallet created in the previous example above, run the following:
 
-```
+```bash
 yarn restoreWallet --mnemonicString="output insect settle weather spray lava seven day rice swamp captain upgrade layer ocean century kitten feel crunch fly huge power divert amused fitness"
 ```
 
@@ -125,4 +127,4 @@ This command's output appears below:
 [nodemon] starting `node dist/cli.js "" "" restoreWallet "--mnemonicString=output insect settle weather spray lava seven day rice swamp captain upgrade layer ocean century kitten feel crunch fly huge power divert amused fitness"`"2021-12-08, 12:29:45 p.m." - 🚀 ~ mnemonic to be used: "output insect settle weather spray lava seven day rice swamp captain upgrade layer ocean century kitten feel crunch fly huge power divert amused fitness""2021-12-08, 12:29:45 p.m." - 🚀 ~ restored wallet info:  [  {    keyStore: Uint8Array(104) [      207, 167, 239, 154, 208, 138, 170, 153, 134,  69,  99, 225,       26, 112, 166,  57, 218,  63, 155,  38, 124, 243, 207, 226,      169, 247,  70,  67, 254,  42, 232,  28,  48, 112,  78,  83,      118,  26, 218,  25,  84,  13, 196, 172, 127,  97,  98, 100,      216, 129,  62,  98,  99, 135,  99,  25, 113,  99,  36, 134,      155, 184, 254, 153,   1, 115,  38, 213,  30, 202,  68, 166,       30,  99, 121, 118, 219, 111, 250, 202, 135, 116, 151,  66,      189,  50, 242, 140, 209, 202,  89, 252,   2, 184, 102, 205,      110, 219, 225,  60,      ... 4 more items    ],    publickey: 'C_0GxCvI8OBYZRO9mNZOhh8MykvOrOLx7F7U-ug8vUM=',    address: 'fra1p07sd3ptercwqkr9zw7e34jwsc0sejjte6kw9u0vtm2046puh4pszj0rs4',    keypair: XfrKeyPair { ptr: 2424840 },    privateStr: 'epG6XtjssaZdyCyRwijTQM92ptqyScZRtMz1lpRC-O8='  }]
 ```
 
-Here you can verify that the data from the restored wallet (its address, private and public keys) are identical to the values from the `createWallet` command output -- since we used the same menmonic, which was auto-generated and used to create a new wallet.
+Here you can verify that the data from the restored wallet (its address, private and public keys) are identical to the values from the `createWallet` command output -- since we used the same mnemonic, which was auto-generated and used to create a new wallet.

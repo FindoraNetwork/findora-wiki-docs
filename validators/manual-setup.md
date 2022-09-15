@@ -12,7 +12,7 @@ export FINDORAD_IMG=findoranetwork/findorad:${LIVE_VERSION}
 ```
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Testnet" %}
 ```bash
 export LIVE_VERSION=$(curl -s https://prod-testnet.prod.findora.org:8668/version | awk -F\  '{print $2}')
 export FINDORAD_IMG=findoranetwork/findorad:${LIVE_VERSION}
@@ -132,7 +132,7 @@ export NAMESPACE=mainnet
 ```
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Testnet" %}
 ```bash
 export NAMESPACE=testnet
 ```

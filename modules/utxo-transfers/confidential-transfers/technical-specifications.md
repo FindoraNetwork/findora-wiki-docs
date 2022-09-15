@@ -122,7 +122,7 @@ batch_verify_tracer_tracing_proof(prng, &params.pc_gens, bodies, policies).c(d!(
 
 **Verifying the XFR Bodies** primarily consists of 2 steps. The first step verifies whether the asset records are correctly constructed.
 
-```rust
+```typescript
 pub(crate) fn batch_verify_xfr_body_asset_records<R: CryptoRng + RngCore>(
     prng: &mut R,    
     params: &mut PublicParams,    
@@ -187,7 +187,7 @@ chaum_pedersen_batch_verify_multiple_eq(
 
 The third step consists of **verifying the asset mixing proofs**. This consists of both confidential asset and non-confidential assets.
 
-```rust
+```typescript
 fn batch_verify_asset_mix<R: CryptoRng + RngCore>(    
     prng: &mut R,    
     params: &mut PublicParams,    
