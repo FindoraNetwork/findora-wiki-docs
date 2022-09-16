@@ -1,6 +1,6 @@
 # Table of contents
 
-* [❤ Wiki](README.md)
+* [Findora](README.md)
 
 ## Findora Basics
 
