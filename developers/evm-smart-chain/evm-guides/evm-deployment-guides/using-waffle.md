@@ -14,11 +14,11 @@ In this tutorial, you need to create a TypeScript project first, then use Waffle
 
 This tutorial requires Node.js to be installed. You can download it through [Node.js](https://nodejs.org/) or run the following code to complete the installation. You can verify the correct installation by requesting the version of each installation package：
 
-```
+```shell
    node -v
 ```
 
-```
+```shell
    npm -v
 ```
 
@@ -26,8 +26,19 @@ This tutorial requires Node.js to be installed. You can download it through [Nod
 
 Here we use the truffle project (please refer to the first 3 steps in [the truffle document](https://wiki.findora.org/docs/developers/evm/evm-guides/deployment-guides/truffle) to create a project module using Truffle), then configure the package.json file, and add dependencies in devDependencies:
 
-```
-"devDependencies": {   "@types/chai": "^4.2.21",    "@types/mocha": "^9.0.0",    "chai": "^4.3.4",    "ethereum-mars": "^0.1.5",    "ethereum-waffle": "^3.4.0",    "ethers": "^5.4.6",    "mocha": "^9.1.1",    "ts-node": "^10.2.1",    "typescript": "^4.4.3",    "node-fetch": "^3.0.0"}
+```json
+"devDependencies": {
+   "@types/chai": "^4.2.21",
+    "@types/mocha": "^9.0.0",
+    "chai": "^4.3.4",
+    "ethereum-mars": "^0.1.5",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.6",
+    "mocha": "^9.1.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3",
+    "node-fetch": "^3.0.0"
+}shellsdf
 ```
 
 [Waffle](https://github.com/EthWorks/Waffle) - for writing, compiling, and testing smart contracts
@@ -50,7 +61,7 @@ Here we use the truffle project (please refer to the first 3 steps in [the truff
 
 Need to reinstall dependencies
 
-```
+```shell
 npm install
 ```
 
@@ -58,14 +69,27 @@ npm install
 
 Create a TypeScript configuration file
 
-```
+```shell
 touch tsconfig.json
 ```
 
 Add basic TypeScript configuration
 
-```
-{  "compilerOptions": {    "strict": true,    "target": "ES2019",    "moduleResolution": "node",    "resolveJsonModule": true,    "esModuleInterop": true,    "module": "CommonJS",    "composite": true,    "sourceMap": true,    "declaration": true,    "noEmit": true  }}
+```json
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES2019",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "composite": true,
+    "sourceMap": true,
+    "declaration": true,
+    "noEmit": true
+  }
+}
 ```
 
 You should now have a basic TypeScript project with the dependencies needed to build with Waffle and Mars.
@@ -74,30 +98,82 @@ You should now have a basic TypeScript project with the dependencies needed to b
 
 1.  Go back to the root directory of the project and create a `waffle.json` file to configure Waffle：
 
-    ```
+    ```shell
     cd .. && touch waffle.json
     ```
 2.  Edit `waffle.json` to specify the compiler configuration, including the contract directory, etc. In this example, we will use solcjs and the version of Solidity you used for the contract, which is `0.6.12`：
 
-    ```
-    {  "compilerType": "solcjs", // Specifies compiler to use  "compilerVersion": "0.6.12", // Specifies version of the compiler  "compilerOptions": {    "optimizer": { // Optional optimizer settings      "enabled": true, // Enable optimizer      "runs": 20000 // Optimize how many times you want to run the code    }  },  "sourceDirectory": "./contracts", // Path to directory containing smart contracts  "outputDirectory": "./build", // Path to directory where Waffle saves compiler output  "typechainEnabled": true // Enable typed artifact generation}
+    ```json
+    {
+      "compilerType": "solcjs", // Specifies compiler to use
+      "compilerVersion": "0.6.12", // Specifies version of the compiler
+      "compilerOptions": {
+        "optimizer": { // Optional optimizer settings
+          "enabled": true, // Enable optimizer
+          "runs": 20000 // Optimize how many times you want to run the code
+        }
+      },
+      "sourceDirectory": "./contracts", // Path to directory containing smart contracts
+      "outputDirectory": "./build", // Path to directory where Waffle saves compiler output
+      "typechainEnabled": true // Enable typed artifact generation
+    }
     ```
 3.  Add a script in `package.json` to run Waffle：
 
-    ```
-    "scripts": {  "build": "waffle"}
+    ```json
+    "scripts": {
+      "build": "waffle"
+    }
     ```
 4.  This is all the steps to configure Waffle, now you can use the build script to compile the MyContract contract：
 
-    ```
+    ```shell
     npm run build
     ```
 
     ![wallfe-build](https://wiki.findora.org/assets/images/wallfe-build-ad7fab85ee69bc672ae67e04f003b98e.jpg)
 5.  Create a file (`MyContract.test.ts`) in the test directory to test your MyContract contract:
 
-    ```
-    import { use, expect } from 'chai';import { Provider } from '@ethersproject/providers';import { solidity } from 'ethereum-waffle';import { ethers, Wallet } from 'ethers';import { MyContract, MyContractFactory } from '../build/types';import * as fs from 'fs';const mnemonic = fs.readFileSync('.secret').toString().trim();// Tell Chai to use Waffle's Solidity pluginuse(solidity);describe ('MyContract', () => {  // Use custom provider to connect to Moonbase Alpha  let provider: Provider = new ethers.providers.JsonRpcProvider('https://prod-testnet.prod.findora.org:8545');  let wallet: Wallet;  let walletTo: Wallet;  let contract: MyContract;  beforeEach(async () => {    // Create a wallet instance using your private key & connect it to the provider    wallet = new Wallet(mnemonic).connect(provider);    // Create a random account to transfer tokens to & connect it to the provider    walletTo = Wallet.createRandom().connect(provider);    // Use your wallet to deploy the MyToken contract    contract = await new MyContractFactory(wallet).deploy();    let contractTransaction = await contract.setValue(88);    // Wait until the transaction is confirmed before running tests    await contractTransaction.wait();  });    // Test results  it('current value', async () => {    expect(await contract.getValue()).to.equal(88); // This should fail  });})
+    ```typescript
+    import { use, expect } from 'chai';
+    import { Provider } from '@ethersproject/providers';
+    import { solidity } from 'ethereum-waffle';
+    import { ethers, Wallet } from 'ethers';
+    import { MyContract, MyContractFactory } from '../build/types';
+    import * as fs from 'fs';
+
+    const mnemonic = fs.readFileSync('.secret').toString().trim();
+
+    // Tell Chai to use Waffle's Solidity plugin
+    use(solidity);
+
+    describe ('MyContract', () => {
+      // Use custom provider to connect to Moonbase Alpha
+      let provider: Provider = new ethers.providers.JsonRpcProvider('https://prod-testnet.prod.findora.org:8545');
+      let wallet: Wallet;
+      let walletTo: Wallet;
+      let contract: MyContract;
+
+      beforeEach(async () => {
+        // Create a wallet instance using your private key & connect it to the provider
+        wallet = new Wallet(mnemonic).connect(provider);
+
+        // Create a random account to transfer tokens to & connect it to the provider
+        walletTo = Wallet.createRandom().connect(provider);
+
+        // Use your wallet to deploy the MyToken contract
+        contract = await new MyContractFactory(wallet).deploy();
+
+        let contractTransaction = await contract.setValue(88);
+
+        // Wait until the transaction is confirmed before running tests
+        await contractTransaction.wait();
+      });
+        // Test results
+      it('current value', async () => {
+        expect(await contract.getValue()).to.equal(88); // This should fail
+      });
+    })
     ```
 
     ![wallfe-test](https://wiki.findora.org/assets/images/wallfe-test-005b99467a31c16c1e334bf8124b8163.jpg)
@@ -110,12 +186,15 @@ You need to generate artifacts for Mars to enable type checking in the deploymen
 
 1.  Update existing script to run Waffle in `package.json` to include Mars：
 
-    ```
-    "scripts": {  "build": "waffle && mars",  "test": "mocha",}
+    ```json
+    "scripts": {
+      "build": "waffle && mars",
+      "test": "mocha",
+    }
     ```
 2.  Generate artifacts and create the `artifacts.ts` file required for deployment
 
-    ```
+    ```shell
     npm run build
     ```
 
@@ -127,23 +206,38 @@ In this step, you will create a deployment script that will define how the contr
 
 1.  Create a src directory to contain your deployment script and create a script to deploy the MyContract contract：
 
-    ```
+    ```shell
     mkdir src && cd src && touch deploy.ts
     ```
 2.  In `deploy.ts`, use Mars' deploy function to create a script and deploy to Findora Devnet using your account’s private key：
 
-    ```
-    import { deploy } from 'ethereum-mars';const privateKey = "<insert-your-private-key-here>";deploy({network: 'https://prod-testnet.prod.findora.org:8545', privateKey},(deployer) => {  // Deployment logic will go here});
+    ```typescript
+    import { deploy } from 'ethereum-mars';
+
+    const privateKey = "<insert-your-private-key-here>";
+    deploy({network: 'https://prod-testnet.prod.findora.org:8545', privateKey},(deployer) => {
+      // Deployment logic will go here
+    });
     ```
 3.  Set the deploy function to deploy the MyContract contract created in the above steps：
 
-    ```
-    import { deploy, contract } from 'ethereum-mars';import { MyToken } from '../build/artifacts';const privateKey = "<insert-your-private-key-here>";deploy({network: 'https://prod-testnet.prod.findora.org:8545', privateKey}, () => {  contract('myContract', MyContract);});
+    ```typescript
+    import { deploy, contract } from 'ethereum-mars';
+    import { MyToken } from '../build/artifacts';
+
+    const privateKey = "<insert-your-private-key-here>";
+    deploy({network: 'https://prod-testnet.prod.findora.org:8545', privateKey}, () => {
+      contract('myContract', MyContract);
+    });
     ```
 4.  Add the deployment script to the scripts object in `package.json`：
 
-    ```
-    "scripts": {    "build": "waffle && mars",    "test": "mocha",    "deploy": "ts-node src/deploy.ts"  }
+    ```json
+    "scripts": {
+        "build": "waffle && mars",
+        "test": "mocha",
+        "deploy": "ts-node src/deploy.ts"
+      }
     ```
 
     So far, you should have created a deployment script in deploy.ts to deploy the MyContract contract to Findora Devnet, and added the ability to easily call the script and deploy the contract.
@@ -154,7 +248,7 @@ If you have configured the deployment, you can now actually deploy to Findora De
 
 Now deploy the contract using the script you just created：
 
-```
+```shell
 npm run deploy
 ```
 

@@ -14,7 +14,7 @@ You should get a drop-down and a button that shows "Add Network". Click on that 
 
 Next, configure Metamask to connect to Findora’s EVM network (aka Smart Chain).
 
-For example, if you would like to connect to the Anvil testnet, in the `Network Name` input field, copy and place this
+For example, if you would like to connect to the Anvil testnet, in the `Network Name` input field, copy and paste this
 
 ```
 Anvil

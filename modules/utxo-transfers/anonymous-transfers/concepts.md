@@ -4,7 +4,7 @@
 
 A Blind Asset Record (called as BAR) is used to issue and transfer assets and is the basic building block of the non-anonymous payments on Findora network's UTXO chain. This means the owner of a BAR is not anonymous, but merely pseudonymous, similar to most of the open blockchains in existence. BAR is a data structure that is composed of the public key, amount and the asset type. In the case of confidential payments, the amount and asset type could be hidden but not the public key. So for the purpose of anonymity and hiding the identities from the ledger, we need another data structure and that is the Anonymous Blind Asset Record (called as ABAR). ABAR is a data structure which only contains the cryptographic commitment to the amount & asset type, and the owning public key lies on a dense merkle tree as a version verifiable accumulator.
 
-```typescript
+```rust
 // Amount and asset type can be confidential or non confidential
 pub struct BlindAssetRecord {    
     pub amount: XfrAmount,        // Amount being transferred    
@@ -13,7 +13,7 @@ pub struct BlindAssetRecord {
 }
 ```
 
-```typescript
+```rust
 pub struct AnonBlindAssetRecord {    
     pub commitment: BLSScalar,
 }
@@ -28,7 +28,7 @@ To perform an anonymous transfer, we need to possess an ABAR either by receiving
 
 The unspent status and the owner's public key of a BAR lies on the public node as a set and is derived by replaying all the transactions. When a BAR is spent to create ABAR, we provide the integer id of the BAR (TxoSID) and a signature corresponding to the public key on the ledger. The equality of the amount and asset type in the BAR and ABAR is proved separately. The ABAR is associated to a _spending key_, which is a private key that can be used to spend ABARs sent to its corresponding public key. These set of keys required for the anonymous transfers are represented with an Anon Keys data structure. The AXfr Secret Key is a keypair associated with spending of the ABAR while Decryption Key is a secret key that is used to encrypt or decrypt the Owner Memo (the HMAC of the owner).
 
-```typescript
+```rust
 pub struct AnonKeys {    
     pub axfr_secret_key: AXfrKeyPair,    
     pub axfr_public_key: AXfrPubKey, // can be obtained from AXfrKeyPair    
@@ -41,7 +41,7 @@ pub struct AnonKeys {
 
 <figure><img src="https://wiki.findora.org/assets/images/bar_to_abar-8d160becbcb45ce89be8150f6e63b612.jpg" alt=""><figcaption></figcaption></figure>
 
-```typescript
+```rust
 pub struct OpenAnonBlindAssetRecord {    
     pub amount: u64,    
     pub asset_type: AssetType,    

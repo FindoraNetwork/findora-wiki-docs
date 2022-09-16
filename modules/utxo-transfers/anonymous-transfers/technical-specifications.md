@@ -69,7 +69,7 @@ Unlike the ABAR tree, the nullifier tree does not need to support efficient zero
 
 On the other hand, the nullifier tree does need to support efficient non-membership proofs to demonstrate non-repetition, especially for Verifiers running light nodes. For this reason, the nullifier set is stored using a binary sparse Merkle tree. This allows for more efficient non-membership proofs.
 
-```typescript
+```rust
 pub fn nullifier(    
     key_pair: &AXfrKeyPair,    
     amount: u64,    
@@ -145,7 +145,7 @@ The CRS is universal, i.e. the same CRS can be used to prove all necessary state
 
 The batched zk-Snark (TurboPlonk) proof of the eight statements described above, along with the merkle root, is made available as a part of the data structure `AXfrProof`.
 
-```typescript
+```rust
 pub struct AXfrProof {
     pub snark_proof: SnarkProof,
     pub merkle_root: BLSScalar,
@@ -155,7 +155,7 @@ pub struct AXfrProof {
 
 `AXfrBody` consists of the `AXfrProof` along with other important components of the anonymous transaction such as the inputs, output ABARs and the owner memo.
 
-```typescript
+```rust
 pub struct AXfrBody {
     pub inputs: Vec<(Nullifier, AXfrPubKey)>,
     pub outputs: Vec<AnonBlindAssetRecord>,
@@ -166,7 +166,7 @@ pub struct AXfrBody {
 
 This `AXfrBody` along with the signatures make up the `AXfrNote`, which is the confirmation that the sender receives after the anonymous transfer.
 
-```typescript
+```rust
 pub struct AXfrNote {
     pub body: AXfrBody,
     pub signatures: Vec<AXfrSignature>,

@@ -12,3 +12,5 @@ Findora is at the forefront of blockchain technology, focusing on bringing break
 In addition, Findora innovatively uses various proven data structures to create efficient new blockchains. Findora provides the infrastructure to incentivize decentralized financial innovation and large-scale migration of traditional financial industry to blockchain.
 
 This documentation is maintained by the Findora community.  Findora Foundation would like to commend everybody in the Findora community for their dedication, trust, and evangelism in achieving this together.&#x20;
+
+<figure><img src=".gitbook/assets/fin.svg" alt=""><figcaption></figcaption></figure>
