@@ -1,6 +1,5 @@
 ---
 description: Scaling Ethereum Privacy
-coverY: 0
 ---
 
 # Findora
