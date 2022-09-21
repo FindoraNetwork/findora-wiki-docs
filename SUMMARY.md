@@ -76,6 +76,10 @@
     * [CLI Overview](developers/utxo-native-chain/utxo-guides/cli-overview.md)
 * [Crypto SDK](developers/crypto-sdk/README.md)
   * [Crypto SDK Guide](developers/crypto-sdk/crypto-sdk-guide.md)
+* [Tutorials](developers/tutorials/README.md)
+  * [The Graph](developers/tutorials/the-graph/README.md)
+    * [Building & Deploying Subgraph (local node)](developers/tutorials/the-graph/building-and-deploying-subgraph-local-node.md)
+    * [Building & Deploying Subgraph (public Graph node)](developers/tutorials/the-graph/building-and-deploying-subgraph-public-graph-node.md)
 
 ## General Users
 
