@@ -9,7 +9,7 @@ This guides shows how to use the automated setup scripts to configure your valid
 * [Linux version](https://wiki.findora.org/bin/linux/fn)
 * [MacOS version](https://wiki.findora.org/bin/macos/fn)
 
-Download the appropruate file and move to your path:
+Download the appropriate file and move to your path:
 
 ```bash
 wget https://wiki.findora.org/bin/linux/fn
@@ -73,5 +73,5 @@ fn setup -K <path to validator key> || exit 1
 
 > **NOTE**
 >
-> For the next steps, proceed to [this Staking Guide](https://wiki.findora.org/docs/validators/staking-guide) to learn how to fund your validator and stake FRA.\
+> For the next steps, proceed to this [Staking Guide](staking-guide.md) to learn how to fund your validator and stake FRA.\
 >
