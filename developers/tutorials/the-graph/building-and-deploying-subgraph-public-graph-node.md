@@ -52,8 +52,8 @@ It is highly recommended to minimize the number of blocks to be indexed to avoid
 ```bash
 yarn codegen
 yarn build
-yarn create-harmony 
-yarn deploy-harmony
+yarn create-findora 
+yarn deploy-findora
 ```
 
 Sync begins and you are good to query your subgraph [https://graph.findora.org/graphql](https://graph.findora.org/graphql)
