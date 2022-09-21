@@ -238,7 +238,7 @@ It is highly recommended to minimize the number of blocks to be indexed to avoid
 
 ### Create and deploy the subgraph
 
-```
+```bash
 yarn
 yarn codegen
 yarn build
