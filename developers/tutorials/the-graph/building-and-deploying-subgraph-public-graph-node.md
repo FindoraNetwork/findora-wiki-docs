@@ -19,7 +19,7 @@ Note: Projects wanting to deploy Subgraphs on Findora's public Graph node must f
 Let's use blocklytics/ethereum-blocks subgraph as an example
 
 ```bash
-git clone https://github.com/FindoraNetwork/ethereum-blocks
+git clone https://github.com/blocklytics/ethereum-blocks
 cd ethereum-blocks
 ```
 
@@ -40,19 +40,16 @@ Metrics: [https://graph.findora.org:8030/](https://graph.findora.org:8030/)
 
 ### Update the manifest <a href="#update-the-manifest" id="update-the-manifest"></a>
 
-Update the manifest `subgraph.yaml` file `datasources[0]['network']` to `mainnet` or `testnet` accordingly to how you edited the network in your `docker-compose.yaml`\
-
-
-If there is no need to index the entire blockchain, you can update the attribute `startBlock` to speed up the sync : `datasources[0]['source']['startBlock']`
+Update the manifest `subgraph.yaml` file `datasources[0]['network']` from `rinkeby` to `mainnet`\
+If there is no need to index the entire blockchain, you can add an attribute `startBlock` to speed up the sync : `datasources[0]['source']['startBlock']`
 
 {% hint style="info" %}
-It is highly recommended to minimize the number of blocks to be indexed to avoid putting load on the RPCs and to speed up the usage of your subgraph/application
+It is highly recommended to minimize the number of blocks to be indexed to avoid putting excessive load on the RPCs and to speed up the usage of your subgraph/application
 {% endhint %}
 
 ### Create and deploy the subgraph <a href="#create-and-deploy-the-subgraph" id="create-and-deploy-the-subgraph"></a>
 
 ```bash
-yarn
 yarn codegen
 yarn build
 yarn create-findora 

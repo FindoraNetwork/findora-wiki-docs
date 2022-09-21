@@ -214,23 +214,27 @@ Right now, of course, the result is empty
 Lets use blocklytics/ethereum-blocks subgraph as example
 
 ```bash
-git clone https://github.com/FindoraNetwork/ethereum-blocks
+git clone https://github.com/blocklytics/ethereum-blocks
 cd ethereum-blocks
 ```
 
-Inside `package.json` you'll find the following script commands. There's no need to update these unless your localhost is different.
+### Edit package.json file and add these lines
+
+Add these under "scripts".
 
 ```json
 "create-findora": "graph create --node http://localhost:8020 findora/blocks",
 "deploy-findora": "graph deploy --node http://localhost:8020 --ipfs http://localhost:5001 findora/blocks",
 ```
 
+{% hint style="info" %}
+It is highly recommended to minimize the number of blocks to be indexed to avoid putting load on the RPCs and to speed up the usage of your subgraph/application
+{% endhint %}
+
 ### Update the manifest
 
-Update the manifest `subgraph.yaml` file `datasources[0]['network']` to `mainnet` or `testnet` accordingly to how you edited the network in your `docker-compose.yaml`\
-
-
-If there is no need to index the entire blockchain, you can update the attribute `startBlock` to speed up the sync : `datasources[0]['source']['startBlock']`
+Update the manifest `subgraph.yaml` file `datasources[0]['network']` from `rinkeby` to `mainnet` or `testnet` accordingly to how you edited the network in your `docker-compose.yaml`\
+if there is no need to index the entire blockchain, you can add an attribute `startBlock` to speed up the sync : `datasources[0]['source']['startBlock']`
 
 {% hint style="info" %}
 It is highly recommended to minimize the number of blocks to be indexed to avoid putting load on the RPCs and to speed up the usage of your subgraph/application
@@ -238,8 +242,7 @@ It is highly recommended to minimize the number of blocks to be indexed to avoid
 
 ### Create and deploy the subgraph
 
-```bash
-yarn
+```
 yarn codegen
 yarn build
 yarn create-findora 
