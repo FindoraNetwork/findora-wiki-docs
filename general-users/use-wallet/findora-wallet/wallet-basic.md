@@ -61,7 +61,7 @@ To import directly `From Private Key`, type in or paste in the private key value
 The `My Wallet` screen lists all available wallet addresses managed by this app. Each wallet address is connected to a unique private key stored inside the app.\
 Below the wallet name is the _wallet address_, which is a long string of random text and numbers. The _wallet address_ is the account where you will receive FRA tokens (or other custom tokens). Give your _wallet address_ to users who will be sending you tokens. You can get a copy of the wallet address via the two buttons below:
 
-![](../../../.gitbook/assets/image.png)
+![](<../../../.gitbook/assets/image (6).png>)
 
 
 

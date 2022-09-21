@@ -1,6 +1,18 @@
 # Block Explorers
 
-There are two separate block explorers on Findora
+There are two separate block explorers on Findora. [Learn more](../findora-basics/introduction.md) about Findora's multichain infrastructure.
 
-* [https://findorascan.io/](https://findorascan.io/) for Native Chain (UTXO-based)
-* [https://evm.findorascan.io/](https://evm.findorascan.io/) for Smart Chain (EVM-based)
+## Smart Chain (EVM-based)
+
+[https://evm.findorascan.io/](https://evm.findorascan.io/)
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+## Native Chain (UTXO-based)
+
+[https://findorascan.io/](https://findorascan.io/)
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+
+
