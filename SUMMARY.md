@@ -90,7 +90,6 @@
 * [Use Wallet](general-users/use-wallet/README.md)
   * [Metamask](general-users/use-wallet/metamask/README.md)
     * [Configure Metamask](general-users/use-wallet/metamask/configure-metamask.md)
-    * [FRC20 Token Contracts](general-users/use-wallet/metamask/frc20-token-contracts.md)
   * [Findora Wallet](general-users/use-wallet/findora-wallet/README.md)
     * [Wallet Basic](general-users/use-wallet/findora-wallet/wallet-basic.md)
     * [Transfer](general-users/use-wallet/findora-wallet/transfer.md)
@@ -119,6 +118,7 @@
   * [Rialto Contracts](reference-dapps/rialto-bridge/rialto-contracts.md)
   * [Rialto Clients](reference-dapps/rialto-bridge/rialto-clients.md)
 
-## Network Settings
+## Network/Contract Settings
 
-* [Network Settings](network-settings/network-settings.md)
+* [Network Settings](network-contract-settings/network-settings.md)
+* [Contract Addresses](network-contract-settings/contract-addresses.md)

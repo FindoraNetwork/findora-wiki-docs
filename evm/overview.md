@@ -10,7 +10,7 @@ Developers who deploy Ethereum's ERC-20 Solidity boilerplate code on the Findora
 
 Currently, developing on Findora EVM requires developers to connect to the Findora Anvil Testnet.
 
-See the [Networks](../network-settings/network-settings.md) guide for details.
+See the [Networks](../network-contract-settings/network-settings.md) guide for details.
 
 #### Writing and Deploying a Contract[​](https://wiki.findora.org/docs/modules/findora-evm/overview#writing-and-deploying-a-contract) <a href="#writing-and-deploying-a-contract" id="writing-and-deploying-a-contract"></a>
 
