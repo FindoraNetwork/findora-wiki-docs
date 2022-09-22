@@ -6,8 +6,15 @@ This guides shows how to use the automated setup scripts to configure your valid
 
 `fn`: Findora Node Setup (fn) is a command-line (CLI) utility that allows you to set up a validator node and stake/unstake FRA.
 
-* [Linux version](https://wiki.findora.org/bin/linux/fn)
-* [MacOS version](https://wiki.findora.org/bin/macos/fn)
+{% tabs %}
+{% tab title="Linux version" %}
+{% file src="../.gitbook/assets/fn (1)" %}
+{% endtab %}
+
+{% tab title="MacOS version" %}
+{% file src="../.gitbook/assets/fn-mac" %}
+{% endtab %}
+{% endtabs %}
 
 Download the appropriate file and move to your path:
 
@@ -37,8 +44,15 @@ Note: If this directory does not exist, you will need to create it.
 
 #### Download and run the automated setup script[​](https://wiki.findora.org/docs/validators/automated-setup#download-and-run-the-automated-setup-script) <a href="#download-and-run-the-automated-setup-script" id="download-and-run-the-automated-setup-script"></a>
 
-* For Testnet: [**node\_init\_testnet.sh**](https://wiki.findora.org/assets/files/node\_init\_testnet-7b83468109bd605cb2551040b81943e2.sh)
-* For Mainnet: [**node\_init\_mainnet.sh**](https://wiki.findora.org/assets/files/node\_init\_mainnet-423a36f2adaaeab9de7ff63e61d3d4c1.sh)
+{% tabs %}
+{% tab title="Mainnet" %}
+{% file src="../.gitbook/assets/node_init_mainnet.sh" %}
+{% endtab %}
+
+{% tab title="Second Tab" %}
+{% file src="../.gitbook/assets/node_init_testnet.sh" %}
+{% endtab %}
+{% endtabs %}
 
 Example:
 
