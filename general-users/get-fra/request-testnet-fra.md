@@ -6,7 +6,7 @@ To test the Findora suite of applications or get started with building on the Fi
 
 Below are the steps to request Anvil testnet FRA tokens on the UTXO Chain.
 
-Step 1: Go to [Findora Discord](https://discord.gg/8bdb8KHuaB)
+Step 1: Go to [Findora Discord](https://discord.com/invite/findora)
 
 Step 2: Go to `#faucet` channel on Findora's Discord
 

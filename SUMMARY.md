@@ -120,5 +120,5 @@
 
 ## Network/Contract Settings
 
-* [Network Settings](network-contract-settings/network-settings.md)
+* [Network Settings](network-settings/network-settings.md)
 * [Contract Addresses](network-contract-settings/contract-addresses.md)

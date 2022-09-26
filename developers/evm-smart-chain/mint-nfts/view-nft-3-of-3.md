@@ -16,9 +16,9 @@ Then, open Metamask on your mobile and select `Import from seed` and enter in th
 
 ![](https://i.imgur.com/mnjo1BC.png)
 
-#### Step 2: Set Metamask Network to [Anvil Testnet](https://wiki.findora.org/docs/network)[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/Mint%20NFTs/p3\_viewnfts#step-2-set-metamask-network-to-anvil-testnet) <a href="#step-2-set-metamask-network-to-anvil-testnet" id="step-2-set-metamask-network-to-anvil-testnet"></a>
+#### Step 2: Set Metamask Network to [Anvil Testnet](broken-reference)[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/Mint%20NFTs/p3\_viewnfts#step-2-set-metamask-network-to-anvil-testnet) <a href="#step-2-set-metamask-network-to-anvil-testnet" id="step-2-set-metamask-network-to-anvil-testnet"></a>
 
-On Metamask mobile goto Settings->Networks->Add network. Then add in the network settings for [Findora Anvil Testnet](https://wiki.findora.org/docs/network).
+On Metamask mobile goto Settings->Networks->Add network. Then add in the network settings for [Findora Anvil Testnet](broken-reference).
 
 ![](https://i.imgur.com/G4KU8LM.png)
 

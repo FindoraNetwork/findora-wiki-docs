@@ -29,4 +29,4 @@ FRA holders that do not want to set up their own validator to directly stake FRA
 
 Block rewards exist to incentivize the secure, decentralized participation of 3rd party validators to create the next block. Intentionally malicious or incompetent validators who double sign transactions or offer low availability to participate in consensus voting are punished thru slashing penalties.
 
-See the [`Rewards`](rewards.md) and [Penalties](penalties.md) documents for details.
+See the [Rewards](rewards.md) and [Penalties](penalties.md) documents for details.

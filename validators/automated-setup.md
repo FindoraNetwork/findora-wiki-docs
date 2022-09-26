@@ -87,5 +87,5 @@ fn setup -K <path to validator key> || exit 1
 
 > **NOTE**
 >
-> For the next steps, proceed to this [Staking Guide](staking-guide.md) to learn how to fund your validator and stake FRA.\
+> For the next steps, proceed to [this Staking Guide](staking-guide.md) to learn how to fund your validator and stake FRA.\
 >

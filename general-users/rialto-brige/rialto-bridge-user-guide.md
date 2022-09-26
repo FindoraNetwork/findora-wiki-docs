@@ -18,13 +18,13 @@ Next, goto Metamask’s “Add Network” screen again and configure Metamask to
 
 ![Findora Network Settings on Metamask](https://wiki.findora.org/assets/images/metamask-2-05f5b8a942d4b9be8c7c7409e44544aa.png)
 
-[Check this link](../../network-contract-settings/network-settings.md) for more details on Findora Mainnet network configuration
+[Check this link](../../network-settings/network-settings.md) for more details on Findora Mainnet network configuration
 
 #### Step 2: Fund Metamask with BNB Tokens[​](https://wiki.findora.org/docs/evm\_guides/rialto/rialto-guide#step-2-fund-metamask-with-bnb-tokens) <a href="#step-2-fund-metamask-with-bnb-tokens" id="step-2-fund-metamask-with-bnb-tokens"></a>
 
 Rialto bridge transactions whose assets originate from BSC must pay BNB gas fees on the BSC side of the bridge. Thus, you must first buy or transfer BNB tokens into your BSC Mainnet Metamask wallet. If you don’t have BNB tokens, you can buy them from an exchange like Binance.com or any of the exchanges listed on [this page](https://coinmarketcap.com/currencies/bnb/markets/).
 
-Special Note: If you are a developer using the testnet version of Rialto bridge, you can get testnet FRA from the [Findora Discord #faucet channel](https://discord.gg/NXhZr6H2qt). To learn more about how to claim the tokens, [checkout this guide](../get-fra/request-testnet-fra.md).
+Special Note: If you are a developer using the testnet version of Rialto bridge, you can get testnet FRA from the [Findora Discord #faucet channel](https://discord.gg/4u26QR3N6h). To learn more about how to claim the tokens, [checkout this guide](../get-fra/request-testnet-fra.md).
 
 #### Step 3: Transfer Tokens Across Bridge[​](https://wiki.findora.org/docs/evm\_guides/rialto/rialto-guide#step-3-transfer-tokens-across-bridge) <a href="#step-3-transfer-tokens-across-bridge" id="step-3-transfer-tokens-across-bridge"></a>
 

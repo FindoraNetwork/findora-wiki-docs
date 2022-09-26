@@ -19,7 +19,5 @@ These network settings are commonly used when configuring Metmask, Findora walle
 | Node     | https://prod-mainnet.prod.findora.org | https://prod-testnet.prod.findora.org |
 | -------- | :-----------------------------------: | :-----------------------------------: |
 | Explorer |         https://findorascan.io        |  https://prod-testnet.findorascan.io  |
-
-
 {% endtab %}
 {% endtabs %}
