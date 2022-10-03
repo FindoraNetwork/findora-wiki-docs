@@ -83,6 +83,7 @@
 * [Tools](developers/tools/README.md)
   * [Ganache](developers/tools/ganache.md)
   * [Rialto Bridge](developers/tools/rialto-bridge.md)
+  * [The Graph](developers/tools/the-graph.md)
 
 ## General Users
 
