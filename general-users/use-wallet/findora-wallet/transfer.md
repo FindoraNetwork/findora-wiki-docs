@@ -126,7 +126,7 @@ Historical transactions results will be displayed
 
 &#x20;![wallet17.png](https://wiki.findora.org/assets/images/wallet17-bd12d723691108e9d35fcd4746c7fa18.png)
 
-If the historical transaction was masked, you will see `*****` over the masked data. You can unmask the data by clicking the icon to the right of the masked data ![](<../../../.gitbook/assets/image (3).png>)
+If the historical transaction was masked, you will see `*****` over the masked data. You can unmask the data by clicking the icon to the right of the masked data ![](<../../../.gitbook/assets/image (3) (2).png>)
 
 ![wallet19.png](https://wiki.findora.org/assets/images/wallet19-3467afc1448a760cc91255a9d013c46e.png)
 

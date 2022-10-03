@@ -35,8 +35,8 @@ See the [Waffle & Mars](../developers/evm-smart-chain/evm-guides/evm-deployment-
 
 #### Blockchain Bridge[​](https://wiki.findora.org/docs/modules/findora-evm/overview#blockchain-bridge) <a href="#blockchain-bridge" id="blockchain-bridge"></a>
 
-For developers who wish to move tokens from other Layer 1 blockchains, the Findora EVM network will support an open source multi-directional bridge(a fork of [ChainSafe ChainBridge](https://github.com/ChainSafe/ChainBridge)) , called [Rialto bridge](../developers/tools/rialto-bridge/overview-rialto.md).
+For developers who wish to move tokens from other Layer 1 blockchains, the Findora EVM network will support an open source multi-directional bridge(a fork of [ChainSafe ChainBridge](https://github.com/ChainSafe/ChainBridge)) , called [Rialto bridge](broken-reference).
 
 We have deployed a testnet version of Rialto on our Anvil testnet enabling a Binance Smart Chain Testnet BEP-20 token to be moved to the Findora EVM Devnet as a FRC-20 token.
 
-See our home grown [Rialto bridge](../developers/tools/rialto-bridge/overview-rialto.md) and its guide for details.
+See our home grown [Rialto bridge](broken-reference) and its guide for details.

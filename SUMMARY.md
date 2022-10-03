@@ -82,10 +82,7 @@
     * [Building & Deploying Subgraph (public Graph node)](developers/tutorials/the-graph/building-and-deploying-subgraph-public-graph-node.md)
 * [Tools](developers/tools/README.md)
   * [Ganache](developers/tools/ganache.md)
-  * [Rialto Bridge](developers/tools/rialto-bridge/README.md)
-    * [Overview - Rialto](developers/tools/rialto-bridge/overview-rialto.md)
-    * [Rialto Contracts](developers/tools/rialto-bridge/rialto-contracts.md)
-    * [Rialto Clients](developers/tools/rialto-bridge/rialto-clients.md)
+  * [Rialto Bridge](developers/tools/rialto-bridge.md)
 
 ## General Users
 
