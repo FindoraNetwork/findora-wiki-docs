@@ -80,6 +80,12 @@
   * [The Graph](developers/tutorials/the-graph/README.md)
     * [Building & Deploying Subgraph (local node)](developers/tutorials/the-graph/building-and-deploying-subgraph-local-node.md)
     * [Building & Deploying Subgraph (public Graph node)](developers/tutorials/the-graph/building-and-deploying-subgraph-public-graph-node.md)
+* [Tools](developers/tools/README.md)
+  * [Ganache](developers/tools/ganache.md)
+  * [Rialto Bridge](developers/tools/rialto-bridge/README.md)
+    * [Overview - Rialto](developers/tools/rialto-bridge/overview-rialto.md)
+    * [Rialto Contracts](developers/tools/rialto-bridge/rialto-contracts.md)
+    * [Rialto Clients](developers/tools/rialto-bridge/rialto-clients.md)
 
 ## General Users
 
@@ -110,13 +116,6 @@
 * [Version Update](validators/version-update.md)
 * [Node Backup Guide](validators/node-backup-guide.md)
 * [Staking Guide](validators/staking-guide.md)
-
-## Reference Dapps
-
-* [Rialto Bridge](reference-dapps/rialto-bridge/README.md)
-  * [Overview - Rialto](reference-dapps/rialto-bridge/overview-rialto.md)
-  * [Rialto Contracts](reference-dapps/rialto-bridge/rialto-contracts.md)
-  * [Rialto Clients](reference-dapps/rialto-bridge/rialto-clients.md)
 
 ## Network/Contract Settings
 
