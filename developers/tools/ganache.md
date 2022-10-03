@@ -18,7 +18,7 @@ Load Findora networks (local, testnet, mainnet) to ganache-cli
 
 ```bash
 # Local
-ganache-cli -f http://localhost:8545 --networkId 2153
+ganache-cli -f http://localhost:8545 --networkId 2152
 
 # Testnet
 ganache-cli -f https://prod-testnet.prod.findora.org:8545 --networkId 2153
