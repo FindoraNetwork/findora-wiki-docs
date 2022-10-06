@@ -101,9 +101,6 @@
     * [Prism](general-users/use-wallet/findora-wallet/prism.md)
     * [Manage Assets](general-users/use-wallet/findora-wallet/manage-assets.md)
   * [Ledger Hardware Wallet](general-users/use-wallet/ledger-hardware-wallet.md)
-* [Rialto Brige](general-users/rialto-brige/README.md)
-  * [Rialto Bridge User Guide](general-users/rialto-brige/rialto-bridge-user-guide.md)
-  * [FAQ](general-users/rialto-brige/faq.md)
 * [Block Explorers](general-users/block-explorers.md)
 
 ## Validators
