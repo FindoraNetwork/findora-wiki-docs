@@ -84,6 +84,7 @@
   * [Ganache](developers/tools/ganache.md)
   * [Rialto Bridge](developers/tools/rialto-bridge.md)
   * [The Graph](developers/tools/the-graph.md)
+* [Bug Bounty Policy](developers/bug-bounty-policy.md)
 
 ## General Users
 
