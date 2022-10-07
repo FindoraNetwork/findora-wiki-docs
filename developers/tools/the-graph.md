@@ -10,10 +10,10 @@ _The Graph_ is an indexing protocol for organizing blockchain data and making it
 
 #### Learn more about Subgraphs on Findora
 
-{% content-ref url="../tutorials/the-graph/building-and-deploying-subgraph-local-node.md" %}
-[building-and-deploying-subgraph-local-node.md](../tutorials/the-graph/building-and-deploying-subgraph-local-node.md)
+{% content-ref url="../tutorials-and-resources/the-graph/building-and-deploying-subgraph-local-node.md" %}
+[building-and-deploying-subgraph-local-node.md](../tutorials-and-resources/the-graph/building-and-deploying-subgraph-local-node.md)
 {% endcontent-ref %}
 
-{% content-ref url="../tutorials/the-graph/building-and-deploying-subgraph-public-graph-node.md" %}
-[building-and-deploying-subgraph-public-graph-node.md](../tutorials/the-graph/building-and-deploying-subgraph-public-graph-node.md)
+{% content-ref url="../tutorials-and-resources/the-graph/building-and-deploying-subgraph-public-graph-node.md" %}
+[building-and-deploying-subgraph-public-graph-node.md](../tutorials-and-resources/the-graph/building-and-deploying-subgraph-public-graph-node.md)
 {% endcontent-ref %}
