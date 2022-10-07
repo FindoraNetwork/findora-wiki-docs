@@ -15,10 +15,6 @@
     * [Overview](modules/utxo-transfers/confidential-transfers/overview.md)
     * [Concepts](modules/utxo-transfers/confidential-transfers/concepts.md)
     * [Technical Specifications](modules/utxo-transfers/confidential-transfers/technical-specifications.md)
-  * [Anonymous transfers](modules/utxo-transfers/anonymous-transfers/README.md)
-    * [Overview](modules/utxo-transfers/anonymous-transfers/overview.md)
-    * [Concepts](modules/utxo-transfers/anonymous-transfers/concepts.md)
-    * [Technical Specifications](modules/utxo-transfers/anonymous-transfers/technical-specifications.md)
 
 ***
 
