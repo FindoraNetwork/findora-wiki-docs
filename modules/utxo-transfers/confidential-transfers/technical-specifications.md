@@ -14,7 +14,7 @@ Schnorr's protocol is a zero-knowledge protocol that allows a Prover to prove th
 
 Given commitments to pairs representing asset-types and amounts, this protocol can be used to prove that two commitments are to the same asset-type. With minor modifications, the protocol can also be used to prove that the commitments are to distinct asset types if necessary.
 
-For a detailed explanation of the delegated Schnorr protocol, [check this page](../../../cryptography/delegated-schnorr.md)
+For a detailed explanation of the delegated Schnorr protocol, [check this page](../../../cryptography/delegated-chaum-pedersen-protocol.md)
 
 #### Pedersen commitments
 

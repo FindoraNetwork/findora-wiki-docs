@@ -34,11 +34,33 @@ fn genkey > tmp.gen.keypair
 
 To view the keys: `cat tmp.gen.keypair`
 
-Before continuing, the staking private key (`sec_key` in your `tmp.gen.keypair` file) should be saved in a file at the following path:
+Example:
 
-```bash
-/data/findora/{network_name}/{network_name}_node.key
 ```
+# Note: This is an example. Do not use them in your own node.
+Wallet Address: fra1955hpj2xzkp4esd5928yhtp0l78ku8fkztvwcypvr8mk6x8tkn6sjsajun
+Mnemonic: repair drink action brass term blur fat doll spoon thumb raise squirrel tornado engine tumble picnic approve elegant tube urge ghost secret seminar blame
+Key: {
+    "pub_key": "LSlwyUYVg1zBtCqOS6wv_49uHTYS2OwQLBn3bRjrtPU=",
+    "sec_key": "b0MGhK7xaRQHuhzFkaBhQ1o4GwTumJEWt1NQ7FChNwA="
+}
+```
+
+Before continuing, the staking keypair should be saved in a file at the following path:
+
+{% tabs %}
+{% tab title="Mainnet" %}
+```bash
+cp tmp.gen.keypair /data/findora/mainnet/mainnet_node.key
+```
+{% endtab %}
+
+{% tab title="Testnet" %}
+```bash
+cp tmp.gen.keypair /data/findora/testnet/testnet_node.key
+```
+{% endtab %}
+{% endtabs %}
 
 Note: If this directory does not exist, you will need to create it.
 
