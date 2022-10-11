@@ -1,11 +1,12 @@
 ---
 description: >-
   The Zei library implements a protocol that is specifically used to open
-  Pedersen commitments over Ristretto inside zk-SNARK over BLS12-381. This is a
-  new protocol that has not been documented and stud
+  Pedersen commitments over Ristretto inside zk-SNARK over BLS12-381
 ---
 
-# Delegated Chaum-Pedersen Protocol
+# Delegated Schnorr
+
+This is a new protocol that has not been documented and studied before.For now, we call this protocol _delegated Schnorr_, though we believe that a better name exists. Since this protocol is special-purpose, we feel it helpful to describe the problem that this protocol wants to solve.
 
 ### Problem: lifting a Pedersen commitment to a Rescue commitment[​](https://wiki.findora.org/docs/modules/cryptography/delegated\_chaum\_pedersen\_protocol#problem-lifting-a-pedersen-commitment-to-a-rescue-commitment) <a href="#problem-lifting-a-pedersen-commitment-to-a-rescue-commitment" id="problem-lifting-a-pedersen-commitment-to-a-rescue-commitment"></a>
 
@@ -22,7 +23,7 @@ Naively, the field simulation would require about $$6\times 10^36×103$$ simulat
 
 In our implementation, we try to reduce the number of field simulations. The approach is that, instead of doing _point simulation_ inside the zk-SNARK, we push the point operations out of zk-SNARK, in which case simulation is not needed, and we permit only a few field simulations inside the zk-SNARK, for the purposes of connecting with the point operations done externally.
 
-This protocol, delegated Chaum-Pedersen, describes the part that is being pushed out from zk-SNARK from the naive construction. It is an extension of the classical Chaum-pedersen protocol, with the additional change that the witness, $$a, b, c, da,b,c,d$$ below, is committed in the protocol under a randomizer $$rr$$, using the Rescue hash function.
+This protocol, delegated Schnorr, describes the part that is being pushed out from zk-SNARK from the naive construction. It is an extension of the classical Schnorr protocol, with the additional change that the witness, $$a, b, c, da,b,c,d$$ below, is committed in the protocol under a randomizer $$rr$$, using the Rescue hash function.
 
 ### Protocol[​](https://wiki.findora.org/docs/modules/cryptography/delegated\_chaum\_pedersen\_protocol#protocol) <a href="#protocol" id="protocol"></a>
 
@@ -39,7 +40,7 @@ $$\mathsf{Prove}(x,\gamma, y, \delta, P, Q, z) \rightarrow (\pi, w, \beta, \lamb
   * $$\mathsf{compressed\_limbs}[2] := \mathsf{y\_limbs}[4] + \mathsf{y\_limbs}[5] \cdot 2^{43} + \mathsf{a\_limbs}[0] \cdot 2^{43\times 2} + \mathsf{a\_limbs}[1] \cdot 2^{43\times 3} + \mathsf{a\_limbs}[2] \cdot 2^{43\times 4}compressed_limbs[2]:=y_limbs[4]+y_limbs[5]⋅243+a_limbs[0]⋅243×2+a_limbs[1]⋅243×3+a_limbs[2]⋅243×4$$
   * $$\mathsf{compressed\_limbs}[3] := \mathsf{a\_limbs}[3] + \mathsf{a\_limbs}[4] \cdot 2^{43} + \mathsf{a\_limbs}[5] \cdot 2^{43\times 2} + \mathsf{b\_limbs}[0] \cdot 2^{43\times 3} + \mathsf{b\_limbs}[1] \cdot 2^{43\times 4}$$
   * $$\mathsf{compressed\_limbs}[4] := \mathsf{b\_limbs}[2] + \mathsf{b\_limbs}[3] \cdot 2^{43} + \mathsf{b\_limbs}[4] \cdot 2^{43\times 2} + \mathsf{b\_limbs}[5] \cdot 2^{43\times 3}$$
-* _This step differs from classical Chaum-Pedersen protocol._ Use a Rescue hash function $$\mathsf{RescueHash}: (\mathbb{F}_q)^4\rightarrow \mathbb{F}_q$$ to compute a commitment, using $$rr$$ as the randomizer.
+* _This step differs from classical_ Schnorr _protocol._ Use a Rescue hash function $$\mathsf{RescueHash}: (\mathbb{F}_q)^4\rightarrow \mathbb{F}_q$$ to compute a commitment, using $$rr$$ as the randomizer.
   * $$\mathsf{comm} := \mathsf{RescueHash}\left(\mathsf{RescueHash}\left(\begin{array}{l} \mathsf{compressed\_limbs}[0],\\ \mathsf{compressed\_limbs}[1],\\ \mathsf{compressed\_limbs}[2],\\ \mathsf{compressed\_limbs}[3]\end{array}\right), \mathsf{compressed\_limbs}[4], r, 0\right)$$
 * Compute $$R = aG + cH$$, $$S=bG+ dH$$.
 * Put $$(G, H, P, Q, z, \mathsf{comm}, R, S)$$ into the cryptographic sponge for Fiat-Shamir transform and squeeze out a random challenge $$\beta\in\mathbb{F}_p$$.

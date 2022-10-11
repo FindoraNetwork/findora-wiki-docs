@@ -1,8 +1,12 @@
 # Concepts
 
-In order to explain how the most basic confidential transfers work in Findora, let us take a closer look at the anatomy of a Findora asset transfer transaction.
+### The simplified model: without tracing
 
-An asset transfer is executed simply by posting a transfer note to the Findora ledger, denoted **`XfrNote`** for short.
+The confidential transfer in Findora has a comprehensive support of tracing, which enables an _asset tracer_ to see information in a confidential transfer, depending on the tracing policy, the amount, the asset type, and/or the sender's identity and attributes.
+
+To get started, we focus on the simplified model where tracing is removed. This allows us to focus on Bulletproofs and Ristretto ciphertexts.
+
+**Note (layer 1):** A note consists of a body and a list of signatures by the senders over the body. An asset transfer is executed simply by posting a transfer note to the Findora ledger, denoted _XfrNote_ for short.
 
 ```rust
 pub struct XfrNote {
@@ -11,63 +15,107 @@ pub struct XfrNote {
 }
 ```
 
-The **`XfrBody`**` ``` contains a list of input asset records and output asset records. For confidentiality these asset records are blinded, using cryptographic commitments. These are implemented using Pedersen commitments over the “Ristretto” elliptic curve.
+**Body (layer 2):** A body consists of (1) blind asset records for inputs, (2) blind asset records for outputs, (3) a proof about the amounts and the asset types, and (4) owner memos.
 
 ```rust
-pub struct XfrBody {    
+pub struct XfrBody {
     pub inputs: Vec<BlindAssetRecord>,
     pub outputs: Vec<BlindAssetRecord>,
     pub proofs: XfrProofs,
-    pub asset_tracing_memos: Vec<Vec<TracerMemo>>, // each input or output can have a set of tracing memos    
-    pub owners_memos: Vec<Option<OwnerMemo>>, // If confidential amount or asset type, lock the amount and/or asset type to the public key in asset_record
-t}
-```
-
-We call the blinded record data structure a **`BlindAssetRecord`** to distinguish it from a plain AssetRecord.
-
-```rust
-pub struct AssetRecord {
-    pub open_asset_record: OpenAssetRecord,ty
-    pub tracing_policies: TracingPolicies,
-    pub identity_proofs: Vec<Option<ACConfidentialRevealProof>>,
-    pub asset_tracers_memos: Vec<TracerMemo>,
-    pub owner_memo: Option<OwnerMemo>,
+    pub asset_tracing_memos: Vec<Vec<TracerMemo>>, // each input or output can have a set of tracing memos
+    pub owners_memos: Vec<Option<OwnerMemo>>,
 }
 ```
 
+**Blind asset record (layer 3):** A blind asset record consists of three parts: (1) amount, (2) asset type, and (3) owner address. Here, the amount and the asset type can be either confidential or public. When it is confidential, it is in the form of a Ristretto commitment of the corresponding information. When it is public, it is the original information as it is.
+
 ```rust
 pub struct BlindAssetRecord {
-    pub amount: XfrAmount,        // Amount being transferred    
-    pub asset_type: XfrAssetType, // Asset type being transferred    
+    pub amount: XfrAmount,        // Amount being transferred
+    pub asset_type: XfrAssetType, // Asset type being transferred
     pub public_key: XfrPublicKey, // ownership address
 }
 ```
 
-#### Generation of Proofs[​](https://wiki.findora.org/docs/modules/UTXO/confidential/Concepts#generation-of-proofs) <a href="#generation-of-proofs" id="generation-of-proofs"></a>
+<figure><img src="https://raw.githubusercontent.com/FindoraNetwork/findora-wiki/develop/static/img/proof_generation.jpg" alt=""><figcaption></figcaption></figure>
 
-For confidential transfers, the primary parameter that should be hidden is the amount. A key difference between Findora and mono-asset chains such as Monero or Zcash is that we also hide the asset types involved in a transaction.
+**Amount and asset type proof (layer 3):** A zero-knowledge proof that certifies that the blind asset records of inputs and of outputs are matching. It has five possibilities:
 
-The raw amount is stored into a data structure called the _Asset Record_. Initially, a Pedersen commitment to the amount is computed and recorded on the ledger. This is stored into a data structure called the _Blind Asset Record_ or _BAR_ for short. Using the information stored in the Blind Asset Record and via the Bulletproofs scheme, the sender constructs the transfer proof known as the _XFR Proof_ for short. Using this XFR Proof along with the inputs and outputs of the transaction, the _XFR Body_ is constructed. Finally, using this XFR Body along with the multi signatures of the participants, the _XFR Note_ is constructed.
+* _Public amount, public asset type:_
+  * A proof is not necessary.
+* _Confidential amount, single public asset type:_
+  * A Bulletproof for (1) all the output amount commitments and (2) the accumulated input commitment subtracted by the accumulated output commitment. The proof shows that these commitments contain values within the range $$[0, 2^{32})$$.
+* _Single confidential asset type, public amount:_
+  * A delegated Schnorr proof that shows that all the input and output commitments are for the same asset type.
+* _Confidential amount, single confidential asset type:_
+  * A Bulletproof as above.
+  * A delegated Schnorr proof as above.
+* _Multiple assets:_
+  * An asset mixing proof over all the inputs and all the outputs, see below.
 
-![](https://wiki.findora.org/assets/images/proof\_generation-32e558020030cd3f3e11fe042e92cfdd.jpg)
+**Owner memos (layer 3):** The owner memo is an encryption of the secret information necessary for the recipient to spend the assets. The owner memo consists of two parts:
 
-#### Verification of Proofs[​](https://wiki.findora.org/docs/modules/UTXO/confidential/Concepts#verification-of-proofs) <a href="#verification-of-proofs" id="verification-of-proofs"></a>
+* a random point on the elliptic curve, used to derive the same amount and asset type blinding factors for the recipient, through the Diffie-Hellman key exchange.
+* a standard Ed25519 hybrid encryption ciphertext, which encrypts the amount and the asset type, through Diffie-Hellman key exchange and AES-256-CTR.
 
-For the verification of confidential asset proofs, a function is used to verify the validity of the _XFR Note_ data structure. As always, the XFR Notes are ultimately verified in batches using the an appropriate batching function. This function basically divides the verifcation process into 2 parts:
+Note that if the transaction only hides the amount, then the owner memo will only encrypt the amount. Same for the asset type. If the transaction is transparent, i.e., not hiding any amount or asset type information, then the owner memo will not appear.
 
-1. Verifying the multisignatures
-2. Verifying the XFR Bodies.
+#### Range proof
 
-The verification of XFR Bodies is broadly divided into 2 steps. The first part consists of verifying the asset records. This part basically checks if the amounts and asset types are correct. The second part consists of verifying the asset tracing proofs.
+The range proof works as follows. Let us assume that each of the input assets and output assets are represented in terms of two commitments, one representing the higher $$32$$ bits of the amount, one representing the lower $$32$$ bits. If some of the assets have a transparent amount, we convert it into a commitment with dummy blinding (i.e., the blinding factor is zero).
 
-For verifying the asset records, there are broadly 3 steps:
+**Prover:** The prover wants to demonstrate the following range claims:
 
-1. Performing the batched range proof for verifying the confidential amounts
-2. Performing the batched Chaum-Pedersen equality proofs for verifying the confidential asset types
-3. Performing the batched asset mixing proofs for checking the amount sum equality in the circuits
+* The two commitments (high and low) of each of the output assets are committing a value in $$[0, 2^{32})$$.
+* Compute the sum of all the input amounts subtracted by the sum of all the output amounts. This should be a value in $$[0, 2^{32})$$. If this value is not zero, it means that this confidential transfer has burnt some tokens into the thin air. Extract the high 32-bit and low 32-bit of this value, denoted by $$a$$ and $$b$$ accordingly.
+* Compute the sum of all the input blinding factors for the low parts subtracted by the sum of all the output blinding factors for the low parts, denoted by $$c$$. Do the same for the high parts, denoted by $$d$$.
+* Create a commitment with value $$a$$ and blinding factor $$c$$, denoted by $$C_1$$. Create another commitment with value $$b$$ and blinding factor $$d$$, denoted by $$C_2$$.
 
-This last function contains the batch verify function which performs main proof verification inside the R1CS circuit.&#x20;
+**Verifier:** The verifier first computes the sum of all input commitments for the low parts subtracted by the sum of all output commitments for the low parts, denoted by $$C_3$$. Do the same for the high parts, denoted by $$C_4$$. These two commitments are "similar'' to the ones that the prover constructs. The verifier checks as follows:
 
-<figure><img src="https://wiki.findora.org/assets/images/proof_verification-1dbe23c8d23a53f8c2771578a2921ae2.jpg" alt=""><figcaption></figcaption></figure>
+$$C_1 + 2^{32}\cdot C_2 \stackrel{?}{=} C_3 + 2^{32}\cdot C_4$$
+
+Then the verifier verifies the range claim against all the output commitments as well as $$C_1$$ and $$C_2$$. If the proof passes, it means that the all the output commitments are committing a number in $$[0, 2^{32})$$, and that the sum of the input amounts subtracted by the sum of the output amounts is nonnegative.
+
+#### Mixing proof
+
+The mixing proof checks if the inputs and the outputs are matching. Different from the range proof, the mixing proof is able to handle different asset types.
+
+The mixing proof uses the Bulletproofs-based mixing protocol, which is part of the Zei library and is documented in the Cryptography Module.
+
+### The complete model: with tracing
+
+We now describe the complete model of confidential transfer, which additionally includes asset tracing proofs and tracer memos. These two are corresponding to the tracing policies of a given asset. We now describe these three structures.
+
+#### Asset tracing proofs
+
+The asset tracing proofs are used to show that the tracer memos, which encrypt information about the transaction, match what is exactly in the transaction. It consists of three parts.
+
+* _Asset type and amounts proofs:_
+  * For each tracer key, there would be an aggregated proof for the equality of the Pedersen commitments of asset types and amounts and their ElGamal ciphertexts.
+* _Input identity proofs:_
+  * If the asset's tracing policy requires identity tracing, the proof here shows that the encrypted attributes are correct attributes of the users associated with the inputs. If the tracing policy does not require it, then these proofs are omitted.
+* _Output identity proofs:_
+  * Similar to input identity proofs.
+
+#### Tracer memos
+
+For each record with confidential amount or asset type, and for each tracer of this asset, there is a tracer memo that provides information about the transaction as well as identity information about the sender and the recipient. Each tracer memo consists of the following parts.
+
+* _Encryption keys:_
+  * Used for the tracer to identify memos that direct to them. It includes three different keys.
+    * _Record data encryption key:_ ElGamal encryption key for the amount and asset type. It has to be ElGamal encryption in order to enable asset type and amounts proofs.
+    * _Attributes encryption key:_ Also ElGamal encryption key, but for the attribute information. It has to be ElGamal encryption in order to enable input and output identity proofs.
+    * _Lock information encryption key:_ A hybrid encryption key that encrypts all the information above, for a quick reference, but there are no proofs that certify its equivalence.
+* _Locked amount:_
+  * If the amount is encrypted, it stores a ciphertext for the higher 32 bits of the amount, and a ciphertext for the lower 32 bits of the amount.
+  * This field is optional.
+* _Locked asset type:_
+  * If the asset type is encrypted, it stores a ciphertext for the asset type.
+  * This field is optional.
+* _Locked attributes:_
+  * A list of encrypted attribute information.
+* _Locked info:_
+  * A hybrid encryption ciphertext for all the plaintexts appearing in the ciphertexts above.
 
 \

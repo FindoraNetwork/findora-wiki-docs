@@ -22,7 +22,7 @@
   * [Cryptography Primitives](cryptography/cryptography-primitives.md)
   * [Field Simulation](cryptography/field-simulation.md)
   * [Bulletproofs](cryptography/bulletproofs.md)
-  * [Delegated Chaum-Pedersen Protocol](cryptography/delegated-chaum-pedersen-protocol.md)
+  * [Delegated Schnorr](cryptography/delegated-schnorr.md)
   * [TurboPlonk in Findora](cryptography/turboplonk-in-findora.md)
 * [Staking](staking/README.md)
   * [Overview](staking/overview.md)
