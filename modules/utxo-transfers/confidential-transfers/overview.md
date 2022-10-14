@@ -1,6 +1,6 @@
 # Overview
 
-In many blockchain systems there is a lack of privacy. The amount, the asset type, and the addresses of the sender and the receiver are public. This can be problematic for many real-world applications. For instance, if a company pays all its employees in Bitcoin, all the salaries will be public knowledge and in particular, all employees would know their colleagues' salaries, which is not desirable.
+In many blockchain systems, there is a lack of privacy. The amount, the asset type, and the addresses of the sender and the receiver are public. This can be problematic for many real-world applications. For instance, if a company pays all its employees in Bitcoin, all the salaries will be public knowledge and in particular, all employees would know their colleagues' salaries, which is not desirable.
 
 **Confidential transfer.** Define an asset transfer as the transfer of ownership of an asset from one address to another. A _confidential_ asset transfer has two additional properties:
 
