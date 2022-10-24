@@ -41,7 +41,7 @@ Step 3: FindoraBot will automatically detect commands requesting Testnet FRA EVM
 Bot Request Format:
 
 ```bash
-!faucet <\anvil/forge> <\wallet address> <Email>
+!faucet <environment> <wallet address> <Email>
 ```
 
 ### Examples:
