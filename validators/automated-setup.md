@@ -1,4 +1,4 @@
-# Automated Setup
+# Automated Setup xxxxxxxx
 
 This guides shows how to use the automated setup scripts to configure your validator node and download the binaries automatically.
 
