@@ -61,7 +61,7 @@ docker image ls
 
 
 
-    <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 3.  Ensure that binaries have executable permissions set correctly
 
 
@@ -148,7 +148,7 @@ export CHAINDATA_URL=$(cut -d , -f 1 "${ROOT_DIR}/latest")
 
 Run `echo $CHAINDATA_URL` to verify the link
 
-<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 1.  Download the Data
 
