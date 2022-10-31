@@ -17,7 +17,7 @@ Download SDK
 * **BAR**
   * Transparent Asset
 * **ABAR**
-  * Shielded Asset ({amount, asset type, address} masked)
+  * Shielded Asset (`{amount, asset type, address}` masked)
 
 ### Simple Steps to Use
 
@@ -44,8 +44,8 @@ await Sdk.init(ENV_CONFIG);
 
 ### Supported Tokens
 
-* **FRC20(FRA token)**
-* **FRC20(Customized token)**
+* **FRC20 (FRA token)**
+* **FRC20 (Customized token)**
   * any FRC20 token on Findora EVM
 
 ### Findora EVM -> Findora EVM Transaction
