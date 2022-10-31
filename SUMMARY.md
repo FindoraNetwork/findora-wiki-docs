@@ -15,6 +15,7 @@
     * [Overview](modules/utxo-transfers/confidential-transfers/overview.md)
     * [Concepts](modules/utxo-transfers/confidential-transfers/concepts.md)
     * [Technical Specifications](modules/utxo-transfers/confidential-transfers/technical-specifications.md)
+* [Privacy Routing SDK](modules/privacy-routing-sdk.md)
 
 ***
 
@@ -75,6 +76,8 @@
   * [Rialto Bridge](developers/tools/rialto-bridge.md)
   * [The Graph](developers/tools/the-graph.md)
 * [Bug Bounty Policy](developers/bug-bounty-policy.md)
+* [Events](developers/events/README.md)
+  * [🏗 ETH San Francisco 2022](developers/events/eth-san-francisco-2022.md)
 
 ## General Users
 
