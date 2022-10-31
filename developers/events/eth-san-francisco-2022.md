@@ -30,7 +30,13 @@ Findora’s Privacy Routing SDK will allow developers to mask certain attributes
 
 ## Zero-Knowledge Decentralized ID (zkDID)
 
-`TODO`
+The initial MVP implementation of Findora’s zkDID currently excludes features expected in the final zkDID design such as i) non-transferable NFT support (to store the DIDs on-chain) and ii) IPFS integration to store credentials (and/or proofs) on-chain.
+
+**Learn more about the zkDID SDK**
+
+{% content-ref url="../zkdid-sdk/zkdid-sdk-installation.md" %}
+[zkdid-sdk-installation.md](../zkdid-sdk/zkdid-sdk-installation.md)
+{% endcontent-ref %}
 
 ## Support & Resources
 
