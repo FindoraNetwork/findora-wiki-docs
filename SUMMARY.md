@@ -35,6 +35,7 @@
   * [Rialto Refund Mechanism](evm/rialto-refund-mechanism.md)
 * [Prism](prism/README.md)
   * [Overview](prism/overview.md)
+* [zkDID and Credentials](zkdid-and-credentials.md)
 
 ## Developers
 
@@ -65,6 +66,10 @@
   * [UTXO Guides](developers/utxo-native-chain/utxo-guides/README.md)
     * [SDK Setup](developers/utxo-native-chain/utxo-guides/sdk-setup.md)
     * [CLI Overview](developers/utxo-native-chain/utxo-guides/cli-overview.md)
+* [zkDID SDK](developers/zkdid-sdk/README.md)
+  * [zkDID SDK Installation](developers/zkdid-sdk/zkdid-sdk-installation.md)
+  * [zkDID API Reference](developers/zkdid-sdk/zkdid-api-reference.md)
+  * [zkDID Example Code](developers/zkdid-sdk/zkdid-example-code.md)
 * [Crypto SDK](developers/crypto-sdk/README.md)
   * [Crypto SDK Guide](developers/crypto-sdk/crypto-sdk-guide.md)
 * [Tutorials & Resources](developers/tutorials-and-resources/README.md)

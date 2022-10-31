@@ -27,7 +27,7 @@ In this example, we get the live version is \`v0.3.27-release\`. Then we downloa
 docker pull ${FINDORAD_IMG}
 ```
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 Verify you have the latest version by checking for the tag as seen in the picture below
 
@@ -35,7 +35,7 @@ Verify you have the latest version by checking for the tag as seen in the pictur
 docker image ls
 ```
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2: Setup fn CLI[​](https://wiki.findora.org/docs/validators/manual-setup#step-2-setup-fn-cli) <a href="#step-2-setup-fn-cli" id="step-2-setup-fn-cli"></a>
 
@@ -43,8 +43,8 @@ docker image ls
 
     Download according to your operating system:
 
-    * [Linux](https://wiki.findora.org/bin/linux/fn)
-    * [MacOS](https://wiki.findora.org/bin/macos/fn)
+    * [Linux](https://github.com/FindoraNetwork/findora-wiki-docs/raw/main/.gitbook/assets/fn)
+    * [MacOS](https://github.com/FindoraNetwork/findora-wiki-docs/raw/main/.gitbook/assets/fn-mac)
 
     You can also run a node on windows via _Windows Subsystem for Linux_
 2.  Move your downloaded `fn` to your path directory by either running
@@ -61,12 +61,12 @@ docker image ls
 
 
 
-    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 3.  Ensure that binaries have executable permissions set correctly
 
 
 
-    <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3: Configure Local Node[​](https://wiki.findora.org/docs/validators/manual-setup#step-3-configure-local-node) <a href="#step-3-configure-local-node" id="step-3-configure-local-node"></a>
 
@@ -148,7 +148,7 @@ export CHAINDATA_URL=$(cut -d , -f 1 "${ROOT_DIR}/latest")
 
 Run `echo $CHAINDATA_URL` to verify the link
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 1.  Download the Data
 

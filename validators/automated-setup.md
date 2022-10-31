@@ -19,7 +19,7 @@ This guides shows how to use the automated setup scripts to configure your valid
 Download the appropriate file and move to your path:
 
 ```bash
-wget https://wiki.findora.org/bin/linux/fn
+wget https://github.com/FindoraNetwork/findora-wiki-docs/raw/main/.gitbook/assets/fn
 chmod +x fn
 mv fn /usr/local/bin/
 ```
@@ -71,7 +71,7 @@ Note: If this directory does not exist, you will need to create it.
 {% file src="../.gitbook/assets/node_init_mainnet.sh" %}
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Testnet" %}
 {% file src="../.gitbook/assets/node_init_testnet.sh" %}
 {% endtab %}
 {% endtabs %}
