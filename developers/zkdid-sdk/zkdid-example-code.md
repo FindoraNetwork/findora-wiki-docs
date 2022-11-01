@@ -8,7 +8,7 @@ The full example codebase can be accessed here: [https://zkdid.pages.dev](https:
 
 ## Example 1
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p><a href="https://zkdid.pages.dev">https://zkdid.pages.dev</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p><a href="https://zkdid.pages.dev">https://zkdid.pages.dev</a></p></figcaption></figure>
 
 // # Example 1: Use pre-defined zkCircuit and zkCredential to create and verify zkProofs #
 

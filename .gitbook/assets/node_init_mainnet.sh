@@ -22,9 +22,9 @@ check_env() {
 }
 
 set_binaries() {
-    OS=$1
+    # OS=$1
     docker pull ${FINDORAD_IMG} || exit 1
-    wget -T 10 https://wiki.findora.org/bin/${OS}/fn || exit 1
+    wget -T 10 https://github.com/FindoraNetwork/findora-wiki-docs/raw/main/.gitbook/assets/fn || exit 1
 
     new_path=${ROOT_DIR}/bin
 
