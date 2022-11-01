@@ -119,7 +119,7 @@ truffle compile --compile-all
 
 The output of the compilation is located in the `./build/contracts` directory. If the directory does not exist, it will be created automatically. These compiled files are essential for the proper functioning of the Truffle framework. You should not manually modify these files outside of normal compilation or distribution. The file has the contract abi information you need. as the picture shows：
 
-![truffle-compile](https://wiki.findora.org/assets/images/truffle-compile-76e2b13ec51994ad37434a544d77fae6.jpg)
+<figure><img src="../../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 9\. Create a deployment script file
 
@@ -152,9 +152,9 @@ async function deploy(deployer, network, accounts) {
 
 Note that the file name starts with a number and ends with a descriptive suffix. The number prefix is required. The migrate command will be executed in ascending order according to the files beginning with the number in the migrate directory. The suffix is only to improve readability and facilitate understanding. as the picture shows：
 
-![truffle-script](https://wiki.findora.org/assets/images/truffle-script-ad2bad24269d918f7b079de8a3895371.jpg)
+<figure><img src="../../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-10\. lDeploy the Contract
+10\. Deploy the Contract
 
 To perform deployment, use the following command：
 
@@ -170,7 +170,7 @@ You can also use the following command to start execution from the file with the
 truffle migrate -f 2 --network findora_anvil
 ```
 
-![truffle-deploy](https://wiki.findora.org/assets/images/truffle-deploy-aa7453939d9b204489a52927313dfb2e.jpg)
+<figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption><p>truffle-deploy</p></figcaption></figure>
 
 Congratulations, you have completed the basic truffle operation guide!
 

@@ -96,7 +96,7 @@ fn stake -a -n $((2000 * 1000000))
 
 To find information about your validator node, use the `fn show` command. Sample output is below:
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Claim FRA Rewards[​](https://wiki.findora.org/docs/validators/staking-guide#claim-fra-rewards) <a href="#claim-fra-rewards" id="claim-fra-rewards"></a>
 
