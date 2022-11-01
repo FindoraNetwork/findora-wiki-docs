@@ -18,7 +18,7 @@ Below is a visual representation of the major flows when routing transactions wh
 
 Here is the process flow using the SDK's APIs:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Privacy Routing API Call Flow</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Privacy Routing API Call Flow</p></figcaption></figure>
 
 ### Asset Type on Findora Native Chain
 
