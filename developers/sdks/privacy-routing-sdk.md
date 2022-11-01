@@ -2,13 +2,23 @@
 description: How to use privacy-routing-sdk
 ---
 
-# ⚙ Privacy Routing SDK
+# Privacy Routing SDK
 
 ## How to use `privacy-routing-sdk`
 
 You can use `privacy-routing-sdk` to transfer any FRC-20 asset (including FRA) on Findora Smart Chain from Address A to Address B, and remove the link between the two addresses. Both addresses can be classical user address or contract address.
 
 {% embed url="https://github.com/FindoraNetwork/privacy-routing-sdk" %}
+
+### Privacy Routing Overview
+
+Below is a visual representation of the major flows when routing transactions which begins on the Findora EVM wallet through the Findora UTXO layer (to break the link between the sender and final Findora EVM wallet receiver).
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Privacy Routing SDK Process Flow</p></figcaption></figure>
+
+Here is the process flow using the SDK's APIs:
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Privacy Routing API Call Flow</p></figcaption></figure>
 
 ### Asset Type on Findora Native Chain
 

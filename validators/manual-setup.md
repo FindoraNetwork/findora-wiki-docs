@@ -61,7 +61,7 @@ docker image ls
 
 
 
-    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 3.  Ensure that binaries have executable permissions set correctly
 
 

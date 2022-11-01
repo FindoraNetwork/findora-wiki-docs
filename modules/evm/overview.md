@@ -10,7 +10,7 @@ Developers who deploy Ethereum's ERC-20 Solidity boilerplate code on the Findora
 
 Currently, developing on Findora EVM requires developers to connect to the Findora Anvil Testnet.
 
-See the [Networks](../network-settings/network-settings.md) guide for details.
+See the [Networks](../../network-settings/network-settings.md) guide for details.
 
 #### Writing and Deploying a Contract[​](https://wiki.findora.org/docs/modules/findora-evm/overview#writing-and-deploying-a-contract) <a href="#writing-and-deploying-a-contract" id="writing-and-deploying-a-contract"></a>
 
@@ -18,13 +18,13 @@ All the best tools available for deploying on Ethereum work just as well here wi
 
 Hardhat is an Ethereum development environment that helps developers manage and automate repetitive tasks for smart contract and DApp development. Truffle is like Hardhat but on steroids. Leveraging Ganache, its local Ethereum blockchain for testing contracts, Truffle allows you to develop dApps with scriptable migration and deployment, network management, an interactive console, smart contract management and even some automated contract testing.
 
-Please look at the [Truffle](../developers/evm-smart-chain/evm-guides/evm-deployment-guides/using-truffle.md), [Hardhat](../developers/evm-smart-chain/evm-guides/using-hardhat.md), [Remix IDE](../developers/evm-smart-chain/evm-guides/evm-deployment-guides/using-remix.md) guides for details.
+Please look at the [Truffle](../../developers/sdks/evm-smart-chain-sdk/evm-guides/evm-deployment-guides/using-truffle.md), [Hardhat](../../developers/sdks/evm-smart-chain-sdk/evm-guides/using-hardhat.md), [Remix IDE](../../developers/sdks/evm-smart-chain-sdk/evm-guides/evm-deployment-guides/using-remix.md) guides for details.
 
 #### Testing and Automation[​](https://wiki.findora.org/docs/modules/findora-evm/overview#testing-and-automation) <a href="#testing-and-automation" id="testing-and-automation"></a>
 
 Waffle is a library for compiling and testing smart contracts and Mars is a deployment manager. Waffle and Mars can be used together to write, compile, test, and deploy Ethereum smart contracts.
 
-See the [Waffle & Mars](../developers/evm-smart-chain/evm-guides/evm-deployment-guides/using-waffle.md) guide for details.
+See the [Waffle & Mars](../../developers/sdks/evm-smart-chain-sdk/evm-guides/evm-deployment-guides/using-waffle.md) guide for details.
 
 #### Other Tools and Integrations[​](https://wiki.findora.org/docs/modules/findora-evm/overview#other-tools-and-integrations) <a href="#other-tools-and-integrations" id="other-tools-and-integrations"></a>
 

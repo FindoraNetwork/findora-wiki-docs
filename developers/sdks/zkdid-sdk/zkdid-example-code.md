@@ -8,7 +8,7 @@ The full example codebase can be accessed here: [https://zkdid.pages.dev](https:
 
 ## Example 1
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p><a href="https://zkdid.pages.dev">https://zkdid.pages.dev</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p><a href="https://zkdid.pages.dev">https://zkdid.pages.dev</a></p></figcaption></figure>
 
 // # Example 1: Use pre-defined zkCircuit and zkCredential to create and verify zkProofs #
 
@@ -32,7 +32,7 @@ The full example codebase can be accessed here: [https://zkdid.pages.dev](https:
 
 ## Example 2
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption><p><a href="https://zkdid.pages.dev">https://zkdid.pages.dev</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption><p><a href="https://zkdid.pages.dev">https://zkdid.pages.dev</a></p></figcaption></figure>
 
 // # Example 2: Create Custom zkCircuit and zkCredential to create and verify zkProofs #
 
@@ -56,7 +56,7 @@ The code example below showcases how to create your own custom zkCircuit and zkC
 
 ## Example 3
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption><p><a href="https://zkdid.pages.dev">https://zkdid.pages.dev</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption><p><a href="https://zkdid.pages.dev">https://zkdid.pages.dev</a></p></figcaption></figure>
 
 // # Example 3: Use custom credential and multiple circuits to create proofs and verify zkProofs #
 
