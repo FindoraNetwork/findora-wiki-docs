@@ -61,7 +61,7 @@ docker image ls
 
 
 
-    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 3.  Ensure that binaries have executable permissions set correctly
 
 
@@ -78,7 +78,7 @@ docker image ls
 
 
 
-    <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 2.  Create ledger data directory
 
     First we are going to clean up any old data you might have by removing the ROOT\_DIR folder. Be sure to backup all your keys (validator, node and wallet key) before removing this directory.
@@ -148,7 +148,7 @@ export CHAINDATA_URL=$(cut -d , -f 1 "${ROOT_DIR}/latest")
 
 Run `echo $CHAINDATA_URL` to verify the link
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 1.  Download the Data
 
