@@ -16,3 +16,8 @@ There are two separate block explorers on Findora. [Learn more](../findora-basic
 
 
 
+## Testnet Explorers
+
+* Testnet EVM (Anvil) [https://testnet-anvil.evm.findorascan.io/](https://testnet-anvil.evm.findorascan.io/)
+* Testnet EVM (Forge) [https://testnet-forge.evm.findorascan.io/](https://testnet-anvil.evm.findorascan.io/)
+* Testnet UTXO (Forge) [https://forge.findorascan.io/](https://forge.findorascan.io/)
