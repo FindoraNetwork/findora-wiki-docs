@@ -27,7 +27,9 @@ To install the `zkdid-js` SDK, you need to Git clone the [zkDID Github repo](htt
 
 ## zkDID SDK Usage
 
-Finally, import `zkDID` package into your project’s codebase (as well as `ethers` package):
+Finally, import the `zkDID` package into your project’s javsascript codebase (as well as `ethers` package):
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Import zkDID and ethers packages into codebase</p></figcaption></figure>
-
+```
+import zkDID from `zkDID`;
+import ethers from `ethers`;
+```
