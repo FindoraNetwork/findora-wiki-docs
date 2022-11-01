@@ -14,11 +14,11 @@ You can use `privacy-routing-sdk` to transfer any FRC-20 asset (including FRA) o
 
 Below is a visual representation of the major flows when routing transactions which begins on the Findora EVM wallet through the Findora UTXO layer (to break the link between the sender and final Findora EVM wallet receiver).
 
-<figure><img src="../../.gitbook/assets/image (4) (3).png" alt=""><figcaption><p>Privacy Routing SDK Process Flow</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (3) (1).png" alt=""><figcaption><p>Privacy Routing SDK Process Flow</p></figcaption></figure>
 
 Here is the process flow using the SDK's APIs:
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Privacy Routing API Call Flow</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (4).png" alt=""><figcaption><p>Privacy Routing API Call Flow</p></figcaption></figure>
 
 ### Asset Type on Findora Native Chain
 

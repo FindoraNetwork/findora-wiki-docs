@@ -133,7 +133,7 @@ You should now have a basic TypeScript project with the dependencies needed to b
 
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>wallfe-build</p></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>wallfe-build</p></figcaption></figure>
 5.  Create a file (`MyContract.test.ts`) in the test directory to test your MyContract contract:
 
     ```typescript

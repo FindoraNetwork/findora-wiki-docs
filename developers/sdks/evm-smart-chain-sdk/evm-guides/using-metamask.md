@@ -6,11 +6,11 @@ The first step is to install Metamask from [metamask.io](https://metamask.io/).
 
 Next up, click on the bar that would typically show your last connected network.
 
-![](https://wiki.findora.org/img/evm/metamask.png)
+![](<../../../../.gitbook/assets/image (5).png>)
 
 You should get a drop-down and a button that shows "Add Network". Click on that and a new tab will open where you can place Findora's network configurations.
 
-![](https://wiki.findora.org/img/evm/metamask-1.png)
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Next, configure Metamask to connect to Findora’s EVM network (aka Smart Chain).
 
@@ -46,8 +46,8 @@ https://testnet-anvil.evm.findorascan.io
 
 After everything, you should see this screen
 
-![](https://wiki.findora.org/img/evm/anvil-3.png)
+<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 Click on the 'Save' button and you should have a screen like this and be ready to go!
 
-![](https://wiki.findora.org/img/evm/anvil-4.png)
+![](<../../../../.gitbook/assets/image (7).png>)

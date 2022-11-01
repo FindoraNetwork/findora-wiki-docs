@@ -78,7 +78,7 @@ docker image ls
 
 
 
-    <figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 2.  Create ledger data directory
 
     First we are going to clean up any old data you might have by removing the ROOT\_DIR folder. Be sure to backup all your keys (validator, node and wallet key) before removing this directory.

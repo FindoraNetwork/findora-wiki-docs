@@ -170,7 +170,7 @@ You can also use the following command to start execution from the file with the
 truffle migrate -f 2 --network findora_anvil
 ```
 
-<figure><img src="../../../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>truffle-deploy</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (4) (3).png" alt=""><figcaption><p>truffle-deploy</p></figcaption></figure>
 
 Congratulations, you have completed the basic truffle operation guide!
 
