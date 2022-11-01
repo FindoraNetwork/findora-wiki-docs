@@ -12,7 +12,7 @@ You can request Testnet FRA tokens using our Discord Bot. Please [follow this gu
 
 While requesting the tokens, you need to specify the `Findora Address` associated with your validator node. To locate this wallet address, run `fn show`, and get your fra address as displayed in the screenshot below.
 
-<figure><img src="../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Mainnet Funding[​](https://wiki.findora.org/docs/validators/staking-guide#mainnet-funding) <a href="#mainnet-funding" id="mainnet-funding"></a>
 

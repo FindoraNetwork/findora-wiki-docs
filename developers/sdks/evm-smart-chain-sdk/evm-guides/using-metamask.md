@@ -10,7 +10,7 @@ Next up, click on the bar that would typically show your last connected network.
 
 You should get a drop-down and a button that shows "Add Network". Click on that and a new tab will open where you can place Findora's network configurations.
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 Next, configure Metamask to connect to Findora’s EVM network (aka Smart Chain).
 
