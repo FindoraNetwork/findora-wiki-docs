@@ -180,7 +180,7 @@ You should now have a basic TypeScript project with the dependencies needed to b
 
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 4: Use Mars to configure the deployment script[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/evm-guides/deployment-guides/waffle#step-4-use-mars-to-configure-the-deployment-script) <a href="#step-4-use-mars-to-configure-the-deployment-script" id="step-4-use-mars-to-configure-the-deployment-script"></a>
 

@@ -6,16 +6,16 @@ Once you’ve set up a Kucoin account, you still can’t buy FRA directly with f
 
 Then, go to trading:
 
-![buyfra](https://wiki.findora.org/assets/images/buyfra-01-5fada4b17d622f8652c82bc5ae465f1a.png)
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 Once you do, you can search for FRA in the search bar in the right-hand side of the screen.
 
 You’ll find the USDT/FRA trading pool. Click on that to trade USDT for FRA:
 
-![buyfra](https://wiki.findora.org/assets/images/buyfra-02-e654308722372620b37fa39c76f199fc.png)
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Once you click on Trade, you’ll be taken to the USDT/FRA trading pair where you can trade for FRA:
 
-![buyfra](https://wiki.findora.org/assets/images/buyfra-03-b223d15ad86be3deec1a2072ee7134aa.jpeg)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Buying FRA from Gate.io follows a similar process. So now, congratulations, you’ve got FRA!

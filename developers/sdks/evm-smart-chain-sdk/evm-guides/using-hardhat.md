@@ -128,7 +128,7 @@ npx hardhat run scripts/deploy.js --network findora
 
 The contract can be deployed in a few seconds, and then you can see the contract address printed out on the terminal：
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Interact with the contract[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/evm-guides/hardhat#interact-with-the-contract) <a href="#interact-with-the-contract" id="interact-with-the-contract"></a>
 
@@ -143,6 +143,6 @@ const value = await myContract.getValue();
 console.log('value is:', value.toString())
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Congratulations, you have completed the Hardhat basic operation guide!

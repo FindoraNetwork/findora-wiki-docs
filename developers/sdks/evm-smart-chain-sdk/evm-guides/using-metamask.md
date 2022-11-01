@@ -50,4 +50,4 @@ After everything, you should see this screen
 
 Click on the 'Save' button and you should have a screen like this and be ready to go!
 
-![](<../../../../.gitbook/assets/image (7).png>)
+![](<../../../../.gitbook/assets/image (7) (2).png>)
