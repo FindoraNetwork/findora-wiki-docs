@@ -148,7 +148,7 @@ export CHAINDATA_URL=$(cut -d , -f 1 "${ROOT_DIR}/latest")
 
 Run `echo $CHAINDATA_URL` to verify the link
 
-<figure><img src="../.gitbook/assets/image (3) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 1.  Download the Data
 
@@ -351,7 +351,7 @@ Run the following on console on your server to show the latest stats.
 fn show
 ```
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > **NOTE**
 >

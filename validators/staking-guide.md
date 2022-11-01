@@ -96,13 +96,13 @@ fn stake -a -n $((2000 * 1000000))
 
 To find information about your validator node, use the `fn show` command. Sample output is below:
 
-<figure><img src="../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Claim FRA Rewards[​](https://wiki.findora.org/docs/validators/staking-guide#claim-fra-rewards) <a href="#claim-fra-rewards" id="claim-fra-rewards"></a>
 
 Top 100 validators will earn block rewards. If your validator is a top 100 validator, it will earn rewards which will show up in the `rewards` section on `fn show`.
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 If your reward balance is greater than 0, you can claim your earned rewards via the `fn claim` sub-command
 

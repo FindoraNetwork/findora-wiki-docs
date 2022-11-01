@@ -9,7 +9,7 @@ These two blockchain layers include:
 
 **Prism** is the feature that enables users to bridge (aka transfer) assets from the UTXO-based side to the accounts-based side (and vice-versa) of the Findora blockchain. Users can initiate a Prism transfer via the Findora wallet. Developers can integrate PRISM transfers into their application via the SDK.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Prism Overview</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>Prism Overview</p></figcaption></figure>
 
 #### Why Prism?[​](https://wiki.findora.org/docs/modules/prism/Overview#why-prism) <a href="#why-prism" id="why-prism"></a>
 
