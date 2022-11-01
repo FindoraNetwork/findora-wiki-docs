@@ -161,3 +161,21 @@ findora.transferabarToBar(
       false
     );
     ```
+
+## Boilerplate settings
+
+```typescript
+import { Sdk } from 'ys-sdk';
+import Web3 from 'web3';
+
+export const ENV_CONFIG = {
+  hostUrl: 'https://prod-forge.prod.findora.org',
+  feeServerUrl: 'https://forge.invisiblex.org/api/fee',
+  configServerUrl: 'https://columbus-config.s3.us-west-2.amazonaws.com/columbus_config_forge.json',
+  navticeExplorerUrl: 'https://forge.findorascan.io/',
+};
+
+export const FINDORA_EVM_CHAIN_ID = '2154';
+
+Sdk.init({ ...ENV_CONFIG, web3: new Web3(Web3.givenProvider) });
+```
