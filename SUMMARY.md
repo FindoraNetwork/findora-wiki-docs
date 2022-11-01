@@ -15,7 +15,6 @@
     * [Overview](modules/utxo-transfers/confidential-transfers/overview.md)
     * [Concepts](modules/utxo-transfers/confidential-transfers/concepts.md)
     * [Technical Specifications](modules/utxo-transfers/confidential-transfers/technical-specifications.md)
-* [⚙ Privacy Routing SDK](modules/privacy-routing-sdk.md)
 
 ***
 
@@ -66,6 +65,7 @@
   * [UTXO Guides](developers/utxo-native-chain/utxo-guides/README.md)
     * [SDK Setup](developers/utxo-native-chain/utxo-guides/sdk-setup.md)
     * [CLI Overview](developers/utxo-native-chain/utxo-guides/cli-overview.md)
+* [⚙ Privacy Routing SDK](developers/privacy-routing-sdk.md)
 * [zkDID SDK](developers/zkdid-sdk/README.md)
   * [⚙ zkDID SDK Installation](developers/zkdid-sdk/zkdid-sdk-installation.md)
   * [zkDID API Reference](developers/zkdid-sdk/zkdid-api-reference.md)

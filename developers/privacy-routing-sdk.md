@@ -2,15 +2,13 @@
 description: How to use privacy-routing-sdk
 ---
 
-# Privacy Routing SDK
+# ⚙ Privacy Routing SDK
 
 ## How to use `privacy-routing-sdk`
 
 You can use `privacy-routing-sdk` to transfer any FRC-20 asset (including FRA) on Findora Smart Chain from Address A to Address B, and remove the link between the two addresses. Both addresses can be classical user address or contract address.
 
-{% file src="../.gitbook/assets/privacy-routing-sdk-main.zip" %}
-Download SDK
-{% endfile %}
+{% embed url="https://github.com/FindoraNetwork/privacy-routing-sdk" %}
 
 ### Asset Type on Findora Native Chain
 
@@ -20,6 +18,8 @@ Download SDK
   * Shielded Asset (`{amount, asset type, address}` masked)
 
 ### Simple Steps to Use
+
+First [clone](https://github.com/FindoraNetwork/privacy-routing-sdk) and add the SDK to your project.
 
 > **Import SDK**
 
