@@ -12,7 +12,7 @@ You can request Testnet FRA tokens using our Discord Bot. Please [follow this gu
 
 While requesting the tokens, you need to specify the `Findora Address` associated with your validator node. To locate this wallet address, run `fn show`, and get your fra address as displayed in the screenshot below.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Mainnet Funding[​](https://wiki.findora.org/docs/validators/staking-guide#mainnet-funding) <a href="#mainnet-funding" id="mainnet-funding"></a>
 
@@ -102,7 +102,7 @@ To find information about your validator node, use the `fn show` command. Sample
 
 Top 100 validators will earn block rewards. If your validator is a top 100 validator, it will earn rewards which will show up in the `rewards` section on `fn show`.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 If your reward balance is greater than 0, you can claim your earned rewards via the `fn claim` sub-command
 
