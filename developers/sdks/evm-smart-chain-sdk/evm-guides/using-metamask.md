@@ -46,8 +46,8 @@ https://testnet-anvil.evm.findorascan.io
 
 After everything, you should see this screen
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click on the 'Save' button and you should have a screen like this and be ready to go!
 
-![](<../../../../.gitbook/assets/image (7) (2).png>)
+![](<../../../../.gitbook/assets/image (7) (2) (1).png>)

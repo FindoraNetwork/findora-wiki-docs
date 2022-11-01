@@ -1,4 +1,4 @@
-# zkDID SDK Installation
+# ⚙ zkDID SDK Installation
 
 ## Overview
 

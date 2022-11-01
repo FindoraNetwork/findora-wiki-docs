@@ -30,7 +30,7 @@ We will show how to use Remix to deploy smart contracts on Findora through the f
 4. Next, enter Test Contract in the constructor and click "Deploy".
 5. MetaMask pop-up window will display transaction-related information, we need to click "confirm" to sign.
 
-<figure><img src="../../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 6\. After the transaction is confirmed, the contract will appear in the "Deployed Contracts" column of Remix. From here, you can interact with the contract function.
 

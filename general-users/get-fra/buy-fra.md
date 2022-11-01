@@ -6,7 +6,7 @@ Once you’ve set up a Kucoin account, you still can’t buy FRA directly with f
 
 Then, go to trading:
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
 Once you do, you can search for FRA in the search bar in the right-hand side of the screen.
 

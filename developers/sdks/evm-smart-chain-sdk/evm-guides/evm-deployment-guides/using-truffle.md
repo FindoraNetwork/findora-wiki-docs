@@ -152,7 +152,7 @@ async function deploy(deployer, network, accounts) {
 
 Note that the file name starts with a number and ends with a descriptive suffix. The number prefix is required. The migrate command will be executed in ascending order according to the files beginning with the number in the migrate directory. The suffix is only to improve readability and facilitate understanding. as the picture shows：
 
-<figure><img src="../../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 10\. Deploy the Contract
 
