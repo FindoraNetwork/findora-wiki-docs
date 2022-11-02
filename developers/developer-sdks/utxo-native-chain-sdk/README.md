@@ -1,2 +1,2 @@
-# UTXO Native Chain
+# UTXO Native Chain SDK
 

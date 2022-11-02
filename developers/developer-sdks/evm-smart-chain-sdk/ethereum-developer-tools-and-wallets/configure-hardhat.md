@@ -1,4 +1,4 @@
-# Using Hardhat
+# Configure Hardhat
 
 #### Overview[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/evm-guides/hardhat#overview) <a href="#overview" id="overview"></a>
 

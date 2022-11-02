@@ -2,7 +2,7 @@
 description: Findora's bug bounty program
 ---
 
-# Bug Bounty Policy
+# Misc. - Bug Bounties
 
 Findora is committed to 100% security on its network and providing an intuitive user experience to our community. Security is our top priority, and we are dedicated to protecting your information both on and off-chain. To that end, we have instituted a bug-bounty system so you can submit any vulnerabilities. Your contributions are hugely appreciated by the project! All vulnerabilities submitted will be used to improve Findora’s security as well as the user experience. This program rewards anyone who can find security vulnerabilities in Findora or any of the tools it creates. We look forward to working with the security community to find vulnerabilities in order to keep our partners and users safe.&#x20;
 

@@ -1,4 +1,4 @@
-# Using Metamask
+# Configure Metamask
 
 If you have used Metamask for any sort of development work on the EVM, then setting up Findora for use is as simple as can be. Simply take the network details as shown [here](broken-reference) and make use of them as Metamask requires. Let's jump right in!
 

@@ -8,27 +8,27 @@
 * [Change Log](findora-basics/change-log.md)
 * [Contribute](findora-basics/contribute.md)
 
-## Modules
+## Concepts
 
-* [Cryptography](modules/cryptography/README.md)
-  * [Bulletproofs](modules/cryptography/bulletproofs.md)
-  * [Cryptography Primitives](modules/cryptography/cryptography-primitives.md)
-  * [Delegated Schnorr](modules/cryptography/delegated-schnorr.md)
-  * [Field Simulation](modules/cryptography/field-simulation.md)
-  * [TurboPlonk](modules/cryptography/turboplonk-in-findora.md)
-* [EVM Smart Chain](modules/evm-smart-chain.md)
-* [Prism Transfer (Internal Bridge)](modules/prism-transfer-internal-bridge.md)
-* [Staking](modules/staking/README.md)
-  * [Overview](modules/staking/overview.md)
-  * [Consensus](modules/staking/consensus.md)
-  * [Rewards](modules/staking/rewards.md)
-  * [Penalties](modules/staking/penalties.md)
-* [UTXO Native Chain](modules/utxo-transfers/README.md)
-  * [Confidential transfers](modules/utxo-transfers/confidential-transfers/README.md)
-    * [Overview](modules/utxo-transfers/confidential-transfers/overview.md)
-    * [Concepts](modules/utxo-transfers/confidential-transfers/concepts.md)
-    * [Technical Specifications](modules/utxo-transfers/confidential-transfers/technical-specifications.md)
-* [zkDID and Credentials](modules/zkdid-and-credentials.md)
+* [Cryptography](concepts/cryptography/README.md)
+  * [Bulletproofs](concepts/cryptography/bulletproofs.md)
+  * [Cryptography Primitives](concepts/cryptography/cryptography-primitives.md)
+  * [Delegated Schnorr](concepts/cryptography/delegated-schnorr.md)
+  * [Field Simulation](concepts/cryptography/field-simulation.md)
+  * [TurboPlonk](concepts/cryptography/turboplonk.md)
+* [EVM Smart Chain](concepts/evm-smart-chain.md)
+* [Prism Transfer (Internal Bridge)](concepts/prism-transfer-internal-bridge.md)
+* [Staking](concepts/staking/README.md)
+  * [Overview](concepts/staking/overview.md)
+  * [Consensus](concepts/staking/consensus.md)
+  * [Rewards](concepts/staking/rewards.md)
+  * [Penalties](concepts/staking/penalties.md)
+* [UTXO Native Chain](concepts/utxo-native-chain/README.md)
+  * [Confidential transfers](concepts/utxo-native-chain/confidential-transfers/README.md)
+    * [Overview](concepts/utxo-native-chain/confidential-transfers/overview.md)
+    * [Concepts](concepts/utxo-native-chain/confidential-transfers/concepts.md)
+    * [Technical Specifications](concepts/utxo-native-chain/confidential-transfers/technical-specifications.md)
+* [zkDID and Credentials](concepts/zkdid-and-credentials.md)
 
 ## Developers
 
@@ -73,10 +73,10 @@
 * [Misc. - Events](developers/misc.-events/README.md)
   * [🏗 ETH San Francisco 2022](developers/misc.-events/eth-san-francisco-2022.md)
 
-## Network/Contract Settings
+## Network Settings
 
+* [Contract Addresses](network-settings/contract-addresses.md)
 * [Network Settings](network-settings/network-settings.md)
-* [Contract Addresses](network-contract-settings/contract-addresses.md)
 
 ## General Users
 
