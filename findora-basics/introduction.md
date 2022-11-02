@@ -20,11 +20,11 @@ Findora’s blockchain technology solves many of these privacy-related issues as
 
 Findora consists of the following key modules:
 
-* Staking (Tendermint-based Consensus and PoS)
-* Native Chain (UTXO-based)
-* Smart Chain (EVM-based)
+* UTXO Native Chain
+* EVM Smart Chain
 * Cryptography Library (zkSNARK, Bulletproofs, etc.)
 * Prism Transfers
+* Staking (Tendermint-based Consensus and PoS)
 
 See `Modules` section of documentation for details of each module.
 
