@@ -69,9 +69,10 @@
     * [zkDID API Reference](developer-materials/developer-sdks/zkdid-sdk/zkdid-api-reference.md)
     * [zkDID Example Code](developer-materials/developer-sdks/zkdid-sdk/zkdid-example-code.md)
 * [Local Development Network Setup](developer-materials/local-development-network-setup.md)
-* [Misc. - Bug Bounties](developer-materials/misc.-bug-bounties.md)
-* [Misc. - Events](developer-materials/misc.-events/README.md)
-  * [🏗 ETH San Francisco 2022](developer-materials/misc.-events/eth-san-francisco-2022.md)
+* [Other](developer-materials/other/README.md)
+  * [Bug Bounties](developer-materials/other/bug-bounties.md)
+  * [Events](developer-materials/other/events/README.md)
+    * [🏗 ETH San Francisco 2022](developer-materials/other/events/eth-san-francisco-2022.md)
 
 ## Network Settings
 
