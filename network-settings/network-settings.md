@@ -8,11 +8,11 @@ These network settings are commonly used when configuring Metmask, Findora walle
 
 #### Smart Chain (EVM)
 
-|          |                Mainnet               |                Anvil Testnet               |               Forge Testnet              |
-| -------- | :----------------------------------: | :----------------------------------------: | :--------------------------------------: |
-| RPC      | https://rpc-mainnet.findora.org:8545 | https://prod-testnet.prod.findora.org:8545 | https://prod-forge.prod.findora.org:8545 |
-| Chain ID |                 2152                 |                    2153                    |                   2154                   |
-| Explorer |      https://evm.findorascan.io      |  https://testnet-anvil.evm.findorascan.io  | https://testnet-forge.evm.findorascan.io |
+|          |             Mainnet             |                Anvil Testnet               |               Forge Testnet              |
+| -------- | :-----------------------------: | :----------------------------------------: | :--------------------------------------: |
+| RPC      | https://rpc-mainnet.findora.org | https://prod-testnet.prod.findora.org:8545 | https://prod-forge.prod.findora.org:8545 |
+| Chain ID |               2152              |                    2153                    |                   2154                   |
+| Explorer |    https://evm.findorascan.io   |  https://testnet-anvil.evm.findorascan.io  | https://testnet-forge.evm.findorascan.io |
 
 #### Native Chain (UTXO)
 
