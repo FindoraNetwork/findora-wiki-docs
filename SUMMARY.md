@@ -11,14 +11,13 @@
 ## Modules
 
 * [Cryptography](modules/cryptography/README.md)
-  * [Cryptography Primitives](modules/cryptography/cryptography-primitives.md)
-  * [Field Simulation](modules/cryptography/field-simulation.md)
   * [Bulletproofs](modules/cryptography/bulletproofs.md)
+  * [Cryptography Primitives](modules/cryptography/cryptography-primitives.md)
   * [Delegated Schnorr](modules/cryptography/delegated-schnorr.md)
+  * [Field Simulation](modules/cryptography/field-simulation.md)
   * [TurboPlonk in Findora](modules/cryptography/turboplonk-in-findora.md)
 * [EVM Smart Chain](modules/evm/README.md)
   * [Overview](modules/evm/overview.md)
-  * [Rialto Refund Mechanism](modules/evm/rialto-refund-mechanism.md)
 * [Prism Transfer](modules/prism/README.md)
   * [Overview](modules/prism/overview.md)
 * [Staking](modules/staking/README.md)
