@@ -91,7 +91,7 @@ cp /Library/Python/3.x/site-packages/toml /usr/local/bin
 
 Inside your `platform` directory, execute `make devnet` in the terminal.
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 #### i) What's in devnet?[​](https://wiki.findora.org/docs/developers/development\_network#i-whats-in-devnet) <a href="#i-whats-in-devnet" id="i-whats-in-devnet"></a>
 
@@ -109,7 +109,7 @@ The local blockchain can be stopped and restarted anytime during development and
 * Restart Blockchain: `./tools/devnet/startnodes.sh`
 * Start Over: `make devnet` again.
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 ### 5. Devnet URLs and Ports[​](https://wiki.findora.org/docs/developers/development\_network#5-devnet-urls-and-ports) <a href="#5-devnet-urls-and-ports" id="5-devnet-urls-and-ports"></a>
 

@@ -24,8 +24,8 @@ Findora’s Privacy Routing SDK will allow developers to mask certain attributes
 
 #### Learn more about the Privacy Routing SDK
 
-{% content-ref url="../developer-sdks/privacy-routing-sdk.md" %}
-[privacy-routing-sdk.md](../developer-sdks/privacy-routing-sdk.md)
+{% content-ref url="../../developer-sdks/privacy-routing-sdk.md" %}
+[privacy-routing-sdk.md](../../developer-sdks/privacy-routing-sdk.md)
 {% endcontent-ref %}
 
 ## Zero-Knowledge Decentralized ID (zkDID)
@@ -34,12 +34,12 @@ Findora’s `zkdid-js` SDK consists of a collection of APIs to create decentrali
 
 Zero-knowledge refers to the ability to cryptographically verify data without disclosing the exact credential value (i.e. cryptographically enable the verification that a DID holder’s credential contains credit score is above 700 — without revealing the exact number to the verifier).
 
-For a conceptual overview of DIDs, credentials and the stakeholders in the credentialing and verification processes, visit the [zkDID and Credentials](../../key-concepts/zkdid-and-credentials.md) modules section of Findora’s documentation. Also, please see the official [W3C DID specification](https://www.notion.so/zkDID-Documentation-a-Modules-zkDID-Credentials-695f80687ec94d2fb32b3159f4ca945f).
+For a conceptual overview of DIDs, credentials and the stakeholders in the credentialing and verification processes, visit the [zkDID and Credentials](../../../key-concepts/zkdid-and-credentials.md) modules section of Findora’s documentation. Also, please see the official [W3C DID specification](https://www.notion.so/zkDID-Documentation-a-Modules-zkDID-Credentials-695f80687ec94d2fb32b3159f4ca945f).
 
 **Learn more about the zkDID SDK**
 
-{% content-ref url="../developer-sdks/zkdid-sdk/zkdid-sdk-installation.md" %}
-[zkdid-sdk-installation.md](../developer-sdks/zkdid-sdk/zkdid-sdk-installation.md)
+{% content-ref url="../../developer-sdks/zkdid-sdk/zkdid-sdk-installation.md" %}
+[zkdid-sdk-installation.md](../../developer-sdks/zkdid-sdk/zkdid-sdk-installation.md)
 {% endcontent-ref %}
 
 ## Support & Resources
@@ -47,7 +47,7 @@ For a conceptual overview of DIDs, credentials and the stakeholders in the crede
 Findora developers will be attending the onsite event in San Francisco to help support the hackathon participants. Additionally, developers may use the Findora Discord channel to ask questions and speak to a specialist from the team.
 
 * [Discord support](https://findora.org/discord)
-* [Findora EVM network settings](../../network-settings/network-settings.md)
-* [Testnet FRA faucet](../../general-user-materials/acquire-fra/request-testnet-fra.md)
-* [Subgraph deployment](../developer-sdks/evm-smart-chain-sdk/ethereum-developer-tools-and-wallets/configure-the-graph/building-and-deploying-subgraph-public-graph-node.md)
+* [Findora EVM network settings](../../../network-settings/network-settings.md)
+* [Testnet FRA faucet](../../../general-user-materials/acquire-fra/request-testnet-fra.md)
+* [Subgraph deployment](../../evm-tools-and-tutorials/the-graph/building-and-deploying-subgraph-public-graph-node.md)
 
