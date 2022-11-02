@@ -24,8 +24,8 @@ Findora’s Privacy Routing SDK will allow developers to mask certain attributes
 
 #### Learn more about the Privacy Routing SDK
 
-{% content-ref url="../sdks/privacy-routing-sdk.md" %}
-[privacy-routing-sdk.md](../sdks/privacy-routing-sdk.md)
+{% content-ref url="../developer-sdks/privacy-routing-sdk.md" %}
+[privacy-routing-sdk.md](../developer-sdks/privacy-routing-sdk.md)
 {% endcontent-ref %}
 
 ## Zero-Knowledge Decentralized ID (zkDID)
@@ -38,8 +38,8 @@ For a conceptual overview of DIDs, credentials and the stakeholders in the crede
 
 **Learn more about the zkDID SDK**
 
-{% content-ref url="../sdks/zkdid-sdk/zkdid-sdk-installation.md" %}
-[zkdid-sdk-installation.md](../sdks/zkdid-sdk/zkdid-sdk-installation.md)
+{% content-ref url="../developer-sdks/zkdid-sdk/zkdid-sdk-installation.md" %}
+[zkdid-sdk-installation.md](../developer-sdks/zkdid-sdk/zkdid-sdk-installation.md)
 {% endcontent-ref %}
 
 ## Support & Resources
@@ -49,5 +49,5 @@ Findora developers will be attending the onsite event in San Francisco to help s
 * [Discord support](https://findora.org/discord)
 * [Findora EVM network settings](../../network-settings/network-settings.md)
 * [Testnet FRA faucet](../../general-users/acquire-fra/request-testnet-fra.md)
-* [Subgraph deployment](../sdks/evm-smart-chain-sdk/ethereum-developer-tools-and-wallets/configure-the-graph/building-and-deploying-subgraph-public-graph-node.md)
+* [Subgraph deployment](../developer-sdks/evm-smart-chain-sdk/ethereum-developer-tools-and-wallets/configure-the-graph/building-and-deploying-subgraph-public-graph-node.md)
 

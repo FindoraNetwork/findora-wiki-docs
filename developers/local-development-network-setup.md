@@ -5,7 +5,7 @@ description: >-
   develop and test on Anvil Testnet.
 ---
 
-# Development Network
+# Local Development Network Setup
 
 ### 1. Prerequisites[​](https://wiki.findora.org/docs/developers/development\_network#1-prerequisites) <a href="#1-prerequisites" id="1-prerequisites"></a>
 

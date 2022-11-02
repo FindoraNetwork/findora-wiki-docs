@@ -1,4 +1,4 @@
-# TurboPlonk in Findora
+# TurboPlonk
 
 ### Introduction[​](https://wiki.findora.org/docs/modules/cryptography/turbo\_plonk#introduction) <a href="#introduction" id="introduction"></a>
 

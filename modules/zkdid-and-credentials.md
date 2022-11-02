@@ -8,7 +8,7 @@ Of note, [zero-knowledge](https://hackernoon.com/eli5-zero-knowledge-proof-78a27
 
 For detailed information about DIDs and credential verification, please see the official [W3C DID specification](https://www.w3.org/2019/did-wg/).
 
-To skip directly, to installing the zkDID SDK [click here](../developers/sdks/zkdid-sdk/zkdid-sdk-installation.md).
+To skip directly, to installing the zkDID SDK [click here](../developers/developer-sdks/zkdid-sdk/zkdid-sdk-installation.md).
 
 ## Key Stakeholders
 
