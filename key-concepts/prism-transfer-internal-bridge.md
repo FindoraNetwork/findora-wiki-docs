@@ -82,4 +82,4 @@ Below is a general overview of how Prism works:
 * The ledger mints UTXOs based on the amounts specified
 * The transaction fees for this transaction are paid using FRA-smart tokens
 
-NOTE: Detailed steps are explained [here](../general-users/use-wallets/findora-wallet/prism.md).
+NOTE: Detailed steps are explained [here](../general-user-materials/use-wallets/findora-wallet/prism.md).
