@@ -4,7 +4,7 @@
 
 ## Findora Basics
 
-* [Architecture](findora-basics/architecture.md)
+* [Architecture](findora-basics/introduction.md)
 * [Change Log](findora-basics/change-log.md)
 * [Contribute](findora-basics/contribute.md)
 
@@ -35,15 +35,16 @@
 * [Developer SDKs](developer-materials/developer-sdks/README.md)
   * [EVM Smart Chain SDK](developer-materials/developer-sdks/evm-smart-chain-sdk/README.md)
     * [Ethereum Developer Tools (and Wallets)](developer-materials/developer-sdks/evm-smart-chain-sdk/ethereum-developer-tools-and-wallets/README.md)
-      * [Configure Ganache](developer-materials/developer-sdks/evm-smart-chain-sdk/ethereum-developer-tools-and-wallets/configure-ganache.md)
       * [Configure Hardhat](developer-materials/developer-sdks/evm-smart-chain-sdk/ethereum-developer-tools-and-wallets/configure-hardhat.md)
       * [Configure Metamask](developer-materials/developer-sdks/evm-smart-chain-sdk/ethereum-developer-tools-and-wallets/configure-metamask.md)
       * [Configure Remix](developer-materials/developer-sdks/evm-smart-chain-sdk/ethereum-developer-tools-and-wallets/configure-remix.md)
-      * [Configure The Graph](developer-materials/developer-sdks/evm-smart-chain-sdk/ethereum-developer-tools-and-wallets/configure-the-graph/README.md)
-        * [Building & Deploying Subgraph (local node)](developer-materials/developer-sdks/evm-smart-chain-sdk/ethereum-developer-tools-and-wallets/configure-the-graph/building-and-deploying-subgraph-local-node.md)
-        * [Building & Deploying Subgraph (public Graph node)](developer-materials/developer-sdks/evm-smart-chain-sdk/ethereum-developer-tools-and-wallets/configure-the-graph/building-and-deploying-subgraph-public-graph-node.md)
       * [Configure Truffle](developer-materials/developer-sdks/evm-smart-chain-sdk/ethereum-developer-tools-and-wallets/configure-truffle.md)
       * [Configure Waffle](developer-materials/developer-sdks/evm-smart-chain-sdk/ethereum-developer-tools-and-wallets/configure-waffle.md)
+    * [EVM Tools](developer-materials/developer-sdks/evm-smart-chain-sdk/evm-tools/README.md)
+      * [Configure Ganache](developer-materials/developer-sdks/evm-smart-chain-sdk/evm-tools/configure-ganache.md)
+      * [Configure The Graph](developer-materials/developer-sdks/evm-smart-chain-sdk/evm-tools/configure-the-graph/README.md)
+        * [Building & Deploying Subgraph (local node)](developer-materials/developer-sdks/evm-smart-chain-sdk/evm-tools/configure-the-graph/building-and-deploying-subgraph-local-node.md)
+        * [Building & Deploying Subgraph (public Graph node)](developer-materials/developer-sdks/evm-smart-chain-sdk/evm-tools/configure-the-graph/building-and-deploying-subgraph-public-graph-node.md)
     * [EVM API Reference](developer-materials/developer-sdks/evm-smart-chain-sdk/evm-api-reference.md)
     * [Mint NFTs](developer-materials/developer-sdks/evm-smart-chain-sdk/mint-nfts/README.md)
       * [Deploy NFT Contract (1 of 3)](developer-materials/developer-sdks/evm-smart-chain-sdk/mint-nfts/deploy-nft-contract-1-of-3.md)
