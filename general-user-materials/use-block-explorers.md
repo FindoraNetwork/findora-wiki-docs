@@ -1,6 +1,6 @@
-# Block Explorers
+# Use Block Explorers
 
-There are two separate block explorers on Findora. [Learn more](../findora-basics/introduction.md) about Findora's multichain infrastructure.
+There are two separate block explorers on Findora. [Learn more](../findora-basics/overview-of-architecture.md) about Findora's multichain infrastructure.
 
 ## Smart Chain (EVM-based)
 

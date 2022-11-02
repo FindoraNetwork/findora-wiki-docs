@@ -1,10 +1,10 @@
 # Table of contents
 
-* [Findora](README.md)
+* [Findora - Short Overview](README.md)
 
 ## Findora Basics
 
-* [Introduction](findora-basics/introduction.md)
+* [Overview of Architecture](findora-basics/overview-of-architecture.md)
 * [Change Log](findora-basics/change-log.md)
 * [Contribute](findora-basics/contribute.md)
 
