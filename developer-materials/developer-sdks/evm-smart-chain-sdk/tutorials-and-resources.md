@@ -1,6 +1,6 @@
 # Tutorials & Resources
 
-dApp developers can take advantage of a wealth of resources and information already available to Ethereum developers. Findora's [smart chain](./) is 100% EVM-compatible, meaning developers are able to deploy their smart contracts and use existing toolings. Below are some resources to help you get started. Once ready, you can use [Ganache](evm-tools/configure-ganache.md) or similar tools to deploy on Findora by visiting the [networks settings](../../../network-settings/network-settings.md) page.
+dApp developers can take advantage of a wealth of resources and information already available to Ethereum developers. Findora's [smart chain](./) is 100% EVM-compatible, meaning developers are able to deploy their smart contracts and use existing toolings. Below are some resources to help you get started. Once ready, you can use [Ganache](ethereum-developer-tools-and-wallets/configure-ganache.md) or similar tools to deploy on Findora by visiting the [networks settings](../../../network-settings/network-settings.md) page.
 
 {% embed url="https://cryptozombies.io/" %}
 
