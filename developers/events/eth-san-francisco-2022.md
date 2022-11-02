@@ -48,6 +48,6 @@ Findora developers will be attending the onsite event in San Francisco to help s
 
 * [Discord support](https://findora.org/discord)
 * [Findora EVM network settings](../../network-settings/network-settings.md)
-* [Testnet FRA faucet](../../general-users/get-fra/request-testnet-fra.md)
-* [Subgraph deployment](../tutorials-and-resources/the-graph/building-and-deploying-subgraph-public-graph-node.md)
+* [Testnet FRA faucet](../../general-users/acquire-fra/request-testnet-fra.md)
+* [Subgraph deployment](../sdks/evm-smart-chain-sdk/ethereum-developer-tools-and-wallets/configure-the-graph/building-and-deploying-subgraph-public-graph-node.md)
 

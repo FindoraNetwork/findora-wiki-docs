@@ -1,6 +1,6 @@
-# Validators Get started
+# Hardware Requirements
 
-### System Requirements[​](https://wiki.findora.org/docs/validators/validators-get-started#system-requirements) <a href="#system-requirements" id="system-requirements"></a>
+### Validator System Requirements[​](https://wiki.findora.org/docs/validators/validators-get-started#system-requirements) <a href="#system-requirements" id="system-requirements"></a>
 
 * Hardware Requirements:
   * Minimum: 8GB RAM, 2 Core CPU (2.90GHz per core), 100GB Hard Disk

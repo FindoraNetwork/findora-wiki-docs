@@ -1,4 +1,4 @@
-# Using Remix
+# Configure Remix
 
 #### Overview[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/evm-guides/deployment-guides/remix#overview) <a href="#overview" id="overview"></a>
 
@@ -26,12 +26,12 @@ We will show how to use Remix to deploy smart contracts on Findora through the f
 
 1. After the compilation is complete, we can go to the "Deploy & Run Transactions" tab. First, you need to set the environment to "Injected Web3".
 2. You need to use the provider imported by MetaMask, and deploy the contract to the network connected to it through the provider. In this example, it is the Findora Devnet test network.
-3. We will use a MetaMask account with an asset balance to deploy the contract. It can be funded through our testnet faucet ([refer to this guide](../../../../../general-users/get-fra/request-testnet-fra.md)) and then deployed on Findora Devnet.
+3. We will use a MetaMask account with an asset balance to deploy the contract. It can be funded through our testnet faucet ([refer to this guide](../../../../general-users/acquire-fra/request-testnet-fra.md)) and then deployed on Findora Devnet.
 4. Next, enter Test Contract in the constructor and click "Deploy".
 5. MetaMask pop-up window will display transaction-related information, we need to click "confirm" to sign.
 
-<figure><img src="../../../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 6\. After the transaction is confirmed, the contract will appear in the "Deployed Contracts" column of Remix. From here, you can interact with the contract function.
 
-<figure><img src="../../../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>

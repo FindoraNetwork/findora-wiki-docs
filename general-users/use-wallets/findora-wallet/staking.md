@@ -15,9 +15,9 @@
 1.  Transfer FRA from an existing Findora wallet to your Findora Address: [Guide of Transparent Transfer](transfer.md#transparent-transfer).
 
     <figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
-2. If you don't own any FRA, you should buy from Kucoin or Gate.io first:[ Guide of How to Buy (Smart) FRA on KuCoin](../../get-fra/buy-fra.md)​
+2. If you don't own any FRA, you should buy from Kucoin or Gate.io first:[ Guide of How to Buy (Smart) FRA on KuCoin](../../acquire-fra/buy-mainnet-fra.md)​
 3. Transfer FRA (Smart) to EVM-compatible Wallet: [Guide of Withdraw from KuCoin to Findora Smart Chain](https://medium.com/findorafoundation/tutorial-2-how-to-withdraw-smart-fra-from-kucoin-to-metamask-beneficial-to-findora-66dfa7c92dee)​
-   * Config Metamask for Findora Mainnet. [Check this guide](../../../developers/sdks/evm-smart-chain-sdk/ethereum-wallets/using-metamask.md) on how to use MetaMask. [Visit this page](../../../network-settings/network-settings.md) for the latest Mainnet Network Info.
+   * Config Metamask for Findora Mainnet. [Check this guide](../../../developers/sdks/evm-smart-chain-sdk/ethereum-developer-tools-and-wallets/configure-metamask.md) on how to use MetaMask. [Visit this page](../../../network-settings/network-settings.md) for the latest Mainnet Network Info.
    * To hold (Smart) FRA privately (i.e. off-exchange), you can use BitKeep (mobile) and choose Findora Smart Chain in the menu
 4. Use Prism Transfer to convert smart tokens into FRA native tokens: [Guide of Prism Transfer](prism.md)
 
