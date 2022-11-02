@@ -2,7 +2,7 @@
 description: Scaling Ethereum Privacy
 ---
 
-# Findora
+# Findora - Short Overview
 
 **Findora is a privacy protection public blockchain based on zero-knowledge proof**. It aims to become the next-generation financial infrastructure. It is co-sponsored by world-class cryptographers, experienced distributed engineering teams, and entrepreneurs.&#x20;
 
@@ -12,4 +12,4 @@ In addition, Findora innovatively uses various proven data structures to create 
 
 This documentation is maintained by the Findora community.  Findora Foundation would like to commend everybody in the Findora community for their dedication, trust, and evangelism in achieving this together.&#x20;
 
-<figure><img src=".gitbook/assets/fin.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/findoralogonew.svg" alt=""><figcaption></figcaption></figure>
