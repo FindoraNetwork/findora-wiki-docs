@@ -1,4 +1,4 @@
-# Prism Transfer
+# Prism Transfer (Internal Bridge)
 
 Findora is built from two different blockchain layers that follow a single consensus algorithm.
 
@@ -7,7 +7,11 @@ These two blockchain layers include:
 * **Findora Native Chain** - a UTXO-based blockchain layer
 * **Findora Smart Chain** - an accounts-based blockchain layer
 
-**Prism** is the feature that enables users to bridge (aka transfer) assets from the UTXO-based side to the accounts-based side (and vice-versa) of the Findora blockchain. Users can initiate a Prism transfer via the Findora wallet. Developers can integrate PRISM transfers into their application via the SDK.
+**Prism** is the feature that enables users to bridge (aka transfer) assets from the UTXO-based side to the EVM accounts-based side (and vice-versa) of the Findora blockchain.&#x20;
+
+Essentially, Prism transfer is an **internal bridge** between the two Findora blockchains.
+
+Users can initiate a Prism transfer via the Findora wallet. Developers can integrate PRISM transfers into their application via the SDK.
 
 <figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption><p>Prism Overview</p></figcaption></figure>
 

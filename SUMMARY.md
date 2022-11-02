@@ -17,7 +17,7 @@
   * [Field Simulation](modules/cryptography/field-simulation.md)
   * [TurboPlonk in Findora](modules/cryptography/turboplonk-in-findora.md)
 * [EVM Smart Chain](modules/evm-smart-chain.md)
-* [Prism Transfer](modules/prism-transfer.md)
+* [Prism Transfer (Internal Bridge)](modules/prism-transfer-internal-bridge.md)
 * [Staking](modules/staking/README.md)
   * [Overview](modules/staking/overview.md)
   * [Consensus](modules/staking/consensus.md)
