@@ -1,10 +1,10 @@
 # Table of contents
 
-* [Findora - Short Overview](README.md)
+* [Overview](README.md)
 
 ## Findora Basics
 
-* [Overview of Architecture](findora-basics/introduction.md)
+* [Architecture](findora-basics/architecture.md)
 * [Change Log](findora-basics/change-log.md)
 * [Contribute](findora-basics/contribute.md)
 
@@ -70,9 +70,9 @@
     * [zkDID Example Code](developer-materials/developer-sdks/zkdid-sdk/zkdid-example-code.md)
 * [Local Development Network Setup](developer-materials/local-development-network-setup.md)
 * [Other](developer-materials/other/README.md)
-  * [Bug Bounties](developer-materials/other/bug-bounties.md)
-  * [Events](developer-materials/other/events/README.md)
-    * [🏗 ETH San Francisco 2022](developer-materials/other/events/eth-san-francisco-2022.md)
+  * [Bug Bounties](developer-materials/misc.-bug-bounties.md)
+  * [Events](developer-materials/misc.-events/README.md)
+    * [🏗 ETH San Francisco 2022](developer-materials/misc.-events/eth-san-francisco-2022.md)
 
 ## Network Settings
 
