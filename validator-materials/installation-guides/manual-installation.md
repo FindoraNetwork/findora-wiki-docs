@@ -1,4 +1,4 @@
-# Manual Setup
+# Manual Installation
 
 ### Step 1: Pull Findora docker image[​](https://wiki.findora.org/docs/validators/manual-setup#step-1-pull-findora-docker-image) <a href="#step-1-pull-findora-docker-image" id="step-1-pull-findora-docker-image"></a>
 
@@ -27,7 +27,7 @@ In this example, we get the live version is \`v0.3.27-release\`. Then we downloa
 docker pull ${FINDORAD_IMG}
 ```
 
-<figure><img src="../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
 
 Verify you have the latest version by checking for the tag as seen in the picture below
 
@@ -35,7 +35,7 @@ Verify you have the latest version by checking for the tag as seen in the pictur
 docker image ls
 ```
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2: Setup fn CLI[​](https://wiki.findora.org/docs/validators/manual-setup#step-2-setup-fn-cli) <a href="#step-2-setup-fn-cli" id="step-2-setup-fn-cli"></a>
 
@@ -61,12 +61,12 @@ docker image ls
 
 
 
-    <figure><img src="../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
 3.  Ensure that binaries have executable permissions set correctly
 
 
 
-    <figure><img src="../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3: Configure Local Node[​](https://wiki.findora.org/docs/validators/manual-setup#step-3-configure-local-node) <a href="#step-3-configure-local-node" id="step-3-configure-local-node"></a>
 
@@ -78,7 +78,7 @@ docker image ls
 
 
 
-    <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 2.  Create ledger data directory
 
     First we are going to clean up any old data you might have by removing the ROOT\_DIR folder. Be sure to backup all your keys (validator, node and wallet key) before removing this directory.
@@ -148,7 +148,7 @@ export CHAINDATA_URL=$(cut -d , -f 1 "${ROOT_DIR}/latest")
 
 Run `echo $CHAINDATA_URL` to verify the link
 
-<figure><img src="../.gitbook/assets/image (3) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (4).png" alt=""><figcaption></figcaption></figure>
 
 1.  Download the Data
 
@@ -162,7 +162,7 @@ Run `echo $CHAINDATA_URL` to verify the link
 
 
 
-    <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 2.  Run the following commands to finish the process.
 
     ```bash
@@ -351,8 +351,8 @@ Run the following on console on your server to show the latest stats.
 fn show
 ```
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 > **NOTE**
 >
-> For the next steps, proceed to [this Staking Guide](staking-guide.md) to learn how to fund your validator and stake FRA.
+> For the next steps, proceed to [this Staking Guide](../operational-guides/staking-guide.md) to learn how to fund your validator and stake FRA.

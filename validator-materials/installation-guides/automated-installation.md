@@ -1,4 +1,4 @@
-# Automated Setup
+# Automated Installation
 
 This guides shows how to use the automated setup scripts to configure your validator node and download the binaries automatically.
 
@@ -8,11 +8,11 @@ This guides shows how to use the automated setup scripts to configure your valid
 
 {% tabs %}
 {% tab title="Linux version" %}
-{% file src="../.gitbook/assets/fn (1)" %}
+{% file src="../../.gitbook/assets/fn (1)" %}
 {% endtab %}
 
 {% tab title="MacOS version" %}
-{% file src="../.gitbook/assets/fn-mac" %}
+{% file src="../../.gitbook/assets/fn-mac" %}
 {% endtab %}
 {% endtabs %}
 
@@ -68,11 +68,11 @@ Note: If this directory does not exist, you will need to create it.
 
 {% tabs %}
 {% tab title="Mainnet" %}
-{% file src="../.gitbook/assets/node_init_mainnet.sh" %}
+{% file src="../../.gitbook/assets/node_init_mainnet.sh" %}
 {% endtab %}
 
 {% tab title="Testnet" %}
-{% file src="../.gitbook/assets/node_init_testnet.sh" %}
+{% file src="../../.gitbook/assets/node_init_testnet.sh" %}
 {% endtab %}
 {% endtabs %}
 
@@ -84,7 +84,7 @@ bash -x node_init_testnet.sh
 
 **NOTE**
 
-All existing validator and wallet information will be removed by running these scripts. If all you want is to keep your data, [Safety Clean](version-update.md#auto-safety-clean) should be used
+All existing validator and wallet information will be removed by running these scripts. If all you want is to keep your data, [Safety Clean](../operational-guides/version-updating-guide.md#auto-safety-clean) should be used
 
 #### Connect to the Network[​](https://wiki.findora.org/docs/validators/automated-setup#connect-to-the-network) <a href="#connect-to-the-network" id="connect-to-the-network"></a>
 
@@ -109,5 +109,5 @@ fn setup -K <path to validator key> || exit 1
 
 > **NOTE**
 >
-> For the next steps, proceed to [this Staking Guide](staking-guide.md) to learn how to fund your validator and stake FRA.\
+> For the next steps, proceed to [this Staking Guide](../operational-guides/staking-guide.md) to learn how to fund your validator and stake FRA.\
 >

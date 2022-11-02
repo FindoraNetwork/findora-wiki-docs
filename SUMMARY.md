@@ -4,7 +4,7 @@
 
 ## Findora Basics
 
-* [Overview of Architecture](findora-basics/overview-of-architecture.md)
+* [Overview of Architecture](findora-basics/introduction.md)
 * [Change Log](findora-basics/change-log.md)
 * [Contribute](findora-basics/contribute.md)
 
@@ -99,9 +99,11 @@
 
 ## Validator Materials
 
-* [Automated Setup](validator-materials/automated-setup.md)
-* [Hardware Requirements](validator-materials/hardware-requirements.md)
-* [Manual Setup](validator-materials/manual-setup.md)
-* [Node Backup Guide](validator-materials/node-backup-guide.md)
-* [Staking Guide](validator-materials/staking-guide.md)
-* [Version Update](validator-materials/version-update.md)
+* [Installation Guides](validator-materials/installation-guides/README.md)
+  * [Automated Installation](validator-materials/installation-guides/automated-installation.md)
+  * [Manual Installation](validator-materials/installation-guides/manual-installation.md)
+  * [System Requirements](validator-materials/installation-guides/system-requirements.md)
+* [Operational Guides](validator-materials/operational-guides/README.md)
+  * [Backup Guide](validator-materials/operational-guides/backup-guide.md)
+  * [Staking Guide](validator-materials/operational-guides/staking-guide.md)
+  * [Version Updating Guide](validator-materials/operational-guides/version-updating-guide.md)
