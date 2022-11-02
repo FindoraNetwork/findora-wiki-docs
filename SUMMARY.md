@@ -15,7 +15,7 @@
   * [Cryptography Primitives](modules/cryptography/cryptography-primitives.md)
   * [Delegated Schnorr](modules/cryptography/delegated-schnorr.md)
   * [Field Simulation](modules/cryptography/field-simulation.md)
-  * [TurboPlonk in Findora](modules/cryptography/turboplonk-in-findora.md)
+  * [TurboPlonk](modules/cryptography/turboplonk.md)
 * [EVM Smart Chain](modules/evm-smart-chain.md)
 * [Prism Transfer (Internal Bridge)](modules/prism-transfer-internal-bridge.md)
 * [Staking](modules/staking/README.md)
@@ -32,7 +32,7 @@
 
 ## Developers
 
-* [Development Network](developers/development-network.md)
+* [Development Network Setup](developers/development-network-setup.md)
 * [SDKs](developers/sdks/README.md)
   * [EVM Smart Chain SDK](developers/sdks/evm-smart-chain-sdk/README.md)
     * [Ethereum Developer Tools (and Wallets)](developers/sdks/evm-smart-chain-sdk/ethereum-developer-tools-and-wallets/README.md)
@@ -51,6 +51,7 @@
       * [Mint NFT (2 of 3)](developers/sdks/evm-smart-chain-sdk/mint-nfts/mint-nft-2-of-3.md)
       * [View NFT (3 of 3)](developers/sdks/evm-smart-chain-sdk/mint-nfts/view-nft-3-of-3.md)
     * [Precompiled Contracts](developers/sdks/evm-smart-chain-sdk/precompiled-contracts.md)
+    * [Tutorials & Resources](developers/sdks/evm-smart-chain-sdk/tutorials-and-resources.md)
   * [UTXO Native Chain SDK](developers/sdks/utxo-native-chain-sdk/README.md)
     * [UTXO Native Chain SDK Installation](developers/sdks/utxo-native-chain-sdk/utxo-native-chain-sdk-installation.md)
     * [Developer Tools](developers/sdks/utxo-native-chain-sdk/developer-tools/README.md)
@@ -68,7 +69,6 @@
     * [zkDID SDK Installation](developers/sdks/zkdid-sdk/zkdid-sdk-installation.md)
     * [zkDID API Reference](developers/sdks/zkdid-sdk/zkdid-api-reference.md)
     * [zkDID Example Code](developers/sdks/zkdid-sdk/zkdid-example-code.md)
-* [Tutorials & Resources](developers/tutorials-and-resources.md)
 * [Bug Bounty Policy](developers/bug-bounty-policy.md)
 * [Events](developers/events/README.md)
   * [🏗 ETH San Francisco 2022](developers/events/eth-san-francisco-2022.md)
