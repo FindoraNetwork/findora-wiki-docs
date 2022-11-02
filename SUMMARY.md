@@ -99,8 +99,8 @@
 
 ## Validators
 
-* [Hardware Requirements](validators/hardware-requirements.md)
 * [Automated Setup](validators/automated-setup.md)
+* [Hardware Requirements](validators/hardware-requirements.md)
 * [Manual Setup](validators/manual-setup.md)
 * [Node Backup Guide](validators/node-backup-guide.md)
 * [Staking Guide](validators/staking-guide.md)
