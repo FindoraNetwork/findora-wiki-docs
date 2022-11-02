@@ -65,7 +65,7 @@
       * [CLI Overview](developers/sdks/utxo-native-chain-sdk/utxo-guides/cli-overview.md)
   * [Privacy Routing SDK](developers/sdks/privacy-routing-sdk.md)
   * [zkDID SDK](developers/sdks/zkdid-sdk/README.md)
-    * [⚙ zkDID SDK Installation](developers/sdks/zkdid-sdk/zkdid-sdk-installation.md)
+    * [zkDID SDK Installation](developers/sdks/zkdid-sdk/zkdid-sdk-installation.md)
     * [zkDID API Reference](developers/sdks/zkdid-sdk/zkdid-api-reference.md)
     * [zkDID Example Code](developers/sdks/zkdid-sdk/zkdid-example-code.md)
 * [Tools](developers/tools/README.md)
