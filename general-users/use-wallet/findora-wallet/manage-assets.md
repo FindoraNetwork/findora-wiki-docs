@@ -6,14 +6,14 @@
 
 * Creating a new asset requires you to first _**define**_ the asset. Then, to complete the process of creating a new asset you must _**issue**_ the asset (by specifying the number of units of that asset to issue). Please note, after you define the asset the number of units for that asset remains 0 and will remain 0 until you issue the asset.
 
-![wallet21.png](https://wiki.findora.org/assets/images/wallet21-8194b4a6731650041ec220905210e023.png)
+<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
 Below are the two steps needed to create a new asset:
 
 1. Goto `Manage Assets` ⇒ `Define New Asset`
-   * Fill out the input fields on the `Define New Asset` page
+   *   Fill out the input fields on the `Define New Asset` page
 
-![wallet22.png](https://wiki.findora.org/assets/images/wallet22-e2af1ca6f53f5b541dab1cad91ed9bbd.png)
+       <figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
 * `Asset Creator` - select the wallet address which will create the new asset
 * `Asset Nickname` - enter a nickname for the asset (it can be edited later)
@@ -27,31 +27,30 @@ Below are the two steps needed to create a new asset:
 
     * Click `Define New Asset` and then `Confirm` to complete this part of the process
 
-    ![](https://wiki.findora.org/img/wallet/wallet23.png)
+    ![](<../../../.gitbook/assets/image (56).png>)
 
-![](https://wiki.findora.org/img/wallet/wallet24.png)
+![](<../../../.gitbook/assets/image (51).png>)
 
-1. Goto `Manage Assets` ⇒ `Issue Asset`
-   * Fill out the input fields on the `Issue Asset` page
+2\. Goto `Manage Assets` ⇒ `Issue Asset`
 
-![wallet25.png](https://wiki.findora.org/assets/images/wallet25-0f46ed89eb6c3b20d0e148c9a9de2479.png)
+*   Fill out the input fields on the `Issue Asset` page
 
+    <figure><img src="../../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 * `Asset Creator` - select the wallet which created the custom asset
 * `Asset Nickname` - select from the list of custom assets that have been previously defined
 * `Issuance Amount` - enter the number of tokens to create. If the token was defined with a maximum units restriction, you will not be able to create tokens beyond the maximum limit.
 * `Show or Hide Amounts on Ledger?` - choose whether the amounts will be shown or hidden for the assets to be issued
 * Click `Confirm` to complete the process
 
-![](https://wiki.findora.org/img/wallet/wallet26.png)
+![](<../../../.gitbook/assets/image (48).png>)
 
-![](https://wiki.findora.org/img/wallet/wallet27.png)
+![](<../../../.gitbook/assets/image (80).png>)
 
 ### Manage Custom Assets[​](https://wiki.findora.org/docs/evm\_guides/use\_wallet/findora\_wallet/manage#manage-custom-assets) <a href="#manage-custom-assets" id="manage-custom-assets"></a>
 
-* If you created your own custom assets earlier, you can manage these custom assets via the `Manage Assets` ⇒ `Manage` page
+*   If you created your own custom assets earlier, you can manage these custom assets via the `Manage Assets` ⇒ `Manage` page
 
-![wallet30.png](https://wiki.findora.org/assets/images/wallet30-2d8a0a1ab369f8e112ec066871260f65.png)
-
+    <figure><img src="../../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 * Manage your custom assets via the following commands:
   * `Save` - saves _all_ custom asset data in the app to a text file on your computer. This data includes the asset code, nickname, wallet address that created asset, etc.)
   * `Open another file` - imports _all_ custom asset data saved in a text file on your computer

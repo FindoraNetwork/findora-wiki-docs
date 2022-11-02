@@ -6,7 +6,7 @@ The first step is to install Metamask from [metamask.io](https://metamask.io/).
 
 Next up, click on the bar that would typically show your last connected network.
 
-![](<../../../../.gitbook/assets/image (5).png>)
+![](<../../../../.gitbook/assets/image (5) (1).png>)
 
 You should get a drop-down and a button that shows "Add Network". Click on that and a new tab will open where you can place Findora's network configurations.
 

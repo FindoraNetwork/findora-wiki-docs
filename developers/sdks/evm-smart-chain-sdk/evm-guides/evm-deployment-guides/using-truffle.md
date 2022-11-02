@@ -119,7 +119,7 @@ truffle compile --compile-all
 
 The output of the compilation is located in the `./build/contracts` directory. If the directory does not exist, it will be created automatically. These compiled files are essential for the proper functioning of the Truffle framework. You should not manually modify these files outside of normal compilation or distribution. The file has the contract abi information you need. as the picture shows：
 
-<figure><img src="../../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 9\. Create a deployment script file
 

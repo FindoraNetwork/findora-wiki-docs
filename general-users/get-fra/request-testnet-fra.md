@@ -41,7 +41,7 @@ Step 3: FindoraBot will automatically detect commands requesting Testnet FRA EVM
 Bot Request Format:
 
 ```bash
-!faucet <environment> <wallet address> <Email>
+!faucet-<environment> <wallet address> <Email>
 ```
 
 ### Examples:
@@ -49,13 +49,13 @@ Bot Request Format:
 **Anvil Testnet (Staking)**
 
 ```bash
-!faucet anvil fra19rtfg2g58x6jxxxxxxxxxxxxxxxxx example@gmail.com
+!faucet-anvil fra19rtfg2g58x6jxxxxxxxxxxxxxxxxx example@gmail.com
 ```
 
 **Forge Testnet**
 
 ```
-!faucet forge fra19rtfg2g58x6jxxxxxxxxxxxxxxxxx example@gmail.com
+!faucet-forge fra19rtfg2g58x6jxxxxxxxxxxxxxxxxx example@gmail.com
 ```
 
 #### Check FRA UTXO Balance[​](https://wiki.findora.org/docs/evm\_guides/get\_fra/faucet#check-fra-utxo-balance) <a href="#check-fra-utxo-balance" id="check-fra-utxo-balance"></a>

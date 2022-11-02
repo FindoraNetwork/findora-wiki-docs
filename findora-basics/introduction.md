@@ -16,7 +16,7 @@ Findora’s blockchain technology solves many of these privacy-related issues as
 
 #### Architecture and Key Components <a href="#architecture-and-key-components" id="architecture-and-key-components"></a>
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>Architectural Overview</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (3).png" alt=""><figcaption><p>Architectural Overview</p></figcaption></figure>
 
 Findora consists of the following key modules:
 

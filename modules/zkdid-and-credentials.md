@@ -39,7 +39,7 @@ Below are the key flows that developers can build to replicate the web apps/Dapp
 
 **i) Credential Issuer - Create ZK Circuit for a Credentials to Issue**
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p><strong>Create zkCircuit</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p><strong>Create zkCircuit</strong></p></figcaption></figure>
 
 * Credential Issuers must create a zero-knowledge `circuit` (zkCircuit) which is required to create a zkCredential and, later on, a zkProof. Alternatively, a pre-defined zkCircuit can be used as well (if the credential issuers wishes to outsource the zkCircuit creation process to a trusted third party).
 
@@ -47,7 +47,7 @@ Below are the key flows that developers can build to replicate the web apps/Dapp
 
 **ii) Credential Issuer - DID Credential Creation Flow**
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p><strong>Credential Issuer - DID Credential Creation Flow</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p><strong>Credential Issuer - DID Credential Creation Flow</strong></p></figcaption></figure>
 
 * A Credential Issuer will create a new DID identifier for Metamask users who don’t currently have a DID identifier
 * Identity Issuer will create the DID identifier and the first identity-related credentials (i.e. name, date of birth, etc.)

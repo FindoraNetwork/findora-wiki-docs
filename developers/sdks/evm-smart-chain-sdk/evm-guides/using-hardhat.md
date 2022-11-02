@@ -128,7 +128,7 @@ npx hardhat run scripts/deploy.js --network findora
 
 The contract can be deployed in a few seconds, and then you can see the contract address printed out on the terminal：
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 #### Interact with the contract[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/evm-guides/hardhat#interact-with-the-contract) <a href="#interact-with-the-contract" id="interact-with-the-contract"></a>
 

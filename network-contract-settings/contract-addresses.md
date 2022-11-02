@@ -1,4 +1,4 @@
-# FRC20 Token Contracts
+# Contract Addresses
 
 
 
@@ -8,7 +8,7 @@ The contract symbol's suffix (i.e. ".e", ".b", etc.) represents which chain the 
 
 You need to import these contract addresses into Metamask to view these tokens in Metamask. Select `Import tokens -> Custom Token` in your Metamask browser extension and paste in the contract address into Metamask.
 
-![Docusaurus](https://wiki.findora.org/assets/images/metamask-import-token-630cad5e425e639dc2efa6e35c272a45.png)
+![](<../.gitbook/assets/image (3).png>)
 
 ### FRC20 token contracts for Findora mainnet[​](https://wiki.findora.org/docs/evm\_guides/use\_wallet/metamask/tokens#frc20-token-contracts-for-findora-mainnet) <a href="#frc20-token-contracts-for-findora-mainnet" id="frc20-token-contracts-for-findora-mainnet"></a>
 

@@ -12,15 +12,14 @@
 
 #### Get FRA tokens[​](https://wiki.findora.org/docs/evm\_guides/use\_wallet/findora\_wallet/staking-user-guide#get-fra-tokens) <a href="#get-fra-tokens" id="get-fra-tokens"></a>
 
-1. Transfer FRA from an existing Findora wallet to your Findora Address: [Guide of Transparent Transfer](transfer.md#transparent-transfer).
+1.  Transfer FRA from an existing Findora wallet to your Findora Address: [Guide of Transparent Transfer](transfer.md#transparent-transfer).
 
-![](https://wiki.findora.org/assets/images/c-transfers-4-a99b3e47ec0c0d688a3e9f794aaff193.png)
-
-1. If you don't own any FRA, you should buy from Kucoin or Gate.io first:[ Guide of How to Buy (Smart) FRA on KuCoin](../../get-fra/buy-fra.md)​
-2. Transfer FRA (Smart) to EVM-compatible Wallet: [Guide of Withdraw from KuCoin to Findora Smart Chain](https://medium.com/findorafoundation/tutorial-2-how-to-withdraw-smart-fra-from-kucoin-to-metamask-beneficial-to-findora-66dfa7c92dee)​
+    <figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+2. If you don't own any FRA, you should buy from Kucoin or Gate.io first:[ Guide of How to Buy (Smart) FRA on KuCoin](../../get-fra/buy-fra.md)​
+3. Transfer FRA (Smart) to EVM-compatible Wallet: [Guide of Withdraw from KuCoin to Findora Smart Chain](https://medium.com/findorafoundation/tutorial-2-how-to-withdraw-smart-fra-from-kucoin-to-metamask-beneficial-to-findora-66dfa7c92dee)​
    * Config Metamask for Findora Mainnet. [Check this guide](../../../developers/sdks/evm-smart-chain-sdk/evm-guides/using-metamask.md) on how to use MetaMask. [Visit this page](../../../network-settings/network-settings.md) for the latest Mainnet Network Info.
    * To hold (Smart) FRA privately (i.e. off-exchange), you can use BitKeep (mobile) and choose Findora Smart Chain in the menu
-3. Use Prism Transfer to convert smart tokens into FRA native tokens: [Guide of Prism Transfer](prism.md)
+4. Use Prism Transfer to convert smart tokens into FRA native tokens: [Guide of Prism Transfer](prism.md)
 
 ![](https://miro.medium.com/max/700/0\*lluDOL4k\_37ocXei)
 

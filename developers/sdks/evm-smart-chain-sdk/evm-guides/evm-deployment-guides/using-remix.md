@@ -34,4 +34,4 @@ We will show how to use Remix to deploy smart contracts on Findora through the f
 
 6\. After the transaction is confirmed, the contract will appear in the "Deployed Contracts" column of Remix. From here, you can interact with the contract function.
 
-<figure><img src="../../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>

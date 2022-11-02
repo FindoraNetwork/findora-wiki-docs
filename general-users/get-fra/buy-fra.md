@@ -12,10 +12,10 @@ Once you do, you can search for FRA in the search bar in the right-hand side of 
 
 You’ll find the USDT/FRA trading pool. Click on that to trade USDT for FRA:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once you click on Trade, you’ll be taken to the USDT/FRA trading pair where you can trade for FRA:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 Buying FRA from Gate.io follows a similar process. So now, congratulations, you’ve got FRA!

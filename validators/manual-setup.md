@@ -61,12 +61,12 @@ docker image ls
 
 
 
-    <figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
 3.  Ensure that binaries have executable permissions set correctly
 
 
 
-    <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3: Configure Local Node[​](https://wiki.findora.org/docs/validators/manual-setup#step-3-configure-local-node) <a href="#step-3-configure-local-node" id="step-3-configure-local-node"></a>
 
