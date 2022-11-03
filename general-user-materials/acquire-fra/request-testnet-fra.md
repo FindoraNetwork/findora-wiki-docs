@@ -1,4 +1,4 @@
-# Request Testnet FRA
+# Request (Testnet) FRA
 
 To test the Findora suite of applications or get started with building on the Findora network, you can request to receive testnet tokens via our `Discord` bot: `FindoraBot`.
 
@@ -22,6 +22,12 @@ Bot Request Format:
 
 ```bash
 !evm 0xe11F5c3e132B8B52203aFaAd849434373D48E4c1
+```
+
+### Forge Testnet
+
+```
+!evm forge <0x wallet address>
 ```
 
 {% hint style="info" %}
