@@ -4,7 +4,7 @@
 
 The zkDID SDK allows developers to implement decentralized identifiers (DIDs), zero-knowledge credentials (zkCredentials) and zero knowledge proofs (zkProofs). With these components, developers can enable Dapps (i.e. verifiers) to access private information about DID holders via reading their zkProofs (that is based on information stored in their zkCredentials). The module will provide an overview of the main stakeholders and key flows to implement a credential issuance and verification processes.
 
-Of note, [zero-knowledge](https://hackernoon.com/eli5-zero-knowledge-proof-78a276db9eff) refers to the ability to cryptographically verify data without disclosing the exact credential value (i.e. cryptographically enable the verification that a DID holder’s credential contains credit score is above 700 — without revealing the exact number to the verifier).
+Of note, [zero-knowledge](https://hackernoon.com/eli5-zero-knowledge-proof-78a276db9eff) refers to the ability to cryptographically verify data without disclosing the exact credential value (i.e. cryptographically enable the verification that a DID holder’s credential contains a credit score above 700 — without revealing the exact number to the verifier).
 
 For detailed information about DIDs and credential verification, please see the official [W3C DID specification](https://www.w3.org/2019/did-wg/).
 
