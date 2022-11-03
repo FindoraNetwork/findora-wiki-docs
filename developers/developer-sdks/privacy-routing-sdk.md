@@ -10,6 +10,10 @@ You can use `privacy-routing-sdk` to transfer any FRC-20 asset (including FRA) o
 
 {% embed url="https://github.com/FindoraNetwork/privacy-routing-sdk" %}
 
+{% hint style="info" %}
+Note: Privacy Routing SDK can currently only be used on the Findora **Forge** Testnet. See [network settings](../../network-settings/network-settings.md) for RPC details and request **Forge** EVM testnet `FRA` tokens [here](../../general-user-materials/acquire-fra/request-testnet-fra.md).
+{% endhint %}
+
 ### Privacy Routing Overview
 
 Below is a visual representation of the major flows when routing transactions which begins on the Findora EVM wallet through the Findora UTXO layer (to break the link between the sender and final Findora EVM wallet receiver).
