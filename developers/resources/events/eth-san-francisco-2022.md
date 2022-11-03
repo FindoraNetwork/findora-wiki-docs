@@ -46,7 +46,7 @@ For a conceptual overview of DIDs, credentials and the stakeholders in the crede
 
 Findora developers will be attending the onsite event in San Francisco to help support the hackathon participants. Additionally, developers may use the Findora Discord channel to ask questions and speak to a specialist from the team.
 
-* [Discord support](https://findora.org/discord)
+* [Discord support](https://findora.org/discord) (#dev-chat channel)
 * [Findora EVM network settings](../../../network-settings/network-settings.md)
 * [Testnet FRA faucet](../../../general-user-materials/acquire-fra/request-testnet-fra.md)
 * [Subgraph deployment](../../evm-tools-and-tutorials/the-graph/building-and-deploying-subgraph-public-graph-node.md)
