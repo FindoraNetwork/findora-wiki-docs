@@ -18,6 +18,10 @@ Developers pick either two options below when building their Findora EVM dApp
 Single Winner earns **$5,000 🎉**
 {% endhint %}
 
+{% hint style="info" %}
+Note: Privacy Routing SDK can currently only be used on the Findora **Forge** Testnet. See [network settings](../../../network-settings/network-settings.md) for RPC details and request **Forge** EVM testnet `FRA` tokens [here](../../../general-user-materials/acquire-fra/request-testnet-fra.md).
+{% endhint %}
+
 ## Findora Private Transactions
 
 Findora’s Privacy Routing SDK will allow developers to mask certain attributes from on-chain transactions: sender/receiver address, asset type, and asset amount. Using the SDK, developers can send private transactions from one Findora EVM address to another Findora EVM address.
