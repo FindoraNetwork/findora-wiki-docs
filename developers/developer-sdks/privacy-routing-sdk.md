@@ -183,3 +183,11 @@ export const FINDORA_EVM_CHAIN_ID = '2154';
 
 Sdk.init({ ...ENV_CONFIG, web3: new Web3(Web3.givenProvider) });
 ```
+
+
+
+## Full Example Dapp
+
+To see a full example code base of a implementation of the privacy routing SDK in a Dapp, visit the Github Repo below:
+
+* [https://github.com/FindoraNetwork/privacy-routing-sdk-example](https://github.com/FindoraNetwork/privacy-routing-sdk-example)
