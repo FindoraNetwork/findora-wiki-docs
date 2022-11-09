@@ -8,7 +8,7 @@ description: How to use privacy-routing-sdk
 
 You can use `privacy-routing-sdk` to transfer any FRC-20 asset (including FRA) on Findora Smart Chain from Address A to Address B, and remove the link between the two addresses. Both addresses can be classical user address or contract address.
 
-{% embed url="https://github.com/FindoraNetwork/privacy-routing-sdk" %}
+{% embed url="https://github.com/FindoraNetwork/privacy-routing-sdk-example" %}
 
 {% hint style="info" %}
 Note: Privacy Routing SDK can currently only be used on the Findora **Forge** Testnet. See [network settings](../../network-settings/network-settings.md) for RPC details and request **Forge** EVM testnet `FRA` tokens [here](../../general-user-materials/acquire-fra/request-testnet-fra.md).
@@ -169,7 +169,7 @@ findora.transferabarToBar(
 ## Boilerplate settings
 
 ```typescript
-import { Sdk } from 'ys-sdk';
+import { Sdk } from 'privacy-routing-sdk';
 import Web3 from 'web3';
 
 export const ENV_CONFIG = {
