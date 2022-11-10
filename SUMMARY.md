@@ -39,7 +39,7 @@
     * [Remix](developers/evm-tools-and-tutorials/contract-deployment/remix.md)
     * [Truffle](developers/evm-tools-and-tutorials/contract-deployment/truffle.md)
     * [Waffle](developers/evm-tools-and-tutorials/contract-deployment/waffle.md)
-  * [The Graph](developers/evm-tools-and-tutorials/the-graph.md)
+  * [The Graph](developers/evm-tools-and-tutorials/the-graph/README.md)
   * [Mint NFTs](developers/evm-tools-and-tutorials/mint-nfts/README.md)
     * [Deploy NFT Contract (1 of 3)](developers/evm-tools-and-tutorials/mint-nfts/deploy-nft-contract-1-of-3.md)
     * [Mint NFT (2 of 3)](developers/evm-tools-and-tutorials/mint-nfts/mint-nft-2-of-3.md)
