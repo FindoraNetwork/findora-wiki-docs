@@ -47,7 +47,7 @@ $ yarn build FindoraNetwork/example-subgraph/subgraph.yaml
 # Build completed: .../FindoraNetwork/findora-graph/build/subgraph.yaml
 ```
 
-#### Run a local graph-node, to deploy and test your subgraph:
+#### Run a local graph node to deploy and test your subgraph:
 
 1- Install [Docker](https://www.docker.com/) on your machine.
 
