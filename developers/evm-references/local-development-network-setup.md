@@ -52,7 +52,7 @@ sudo apt install -y build-essential libleveldb-dev libssl-dev pkg-config clang l
 
 {% tab title="MacOS" %}
 ```bash
-brew install openssl leveldb​
+brew install openssl leveldb
 ```
 {% endtab %}
 {% endtabs %}
