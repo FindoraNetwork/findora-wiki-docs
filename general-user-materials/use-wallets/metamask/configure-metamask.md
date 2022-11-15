@@ -36,7 +36,7 @@ Next, configure Metamask to connect to Findora’s EVM network (aka Smart Chain)
 
 For example, if you would like to connect to the Anvil Testnet, your Metamask should be configured like this:
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (5).png" alt=""><figcaption></figcaption></figure>
 
 Click on the `Save` button and you should have a screen like this and be ready to go!
 
