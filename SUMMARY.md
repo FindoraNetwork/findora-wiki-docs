@@ -98,11 +98,11 @@
 
 ## Validator Materials
 
-* [Installation Guides](validator-materials/installation-guides/README.md)
-  * [Automated Installation](validator-materials/installation-guides/automated-installation.md)
-  * [Manual Installation](validator-materials/installation-guides/manual-installation.md)
-  * [System Requirements](validator-materials/installation-guides/system-requirements.md)
+* [Node Setup Guides](validator-materials/node-setup-guides/README.md)
+  * [Automated Setup](validator-materials/node-setup-guides/automated-setup.md)
+  * [Manual Setup](validator-materials/node-setup-guides/manual-setup.md)
+  * [System Requirements](validator-materials/node-setup-guides/system-requirements.md)
 * [Operational Guides](validator-materials/operational-guides/README.md)
-  * [Backup Guide](validator-materials/operational-guides/backup-guide.md)
+  * [Node Data Backup Guide](validator-materials/operational-guides/node-data-backup-guide.md)
   * [Staking Guide](validator-materials/operational-guides/staking-guide.md)
   * [Version Updating Guide](validator-materials/operational-guides/version-updating-guide.md)
