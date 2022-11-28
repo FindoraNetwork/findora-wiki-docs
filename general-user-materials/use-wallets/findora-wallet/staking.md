@@ -7,7 +7,7 @@
 #### Setup Findora Wallet[​](https://wiki.findora.org/docs/evm\_guides/use\_wallet/findora\_wallet/staking-user-guide#setup-findora-wallet) <a href="#setup-findora-wallet" id="setup-findora-wallet"></a>
 
 * Go to the official [Findora Wallet website](https://wallet.findora.org/) and download the desktop wallet.
-* Detailed instructions can be found here: [Findora Wallet Guide](wallet-basic.md). If you are a new user, you can [Create Wallet](wallet-basic.md#create-wallet), or you can [Import Wallet](wallet-basic.md#import-wallet).
+* Detailed instructions can be found here: [Findora Wallet Guide](new-wallet.md). If you are a new user, you can [Create Wallet](new-wallet.md#create-wallet), or you can [Import Wallet](new-wallet.md#import-wallet).
 * Please always make sure you back up the mnemonic/seed phrase of your wallet.
 
 #### Get FRA tokens[​](https://wiki.findora.org/docs/evm\_guides/use\_wallet/findora\_wallet/staking-user-guide#get-fra-tokens) <a href="#get-fra-tokens" id="get-fra-tokens"></a>

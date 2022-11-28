@@ -1,16 +1,4 @@
-# Wallet Basic
-
-### Installing the Mac/Windows Wallet[​](https://wiki.findora.org/docs/evm\_guides/use\_wallet/findora\_wallet/walletbasic#installing-the-macwindows-wallet) <a href="#installing-the-macwindows-wallet" id="installing-the-macwindows-wallet"></a>
-
-The Findora wallet enables you to send and receive FRA tokens and even create your own custom assets. Findora provides wallet application for most of the popular operating systems across desktop and mobile. Currently, you can download and install Findora wallet on Mac, Windows, iOS and Android.
-
-[Download the latest version of Findora Wallet](https://wallet.findora.org/)
-
-[Download Wallet v0.3.2 for Mac](https://s3-us-west-2.amazonaws.com/wallet.findora.org/download/Findora\_Wallet\_Setup\_0.3.2.dmg)
-
-[Download Wallet v0.3.2 for Windows](https://s3-us-west-2.amazonaws.com/wallet.findora.org/download/Findora\_Wallet\_Setup\_0.3.2.exe)
-
-[Download Wallet Android APK](https://wallet.findora.org/download/FindoraWallet.apk)
+# New Wallet
 
 ### Create Wallet <a href="#create-wallet" id="create-wallet"></a>
 
