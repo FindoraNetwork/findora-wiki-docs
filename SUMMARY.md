@@ -83,11 +83,11 @@
   * [Buy (Mainnet) FRA](general-user-materials/acquire-fra/buy-mainnet-fra.md)
   * [Request (Testnet) FRA](general-user-materials/acquire-fra/request-testnet-fra.md)
   * [Transfer FRA (Metamask <-> Findora Wallet)](general-user-materials/acquire-fra/transfer-fra-metamask-less-than-greater-than-findora-wallet.md)
-* [Bridge Tokens to Findora](general-user-materials/bridge-tokens-to-findora.md)
-* [Use Block Explorers](general-user-materials/use-block-explorers.md)
 * [Use Wallets](general-user-materials/use-wallets/README.md)
-  * [Metamask](general-user-materials/use-wallets/metamask/README.md)
-    * [Configure Metamask](general-user-materials/use-wallets/metamask/configure-metamask.md)
+  * [MetaMask](general-user-materials/use-wallets/metamask/README.md)
+    * [Download](general-user-materials/use-wallets/metamask/download.md)
+    * [Configure (Automatic)](general-user-materials/use-wallets/metamask/configure-automatic.md)
+    * [Configure (Manual)](general-user-materials/use-wallets/metamask/configure-manual.md)
   * [Findora Wallet](general-user-materials/use-wallets/findora-wallet/README.md)
     * [Download](general-user-materials/use-wallets/findora-wallet/download.md)
     * [New Wallet](general-user-materials/use-wallets/findora-wallet/new-wallet.md)
@@ -96,6 +96,8 @@
     * [Prism](general-user-materials/use-wallets/findora-wallet/prism.md)
     * [Manage Assets](general-user-materials/use-wallets/findora-wallet/manage-assets.md)
   * [Ledger Hardware Wallet](general-user-materials/use-wallets/ledger-hardware-wallet.md)
+* [Bridge Tokens to Findora](general-user-materials/bridge-tokens-to-findora.md)
+* [Use Block Explorers](general-user-materials/use-block-explorers.md)
 
 ## Validator Materials
 
