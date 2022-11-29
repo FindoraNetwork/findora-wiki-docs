@@ -8,7 +8,7 @@ Validators must stake a minimum of 10,000 FRA to register as a validator. Before
 
 #### Testnet Funding[​](https://wiki.findora.org/docs/validators/staking-guide#testnet-funding) <a href="#testnet-funding" id="testnet-funding"></a>
 
-You can request Testnet FRA tokens using our Discord Bot. Please [follow this guide](../../general-user-materials/acquire-fra/request-testnet-fra.md) to claim your free FRA Native Chain tokens.
+You can request Testnet FRA tokens using our Discord Bot. Please [follow this guide](../../general-user-materials/acquire-fra/request-fra-testnet.md) to claim your free FRA Native Chain tokens.
 
 While requesting the tokens, you need to specify the `Findora Address` associated with your validator node. To locate this wallet address, run `fn show`, and get your fra address as displayed in the screenshot below.
 

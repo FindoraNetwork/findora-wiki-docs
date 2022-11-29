@@ -11,7 +11,7 @@ You can use `privacy-routing-sdk` to transfer any FRC-20 asset (including FRA) o
 {% embed url="https://github.com/FindoraNetwork/privacy-routing-sdk-example" %}
 
 {% hint style="info" %}
-Note: Privacy Routing SDK can currently only be used on the Findora **Forge** Testnet. See [network settings](../../network-settings/network-settings.md) for RPC details and request **Forge** EVM testnet `FRA` tokens [here](../../general-user-materials/acquire-fra/request-testnet-fra.md).
+Note: Privacy Routing SDK can currently only be used on the Findora **Forge** Testnet. See [network settings](../../network-settings/network-settings.md) for RPC details and request **Forge** EVM testnet `FRA` tokens [here](../../general-user-materials/acquire-fra/request-fra-testnet.md).
 {% endhint %}
 
 ### Privacy Routing Overview

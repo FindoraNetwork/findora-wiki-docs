@@ -80,13 +80,13 @@
 ## General User Materials
 
 * [Acquire FRA](general-user-materials/acquire-fra/README.md)
-  * [Buy (Mainnet) FRA](general-user-materials/acquire-fra/buy-mainnet-fra.md)
-  * [Request (Testnet) FRA](general-user-materials/acquire-fra/request-testnet-fra.md)
+  * [Purchase FRA](general-user-materials/acquire-fra/purchase-fra.md)
+  * [Request FRA (Testnet)](general-user-materials/acquire-fra/request-fra-testnet.md)
   * [Transfer FRA (Metamask <-> Findora Wallet)](general-user-materials/acquire-fra/transfer-fra-metamask-less-than-greater-than-findora-wallet.md)
 * [Use Wallets](general-user-materials/use-wallets/README.md)
   * [MetaMask](general-user-materials/use-wallets/metamask/README.md)
     * [Download](general-user-materials/use-wallets/metamask/download.md)
-    * [Configure (Automatic)](general-user-materials/use-wallets/metamask/configure-automatic.md)
+    * [Configure (Auto)](general-user-materials/use-wallets/metamask/configure-auto.md)
     * [Configure (Manual)](general-user-materials/use-wallets/metamask/configure-manual.md)
   * [Findora Wallet](general-user-materials/use-wallets/findora-wallet/README.md)
     * [Download](general-user-materials/use-wallets/findora-wallet/download.md)
