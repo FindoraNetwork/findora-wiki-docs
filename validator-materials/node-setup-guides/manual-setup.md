@@ -7,8 +7,6 @@ description: >-
 
 # Manual Setup
 
-Installing & Configuring a Findora Validator Node
-
 ### System Requirements[​](https://docs.findora.org/validators/validators-get-started#system-requirements) <a href="#system-requirements" id="system-requirements"></a>
 
 * Hardware Requirements:
@@ -21,6 +19,8 @@ Installing & Configuring a Findora Validator Node
   * Ubuntu 20.04LTS or 22.04LTS Operating System or MacOS
   * Firewall ports opened: 8545, 8667-8669, 26657
   * User account with root access
+
+## Installing & Configuring a Findora Validator Node
 
 ### Step 1: First Server Login <a href="#step-1-pull-findora-docker-image" id="step-1-pull-findora-docker-image"></a>
 
