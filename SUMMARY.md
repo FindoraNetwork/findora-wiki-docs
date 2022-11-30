@@ -102,8 +102,8 @@
 ## Validator Materials
 
 * [Node Setup Guides](validator-materials/node-setup-guides/README.md)
-  * [Automated Setup](validator-materials/node-setup-guides/automated-setup.md)
   * [Manual Setup](validator-materials/node-setup-guides/manual-setup.md)
+  * [Automated Setup](validator-materials/node-setup-guides/automated-setup.md)
   * [System Requirements](validator-materials/node-setup-guides/system-requirements.md)
 * [Operational Guides](validator-materials/operational-guides/README.md)
   * [Node Data Backup Guide](validator-materials/operational-guides/node-data-backup-guide.md)
