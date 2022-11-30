@@ -20,8 +20,6 @@ description: >-
   * Firewall ports opened: 8545, 8667-8669, 26657
   * User account with root access
 
-## Installing & Configuring a Findora Validator Node
-
 ### Step 1: First Server Login <a href="#step-1-pull-findora-docker-image" id="step-1-pull-findora-docker-image"></a>
 
 This guide assumes you have an Ubuntu Server running and can log in as root. We recommend setting up a user account to run the findora service under a new account instead of running the software directly as root.
@@ -42,7 +40,7 @@ adduser servicefindora
 
 <figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
-* [ ] **Completed**: Add the "servicefindora" user account.
+> **✅ Completed**: Add the "servicefindora" user account.
 
 #### Provide Root Access to the "servicefindora" Account: <a href="#step-1-pull-findora-docker-image" id="step-1-pull-findora-docker-image"></a>
 
@@ -56,7 +54,7 @@ usermod -aG sudo servicefindora
 
 There will be no output response to the command.
 
-* [ ] **Completed**: Provide root access to the "servicefindora" account.
+> **✅ Completed**: Provide root access to the "servicefindora" account.
 
 #### Logout and Reconnect as Your New User
 
@@ -64,7 +62,7 @@ At this point, you can log out by typing `exit` and hitting enter.&#x20;
 
 Log back into your node as "servicefindora" using your SSH client (e.g. Putty).
 
-* [ ] **Completed**: Logout and reconnect as "servicefindora".
+> **✅ Completed**: Logout and reconnect as "servicefindora".
 
 #### Verify Root Access for User Account
 
@@ -76,7 +74,7 @@ groups
 ```
 {% endcode %}
 
-* [ ] **Completed**: Verify root access for "servicefindora".
+> **✅ Completed**: Verify root access for "servicefindora".
 
 <figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption><p>Ensure that "sudo" appears in the output.</p></figcaption></figure>
 
@@ -94,7 +92,7 @@ You'll see lengthy output from running this command but it should return to the 
 
 <figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption><p>Example output during the docker installation step.</p></figcaption></figure>
 
-* [ ] **Completed**: Install docker and add "servicefindora" to the docker group.
+> **✅ Completed**: Install docker and add "servicefindora" to the docker group.
 
 **Disconnect and Reconnect as "servicefindora"**
 
@@ -102,7 +100,7 @@ After reconnecting, you can verify you are in the docker group by typing `groups
 
 <figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
-* [ ] **Completed**: Logout and reconnect as "servicefindora".
+> &#x20;**✅ Completed**: Logout and reconnect as "servicefindora".
 
 #### Run the "docker ps" Command
 
@@ -110,7 +108,7 @@ Run `docker ps` command. Below is the expected output:
 
 <figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption><p>Output expected from the "docker ps" command.</p></figcaption></figure>
 
-* [ ] **Completed**: Confirm the output above from the `docker ps` command.
+> **✅ Completed**: Confirm the output above from the `docker ps` command.
 
 ### Step 3: Pull Findora Docker Container Image <a href="#step-1-pull-findora-docker-image" id="step-1-pull-findora-docker-image"></a>
 
@@ -124,7 +122,7 @@ export LIVE_VERSION=$(curl -s https://prod-mainnet.prod.findora.org:8668/version
 ```
 {% endcode %}
 
-* [ ] **Completed**: Run the "export" command.
+> **✅ Completed**: Run the "export" command.
 
 {% hint style="info" %}
 Note: At this point, if your session disconnects, you will need to re-run any exports so your server has these variables configured. They only last for your currently connected session.
@@ -140,7 +138,7 @@ docker pull ${FINDORAD_IMG}
 
 <figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
-* [ ] **Completed**: Run the "docker pull" command.
+> **✅ Completed**: Run the "docker pull" command.
 
 Optional: Verify your version of findorad:&#x20;
 
@@ -174,7 +172,7 @@ wget https://github.com/FindoraNetwork/findora-wiki-docs/raw/main/.gitbook/asset
 {% endtab %}
 {% endtabs %}
 
-* [ ] **Completed**: Download the fn CLI using the command above.
+> **✅ Completed**: Download the fn CLI using the command above.
 
 ### Step 5: Configure Local Node[​](https://docs.findora.org/docs/validators/manual-setup#step-3-configure-local-node) <a href="#step-3-configure-local-node" id="step-3-configure-local-node"></a>
 
@@ -188,7 +186,7 @@ export ROOT_DIR=/data/findora/mainnet
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-* [ ] **Completed**: Use the export command to configure the environment path variable.
+> **✅ Completed**: Use the export command to configure the environment path variable.
 
 #### Create a Ledger Data Directory
 
@@ -206,7 +204,7 @@ Ignore this warning if you're starting from scratch.
 sudo rm -rf ${ROOT_DIR}
 ```
 
-* [ ] **Completed**: Remove the ROOT\_DIR folder.
+> **✅ Completed**: Remove the ROOT\_DIR folder.
 
 Now create a new ledger data directory & set permissions for your `servicefindora` user; customize the username if needed before running:
 
@@ -218,7 +216,7 @@ sudo mkdir -p ${ROOT_DIR} && sudo chown -R servicefindora:servicefindora ${ROOT_
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-* [ ] **Completed**: Create a new ledger data directory and set user permissions.
+> **✅ Completed**: Create a new ledger data directory and set user permissions.
 
 #### Initialize Tendermint
 
@@ -232,7 +230,7 @@ Initializing Tendermint will create a node key (stored in a newly created file a
 
 <figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
-* [ ] **Completed**: Initialize Tendermint using the command above.
+> &#x20;**✅ Completed**: Initialize Tendermint using the command above.
 
 #### Setting Permissions
 
@@ -244,7 +242,7 @@ sudo chown -R servicefindora:servicefindora ${ROOT_DIR}/tendermint/
 ```
 {% endcode %}
 
-* [ ] **Completed**: Set permissions using the command above.
+> **✅ Completed**: Set permissions using the command above.
 
 #### Get the Link for the Latest Chain Data
 
@@ -276,7 +274,7 @@ echo $CHAINDATA_URL
 
 <figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
-* [ ] **Completed**: Obtain the link for the latest chain data and export URL to a variable.
+> **✅ Completed**: Obtain the link for the latest chain data and export URL to a variable.
 
 ### Step 6: Download Findora Database
 
@@ -296,7 +294,7 @@ wget -O "${ROOT_DIR}/snapshot" "${CHAINDATA_URL}"
 
 <figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
-* [ ] **Completed**: Download the FIndora database.
+> **✅ Completed**: Download the Findora database.
 
 Run the following commands to unpack the zipped file and finish the process.&#x20;
 
@@ -316,9 +314,9 @@ mkdir "${ROOT_DIR}/snapshot_data" && tar zxvf "${ROOT_DIR}/snapshot" -C "${ROOT_
 If you encounter a security issue error when trying to initialize findora node, you may need to manually approve its security privileges in your OS first and then re-run the command again
 {% endhint %}
 
-* [ ] **Completed**: Unpack the zipped database file.
+> **✅ Completed**: Unpack the zipped database file.
 
-You are ready to set up your wallet once the database file is unzipped.
+Wait until the unzipping process is completed before proceeding..
 
 ### Step 7: Generate Wallet Staking Key[​](https://docs.findora.org/docs/validators/manual-setup#step-4-generate-staking-key) <a href="#step-4-generate-staking-key" id="step-4-generate-staking-key"></a>
 
@@ -332,7 +330,7 @@ fn genkey > ${ROOT_DIR}/tmp.gen.keypair
 ```
 {% endcode %}
 
-* [ ] **Completed**: Generate new encryption keys.
+> **✅ Completed**: Generate new encryption keys.
 
 #### View the Newly Created Keys
 
@@ -352,17 +350,23 @@ Make sure to save this information in a secure location. Using this output as a 
 **Never share this information.**
 {% endhint %}
 
-* [ ] **Completed**: Generate new encryption keys and save the output to a secure location.
+> **✅ Completed**: Generate new encryption keys and save the output to a secure location.
 
 #### Import Private Key into the Findora Wallet
 
-For convenience, you can import your new validator private key into the Findora wallet. Doing so will allow you to check and manage your FRA balances or to view historical transaction data for this wallet address. Reference the Findora Wallet section under the Wallet category for information on importing an existing wallet.
+For convenience, you can import your new validator private key into the Findora wallet. Doing so will allow you to check and manage your FRA balances or to view historical transaction data for this wallet address.&#x20;
+
+It's suggested to edit the wallet name once imported for easy identification.
+
+Reference the Findora Wallet section under the Wallet category for information on importing an existing wallet.
 
 The private key is displayed next to `sec_key` (above).
 
-> **NOTE**
->
-> The **private key** or the **mnemonic phrase** should never be shared with anyone, even with people from the Findora community or development team. Our mods will never ask for this information. It would be advisable to keep a backup of your mnemonic on a separate storage, should you ever need to restore it.
+{% hint style="warning" %}
+The **private key** or the **mnemonic phrase** should never be shared with anyone, even with people from the Findora community or development team. Our mods will never ask for this information. It would be advisable to keep a backup of your mnemonic on a separate storage, should you ever need to restore it.
+{% endhint %}
+
+> **✅ Completed**: Import your new mnemonic phrase into the Findora wallet.
 
 #### Copy Your New Wallet Key to the Data Location
 
@@ -374,7 +378,7 @@ cp ${ROOT_DIR}/tmp.gen.keypair ${ROOT_DIR}/mainnet_node.key
 ```
 {% endcode %}
 
-* [ ] **Completed**: Copy the new wallet key to the data location.
+> **✅ Completed**: Copy the new wallet key to the data location.
 
 #### Store the Mnemonic Words
 
@@ -408,7 +412,7 @@ cat ${ROOT_DIR}/node.mnemonic
 
 <figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption><p>Example output.</p></figcaption></figure>
 
-* [ ] **Completed**: Store the mnemonic words into ${ROOT\_DIR}/node.mnemonic
+> **✅ Completed**: Store the mnemonic words into ${ROOT\_DIR}/node.mnemonic
 
 ### Step 8: Connect to the Network[​](https://docs.findora.org/docs/validators/manual-setup#step-5-connect-to-the-network) <a href="#step-5-connect-to-the-network" id="step-5-connect-to-the-network"></a>
 
@@ -430,7 +434,7 @@ We have yet to send the command to perform the initial staking and configuration
 
 Note your Findora address, as this will need to be funded with at least 10,000 FRA to start your validator.
 
-* [ ] **Completed**: Connect to the network.
+> &#x20;**✅ Completed**: Connect to the network.
 
 ### Step 9: Start Local Node[​](https://docs.findora.org/docs/validators/manual-setup#step-6-start-or-upgrade-local-node) <a href="#step-6-start-or-upgrade-local-node" id="step-6-start-or-upgrade-local-node"></a>
 
@@ -463,7 +467,7 @@ docker run -d \
 ```
 {% endcode %}
 
-* [ ] **Completed**: Start your validator container.
+> **✅ Completed**: Start your validator container.
 
 ### Step 10: Check Local Node Status[​](https://docs.findora.org/docs/validators/manual-setup#step-7-check-local-node-status) <a href="#step-7-check-local-node-status" id="step-7-check-local-node-status"></a>
 
@@ -498,7 +502,7 @@ Using `fn show` allows you to see your future validator address. Because the sel
 Use the Findora wallet to monitor the balance of your validator address.
 {% endhint %}
 
-* [ ] **Completed**: Transferred 10,000+ FRA to your validator address.
+> **✅ Completed**: Transfer 10,000+ FRA to your validator address.
 
 #### Staker Memo File
 
@@ -531,7 +535,7 @@ In the next step, when you create your validator, the information in this file i
 In the future, you can still utilize this file to update your validator information by re-editing the file and resending your info via the `fn staker-update` command show later.&#x20;
 {% endhint %}
 
-* [ ] **Completed**: Create and customize the staker\_memo file.
+> **✅ Completed**: Create and customize the staker\_memo file.
 
 #### Create Validator and Start Signing
 
@@ -553,7 +557,7 @@ In this example, 15000 \* 1000000 FRA is 15,000 FRA tokens staked.
 
 In a few minutes, your validator information page on [findorascan.io ](https://findorascan.io/)will show the commission rate and self-stake you selected in the command above.
 
-* [ ] **Completed**: Customize self-stake and commission rate and create your on-chain validator.
+> **✅ Completed**: Customize self-stake and commission rate and create your on-chain validator.
 
 ### Wrapping Up
 
@@ -561,7 +565,7 @@ Congratulations!&#x20;
 
 If all steps were completed successfully, your validator should now be online - viewable from the Findora Explorer, in sync with the chain, and self-staked with at least 10,000 FRA.&#x20;
 
-For your next steps, reviewing the Best Practices and Troubleshooting sections of the validator guide is strongly recommended. We also suggest joining the Findora Discord, requesting a validator role, and joining the conversation with other validators.
+Reviewing the Best Practices and Troubleshooting sections of the validator guide is strongly recommended for your next steps. We also suggest joining the Findora Discord, requesting a validator role, and joining the conversation with other validators.
 
 **Ensure you stay up-to-date on the latest Findora news and changes, as some upgrades to the network will require you to update your validator node in a timely manner.**
 
