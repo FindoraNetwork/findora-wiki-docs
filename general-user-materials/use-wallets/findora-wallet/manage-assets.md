@@ -6,7 +6,7 @@
 
 * Creating a new asset requires you to first _**define**_ the asset. Then, to complete the process of creating a new asset you must _**issue**_ the asset (by specifying the number of units of that asset to issue). Please note, after you define the asset the number of units for that asset remains 0 and will remain 0 until you issue the asset.
 
-<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (47) (1).png" alt=""><figcaption></figcaption></figure>
 
 Below are the two steps needed to create a new asset:
 
@@ -29,7 +29,7 @@ Below are the two steps needed to create a new asset:
 
     ![](<../../../.gitbook/assets/image (56).png>)
 
-![](<../../../.gitbook/assets/image (51).png>)
+![](<../../../.gitbook/assets/image (51) (1).png>)
 
 2\. Goto `Manage Assets` ⇒ `Issue Asset`
 

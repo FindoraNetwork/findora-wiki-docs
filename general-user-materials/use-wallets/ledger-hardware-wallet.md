@@ -18,7 +18,7 @@ Step 2: Select your device type. We will use ledger for this demo.
 
 Follow the onscreen instructions to unlock the ledger device and open the Ethereum application
 
-<figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (71) (1).png" alt=""><figcaption></figcaption></figure>
 
 Step 3: Allow Metamask to connect to you hardware device
 
@@ -30,7 +30,7 @@ Make sure that any other applications (such as Ledger Live) which might be conne
 
 Step 4: Once connected, unlock your account.
 
-<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (42) (1).png" alt=""><figcaption></figcaption></figure>
 
 **NOTE**
 
@@ -46,7 +46,7 @@ Receiving funds to you ledger address would be the same process as any other tra
 
 * Setup the transfer and confirm
 
-<figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (81) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
 
@@ -66,11 +66,11 @@ Step 1: Setup the transfer on Metamask
 
 Step 2: Confirm the details and click continue
 
-<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (53) (1).png" alt=""><figcaption></figcaption></figure>
 
 Step 3: Follow on screen instructions to plug your device and open Ethereum app
 
-<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (60) (1).png" alt=""><figcaption></figcaption></figure>
 
 Step 4: The transaction should now pop up on your device
 
@@ -90,6 +90,6 @@ Step 6: Approve the tx on the device by clicking both buttons together
 
 Step 7: Check confirmed status on Metamask and Block Explorer
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37) (1).png" alt=""><figcaption></figcaption></figure>

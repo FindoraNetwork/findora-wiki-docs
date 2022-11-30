@@ -24,7 +24,7 @@ To send a transaction follow the steps below:
 
 3\. Click `Submit` to complete transfer
 
-&#x20;![](<../../../.gitbook/assets/image (54).png>)
+&#x20;![](<../../../.gitbook/assets/image (54) (1).png>)
 
 4\. After submitting your transaction, you can view the public record of your transaction on any block explorer. Click `View Transaction` and you will be taken to Findora's own block explorer — findorascan.io.
 
@@ -44,7 +44,7 @@ Step 2: Make sure you have enough balance for your transfer, then click on "Send
 
 Step 3: In the next step, you should see a few input fields. - The "From" input field designates the wallet you're transferring from. - The "To" input field is where you enter the recipient's wallet address. - "Asset Type" refers to the asset that is being transferred - "Privacy Options" to choose whether to hide the asset type and amount.
 
-<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (49) (1).png" alt=""><figcaption></figcaption></figure>
 
 Step 4: In the "To" input field, copy and paste the recipient's address and please make sure that you have this correct
 
@@ -52,7 +52,7 @@ Step 4: In the "To" input field, copy and paste the recipient's address and plea
 
 Step 5: Enter the amount you want to transfer
 
-<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
 
 Step 6: Now we get to the more important part. To effectively do a transparent transfer, click on the "Show Amounts" to keep the amount transparent, and select "Show Asset Type" radio button to publicly show which asset you're transferring
 
@@ -84,7 +84,7 @@ Step 1: Sign in into your Findora wallet then click on the wallet name you want 
 
 Step 2: Make sure you have enough balance for your transfer, then click on "Send".
 
-<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
 
 Step 3: In the next step, you should see a few input fields. - The "From" input field designates the wallet you're transferring from. - The "To" input field is where you enter the recipient's wallet address. - "Asset Type" refers to the asset that is being transferred - "Privacy Options" to choose whether to hide the asset type and amount.
 
@@ -110,11 +110,11 @@ Step 8: Review the transaction details and click on `Submit`
 
 Step 9: Click on "View Transaction" to get a detailed view of the status of the transaction
 
-<figure><img src="../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (46) (1).png" alt=""><figcaption></figcaption></figure>
 
 Step 10: You can verify on the block explorer that the amount and asset type for this transaction are hidden as per your choice of inputs
 
-<figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (43) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Historical Transactions[​](https://wiki.findora.org/docs/evm\_guides/use\_wallet/findora\_wallet/transfer#historical-transactions) <a href="#historical-transactions" id="historical-transactions"></a>
 
