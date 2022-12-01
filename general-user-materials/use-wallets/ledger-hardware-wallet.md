@@ -8,7 +8,7 @@ Hardware Wallets (also known as cold storage) are physical devices that are not 
 
 Step 1: Select `Connect hardware wallet` in your Metamask settings dropdown
 
-<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (45) (1).png" alt=""><figcaption></figcaption></figure>
 
 Step 2: Select your device type. We will use ledger for this demo.
 

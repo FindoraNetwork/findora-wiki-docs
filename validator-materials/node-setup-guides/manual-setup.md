@@ -214,7 +214,7 @@ sudo mkdir -p ${ROOT_DIR} && sudo chown -R servicefindora:servicefindora ${ROOT_
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 > **✅ Completed**: Create a new ledger data directory and set user permissions.
 
