@@ -2,6 +2,8 @@
 
 `Note:` A major platform version upgrade (v0.3.3x) upgrade window has been scheduled for 12/12/22 6p Pacific Time (PT) through 12/19/22 6p PT. All validators must upgrade to the v0.3.3x binary by Monday 12/19/22 6p PT. Simply follow the `Update Image Version` instructions below to run a script that will automatically update your platform version to v0.3.3x.
 
+Validators will also need to update their `fn` CLI tool as well to work with the updated platform version.
+
 \---
 
 ### Update Binary Version via Docker[​](https://wiki.findora.org/docs/validators/update-version#update-image-version) <a href="#update-image-version" id="update-image-version"></a>
