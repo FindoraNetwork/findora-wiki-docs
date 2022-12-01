@@ -4,9 +4,9 @@
 
 \---
 
-### Update Binary Version[​](https://wiki.findora.org/docs/validators/update-version#update-image-version) <a href="#update-image-version" id="update-image-version"></a>
+### Update Binary Version via Docker[​](https://wiki.findora.org/docs/validators/update-version#update-image-version) <a href="#update-image-version" id="update-image-version"></a>
 
-The script below can be used in any environment to update your validator to the latest binary version via a Docker.
+The script below can be used in any environment to update your validator to the latest binary version via Docker.
 
 {% tabs %}
 {% tab title="Mainnet" %}
