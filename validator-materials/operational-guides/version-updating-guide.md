@@ -98,7 +98,7 @@ The `Auto Safety Clean` script above will:
 ```
 1. Get the latest image version number 
 2. Stop the exist findorad docker container
-3. Remove the exist data ( data only, not the key)
+3. Remove the existing data (data only, not the keys)
     rm -rf "${ROOT_DIR}/findorad"
     rm -rf "${ROOT_DIR}/tendermint/data"
     rm -rf "${ROOT_DIR}/tendermint/config/addrbook.json"
