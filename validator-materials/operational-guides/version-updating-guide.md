@@ -1,8 +1,8 @@
 # Version Updating Guide
 
-`Note:` A major platform version upgrade (v0.3.3x) upgrade window has been scheduled for 12/12/22 6p Pacific Time (PT) through 12/19/22 6p PT. All validators must upgrade to the v0.3.3x binary by Monday 12/19/22 6p PT. Simply follow the `Update Image Version` instructions below to run a script that will automatically update your platform version to v0.3.3x.
+`Note:` A major platform version upgrade (v0.3.3x) upgrade window has been scheduled for 12/12/22 through 12/19/22.
 
-Validators will also need to update their `fn` CLI tool as well to work with the v0.3.3x platform version.
+Validators can begin updating their validator binary version on Monday 12/12/22 at 6p PT. They must finish updating by Monday 12/19/22 at 6p PT. Simply run the script in the `Update Binary Version via Docker` instructions below to automatically update your validator to version to v0.3.3x. Validators will also need to update their `fn` CLI tool as well to work with the v0.3.3x platform version.
 
 \---
 
@@ -35,7 +35,7 @@ The `Update Image Version` script above will:
 4. Output the Docker container status and image version
 ```
 
-To confirm if upgrade worked correctly, check the output of the script which will display both the i) node status and the ii) image version that is running.
+To confirm if the upgrade worked correctly, check the output of the script which will display both the i) node status and the ii) image version that is running.
 
 
 
