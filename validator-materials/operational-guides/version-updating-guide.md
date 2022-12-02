@@ -73,11 +73,7 @@ mv fn /usr/local/bin/
 
 Use the following scripts to clean the data and restart the validator. Please note that this script WILL NOT clean your validator ID and wallet data.
 
-Note: If you customized your environment variables during the initial setup of your validator, you need to set the `$ROOT_DIR` to the same custom path you specified during your initial setup.
 
-Run `bash` to check the `$ROOT_DIR`you created during initial setup (see below):
-
-![](../../.gitbook/assets/image.png)
 
 {% tabs %}
 {% tab title="Mainnet" %}
