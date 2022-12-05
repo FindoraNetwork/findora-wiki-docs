@@ -80,9 +80,9 @@
 ## General User Materials
 
 * [Acquire FRA](general-user-materials/acquire-fra/README.md)
-  * [Purchase FRA](general-user-materials/acquire-fra/purchase-fra.md)
+  * [Acquire FRA](general-user-materials/acquire-fra/acquire-fra.md)
   * [Request FRA (Testnet)](general-user-materials/acquire-fra/request-fra-testnet.md)
-  * [Transfer FRA (Metamask <-> Findora Wallet)](general-user-materials/acquire-fra/transfer-fra-metamask-less-than-greater-than-findora-wallet.md)
+  * [Bridge FRA (EVM <> UTXO)](general-user-materials/acquire-fra/bridge-fra-evm-less-than-greater-than-utxo.md)
 * [Use Wallets](general-user-materials/use-wallets/README.md)
   * [MetaMask](general-user-materials/use-wallets/metamask/README.md)
     * [Download](general-user-materials/use-wallets/metamask/download.md)
