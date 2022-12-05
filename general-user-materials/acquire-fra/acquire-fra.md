@@ -1,21 +1,27 @@
+---
+description: This page describes where you can acquire the FRA token.
+---
+
 # Acquire FRA
 
-One of the easiest ways to get FRA is on [Kucoin ](https://www.kucoin.com/)or [Gate.io](https://gate.io/), some of the top exchanges in the world. We’ll use **Kucoin** as an example here.
+FRA, the native token of Findora, can be acquired on the exchanges listed below. You can find instructions on using each platform through the documentation on their respective websites.
 
-Once you’ve set up a Kucoin account, you still can’t buy FRA directly with fiat currency or a credit card - you will need to trade for FRA using USDT. So, step 1 is to buy some USDT on Kucoin or transfer some over to your Kucoin account.
+{% hint style="info" %}
+Findora has two chains, EVM (0x...) and UTXO (fra...). \
+**Be aware of the network on which you are withdrawing and depositing.** \
+****\
+****The EVM network can send and receive to your MetaMask wallet, while the UTXO can send and receive to your Findora wallet. Use the Findora wallet's Prism feature to bridge between the two.
+{% endhint %}
 
-Then, go to trading:
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p><a href="https://www.kucoin.com/trade/FRA-USDT"> KUCOIN (USDT/FRA)</a></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p><a href="https://www.bitmart.com/trade/en?layout=basic&#x26;theme=dark&#x26;symbol=FRA_USDT">BITMART (USDT/FRA)</a></p></figcaption></figure>
 
-Once you do, you can search for FRA in the search bar in the right-hand side of the screen.
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p><a href="https://www.gate.io/trade/fra_usdt">GATE.IO (USDT/FRA)</a></p></figcaption></figure>
 
-You’ll find the USDT/FRA trading pool. Click on that to trade USDT for FRA:
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-Once you click on Trade, you’ll be taken to the USDT/FRA trading pair where you can trade for FRA:
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
-Buying FRA from Gate.io follows a similar process. So now, congratulations, you’ve got FRA!
+
+

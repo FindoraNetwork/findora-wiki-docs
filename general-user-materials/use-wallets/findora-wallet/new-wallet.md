@@ -2,7 +2,7 @@
 
 ### Create Wallet <a href="#create-wallet" id="create-wallet"></a>
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (4).png" alt=""><figcaption></figcaption></figure>
 
 Click the `Create Wallet` button and the app will display mnemonic "seed words" for you to write down and save for your own safe keeping — offline ideally.\
 These mnemonic seed words are linked to a unique `private key` and wallet that the app will create and store for you inside the app.
@@ -34,7 +34,7 @@ To import `From KeyStore`, upload the KeyStore (which contains a private key ins
 `3.From Private Key`\
 To import directly `From Private Key`, type in or paste in the private key value (i.e. a long string of random alphanumeric values).
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### View Wallet[​](https://wiki.findora.org/docs/evm\_guides/use\_wallet/findora\_wallet/walletbasic#view-wallet) <a href="#view-wallet" id="view-wallet"></a>
 
@@ -51,7 +51,7 @@ The button on the left copies the wallet address to memory so you can paste into
 The button the right opens a QR code which you can scan with your mobile phone camera to import the address into your phone\
 To view a wallet's `Balance`, click on the wallet address and you will be taken to `Wallet Info` page. The default token type displayed is `fra`.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 To check the balance of other tokens stored with that specific wallet account, use the pull-down menu to change the token type (if they exist)
 
