@@ -1,4 +1,8 @@
-# Prism Transfer (Metamask to Findora Wallet)
+---
+description: Bridge your FRA tokens between the EVM and UTXO chains.
+---
+
+# Bridge FRA (EVM <> UTXO)
 
 1.  Go to the `Prism` page on [Findora Wallet](https://wallet.findora.org/), and choose a transfer direction by clicking the arrow icon. In this guide we show how to transfer from EVM-compatible Wallet to Native Wallet. You can adjust the arrow direction according to your needs.
 

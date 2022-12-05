@@ -1,4 +1,4 @@
-# Buy FRA
+# Acquire FRA
 
 One of the easiest ways to get FRA is on [Kucoin ](https://www.kucoin.com/)or [Gate.io](https://gate.io/), some of the top exchanges in the world. We’ll use **Kucoin** as an example here.
 
