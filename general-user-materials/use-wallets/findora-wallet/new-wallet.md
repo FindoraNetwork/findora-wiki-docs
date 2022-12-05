@@ -34,7 +34,7 @@ To import `From KeyStore`, upload the KeyStore (which contains a private key ins
 `3.From Private Key`\
 To import directly `From Private Key`, type in or paste in the private key value (i.e. a long string of random alphanumeric values).
 
-<figure><img src="../../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### View Wallet[​](https://wiki.findora.org/docs/evm\_guides/use\_wallet/findora\_wallet/walletbasic#view-wallet) <a href="#view-wallet" id="view-wallet"></a>
 

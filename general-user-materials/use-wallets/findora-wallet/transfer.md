@@ -126,7 +126,7 @@ Historical transactions results will be displayed
 
 <figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
-If the historical transaction was masked, you will see `*****` over the masked data. You can unmask the data by clicking the icon to the right of the masked data ![](<../../../.gitbook/assets/image (3) (2) (1).png>)
+If the historical transaction was masked, you will see `*****` over the masked data. You can unmask the data by clicking the icon to the right of the masked data ![](<../../../.gitbook/assets/image (3) (2) (1) (1).png>)
 
 <figure><img src="../../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
