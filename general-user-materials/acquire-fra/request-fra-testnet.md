@@ -1,12 +1,16 @@
-# Request (Testnet) FRA
+---
+description: You can request for FRA tokens on the Findora testnet network.
+---
 
-To test the Findora suite of applications or get started with building on the Findora network, you can request to receive testnet tokens via our `Discord` bot: `FindoraBot`.
+# Request FRA (Testnet)
+
+To test the Findora suite of applications or get started with building on the Findora network, you can request to receive testnet tokens via our [Discord](https://findora.org/discord) bot: `FindoraBot`.
 
 ## Request on Findora EVM Chain
 
 Below are the steps to request Anvil testnet FRA tokens on the EVM Chain.
 
-Step 1: Go to [Findora Discord](https://discord.com/invite/findora)
+Step 1: Go to the [Findora Discord](https://findora.org/discord)
 
 Step 2: Go to `#faucet` channel on Findora's Discord
 
