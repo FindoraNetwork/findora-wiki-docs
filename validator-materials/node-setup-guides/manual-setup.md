@@ -28,7 +28,7 @@ In this guide, we will be using the name `servicefindora` but feel free to custo
 
 #### Adding a User Account
 
-Add the new user account to the server using the `adduser` command shown below.&#x20;
+Add the new user account to the server using the `adduser` command, shown below.&#x20;
 
 You will need to pick a password and, optionally, enter some basic info and then answer `Y` to confirm, as shown below. Store this password in a secure location.
 
@@ -60,7 +60,7 @@ There will be no output response to the command.
 
 At this point, you can log out by typing `exit` and hitting enter.&#x20;
 
-Log back into your node as "servicefindora" using your SSH client (e.g. Putty).
+Log back into your node as "servicefindora" using your SSH client (e.g., Putty).
 
 > **✅ Completed**: Logout and reconnect as "servicefindora".
 
@@ -88,7 +88,7 @@ sudo apt update -y && sudo apt install apt-transport-https ca-certificates curl 
 ```
 {% endcode %}
 
-You'll see lengthy output from running this command but it should return to the prompt after a few moments of setting up docker. This is the expected output:
+You'll see lengthy output from running this command, but it should return to the prompt after a few moments of setting up docker. This is the expected output:
 
 <figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption><p>Example output during the docker installation step.</p></figcaption></figure>
 
@@ -220,11 +220,11 @@ sudo mkdir -p ${ROOT_DIR} && sudo chown -R servicefindora:servicefindora ${ROOT_
 
 #### Initialize Tendermint
 
-Initializing Tendermint will create a node key (stored in a newly created file at the path `${ROOT_DIR}/tendermint/config/priv_validator_key.json`). The node key will be used to identify your node, sign blocks a,nd perform other tendermint consensus-related tasks.
+Initializing Tendermint will create a node key (stored in a newly created file at the path `${ROOT_DIR}/tendermint/config/priv_validator_key.json`). The node key will be used to identify your node, sign blocks, and perform other Tendermint consensus-related tasks.
 
 {% code title="Enter the following command:" overflow="wrap" %}
 ```
- docker run --rm -v ${ROOT_DIR}/tendermint:/root/.tendermint ${FINDORAD_IMG} init --mainnet || exit 1
+docker run --rm -v ${ROOT_DIR}/tendermint:/root/.tendermint ${FINDORAD_IMG} init --mainnet || exit 1
 ```
 {% endcode %}
 
@@ -311,7 +311,7 @@ mkdir "${ROOT_DIR}/snapshot_data" && tar zxvf "${ROOT_DIR}/snapshot" -C "${ROOT_
 {% hint style="info" %}
 **Note**
 
-If you encounter a security issue error when trying to initialize findora node, you may need to manually approve its security privileges in your OS first and then re-run the command again
+If you encounter a security issue error when trying to initialize findora node, you may need to mto approve its security privileges in your OS first manually then re-run the command again
 {% endhint %}
 
 > **✅ Completed**: Unpack the zipped database file.
@@ -354,7 +354,7 @@ Make sure to save this information in a secure location. Using this output as a 
 
 #### Import Private Key into the Findora Wallet
 
-For convenience, you can import your new validator private key into the Findora wallet. Doing so will allow you to check and manage your FRA balances or to view historical transaction data for this wallet address.&#x20;
+For convenience, you can conveniently import your new validator private key into the Findora wallet. Doing so will allow you to check and manage your FRA balances or to view historical transaction data for this wallet address.&#x20;
 
 It's suggested to edit the wallet name once imported for easy identification.
 
