@@ -1,7 +1,7 @@
 ---
 description: >-
-  Stake your FRA tokens with a community validator to support decentralization
-  and earn stake rewards.
+  Stake your FRA tokens with a validator to support the decentralization of
+  Findora and earn stake rewards.
 ---
 
 # Stake FRA
