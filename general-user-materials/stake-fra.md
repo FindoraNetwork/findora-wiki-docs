@@ -7,11 +7,7 @@ description: >-
 # Stake FRA
 
 {% hint style="info" %}
-* Stake rewards are issued immediately after your FRA is staked.
-* Unbonding of staked FRA takes approximately 21 days.
-* Rewards are issued during the unbonding process.
-
-Visit the [Staking: Key Concepts ](../key-concepts/staking/)documentation.
+Visit the [**Staking: Key Concepts**](../key-concepts/staking/) **** documentation collection for commonly asked questions and an overview of staking concepts.
 {% endhint %}
 
 ### User Guide to Staking on Findora[​](https://wiki.findora.org/docs/evm\_guides/use\_wallet/findora\_wallet/staking-user-guide#user-guide-to-staking-on-findora) <a href="#user-guide-to-staking-on-findora" id="user-guide-to-staking-on-findora"></a>
