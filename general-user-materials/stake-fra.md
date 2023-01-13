@@ -1,25 +1,37 @@
-# Staking
+---
+description: >-
+  Stake your FRA tokens with a community validator to support decentralization
+  and earn stake rewards.
+---
 
+# Stake FRA
 
+{% hint style="info" %}
+* Stake rewards are issued immediately after your FRA is staked.
+* Unbonding of staked FRA takes approximately 21 days.
+* Rewards are issued during the unbonding process.
+{% endhint %}
 
 ### User Guide to Staking on Findora[​](https://wiki.findora.org/docs/evm\_guides/use\_wallet/findora\_wallet/staking-user-guide#user-guide-to-staking-on-findora) <a href="#user-guide-to-staking-on-findora" id="user-guide-to-staking-on-findora"></a>
 
 #### Setup Findora Wallet[​](https://wiki.findora.org/docs/evm\_guides/use\_wallet/findora\_wallet/staking-user-guide#setup-findora-wallet) <a href="#setup-findora-wallet" id="setup-findora-wallet"></a>
 
 * Go to the official [Findora Wallet website](https://wallet.findora.org/) and download the desktop wallet.
-* Detailed instructions can be found here: [Findora Wallet Guide](new-wallet.md). If you are a new user, you can [Create Wallet](new-wallet.md#create-wallet), or you can [Import Wallet](new-wallet.md#import-wallet).
-* Please always make sure you back up the mnemonic/seed phrase of your wallet.
+* Detailed instructions can be found here: [Findora Wallet Guide](use-wallets/findora-wallet/new-wallet.md).
+* Please always ensure you back up the mnemonic/seed phrase of your wallet.
 
 #### Get FRA tokens[​](https://wiki.findora.org/docs/evm\_guides/use\_wallet/findora\_wallet/staking-user-guide#get-fra-tokens) <a href="#get-fra-tokens" id="get-fra-tokens"></a>
 
-1.  Transfer FRA from an existing Findora wallet to your Findora Address: [Guide of Transparent Transfer](transfer.md#transparent-transfer).
+1.  Transfer FRA from an existing Findora wallet to your Findora Address: [Guide of Transparent Transfer](use-wallets/findora-wallet/transfer.md#transparent-transfer).
 
-    <figure><img src="../../../.gitbook/assets/image (36) (1).png" alt=""><figcaption></figcaption></figure>
-2. If you don't own any FRA, you should buy from Kucoin or Gate.io first:[ Guide of How to Buy (Smart) FRA on KuCoin](../../acquire-fra/acquire-fra.md)​
-3. Transfer FRA (Smart) to EVM-compatible Wallet: [Guide of Withdraw from KuCoin to Findora Smart Chain](https://medium.com/findorafoundation/tutorial-2-how-to-withdraw-smart-fra-from-kucoin-to-metamask-beneficial-to-findora-66dfa7c92dee)​
-   * Config Metamask for Findora Mainnet. [Check this guide](../../../developers/evm-references/metamask.md) on how to use MetaMask. [Visit this page](../../../network-settings/network-settings.md) for the latest Mainnet Network Info.
+    <figure><img src="../.gitbook/assets/image (36) (1).png" alt=""><figcaption></figcaption></figure>
+2. If you don't own any FRA, you can acquire some from a CEX partner.
+   * [Guide of How to Buy (Smart) FRA on KuCoin](acquire-fra/acquire-fra.md)​
+3. Transfer your FRA to EVM-compatible Wallet:&#x20;
+   * [Guide of Withdraw from KuCoin to Findora Smart Chain](https://medium.com/findorafoundation/tutorial-2-how-to-withdraw-smart-fra-from-kucoin-to-metamask-beneficial-to-findora-66dfa7c92dee)​
+4. Config Metamask for Findora Mainnet. [Check this guide](../developers/evm-references/metamask.md) on how to use MetaMask. [Visit this page](../network-settings/network-settings.md) for the latest Mainnet Network Info.
    * To hold (Smart) FRA privately (i.e. off-exchange), you can use BitKeep (mobile) and choose Findora Smart Chain in the menu
-4. Use Prism Transfer to convert smart tokens into FRA native tokens: [Guide of Prism Transfer](prism.md)
+5. Use Prism Transfer to convert smart tokens into FRA native tokens: [Guide of Prism Transfer](use-wallets/findora-wallet/prism.md)
 
 ![](https://miro.medium.com/max/700/0\*lluDOL4k\_37ocXei)
 
