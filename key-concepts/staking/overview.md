@@ -1,8 +1,7 @@
 ---
 description: >-
   Findora is an open, permissionless blockchain secured by a decentralized
-  network of global validators running the Tendermint consensus mechanism. Like
-  other proof of stake (PoS) blockchains, the main
+  network of global validators running the Tendermint consensus mechanism.
 ---
 
 # Overview
