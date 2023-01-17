@@ -44,6 +44,7 @@
     * [Deploy NFT Contract (1 of 3)](developers/evm-tools-and-tutorials/mint-nfts/deploy-nft-contract-1-of-3.md)
     * [Mint NFT (2 of 3)](developers/evm-tools-and-tutorials/mint-nfts/mint-nft-2-of-3.md)
     * [View NFT (3 of 3)](developers/evm-tools-and-tutorials/mint-nfts/view-nft-3-of-3.md)
+  * [Band Protocol](developers/evm-tools-and-tutorials/band-protocol.md)
 * [Developer SDKs](developers/developer-sdks/README.md)
   * [UTXO Native Chain SDK](developers/developer-sdks/utxo-native-chain-sdk/README.md)
     * [UTXO Native Chain SDK Installation](developers/developer-sdks/utxo-native-chain-sdk/utxo-native-chain-sdk-installation.md)
