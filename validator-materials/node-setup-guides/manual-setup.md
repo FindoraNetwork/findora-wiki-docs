@@ -254,21 +254,11 @@ export NAMESPACE=mainnet
 ```
 {% endcode %}
 
-Findora node may contain light history (regular full node) or full history (archive node) based on the node operators' needs. An archive node requires larger disk space (200GB as of Jan. 2023) than regular full nodes.
-
-To get data link for regular **full node**
+Get the Latest Chain Link and Export URL to Variable
 
 {% code title="Enter the following command:" overflow="wrap" %}
 ```
 wget -O "${ROOT_DIR}/latest" "https://prod-${NAMESPACE}-us-west-2-chain-data-backup.s3.us-west-2.amazonaws.com/latest" && export CHAINDATA_URL=$(cut -d , -f 1 "${ROOT_DIR}/latest")
-```
-{% endcode %}
-
-To get data link for **archive node**
-
-{% code title="Enter the following command:" overflow="wrap" %}
-```
-wget -O "${ROOT_DIR}/latest" "https://prod-${NAMESPACE}-us-west-2-archive-data-backup.s3.us-west-2.amazonaws.com/latest" && export CHAINDATA_URL=$(cut -d , -f 1 "${ROOT_DIR}/latest")
 ```
 {% endcode %}
 
@@ -454,7 +444,7 @@ Optional: Stop your local container if necessary using the command below. Stoppi
 docker rm -f findorad || exit 1
 ```
 
-Mandatory: Start your node container with the command below (add `--arc-history=65530,10` for archive node) to pull and setup the latest image.
+Mandatory: Start your validator container with the command below to pull and setup the latest image:
 
 {% code title="Enter the following command:" overflow="wrap" %}
 ```
@@ -477,22 +467,7 @@ docker run -d \
 ```
 {% endcode %}
 
-To run the node in archive mode, you have to add below option
-
-```bash
---arc-history=65530,10
-```
-
-To run the node with Rosetta API enabled, you have to pass additional environment variables
-
-```bash
--e ROSETTA=true           # required
--e ROSETTA_PORT=8080      # overriding options: any http port
--e ROSETTA_NETWORK=PRINET # overriding options: MAINNET, TESTNET, PRIVET
--e ROSETTA_MODE=ONLINE    # overriding options: ONLINE, OFFLINE
-```
-
-> **✅ Completed**: Start your node container.
+> **✅ Completed**: Start your validator container.
 
 ### Step 10: Check Local Node Status[​](https://docs.findora.org/docs/validators/manual-setup#step-7-check-local-node-status) <a href="#step-7-check-local-node-status" id="step-7-check-local-node-status"></a>
 
