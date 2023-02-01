@@ -29,6 +29,12 @@
     * [Concepts](key-concepts/utxo-native-chain/confidential-transfers/concepts.md)
     * [Technical Specifications](key-concepts/utxo-native-chain/confidential-transfers/technical-specifications.md)
 * [zkDID and Credentials](key-concepts/zkdid-and-credentials.md)
+* [Triple Masking](key-concepts/triple-masking/README.md)
+  * [Overview](key-concepts/triple-masking/overview.md)
+  * [SDK Installation](key-concepts/triple-masking/sdk-installation.md)
+  * [Bar to Abar](key-concepts/triple-masking/bar-to-abar.md)
+  * [Abar to Bar](key-concepts/triple-masking/abar-to-bar.md)
+  * [Abar Transfer](key-concepts/triple-masking/abar-transfer.md)
 
 ## Developers
 
