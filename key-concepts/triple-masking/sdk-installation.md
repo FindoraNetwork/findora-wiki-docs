@@ -27,7 +27,7 @@ cd findora-sdk
 After that, switch to the `feat_triple_masking_feature` branch:
 
 ```bash
-git checkout feat_triple_masking_feature
+git checkout develop
 ```
 
 Then, install all SDK dependencies:
