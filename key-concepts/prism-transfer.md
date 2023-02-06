@@ -1,4 +1,4 @@
-# Prism Transfer (Internal Bridge)
+# Prism Transfer
 
 Findora is built from two different blockchain layers that follow a single consensus algorithm.
 
@@ -64,22 +64,48 @@ Special Note: A key innovation of the Findora’s Smart Chain is the design of t
 
 #### Prism for FRA-native and FRA-smart[​](https://wiki.findora.org/docs/modules/prism/Overview#prism-for-fra-native-and-fra-smart) <a href="#prism-for-fra-native-and-fra-smart" id="prism-for-fra-native-and-fra-smart"></a>
 
-With Prism, users can atomically and trustlessly convert their FRA-native tokens on the native chain to FRA-smart tokens on the smart chain.
+With Prism, users can atomically and trustlessly convert their FRA-native tokens on the native chain to FRA-smart tokens on the smart chain. Below are the workflows of how Prism transfer works for FRA.
 
-Below is a general overview of how Prism works:
+#### Case 1: Smart Chain -> Native Chain[​](https://wiki.findora.org/docs/modules/prism/Overview#step-2-smart-chain---native-chain) <a href="#step-2-smart-chain---native-chain" id="step-2-smart-chain---native-chain"></a>
 
-#### Step 1: Native Chain -> Smart Chain[​](https://wiki.findora.org/docs/modules/prism/Overview#step-1-native-chain---smart-chain) <a href="#step-1-native-chain---smart-chain" id="step-1-native-chain---smart-chain"></a>
+* User/contract calls `depositFRA` to pay some amount of FRA to `PrismXXBridge` contract.
+* `PrismXXBridge` builds a mint operation and store on contract.
+* At the block end, each mint operation will be consumed and deposited FRA will be burned.
+* For each mint operation, the coinbase mints equivalent FRA in native chain.
 
-* The transaction is built with a Transfer and Convert operation
-* The UTXO is burnt by transferring to a burn address
-* Assets are minted by adding to the owner’s balance (account specified in the transaction)
-* The transaction fees for this transaction are paid using FRA-native
+<figure><img src="../.gitbook/assets/prismFRA.png" alt=""><figcaption></figcaption></figure>
 
-#### Step 2: Smart Chain -> Native Chain[​](https://wiki.findora.org/docs/modules/prism/Overview#step-2-smart-chain---native-chain) <a href="#step-2-smart-chain---native-chain" id="step-2-smart-chain---native-chain"></a>
+#### Case 2: Native Chain -> Smart Chain[​](https://wiki.findora.org/docs/modules/prism/Overview#step-1-native-chain---smart-chain) <a href="#step-1-native-chain---smart-chain" id="step-1-native-chain---smart-chain"></a>
 
-* Assets are burnt from the specified address by subtracting the balance
-* Minting operations are queued to be processed by the chain
-* The ledger mints UTXOs based on the amounts specified
-* The transaction fees for this transaction are paid using FRA-smart tokens
+* User build `ConvertAccount` operation and transfer some amount of FRA to `BlackHole`.
+* `Blockchain` will mint same value of FRA to `PrismXXBridge` contract.
+* `Blockchain` calls `withdrawFRA` function in `PrismXXBridge`.
+* `PrismXXBridge` sends same value of FRA to target EVM address.
+
+<figure><img src="../.gitbook/assets/prismFRA_withdraw.png" alt=""><figcaption></figcaption></figure>
+
+#### Prism for FRC20[​](https://wiki.findora.org/docs/modules/prism/Overview#native-chain-fra-and-smart-chain-fra) tokens
+
+Apart from FRA, Prism supports all tokens coming from FRC20 family. For every deployed FRC20 asset in smart chain, Prism will automatically create a mapped UTXO-based asset in the native chain, meaning whitelisting is done by Prism in a decentralized way. Similar to FRA Prism transfer, users can easily convert FRC20 token to mapped UTXO token in native chain and vice versa. Additionally, FRC721/1115 token works in a similar way on Prism except for the asset mapping rules. Below are the workflows of how Prism transfer works for FRC20.
+
+#### Case 1: Smart Chain -> Native Chain[​](https://wiki.findora.org/docs/modules/prism/Overview#step-2-smart-chain---native-chain) <a href="#step-2-smart-chain---native-chain" id="step-2-smart-chain---native-chain"></a>
+
+* User/contract `approve` `PrismXXBridge` some amount of FRC20 tokens.
+* User/contract calls `depositFRC20` on `PrismXXBridge`.
+* `PrismXXBridge` internally maps FRC20 asset(EVM) to a native `ASSET`(UTXO).
+* `PrismXXBridge` internally `burn/lock` the tokens and builds a mint operation to store on contract.
+* At the block end, each mint operation will be consumed.
+* For each mint operation, the coinbase mints equivalent `ASSET` in native chain.
+
+<figure><img src="../.gitbook/assets/prismFRC20.png" alt=""><figcaption></figcaption></figure>
+
+#### Case 2: Native Chain -> Smart Chain[​](https://wiki.findora.org/docs/modules/prism/Overview#step-1-native-chain---smart-chain) <a href="#step-1-native-chain---smart-chain" id="step-1-native-chain---smart-chain"></a>
+
+* User build `ConvertAccount` operation and transfer some amount of `ASSET` to `BlackHole`.
+* `Blockchain` call `withdrawFRC20` function in `PrismXXBridge`
+* `PrismXXBridge` internally maps `ASSET`(UTXO) to FRC20 asset (EVM).
+* `PrismXXBridge` internally `mint/release` equivalent FRC20 asset to target EVM address.
+
+<figure><img src="../.gitbook/assets/prismFRC20_withdraw.png" alt=""><figcaption></figcaption></figure>
 
 NOTE: Detailed steps are explained [here](../general-user-materials/use-wallets/findora-wallet/prism.md).

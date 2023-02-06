@@ -17,7 +17,7 @@
   * [Field Simulation](key-concepts/cryptography/field-simulation.md)
   * [TurboPlonk](key-concepts/cryptography/turboplonk.md)
 * [EVM Smart Chain](key-concepts/evm-smart-chain.md)
-* [Prism Transfer (Internal Bridge)](key-concepts/prism-transfer-internal-bridge.md)
+* [Prism Transfer](key-concepts/prism-transfer.md)
 * [Staking](key-concepts/staking/README.md)
   * [Overview](key-concepts/staking/overview.md)
   * [Consensus](key-concepts/staking/consensus.md)
