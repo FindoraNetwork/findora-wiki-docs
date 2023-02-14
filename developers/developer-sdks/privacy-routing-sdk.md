@@ -1,35 +1,64 @@
 ---
-description: How to use privacy-routing-sdk
+description: Anonymous routing for every FRC20 transfer
 ---
 
 # Privacy Routing SDK
 
-## How to use `privacy-routing-sdk`
+### Introduction
 
-You can use `privacy-routing-sdk` to transfer any FRC-20 asset (including FRA) on Findora Smart Chain from Address A to Address B, and remove the link between the two addresses. Both addresses can be classical user address or contract address.
+`Privacy-Routing-SDK` provides simple and integration-friendly APIs for converting FRC20 transfers into anonymous transfers that break the link between senders and receivers. With just a small modification to your DApp's frontend, you can enhance your DeFi, Lending, or other project with privacy features.
+
+### How It Works
+
+`Privacy-Routing-SDK` is powered by zero-knowledge proof technology, allowing for the link between senders and receivers to be broken. The transfer can be completed in just four API calls&#x20;
+
+1. **`depositFRC20()`** to deposit FRC20 tokens as a native asset in the ZK layer.
+2. **`barToAbar()`** to wrap the native asset in an anonymous asset.
+3. **`abarTobar()`** to unwrap the anonymous asset back to its native form.
+4. **`barToEVM()`** to withdraw the native asset back to the EVM.
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Note: In Findora's native chain, transparent assets are represented as **BAR**, while shielded assets are represented as **ABAR**.
+{% endhint %}
+
+The privacy routing process starts with funds being transferred from the sender's EVM address to the privacy layer for privacy shielding, and then back to the receiver's EVM address. During the privacy routing process, one-time receiver addresses are dynamically created and the asset passes through the privacy layer. The key steps are **`barToAbar()`** and **`abarTobar()`**, where the asset is wrapped and unwrapped using one-time stealth addresses, thereby breaking the link between the sender and receiver. The next version of the Privacy-Routing-SDK will simplify the process even further by consolidating multiple API calls into one or two calls to reduce complexity.
+
+### Quickstart Tutorial
+
+Developers can take a look at the `Privacy-Routing-SDK` example on Github.
 
 {% embed url="https://github.com/FindoraNetwork/privacy-routing-sdk-example" %}
 
 {% hint style="info" %}
-Note: Privacy Routing SDK can currently only be used on the Findora **Forge** Testnet. See [network settings](../../network-settings/network-settings.md) for RPC details and request **Forge** EVM testnet `FRA` tokens [here](../../general-user-materials/acquire-fra/request-fra-testnet.md).
+Note: Privacy-Routing-SDK is now available only on the Findora **Forge** Testnet. See [network settings](../../network-settings/network-settings.md) for RPC details and request **Forge** EVM testnet `FRA` tokens [here](../../general-user-materials/acquire-fra/request-fra-testnet.md).
 {% endhint %}
 
-### Privacy Routing Overview
+### DeFi Integration
 
-Below is a visual representation of the major flows when routing transactions which begins on the Findora EVM wallet through the Findora UTXO layer (to break the link between the sender and final Findora EVM wallet receiver).
+The Findora `Privacy-Routing-SDK` is designed as a general tool for FRC20 tokens and can be integrated into various projects in different ways. In the context of DeFi, the simplest way to integrate the SDK is by adding it to the frontend without modifying the smart contracts.
 
-<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p>Privacy Routing SDK Process Flow</p></figcaption></figure>
+As an example, let's consider **PancakeSwap** and a scenario where a user wants to swap 10 USDT to 9.98 USDC on the frontend page. The following are the adjusted steps for this scenario
 
-Here is the process flow using the SDK's APIs:
+**Step 1: Routing:**
 
-<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption><p>Privacy Routing API Call Flow</p></figcaption></figure>
+* User address is: `0x661746C36C4379B5994d9883f3bFf662b711Be76`
+* Call **`depositFRC20()`** to deposit 10 USDT as a native asset in the privacy layer.
+* Call **`barToAbar()`** to wrap the native asset (10 USDT) in an anonymous asset.
+* Call **`abarTobar()`** to unwrap the anonymous asset (10 USDT) back to its native form.
+* Call **`barToEVM()`** to withdraw the native asset (10 USDT) back to an EVM one-time address.
+* One-time receiver is: `0x7366F30D830048dFD947662d92421807bcB7Fdd3`
 
-### Asset Type on Findora Native Chain
+Upon completion of the privacy routing process, the link between the user address and the one-time receiver address holding 10 USDT is cut off.
 
-* **BAR**
-  * Transparent Asset
-* **ABAR**
-  * Shielded Asset (`{amount, asset type, address}` masked)
+**Step 2: Swap:**
+
+* Switches to one-time receiver account: `0x7366F30D830048dFD947662d92421807bcB7Fdd3`.
+* Performs a normal swap of 10 USDT to 9.98 USDC.
+* Final receiver address doesn’t really matter. It could be the original user address `0x661746C36C4379B5994d9883f3bFf662b711Be76` , or it could be a different address.
+
+The private swap is now complete.
 
 ### Simple Steps to Use
 
@@ -56,38 +85,32 @@ const ENV_CONFIG = {
 await Sdk.init(ENV_CONFIG);
 ```
 
-### Supported Tokens
+### The APIs
 
-* **FRC20 (FRA token)**
-* **FRC20 (Customized token)**
-  * any FRC20 token on Findora EVM
+Using `Privacy-Routing-SDK` for a complete anonymous routing in 4 steps
 
-### Findora EVM -> Findora EVM Transaction
+*   **(1) Send assets From `Findora EVM` to `Findora Native Chain`**
 
-Using **privacy-routing-sdk** for a complete confidential cross chain transaction by the following steps,
-
-*   **(1) From `EVM compatible chain` to `Findora Native Chain`**
-
-    * **Bridging FRC20(FRA token) to Findora Native Chain**
+    * Send **FRA** token to Findora Native Chain
 
     ```typescript
     await evm.transfer.fraToBar({
       bridgeAddress: simBridgeAddress, // bridge contract address
-      recipientAddress: "0x.....", // wallet account address
-      amount: "100", // send amount
+      recipientAddress: "0x.....",     // wallet account address
+      amount: "100", // amount
     });
     ```
 
-    * **Bridging FRC20(Customized token) to Findora Native Chain**
+    * Send **FRC20** token to Findora Native Chain
 
     ```typescript
-    /*
+    /**
     Parameters
       bridgeAddress: simBridge contract address
       tokenAddress: FRC20 token address
       totalAmount: send amount
       recipientAddress: wallet account address
-    */
+     */
     await evm.services.approveToken(tokenAddress, simBridgeAddress, tokenAmount);
     return await evm.transfer.frc20ToBar({
       bridgeAddress: simBridgeAddress,
@@ -96,7 +119,7 @@ Using **privacy-routing-sdk** for a complete confidential cross chain transactio
       tokenAmount,
     });
     ```
-* **(2) Converting Assets from `BAR` to `ABAR` in Findora Native Chain （entering confidential cycle）**
+* **(2) Convert assets from `BAR` to `ABAR` in Findora Native Chain (entering anonymous cycle)**
 
 ```typescript
 import { findora } from "privacy-routing-sdk";
@@ -104,12 +127,12 @@ import { findora } from "privacy-routing-sdk";
 /**
 Parameters
   sids: consumable utxo sids
-*/
+ */
 const walletWrap = await findora.keypair.getWallet();
 findora.transfer.barToAbar(walletWrap, sids);
 ```
 
-* **(3) Converting Assets from `ABAR` to `BAR` in Fidnora Native Chain （leaving confidential cycle）**
+* **(3) Convert assets from `ABAR` to `BAR` in Findora Native Chain (leaving anonymous cycle)**
 
 ```typescript
 import { findora } from "privacy-routing-sdk";
@@ -117,7 +140,7 @@ import { findora } from "privacy-routing-sdk";
 /**
 Parameters
   commitments: consumable Abar utxo sids
-*/
+ */
 const walletWrap = await findora.keypair.getWallet();
 findora.transferabarToBar(
   walletWrap.anonWallet,
@@ -126,9 +149,9 @@ findora.transferabarToBar(
 );
 ```
 
-*   **(4) Bridging from `Findora Native Chain` to `EVM Compatible chain`**
+*   **(4) Withdraw assets from `Findora Native Chain` to `Findora EVM`**
 
-    * Bridging **FRC20 (FRA token)** to Findora EVM
+    * Withdraw **FRA** token to Findora EVM
 
     ```typescript
     import { findora } from "privacy-routing-sdk";
@@ -136,7 +159,7 @@ findora.transferabarToBar(
     const walletWrap = await findora.keypair.getWallet();
     await findora.transfer.barToEVM(
       walletWrap.walletEnd,
-      "100", // token amount
+      "100", // amount
       recipientAddress, // recipient's address
       "",
       "",
@@ -144,7 +167,7 @@ findora.transferabarToBar(
     );
     ```
 
-    * Bridging **FRC20 (Customized token)** to Findora EVM
+    * Withdraw **FRC20** token to Findora EVM
 
     ```typescript
     import { findora, evm } from "privacy-routing-sdk";
@@ -158,7 +181,7 @@ findora.transferabarToBar(
 
     await findora.transfer.barToEVM(
       walletWrap.walletEnd,
-      "100", // token amount
+      "100", // amount
       recipientAddress, // recipient's address
       assetCode,
       "",
@@ -166,7 +189,7 @@ findora.transferabarToBar(
     );
     ```
 
-## Boilerplate settings
+### Boilerplate settings
 
 ```typescript
 import { Sdk } from 'privacy-routing-sdk';
