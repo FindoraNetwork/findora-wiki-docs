@@ -46,7 +46,6 @@ const abarToAbar = async () => {
   // Transfer operation would require instances of abars, which will be created (restored)
   // using given commitment strings
   const ownedAbarsResponseOne = await TripleMasking.getOwnedAbars(
-    anonKeysSender.axfrPublicKey,
     givenCommitmentToTransfer
   );
 
@@ -54,7 +53,6 @@ const abarToAbar = async () => {
 
   for (let givenCommitmentToPayFee of givenCommitmentsToPayFee) {
     const ownedAbarsResponseTwo = await TripleMasking.getOwnedAbars(
-      anonKeysSender.axfrPublicKey,
       givenCommitmentToPayFee
     );
 
