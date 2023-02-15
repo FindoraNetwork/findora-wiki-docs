@@ -17,7 +17,7 @@ These network settings are commonly used when configuring Metmask, Findora walle
 
 #### Native Chain (UTXO)
 
-|          |                   Mainnet                   |                Anvil Testnet                |               Forge Testnet               |
-| -------- | :-----------------------------------------: | :-----------------------------------------: | :---------------------------------------: |
-| Node     | https://prod-mainnet.prod.findora.org:26657 | https://prod-testnet.prod.findora.org:26657 | https://prod-forge.prod.findora.org:26657 |
-| Explorer |            https://findorascan.io           |     https://prod-testnet.findorascan.io     |  https://testnet-forge.evm.findorascan.io |
+|          |                Mainnet                |             Anvil Testnet             |               Forge Testnet              |
+| -------- | :-----------------------------------: | :-----------------------------------: | :--------------------------------------: |
+| Node     | https://prod-mainnet.prod.findora.org | https://prod-testnet.prod.findora.org |    https://prod-forge.prod.findora.org   |
+| Explorer |         https://findorascan.io        |  https://prod-testnet.findorascan.io  | https://testnet-forge.evm.findorascan.io |
