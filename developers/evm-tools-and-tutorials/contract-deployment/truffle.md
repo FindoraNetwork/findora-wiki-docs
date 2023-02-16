@@ -40,7 +40,7 @@ truffle init
 
 It should generate the following directories and files:
 
-<img src="../../../.gitbook/assets/image (2) (2).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (2) (2) (1).png" alt="" data-size="original">
 
 
 

@@ -96,7 +96,7 @@ Step 4: In the "To" input field, copy and paste the recipient's address and plea
 
 Step 5: Enter the amount you want to transfer
 
-<figure><img src="../../../.gitbook/assets/image (36) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
 
 Step 6: Now we get to the more important part. Select the appropriate choices for showing or hiding the amount and asset type based on your need of privacy for your transfer.
 

@@ -110,6 +110,7 @@
 * [Node Setup Guides](validator-materials/node-setup-guides/README.md)
   * [Manual Setup](validator-materials/node-setup-guides/manual-setup.md)
   * [Automated Setup](validator-materials/node-setup-guides/automated-setup.md)
+  * [Toolbox Setup](validator-materials/node-setup-guides/toolbox-setup.md)
   * [System Requirements](validator-materials/node-setup-guides/system-requirements.md)
 * [Operational Guides](validator-materials/operational-guides/README.md)
   * [Node Upgrades](validator-materials/operational-guides/node-upgrades.md)

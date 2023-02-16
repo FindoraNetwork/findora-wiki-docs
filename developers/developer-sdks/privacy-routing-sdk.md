@@ -17,7 +17,7 @@ description: Anonymous routing for every FRC20 transfer
 3. **`abarTobar()`** to unwrap the anonymous asset back to its native form.
 4. **`barToEVM()`** to withdraw the native asset back to the EVM.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Note: In Findora's native chain, transparent assets are represented as **BAR**, while shielded assets are represented as **ABAR**.

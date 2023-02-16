@@ -61,7 +61,7 @@ To check the balance of other tokens stored with that specific wallet account, u
 
 * Go to `My Wallet` ⇒ `Wallet Info` page and click `Export Private Key`
 
-<figure><img src="../../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 * Enter your password and your private key will be displayed on screen
 

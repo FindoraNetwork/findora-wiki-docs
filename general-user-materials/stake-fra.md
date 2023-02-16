@@ -22,7 +22,7 @@ Visit the [**Staking: Key Concepts**](../key-concepts/staking/) **** documentati
 
 1.  Transfer FRA from an existing Findora wallet to your Findora Address: [Guide of Transparent Transfer](use-wallets/findora-wallet/transfer.md#transparent-transfer).
 
-    <figure><img src="../.gitbook/assets/image (36) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (36) (1).png" alt=""><figcaption></figcaption></figure>
 2. If you don't own any FRA, you can acquire some from a CEX partner.
    * [Guide of How to Buy (Smart) FRA on KuCoin](acquire-fra/acquire-fra.md)​
 3. Transfer your FRA to EVM-compatible Wallet:&#x20;
