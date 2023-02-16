@@ -27,12 +27,12 @@ const barToAbar = async () => {
   // Next is a key method, which returns 3 things:
   // - an instance of the transactionBuilder, which would be used to submit the generated tx to the network
   // - an object with the information about the unique hash (a commitment)
-  // - a number representing the UTXO sid, which was used for the `bar to abar` operation
+  // - an array of numbers representing the UTXO sids, which were used for the `bar to abar` operation
   const {
     transactionBuilder,
     barToAbarData,
-    sid: usedSid,
-  } = await TripleMasking.barToAbar(walletInfo, sid, myAnonWallet);
+    sids: usedSids,
+  } = await TripleMasking.barToAbar(walletInfo, [sid], myAnonWallet.axfrPublicKey);
 
   // Then we retrieve transaction data (to be broadcasted)
   const submitData = transactionBuilder.transaction();
@@ -45,19 +45,12 @@ const barToAbar = async () => {
   const { axfrPublicKey: formattedAxfrPublicKey } =
     barToAbarData.anonKeysFormatted;
 
-  // The only way to get access to the funds from the `abar` is to ensure that commitment is saved
+  // The only way to get access to the funds from the `abar` is to ensure that commitment(s) is saved
   // after the operation is completed and transaction is broadcasted.
-  // `givenCommitment` MUST be saved in order to get access to the funds later.
-  const [givenCommitment] = barToAbarData.commitments;
+  // `givenCommitments` MUST be saved in order to get access to the funds later.
+  const givenCommitments = barToAbarData.commitments;
 
   // Here we simply wait for 17s until next block is produced by the network
   await sleep(17000);
-
-  // Optionally, we can check `owned` abars using a retirived commitment
-  // and a unique key of the anonymous wallet
-  const ownedAbarsResponse = await TripleMasking.getOwnedAbars(
-    formattedAxfrPublicKey,
-    givenCommitment
-  );
 };
 ```
