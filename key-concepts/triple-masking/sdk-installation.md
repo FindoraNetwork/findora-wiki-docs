@@ -24,7 +24,7 @@ Next, change the directory to the cloned version of the \`Findora SDK:
 cd findora-sdk
 ```
 
-After that, switch to the `feat_triple_masking_feature` branch:
+After that, switch to the `develop` branch:
 
 ```bash
 git checkout develop
