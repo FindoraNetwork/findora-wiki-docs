@@ -78,7 +78,7 @@
   * [Bug Bounties](developers/resources/bug-bounties.md)
   * [Events](developers/resources/events/README.md)
     * [🏗 ETH San Francisco 2022](developers/resources/events/eth-san-francisco-2022.md)
-    * [🏗 ETH Denver 2023](developers/resources/events/eth-san-francisco-2022-1.md)
+    * [🏗 ETH Denver 2023](developers/resources/events/eth-denver-2023.md)
 
 ## Network Settings
 

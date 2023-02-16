@@ -3,6 +3,7 @@ description: Findora hackathon at ETH Denver 2023
 cover: >-
   https://images.unsplash.com/photo-1573297627466-6bed413a43f1?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwxfHxkZW52ZXJ8ZW58MHx8fHwxNjc2NTc4MDg4&ixlib=rb-4.0.3&q=80
 coverY: 217
+layout: landing
 ---
 
 # 🏗 ETH Denver 2023
