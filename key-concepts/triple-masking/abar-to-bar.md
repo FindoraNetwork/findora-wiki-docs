@@ -27,7 +27,6 @@ const abarToBar = async () => {
   // In the lines below we create `ownedAbarToUseAsSource` and `ownedAbarToUseAsFee` which
   // represents two abars, created from the given commitments
   const ownedAbarsResponseOne = await TripleMasking.getOwnedAbars(
-    anonKeysSender.axfrPublicKey,
     givenCommitmentOne
   );
 
@@ -35,7 +34,6 @@ const abarToBar = async () => {
   const [ownedAbarToUseAsSource] = ownedAbarsResponseOne;
 
   const ownedAbarsResponseTwo = await TripleMasking.getOwnedAbars(
-    anonKeysSender.axfrPublicKey,
     givenCommitmentTwo
   );
 
@@ -47,8 +45,8 @@ const abarToBar = async () => {
   // user must save the new commitment, available in abarToBarData.commitments property
   const { transactionBuilder, abarToBarData } = await TripleMasking.abarToBar(
     anonKeysSender,
-    walletInfo,
-    ownedAbarToUseAsSource
+    walletInfo.publickey,
+    [ownedAbarToUseAsSource]
   );
 
   // Then we retrieve transaction data (to be broadcasted)
