@@ -3,16 +3,19 @@ description: Findora hackathon at ETH Denver 2023
 cover: >-
   https://images.unsplash.com/photo-1573297627466-6bed413a43f1?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwxfHxkZW52ZXJ8ZW58MHx8fHwxNjc2NTc4MDg4&ixlib=rb-4.0.3&q=80
 coverY: 217
-layout: landing
 ---
 
 # 🏗 ETH Denver 2023
 
 {% embed url="https://www.ethdenver.com/" %}
+Visit the Official EthDenver Website
+{% endembed %}
 
 {% embed url="https://findora.org/hackathon" %}
+Visit Findora's EthDenver Landing Page
+{% endembed %}
 
-Developers pick either track below when building their Findora EVM dApp
+## Pick a Track for Your EVM dApp on Findora:
 
 **⭐️ Private Payroll**
 
@@ -30,7 +33,7 @@ Try to find a proper way to verify the ownership of an NFT without revealing the
 \
 **⭐️ Private Card Games**
 
-A card(or card-like) game using Findora menta-poker.
+A card (or card-like) game using Findora mental-poker.
 
 Enjoying a card game on the Ethereum blockchain presents a unique set of challenges compared to playing on a centralized game server. This is due to the transparency of data on the blockchain, where every card is publicly visible. To overcome this, card shuffling must be executed in a manner that prevents nodes/validators from gaining knowledge of any specific card in the deck.&#x20;
 
