@@ -14,7 +14,7 @@ Click on the dropdown bar that would typically show your last connected network.
 
 You should see a drop-down menu. Click the `Add Network` button and a new tab will open where you can manually enter Findora's network settings.
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### **Step #2**
 
