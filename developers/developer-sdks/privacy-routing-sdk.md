@@ -62,7 +62,22 @@ The private swap is now complete.
 
 ### Simple Steps to Use
 
-First [clone](https://github.com/FindoraNetwork/privacy-routing-sdk) and add the SDK to your project.
+First [clone](https://github.com/FindoraNetwork/privacy-routing-sdk) and add the SDK to your project. You can also use package managers.
+
+```bash
+$ npm install privacy-routing-sdk
+```
+
+Copy [https://github.com/FindoraNetwork/wasm-js-bindings/tree/forge\_2022](https://github.com/FindoraNetwork/wasm-js-bindings/tree/forge\_2022) contents to \`external\_resources/findora-wallet-wasm\` in your project directory
+
+* Download [Download ZIP](https://github.com/FindoraNetwork/wasm-js-bindings/archive/refs/heads/forge\_2022.zip)
+
+`"findora-wallet-wasm": "./external_resources/findora-wallet-wasm"`&#x20;
+
+in package.json. Example [https://github.com/FindoraNetwork/privacy-routing-sdk-example/tree/main/external\_resources/findora-wallet-wasm](https://github.com/FindoraNetwork/privacy-routing-sdk-example/tree/main/external\_resources/findora-wallet-wasm)
+
+\
+
 
 > **Import SDK**
 
@@ -85,7 +100,41 @@ const ENV_CONFIG = {
 await Sdk.init(ENV_CONFIG);
 ```
 
+> **Forge Testnet Configuration**
+
+{% code overflow="wrap" %}
+```typescript
+export const FINDORA_NETWORK = {
+  chainId: 2154,
+  chainName: 'Findora',
+  nativeCurrency: {
+    name: 'FRA',
+    symbol: 'FRA',
+    decimals: 18,
+  },
+  rpcUrls: ['https://prod-forge.prod.findora.org:8545'],
+  blockExplorerUrls: ['https://prod-forge-blockscout.prod.findora.org/'],
+};
+
+export const CONTRACTS_ADDRESS = {
+  simBridge: '0x893c29D3e6520466005C18683466136D73641201',
+  prismBridge: '0x899d4d8f441E5B59EB21ceb58fce723bb5A85C55',
+};
+
+```
+{% endcode %}
+
 ### The APIs
+
+Generate the temp wallets for intermediate accounts,&#x20;
+
+```typescript
+// Wallets
+const findoraWallets = await findora.keypair.getWallet();
+const { walletStart, walletEnd, anonWallet } = findoraWallets;t
+```
+
+
 
 Using `Privacy-Routing-SDK` for a complete anonymous routing in 4 steps
 
@@ -96,13 +145,14 @@ Using `Privacy-Routing-SDK` for a complete anonymous routing in 4 steps
     ```typescript
     await evm.transfer.fraToBar({
       bridgeAddress: simBridgeAddress, // bridge contract address
-      recipientAddress: "0x.....",     // wallet account address
-      amount: "100", // amount
+      recipientAddress: walletStart.address,     // wallet account address
+      amount: "100", // amount in String
     });
     ```
 
     * Send **FRC20** token to Findora Native Chain
 
+    {% code overflow="wrap" %}
     ```typescript
     /**
     Parameters
@@ -114,22 +164,42 @@ Using `Privacy-Routing-SDK` for a complete anonymous routing in 4 steps
     await evm.services.approveToken(tokenAddress, simBridgeAddress, tokenAmount);
     return await evm.transfer.frc20ToBar({
       bridgeAddress: simBridgeAddress,
-      recipientAddress,
-      tokenAddress,
-      tokenAmount,
+      walletStart.address,
+      tokenAddress, // 0x5b15Cdff7Fe65161C377eDeDc34A4E4E31ffb00B for zkUSDT on Forge testnet
+      "100", // amount in String
     });
+
+    // wait till the txn in successful and the assets converted
+    // the first findora wallet should receive 3 utxo [asset, bar2abar_fee, bar2evm_fee]
+          const { error: waitEvmToNativeUtxoError } = await findora.services.waitUtxoEnough(walletStart.publickey, 3);
+          if (waitEvmToNativeUtxoError) throw waitEvmToNativeUtxoError;
     ```
+    {% endcode %}
+
+
+
+
 * **(2) Convert assets from `BAR` to `ABAR` in Findora Native Chain (entering anonymous cycle)**
 
 ```typescript
 import { findora } from "privacy-routing-sdk";
 
+// Fetch the converted asset Sids
+// Sids are the index IDs of the UTXO in FRA chain
+const { response: sids } = await findora.apis.getOwnedSids(walletStart.publickey);
 /**
 Parameters
   sids: consumable utxo sids
  */
-const walletWrap = await findora.keypair.getWallet();
-findora.transfer.barToAbar(walletWrap, sids);
+const barToAbarResult =  await findora.transfer.barToAbar(
+  walletWrap, // created earlier
+  sids
+);
+
+if (barToAbarResult.txnLog) throw new Error(`barToAbar Error: ${barToAbarResult.txnLog}`);
+console.log('barToAbar txnHash: ', barToAbarResult.txnHash);
+
+// wait for 30 seconds
 ```
 
 * **(3) Convert assets from `ABAR` to `BAR` in Findora Native Chain (leaving anonymous cycle)**
@@ -137,14 +207,17 @@ findora.transfer.barToAbar(walletWrap, sids);
 ```typescript
 import { findora } from "privacy-routing-sdk";
 
+// commitments are the anonymous version of a private UTXO
+// you can spend commitments owned by your anonWallet 
+const commitments = barToAbarResult.commitments;
+
 /**
 Parameters
   commitments: consumable Abar utxo sids
  */
-const walletWrap = await findora.keypair.getWallet();
 findora.transferabarToBar(
-  walletWrap.anonWallet,
-  walletWrap.walletEnd,
+  walletWrap.anonWallet, // created earlier
+  walletWrap.walletEnd,  // created earlier
   commitments
 );
 ```
@@ -156,11 +229,10 @@ findora.transferabarToBar(
     ```typescript
     import { findora } from "privacy-routing-sdk";
 
-    const walletWrap = await findora.keypair.getWallet();
     await findora.transfer.barToEVM(
-      walletWrap.walletEnd,
+      walletWrap.walletEnd, // created earlier
       "100", // amount
-      recipientAddress, // recipient's address
+      recipientAddress, // recipient's EVM address
       "",
       "",
       false
@@ -169,14 +241,14 @@ findora.transferabarToBar(
 
     * Withdraw **FRC20** token to Findora EVM
 
+    {% code overflow="wrap" %}
     ```typescript
     import { findora, evm } from "privacy-routing-sdk";
 
-    const walletWrap = await findora.keypair.getWallet();
     const assetCode = await evm.services.getAssetCode(
       prismBridgeAddress,
-      tokenAddress, // FRC20 token address
-      findoraNetworkRpcUrl
+      tokenAddress, // FRC20 token address, 0x5b15Cdff7Fe65161C377eDeDc34A4E4E31ffb00B for zkUSDT on Forge testnet
+      findoraNetworkRpcUrl // https://prod-forge.prod.findora.org:8545 for Forge testnet
     );
 
     await findora.transfer.barToEVM(
@@ -188,6 +260,7 @@ findora.transferabarToBar(
       false
     );
     ```
+    {% endcode %}
 
 ### Boilerplate settings
 
