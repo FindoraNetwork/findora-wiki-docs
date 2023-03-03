@@ -30,7 +30,7 @@ wget https://github.com/FindoraNetwork/findora-wiki-docs/raw/main/.gitbook/asset
 {% tab title="Testnet" %}
 {% code title="Enter the following command:" overflow="wrap" %}
 ```
-wget https://github.com/FindoraNetwork/findora-wiki-docs/raw/main/.gitbook/assets/safety_clean_mainnet.sh
+wget https://github.com/FindoraNetwork/findora-wiki-docs/raw/main/.gitbook/assets/safety_clean_testnet.sh
 ```
 {% endcode %}
 {% endtab %}

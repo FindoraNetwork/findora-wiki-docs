@@ -105,6 +105,10 @@
   * [Ledger Hardware Wallet](general-user-materials/use-wallets/ledger-hardware-wallet.md)
 * [Bridge Tokens to Findora](general-user-materials/bridge-tokens-to-findora.md)
 * [Use Block Explorers](general-user-materials/use-block-explorers.md)
+* [Testnet](general-user-materials/testnet/README.md)
+  * [Triple Masking](general-user-materials/testnet/triple-masking.md)
+  * [EVM Staking](general-user-materials/testnet/evm-staking.md)
+  * [Prism ++](general-user-materials/testnet/prism-++.md)
 
 ## Validator Materials
 
