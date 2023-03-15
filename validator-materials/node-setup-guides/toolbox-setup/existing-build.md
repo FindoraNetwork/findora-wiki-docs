@@ -34,7 +34,7 @@ cd ~/ && ./findora.sh
 
 Running the toolbox will present a screen similar to the image below.
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Main Menu</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Main Menu</p></figcaption></figure>
 
 {% hint style="info" %}
 See below for notes on each option presented in the full menu.&#x20;
@@ -68,4 +68,4 @@ See the help menu options anytime with the following command:
 ./findora.sh -h
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>

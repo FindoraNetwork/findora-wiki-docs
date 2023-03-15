@@ -1,2 +1,17 @@
-# Installation Guides
+---
+description: This section of Findora docs will help you build a validator node.
+---
 
+# Node Setup Guides
+
+1. First, review the [**System Requirements** ](system-requirements.md)page to understand what type of hardware and software is required to run a validator node on Findora. You will need this information as you proceed further.
+2. Next, you must acquire a server. We suggest using a server hosting provider such as Contabo, Digital Ocean, or AWS. In the [**Aquire a Server** ](acquire-a-server.md)section, we use Contabo as an example of how to rent a virtual server for your validator.
+3. Finally, you may choose one of two paths for setting up a validator:\
+   \
+   [**Manual Setup**](manual-setup.md) **-** This method walks you through the process, step-by-step, one command at a time. This is recommended for first-timers as you get to learn the process before taking shorter, easier paths.\
+   \
+   [**Toolbox Setup**](toolbox-setup/) **-** This method uses a toolbox to do much of the heavy lifting for you. The toolbox provides you with a set of tools for managing and troubleshooting your validator.&#x20;
+
+{% hint style="info" %}
+You can install the toolbox separately after following the steps in Manual Setup.
+{% endhint %}
