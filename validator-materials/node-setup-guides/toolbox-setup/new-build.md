@@ -215,7 +215,7 @@ The code below works for either `testnet` or `mainnet` toolbox. Here's a string 
 cd ~/ && ./findora.sh
 ```
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Main Menu</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Main Menu</p></figcaption></figure>
 
 ## Wrapping Up
 
