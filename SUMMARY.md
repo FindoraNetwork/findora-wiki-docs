@@ -112,7 +112,7 @@
 
 ## Validator Materials
 
-* [University Program](validator-materials/university-program.md)
+* [Findora's University Program](validator-materials/findoras-university-program.md)
 * [Validator Setup Guides](validator-materials/node-setup-guides/README.md)
   * [System Requirements](validator-materials/node-setup-guides/system-requirements.md)
   * [Acquire a Server](validator-materials/node-setup-guides/acquire-a-server.md)
