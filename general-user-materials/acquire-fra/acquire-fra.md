@@ -15,7 +15,7 @@ Findora has two chains, EVM (0x...) and UTXO (fra...). \
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (4).png" alt=""><figcaption><p><a href="https://www.kucoin.com/trade/FRA-USDT"> KUCOIN (USDT/FRA)</a></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p><a href="https://www.bitmart.com/trade/en?layout=basic&#x26;theme=dark&#x26;symbol=FRA_USDT">BITMART (USDT/FRA)</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (5).png" alt=""><figcaption><p><a href="https://www.bitmart.com/trade/en?layout=basic&#x26;theme=dark&#x26;symbol=FRA_USDT">BITMART (USDT/FRA)</a></p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p><a href="https://www.gate.io/trade/fra_usdt">GATE.IO (USDT/FRA)</a></p></figcaption></figure>
 

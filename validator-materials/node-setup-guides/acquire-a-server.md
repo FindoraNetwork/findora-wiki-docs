@@ -20,13 +20,13 @@ If you do not have a server now, we suggest renting a VPS on Contabo for a combi
 
 **Click this** [**link**](https://contabo.com/en/vps/vps-l-ssd?addons=1415\&image=ubuntu.267\&qty=1\&contract=3\&storage-type=vps-l-800-gb-ssd) **to rent a server.**
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 As an example, the Contabo VPS L server meets the recommended specs to run a Findora validator node. The minimum storage required for Findora Mainnet Validator is 200GB, but we suggest opting for 400GB NVMe for peace of mind.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 Enter a password and keep all other options default.&#x20;
 
