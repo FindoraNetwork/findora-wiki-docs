@@ -7,7 +7,9 @@ description: >-
 # Findora's University Program
 
 {% hint style="info" %}
-Already part of Findora's university program? Skip this page and jump straight into setting up your node in [**Validator Setup Guides**](node-setup-guides/).
+Already part of Findora's university program?&#x20;
+
+Skip this page and jump straight into setting up your node in [**Validator Setup Guides**](node-setup-guides/).
 {% endhint %}
 
 ## Key Benefits&#x20;
