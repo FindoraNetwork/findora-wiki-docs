@@ -114,6 +114,7 @@
 
 * [Node Setup Guides](validator-materials/node-setup-guides/README.md)
   * [System Requirements](validator-materials/node-setup-guides/system-requirements.md)
+  * [Acquire a Server](validator-materials/node-setup-guides/acquire-a-server.md)
   * [Manual Setup](validator-materials/node-setup-guides/manual-setup.md)
   * [Toolbox Setup](validator-materials/node-setup-guides/toolbox-setup/README.md)
     * [New Build](validator-materials/node-setup-guides/toolbox-setup/new-build.md)
