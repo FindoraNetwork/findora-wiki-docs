@@ -113,13 +113,13 @@
 ## Validator Materials
 
 * [Node Setup Guides](validator-materials/node-setup-guides/README.md)
+  * [System Requirements](validator-materials/node-setup-guides/system-requirements.md)
   * [Manual Setup](validator-materials/node-setup-guides/manual-setup.md)
-  * [Automated Setup](validator-materials/node-setup-guides/automated-setup.md)
   * [Toolbox Setup](validator-materials/node-setup-guides/toolbox-setup/README.md)
     * [New Build](validator-materials/node-setup-guides/toolbox-setup/new-build.md)
     * [Existing Build](validator-materials/node-setup-guides/toolbox-setup/existing-build.md)
     * [Additional Info](validator-materials/node-setup-guides/toolbox-setup/additional-info.md)
-  * [System Requirements](validator-materials/node-setup-guides/system-requirements.md)
+  * [Automated Setup (Deprecated)](validator-materials/node-setup-guides/automated-setup.md)
 * [Operational Guides](validator-materials/operational-guides/README.md)
   * [Node Upgrades](validator-materials/operational-guides/node-upgrades.md)
   * [fn CLI Upgrade (Wallet)](validator-materials/operational-guides/fn-cli-upgrade-wallet.md)
