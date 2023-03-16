@@ -6,40 +6,41 @@ Prism++ supports users to transfer FRC20, FRC721, FRC1155 between Findora EVM ne
 
 <figure><img src="https://lh6.googleusercontent.com/EvLqeCHU1_ZdL1s8h6epCNq9vcQePzazEFsl-9_GjZME6HD3Zuf8AzFSHQL7DbuRBVt87xxDLWgsEKg49i751X0r9Sev4B4onEvBPZZDUPDKOTXOEOXO05ZVGdCwJE9L9VP4J4AOoz4IMwvyHN044G4" alt=""><figcaption></figcaption></figure>
 
-2. Add qa01 testnet to the testnet wallet
+2. Add Anvil testnet to the testnet wallet
 
-<figure><img src="https://lh4.googleusercontent.com/3zi5HKh6SMEfnXPH9a38Xsm5h_4_Lddb71Lj-CMrVkQQ8mrJbIuYLFZCOB0PHu51HlkR5TJjdBBd8RsB-rEYwfm0PY9xuXd0ZSexoyx2HQyfsecRQKajbLp4N0ePd9gbRk1u0aX73K5of-3KxJoRMBE" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 | Paremeters              | Value                                 |
 | ----------------------- | ------------------------------------- |
-| Network Node Nickname   | QA01                                  |
-| Network Node URL        | https://dev-qa01.dev.findora.org      |
-| Blockchain Explorer Url | https://dev-qa01.findorascan.io       |
-| Network Evm URL         | https://dev-qa01.dev.findora.org:8545 |
-| Network Evm ChainID     | 3333                                  |
+| Network Node Nickname   | Anvil                                 |
+| Network Node URL        | https://prod-testnet.prod.findora.org |
+| Blockchain Explorer Url | https://prod-testnet.findorascan.io   |
 
 
 
-3. Add qa01 testnet to metamask
+3. Add Anvil testnet to metamask
 
-| Parameters         | Value                                                                                        |
-| ------------------ | -------------------------------------------------------------------------------------------- |
-| Findora Qa01       | [https://dev-qa04.dev.findora.org:8545/](https://dev-qa04.dev.findora.org:8545/)             |
-| Chian ID           | 3333                                                                                         |
-| Block explorer URL | [https://dev-qa04-blockscout.dev.findora.org/](https://dev-qa04-blockscout.dev.findora.org/) |
+| Parameters         | Value                                      |
+| ------------------ | ------------------------------------------ |
+| Findora Qa01       | https://prod-testnet.prod.findora.org:8545 |
+| Chian ID           | 2153                                       |
+| Block explorer URL | https://testnet-anvil.evm.findorascan.io   |
 
-![](https://lh4.googleusercontent.com/YtvDo3WoOAx2-rqT5mazaMhZ2UNkO7ilnrXQaNg6VNXBxXJsSqdGc2zGITOmBXaCxNiH-oi1ctgrRCfrDxFD1NbFWkmZT76mJHyQ9d6le7IBhImaIwrs0Xnqc5PoqcnsEamkIDi\_RbIfxgW630-tMTU)
+![](<../../.gitbook/assets/image (1).png>)
 
 4. Create a new wallet in the testnet wallet, please do not import mnemonic or private keys that own mainnet assets into the testnet wallet
 
 <figure><img src="https://lh6.googleusercontent.com/t1RdWwdnJ6Tz4pYZ92uoyBmIocIa7y_iVXPBpWwm828vmL0vjqIxshk5bb7DIBX_jdzCG86W0GGv0YqP0KUlkrLKT-FkJesdQB9k5Ab7hNbgZFvhmuzkzw886ZAaiih1VPbKT616zt8J1OnmFQot-iA" alt=""><figcaption></figcaption></figure>
 
-5. Visit [Findora Faucet](https://faucet.findora.org/) to receive qa01 FRA-EVM test coins and FRC20 test coins
+5. Visit [Findora Faucet](https://faucet.findora.org/) to receive Anvil FRA-EVM test coins and FRC20 test coins
+
+![](<../../.gitbook/assets/image (2).png>)
+
 6. Click Prism, select EVM-Compatible Wallet to Native Wallet
 
 <figure><img src="https://lh5.googleusercontent.com/AcKukqsUjo5nWRKh_zU9nsC5j88QCBgDmCkdlBFfaPJKYsbSurj1Do_I_60jEIFkWzB8IUrrjDsmvxL8WLye4dqNO3aFMYc-8DWbU7iHHUanfhQo_075xbNNYochUA-Rp7n8uE3d6lDwP-AHFMuu7O8" alt=""><figcaption></figcaption></figure>
 
-7. import the metamask private key, and you can check the balance of your EVM-FRA
+7. import the Metamask private key, and you can check the balance of your EVM-FRA
 
 <figure><img src="https://lh3.googleusercontent.com/gpSboMYjpIrDLTXsuIG7kzgmf0PmfcidD6P6Ar3EK-lIsK5TaDW5ZOWmMQiYb6eo7bA-P7Mi1s4PdvPbtoCLGVV-5x5-fwz-NX6lDwMAjdRw-awS3kOoorv-gdT7vLyzn-_UWIyStLILLzvK7zJntEk" alt=""><figcaption></figcaption></figure>
 
