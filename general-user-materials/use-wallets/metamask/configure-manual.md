@@ -32,4 +32,4 @@ For example, if you would like to connect to the Anvil Testnet, your Metamask sh
 
 Click on the `Save` button and you should have a screen like this and be ready to go!
 
-![](<../../../.gitbook/assets/image (18).png>)
+![](<../../../.gitbook/assets/image (18) (2).png>)

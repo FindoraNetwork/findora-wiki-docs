@@ -56,7 +56,7 @@ The code example below showcases how to create your own custom zkCircuit and zkC
 
 ## Example 3
 
-<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption><p><a href="https://zkdid.pages.dev">https://zkdid.pages.dev</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25) (1).png" alt=""><figcaption><p><a href="https://zkdid.pages.dev">https://zkdid.pages.dev</a></p></figcaption></figure>
 
 // # Example 3: Use custom credential and multiple circuits to create proofs and verify zkProofs #
 

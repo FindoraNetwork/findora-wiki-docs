@@ -13,7 +13,7 @@ These mnemonic seed words are linked to a unique `private key` and wallet that t
 
 Click `Next` and enter in the seed words you saved earlier to verify you have securely saved the mnemonic seed words elsewhere.
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Import Wallet[​](https://wiki.findora.org/docs/evm\_guides/use\_wallet/findora\_wallet/walletbasic#import-wallet) <a href="#import-wallet" id="import-wallet"></a>
 
@@ -29,7 +29,7 @@ To import `From Mnemonic`, type in all Mnemonic seed words related to that priva
 `2.From KeyStore`\
 To import `From KeyStore`, upload the KeyStore (which contains a private key inside) to the app. You will need to enter the password that was supplied with the KeyStore to complete the import process.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (1) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 `3.From Private Key`\
 To import directly `From Private Key`, type in or paste in the private key value (i.e. a long string of random alphanumeric values).
