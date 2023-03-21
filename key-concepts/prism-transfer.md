@@ -66,46 +66,45 @@ Special Note: A key innovation of the Findora’s Smart Chain is the design of t
 
 With Prism, users can atomically and trustlessly convert their FRA-native tokens on the native chain to FRA-smart tokens on the smart chain. Below are the workflows of how Prism transfer works for FRA.
 
-#### Case 1: Smart Chain -> Native Chain[​](https://wiki.findora.org/docs/modules/prism/Overview#step-2-smart-chain---native-chain) <a href="#step-2-smart-chain---native-chain" id="step-2-smart-chain---native-chain"></a>
+**Case 1: Smart Chain -> Native Chain​ (FRA)**
 
-* User/contract calls `depositFRA` to pay some amount of FRA to `PrismXXBridge` contract.
-* `PrismXXBridge` builds a mint operation and store on contract.
-* At the block end, each mint operation will be consumed and deposited FRA will be burned.
-* For each mint operation, the coinbase mints equivalent FRA in native chain.
+* User/contract calls `depositFRA` on `PrismXXBridge`.
+* `PrismXXBridge` internally burns/locks the tokens and builds a `mint` operation to store on contract.
+* At the block end, each `mint` operation will be consumed.
+* For each mint operation, the coinbase mints the equivalent `ASSET` on native chain.
 
-<figure><img src="../.gitbook/assets/prismFRA.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh4.googleusercontent.com/VKnn6MvDS9R-a-p-_CvPouLsvf3bok5LReVtKX48Vbn-1asEM3WM5SU9uJMK8sdxpsATkvoKQk53DCeMBOiBmnvaAkUaKfkXrx-fHXTXC7E2MvtTvtq5Wf9iDzRmrTgmOW8YEdr8CdAV1-xxBgMAuAg" alt=""><figcaption></figcaption></figure>
 
-#### Case 2: Native Chain -> Smart Chain[​](https://wiki.findora.org/docs/modules/prism/Overview#step-1-native-chain---smart-chain) <a href="#step-1-native-chain---smart-chain" id="step-1-native-chain---smart-chain"></a>
+**Case 2: Native Chain -> Smart Chain​ (FRA)**
 
-* User build `ConvertAccount` operation and transfer some amount of FRA to `BlackHole`.
-* `Blockchain` will mint same value of FRA to `PrismXXBridge` contract.
-* `Blockchain` calls `withdrawFRA` function in `PrismXXBridge`.
-* `PrismXXBridge` sends same value of FRA to target EVM address.
+* Users build `ConvertAccount` operation and transfer some amount of FRA to `BlackHole`. (Note: user can also send data in EVM ABI format to call the smart contract on EVM side )
+* Blockchain calls `withdrawFRA` function in `PrismXXBridge`
+* `PrismXXBridge` internally `mints/releases` equivalent assets to the target EVM address.
 
-<figure><img src="../.gitbook/assets/prismFRA_withdraw.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh4.googleusercontent.com/0v5qBuex7W9KpyDYysSsnSIGxHr7BXoH7PAP_NeLmHkDAJkv0iLG6_FHCP2zxLZgHot3qmETFKVuFmbNS4H59TLnPEaF13w9jsf9c3evWahsBo-Tq8GrQj-sjXCBkmeTWwk6iefXxZb3lnzPyAJz10I" alt=""><figcaption></figcaption></figure>
 
-#### Prism for FRC20[​](https://wiki.findora.org/docs/modules/prism/Overview#native-chain-fra-and-smart-chain-fra) tokens
+**Prism for FRC20/FRC721/FRC1155**[**​**](https://wiki.findora.org/docs/modules/prism/Overview#native-chain-fra-and-smart-chain-fra) **tokens**
 
-Apart from FRA, Prism supports all tokens coming from FRC20 family. For every deployed FRC20 asset in smart chain, Prism will automatically create a mapped UTXO-based asset in the native chain, meaning whitelisting is done by Prism in a decentralized way. Similar to FRA Prism transfer, users can easily convert FRC20 token to mapped UTXO token in native chain and vice versa. Additionally, FRC721/1115 token works in a similar way on Prism except for the asset mapping rules. Below are the workflows of how Prism transfer works for FRC20.
+Apart from FRA, Prism supports all tokens coming from FRC20/FRC721/FRC1155 family. For every deployed FRC20/FRC721/FRC1155 asset in smart chain, Prism will automatically create a mapped UTXO-based asset in the native chain, meaning whitelisting is done by Prism in a decentralized way. Similar to FRA Prism transfer, users can easily convert FRC20/FRC721/FRC1155 token to mapped UTXO token in native chain and vice versa. Below are the workflows of how Prism transfer works for FRC20/FRC721/FRC1155.
 
-#### Case 1: Smart Chain -> Native Chain[​](https://wiki.findora.org/docs/modules/prism/Overview#step-2-smart-chain---native-chain) <a href="#step-2-smart-chain---native-chain" id="step-2-smart-chain---native-chain"></a>
+**Case 1: Smart Chain -> Native Chain​ (FRC20/FRC721/FRC1155)**
 
-* User/contract `approve` `PrismXXBridge` some amount of FRC20 tokens.
-* User/contract calls `depositFRC20` on `PrismXXBridge`.
-* `PrismXXBridge` internally maps FRC20 asset(EVM) to a native `ASSET`(UTXO).
-* `PrismXXBridge` internally `burn/lock` the tokens and builds a mint operation to store on contract.
+* User/contract approves `PrismXXBridge` some amount of FRC20 tokens.
+* User/contract calls depositAsset on `PrismXXBridge`.
+* `PrismXXBridge` internally maps FRC20/FRC721/FRC1155 asset (EVM) to a native ASSET (UTXO).&#x20;
+* `PrismXXBridge` internally burns/locks the tokens and builds a mint operation to store on contract.
 * At the block end, each mint operation will be consumed.
-* For each mint operation, the coinbase mints equivalent `ASSET` in native chain.
+* For each mint operation, the coinbase mints the equivalent ASSET on native chain.
 
-<figure><img src="../.gitbook/assets/prismFRC20.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh3.googleusercontent.com/sXsRiGYaSopf2QtSQ8gx45QmAfeQ97nQ9PNXDzp6Q1yWt1XSMnbU2cObOJ2datePYwUFia04daND-GjxF0h7M8358mWMyWkcV6BU-HaHwWzbohU224awPyZafmCQLVmEwAAub4unZqW_HKJM92LjFgc" alt=""><figcaption></figcaption></figure>
 
-#### Case 2: Native Chain -> Smart Chain[​](https://wiki.findora.org/docs/modules/prism/Overview#step-1-native-chain---smart-chain) <a href="#step-1-native-chain---smart-chain" id="step-1-native-chain---smart-chain"></a>
+**Case 2: Native Chain -> Smart Chain​ (FRC20/FRC721/FRC1155)**
 
-* User build `ConvertAccount` operation and transfer some amount of `ASSET` to `BlackHole`.
-* `Blockchain` call `withdrawFRC20` function in `PrismXXBridge`
-* `PrismXXBridge` internally maps `ASSET`(UTXO) to FRC20 asset (EVM).
-* `PrismXXBridge` internally `mint/release` equivalent FRC20 asset to target EVM address.
+* Users build `ConvertAccount` operation and transfer some amount of `ASSET` to `BlackHole`. (Note: user can also send data in EVM ABI format to call the smart contract on EVM side)
+* Blockchain calls `withdrawFRC20` function in `PrismXXBridge`
+* `PrismXXBridge` internally maps `ASSET`(UTXO) to FRC20/FRC721/FRC1155 asset (EVM).&#x20;
+* `PrismXXBridge` internally `mints/releases` equivalent assets to the target EVM address.
 
-<figure><img src="../.gitbook/assets/prismFRC20_withdraw.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh3.googleusercontent.com/ivCK2SFdc278CFM9ad-vGCuqWQf2Nl8V_wwE_7AbEi4tbpLSsZcO7ZdSB41_twEeJdkWFED-1aRS1CsSGBTTkdk5_BkX9q6cnUT1Y4VuiCj-t6QxNYv7Wc47hT1DQpxfbYA9_qWXIGEDO2K1vuxZd_I" alt=""><figcaption></figcaption></figure>
 
 NOTE: Detailed steps are explained [here](../general-user-materials/use-wallets/findora-wallet/prism.md).
