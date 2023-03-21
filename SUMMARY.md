@@ -69,6 +69,7 @@
     * [zkDID SDK Installation](developers/developer-sdks/zkdid-sdk/zkdid-sdk-installation.md)
     * [zkDID API Reference](developers/developer-sdks/zkdid-sdk/zkdid-api-reference.md)
     * [zkDID Example Code](developers/developer-sdks/zkdid-sdk/zkdid-example-code.md)
+  * [Prism++ SDK](developers/developer-sdks/prism++-sdk.md)
 * [EVM References](developers/evm-references/README.md)
   * [Metamask](developers/evm-references/metamask.md)
   * [Local Development Network Setup](developers/evm-references/local-development-network-setup.md)
