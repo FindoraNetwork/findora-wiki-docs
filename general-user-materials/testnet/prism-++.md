@@ -44,13 +44,17 @@ Prism++ supports users to transfer FRC20, FRC721, FRC1155 between Findora EVM ne
 
 <figure><img src="https://lh3.googleusercontent.com/gpSboMYjpIrDLTXsuIG7kzgmf0PmfcidD6P6Ar3EK-lIsK5TaDW5ZOWmMQiYb6eo7bA-P7Mi1s4PdvPbtoCLGVV-5x5-fwz-NX6lDwMAjdRw-awS3kOoorv-gdT7vLyzn-_UWIyStLILLzvK7zJntEk" alt=""><figcaption></figcaption></figure>
 
-8. Click Asset Type to select the asset you want to send, prism++ is an upgrade to Prism. It not only supports FRC20, but also supports FRC721 and FRC1155 tokens in the Findora EVM network. You can enter the contract address to search and select the token you want to prism.
+8. Click Asset Type to select the asset you want to send, prism++ is an upgrade to Prism. It not only supports FRC20, but also supports FRC721 and FRC1155 tokens in the Findora EVM network. You can enter the contract address to search and select the token you want to prism. for the FRC721 and FRC1155, you need a additional `tokenID` as input. The `tokenID` can be found  on your transaction history on our explorer, or any wallets supported NFT.
 
 <figure><img src="https://lh6.googleusercontent.com/T6TLRFm0Ej-H82EVo5YbFRFDmeYQ3PU8-frrvf1rbrZbwCHDk0NBmZ6HOvPdPIujXdse6uZOyRghKBHtuX6auc0R0eroZBArvcRnLKe-1-UCKSIRqWuU6-UQskfkGFxWaIWmkvmqdoU4lcK-uq7X1n4" alt=""><figcaption></figcaption></figure>
+
+
 
 9. After the transaction is completed, the token from EVM prism to Native will become a new asset in Native, and you can check it from the wallet balance.
 
 <figure><img src="https://lh6.googleusercontent.com/qNPDp7wIkczutabO2rGTj4boeIHFmxsGwhmWwk87I-mrjWlXpFzRJyxgkjNWPVHKTJSfR3aJI_tMzqPmlEAVQAydjfM1a4Ctw_prFrQ0Ogv9tOcdBIua4OLJxA_bIpsQ2YDMBBLTv3lqycmQP9f29GY" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/telegram-cloud-photo-size-1-4958787928373439422-y.jpg" alt=""><figcaption></figcaption></figure>
 
 10. You can also view the asset code of this asset in the Native network in asset management.
 
