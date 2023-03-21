@@ -1,4 +1,11 @@
-# Prism Transfer
+---
+description: >-
+  Prism++ allows for the transfer of FRC20, FRC721, and FRC1155 assets between
+  Findora Native Chain and Findora EVM Chain, providing enhanced privacy
+  features for those assets.
+---
+
+# Prism++ Transfer
 
 Findora is built from two different blockchain layers that follow a single consensus algorithm.
 
@@ -7,15 +14,15 @@ These two blockchain layers include:
 * **Findora Native Chain** - a UTXO-based blockchain layer
 * **Findora Smart Chain** - an accounts-based blockchain layer
 
-**Prism** is the feature that enables users to bridge (aka transfer) assets from the UTXO-based side to the EVM accounts-based side (and vice-versa) of the Findora blockchain.&#x20;
+**Prism++** is the feature that enables users to bridge (aka transfer) assets from the UTXO-based side to the EVM accounts-based side (and vice-versa) of the Findora blockchain.&#x20;
 
-Essentially, Prism transfer is an **internal bridge** between the two Findora blockchains.
+Essentially, Prism++ transfer is an **internal bridge** between the two Findora blockchains.
 
-Users can initiate a Prism transfer via the Findora wallet. Developers can integrate PRISM transfers into their application via the SDK.
+Users can initiate a Prism++ transfer via the Findora wallet. Developers can integrate PRISM transfers into their applications via the [SDK](../developers/developer-sdks/prism++-sdk.md).
 
 <figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption><p>Prism Overview</p></figcaption></figure>
 
-#### Why Prism?[​](https://wiki.findora.org/docs/modules/prism/Overview#why-prism) <a href="#why-prism" id="why-prism"></a>
+#### Why Prism++?[​](https://wiki.findora.org/docs/modules/prism/Overview#why-prism) <a href="#why-prism" id="why-prism"></a>
 
 Most blockchains follow one of two record-keeping models: the UTXO model or the account model. Blockchains such as Bitcoin and ZCash use a UTXO model and others, such as Ethereum and Polkadot, use an account model.
 
@@ -62,7 +69,14 @@ While using the Findora wallet, if the FRA token is simply labeled “FRA” (ra
 
 Special Note: A key innovation of the Findora’s Smart Chain is the design of the Smart Chain token which is not only a token required to pay for gas transactions on the Smart Chain but it’s also been enhanced to follow the Smart Chain’s FRC-20 standard (i.e. Findora’s version of Ethereum’s ERC-20) by default. So unlike Ethereum, which requires the ETH tokens to be wrapped into ERC-20 form before they can work on an Ethereum DEX, Findora Smart Chain tokens will work automatically on any Findora DEX without the extra step of needing to wrap the FRA tokens first.
 
-#### Prism for FRA-native and FRA-smart[​](https://wiki.findora.org/docs/modules/prism/Overview#prism-for-fra-native-and-fra-smart) <a href="#prism-for-fra-native-and-fra-smart" id="prism-for-fra-native-and-fra-smart"></a>
+## Prism and Prism++ Transfers&#x20;
+
+| Transfer Type      | Supported Tokens       |
+| ------------------ | ---------------------- |
+| Prism Transfer     | FRA                    |
+| Prism++ Transfers  | FRC20, FRC721, FRC1155 |
+
+### Prism for FRA-native and FRA-smart[​](https://wiki.findora.org/docs/modules/prism/Overview#prism-for-fra-native-and-fra-smart) <a href="#prism-for-fra-native-and-fra-smart" id="prism-for-fra-native-and-fra-smart"></a>
 
 With Prism, users can atomically and trustlessly convert their FRA-native tokens on the native chain to FRA-smart tokens on the smart chain. Below are the workflows of how Prism transfer works for FRA.
 
@@ -83,7 +97,7 @@ With Prism, users can atomically and trustlessly convert their FRA-native tokens
 
 <figure><img src="https://lh4.googleusercontent.com/0v5qBuex7W9KpyDYysSsnSIGxHr7BXoH7PAP_NeLmHkDAJkv0iLG6_FHCP2zxLZgHot3qmETFKVuFmbNS4H59TLnPEaF13w9jsf9c3evWahsBo-Tq8GrQj-sjXCBkmeTWwk6iefXxZb3lnzPyAJz10I" alt=""><figcaption></figcaption></figure>
 
-**Prism for FRC20/FRC721/FRC1155**[**​**](https://wiki.findora.org/docs/modules/prism/Overview#native-chain-fra-and-smart-chain-fra) **tokens**
+### **Prism++ for FRC20/FRC721/FRC1155**[**​**](https://wiki.findora.org/docs/modules/prism/Overview#native-chain-fra-and-smart-chain-fra) **tokens**
 
 Apart from FRA, Prism supports all tokens coming from FRC20/FRC721/FRC1155 family. For every deployed FRC20/FRC721/FRC1155 asset in smart chain, Prism will automatically create a mapped UTXO-based asset in the native chain, meaning whitelisting is done by Prism in a decentralized way. Similar to FRA Prism transfer, users can easily convert FRC20/FRC721/FRC1155 token to mapped UTXO token in native chain and vice versa. Below are the workflows of how Prism transfer works for FRC20/FRC721/FRC1155.
 
