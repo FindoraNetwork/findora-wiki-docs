@@ -12,7 +12,7 @@ Welcome to the validator section of our documentation. This section will walk yo
    \
    [**Manual Setup**](manual-setup.md) **-** This method walks you through the process, step-by-step.\
    \
-   [**Toolbox Setup**](toolbox-setup/) **(Recommended) -** This method uses a toolbox to do much of the heavy lifting for you. The toolbox provides you with a set of tools for managing and troubleshooting your validator.&#x20;
+   [**Toolbox Setup**](validator-toolbox-setup/) **(Recommended) -** This method uses a toolbox to do much of the heavy lifting for you. The toolbox provides you with a set of tools for managing and troubleshooting your validator.&#x20;
 
 {% hint style="info" %}
 You can install the toolbox separately after following the steps in Manual Setup.

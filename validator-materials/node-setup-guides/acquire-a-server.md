@@ -38,7 +38,7 @@ Two options are available for you when it comes to the setup:
 
 * ****[**Manual Setup**](manual-setup.md)****
   * This method walks you through the process, step-by-step, one command at a time. This is recommended for first timers as you get to learn the process before taking shorter, easier paths.
-* ****[**Toolbox Setup**](toolbox-setup/)****
+* ****[**Toolbox Setup**](validator-toolbox-setup/)****
   * This method uses a toolbox to do much of the heavy lifting for you. The toolbox provides you with a set of tools for managing and troubleshooting your validator.&#x20;
 
 {% hint style="info" %}
