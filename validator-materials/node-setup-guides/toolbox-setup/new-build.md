@@ -152,7 +152,7 @@ Now you can run `fn show` or `findora.sh` to see your validator address on this 
 
 You should now fund your validator wallet address with at least 10,000 FRA plus extra to cover any gas fees or slashing due to unexpected downtime. \
 \
-Proceed to the next steps below once your validator wallet address is funded. It will be required during the self-delegation step.
+Proceed to the next steps below once your validator wallet address is funded. It will be required during the self-delegation step using the `fn stake` command.
 
 #### Staker Memo File
 
