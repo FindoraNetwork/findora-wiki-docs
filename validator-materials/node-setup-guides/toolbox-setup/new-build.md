@@ -98,13 +98,17 @@ Run `docker ps` command. Below is the expected output:
 
 Firewall types vary depending on OS and provider.&#x20;
 
-Here are the ports required to be open for Findora. Port 22 is for SSH, the rest are for the Findora docker container. Use your provider tools or the CLI to configure your firewall.
+Here are the ports required to be open for Findora. Port 22 is for SSH, the rest are for the Findora docker container. Use your provider tools or the CLI to configure your firewall.\
+\
+Below is an example list of commands to configure your firewall via CLI.
 
 ```
-22
-8545
-8667-8669
-26657
+sudo ufw allow 22
+sudo ufw allow 8545/tcp
+sudo ufw allow 8667/tcp
+sudo ufw allow 8668/tcp
+sudo ufw allow 8669/tcp
+sudo ufw allow 26657/tcp
 ```
 
 ## Step 4: Download & Run Toolbox Installer
@@ -146,7 +150,9 @@ curl 'http://localhost:8669/version'
 
 Now you can run `fn show` or `findora.sh` to see your validator address on this server.&#x20;
 
-You should now fund your validator wallet with at least 10,000 FRA plus extra to cover any gas fees or slashing due to unexpected downtime.
+You should now fund your validator wallet address with at least 10,000 FRA plus extra to cover any gas fees or slashing due to unexpected downtime. \
+\
+Proceed to the next steps below once your validator wallet address is funded. It will be required during the self-delegation step.
 
 #### Staker Memo File
 
