@@ -2,7 +2,7 @@
 
 <figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-Go to the [Findora Spece](https://galxe.com/Findora/campaign/GCi1YUKd12) on Project Galaxe then choose Findora's Prism++ Testnet Campaign.&#x20;
+Go to the [Findora Spece](https://galxe.com/Findora/campaign/GCi1YUKd12) on Project Galaxe then choose [Findora's Prism++ Testnet Campaign](https://galxe.com/Findora/campaign/GCi1YUKd12).&#x20;
 
 <figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -11,7 +11,7 @@ To sign up for the campaign, you need to claim the Peasant OAT by completing the
 * Join Findora on Telegram
 * Verify on Findora's Discord Server
 * Follow Findora on Twitter
-* Visit Findora Prism++ Campaign Signup (provide your fra addresses)&#x20;
+* Visit Findora Prism++ Campaign Signup (register your fra addresses)&#x20;
   * if you are new to creating a Findor Native Wallet (staring with fra...) please go to [testnet-wallet-setup.md](testnet-wallet-setup.md "mention")
 
 {% hint style="info" %}
