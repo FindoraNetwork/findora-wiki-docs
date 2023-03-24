@@ -9,7 +9,7 @@ You’ll keep leveling up as you complete more tasks and Prism++ Transfer Loops.
 \
 
 
-1\. Visit[ Findora Faucet](https://faucet.findora.org/) to receive FRC20 test tokens to your EVM Wallet
+1\. Visit[ Findora Faucet](https://faucet.findora.org/) to receive FRC20 test tokens to your EVM Wallet. Add the FRC20 token ![](<../../../../.gitbook/assets/image (5).png>)
 
 <figure><img src="https://lh6.googleusercontent.com/WgeVQy1puAaiufuSwVJJmY4R02YaZMhQTvJjqfItpTB4c0ugNo3-8vPsw7hxeYnUpjp7jpA9xkWbMbPAezYPvXdmOLf-mBlTmZ-tfEjZMN5JA_D9TWJ5emWRqVpDdHvqOVbrFxJiCCFQ828BukTq7jg" alt=""><figcaption></figcaption></figure>
 

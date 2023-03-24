@@ -6,9 +6,15 @@ You’ll keep leveling up as you complete more tasks and Prism++ Transfer Loops.
 
 
 
-1\. Visit[ Findora Faucet](https://faucet.findora.org/) to receive FRC721 test tokens to your EVM Wallet
+1\. Visit[ Findora Faucet](https://faucet.findora.org/) to receive FRC721 test tokens to your EVM Wallet. Add the&#x20;
 
 <figure><img src="../../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
 
 2\. On the Findora Wallet, click the Prism++ tab and choose the direction from EVM wallet to Native wallet (UTXO Wallet 1). Then confirm your imported EVM wallet.
 
