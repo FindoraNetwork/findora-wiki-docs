@@ -73,7 +73,7 @@ groups
 
 > **✅ Completed**: Verify root access for "servicefindora".
 
-<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption><p>Ensure that "sudo" appears in the output.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46) (2).png" alt=""><figcaption><p>Ensure that "sudo" appears in the output.</p></figcaption></figure>
 
 ### Step 2: Install Docker
 
@@ -347,7 +347,7 @@ cat ${ROOT_DIR}/tmp.gen.keypair
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (51) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (51) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Important:

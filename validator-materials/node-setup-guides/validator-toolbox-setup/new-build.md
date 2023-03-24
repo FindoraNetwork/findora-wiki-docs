@@ -66,7 +66,7 @@ groups
 ```
 {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (46).png" alt=""><figcaption><p>Ensure that "sudo" appears in the output.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (46) (2).png" alt=""><figcaption><p>Ensure that "sudo" appears in the output.</p></figcaption></figure>
 
 ## Step 2: Install Docker and Requirements
 

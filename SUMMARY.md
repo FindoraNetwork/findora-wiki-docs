@@ -112,7 +112,7 @@
   * [Prism ++](general-user-materials/testnet/prism-++/README.md)
     * [Prism++ Testing Campaign](general-user-materials/testnet/prism-++/prism++-testing-campaign/README.md)
       * [👨🌾 Peasant: Prism++ Campaign Signup](general-user-materials/testnet/prism-++/prism++-testing-campaign/peasant-prism++-campaign-signup.md)
-      * [💰 Testnet Wallet Setup](general-user-materials/testnet/prism-++/prism++-testing-campaign/testnet-wallet-setup.md)
+      * [💰 Testnet Wallet Setup/Funding](general-user-materials/testnet/prism-++/prism++-testing-campaign/testnet-wallet-setup-funding.md)
       * [🧒 Pupil: FRC20 Token Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/frc20-token-transfers.md)
       * [🧑🎨 Pilgrim: FRC 721 Token Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/pilgrim-frc-721-token-transfers.md)
       * [🧑🎓 Prodigy: FRC1155 Token Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/prodigy-frc1155-token-transfers.md)

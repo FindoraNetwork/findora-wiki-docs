@@ -36,7 +36,7 @@ You’ll keep leveling up as you complete more tasks and Prism++ Transfer Loops.
 
 7\. Open the Manage Assets tab, copy the FRC721’s asset code. Then click Add button
 
-<figure><img src="../../../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (51) (2).png" alt=""><figcaption></figcaption></figure>
 
 8\. Add the asset to your wallet 2
 
@@ -44,6 +44,6 @@ You’ll keep leveling up as you complete more tasks and Prism++ Transfer Loops.
 
 9\. Using Prism++ to transfer the FRC721 token back to your EVM wallet.
 
-<figure><img src="../../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
 
 \

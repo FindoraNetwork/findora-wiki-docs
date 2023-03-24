@@ -23,7 +23,7 @@ To test Prism++, you’ll embark on a journey from Prism Peasant to a Prism Pion
 The process is simple and easy:&#x20;
 
 1. [Sign up for the Campaign](peasant-prism++-campaign-signup.md) on Project Galaxe&#x20;
-2. [Test Wallet Setup ](testnet-wallet-setup.md)
+2. [Test Wallet Setup ](testnet-wallet-setup-funding.md)
 3. Complete Prism++ Transfers
 4. Level Up!
 
@@ -38,8 +38,8 @@ Do this for FRC20, FRC721 and FRC1155 tokens to level up.
 
 To start, download the Findora testnet wallet and generate two wallet addresses. It’s easy to do, and we have a walkthrough here if you get stuck 👇&#x20;
 
-{% content-ref url="testnet-wallet-setup.md" %}
-[testnet-wallet-setup.md](testnet-wallet-setup.md)
+{% content-ref url="testnet-wallet-setup-funding.md" %}
+[testnet-wallet-setup-funding.md](testnet-wallet-setup-funding.md)
 {% endcontent-ref %}
 
 Once you have the wallet, you can enter the campaign on Project Galaxe here. Once this is completed, you’ll have already earned Peasant Badge!
