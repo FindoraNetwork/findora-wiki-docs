@@ -50,13 +50,13 @@ Once you have the wallet, you can enter the campaign on Project Galaxe here. Onc
 
 There are five tasks you’ll need to complete to increase your rank. Here they are with their corresponding rank:
 
-| Badge                                                      | Level       | Task Needed to Earn it                            | Step to Step Guide                                                                 |
-| ---------------------------------------------------------- | ----------- | ------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| ****![](<../../../../.gitbook/assets/Level 1.png>)****     | **Peasant** | Sign up for the campaign on Project Galaxe        | [peasant-prism++-campaign-signup.md](peasant-prism++-campaign-signup.md "mention") |
-| ****![](<../../../../.gitbook/assets/Level 2.png>)****     | **Pupil**   | Complete Prism Transfer Loop with FRC20 tokens    | [frc20-token-transfers.md](frc20-token-transfers.md "mention")                     |
-| ****![](<../../../../.gitbook/assets/Level 3 (1).png>)**** | **Pilgrim** | Complete Prism Transfer Loop with FRC721 tokens   | [pilgrim-frc-721-token-transfers.md](pilgrim-frc-721-token-transfers.md "mention") |
-| ****![](<../../../../.gitbook/assets/Level 4.png>)****     | **Prodigy** | Complete Prism Transfer Loop with FRC1155 tokens  | [prodigy-frc1155-token-transfers.md](prodigy-frc1155-token-transfers.md "mention") |
-| ****![](<../../../../.gitbook/assets/Level 5.png>)****     | **Pioneer** | Complete Prism Transfer Loop on mainnet with USDT | [Broken link](broken-reference "mention")                                          |
+| Badge                                                      | Level       | Task Needed to Earn it                            | Step to Step Guide                                                                 | Duration                                  |
+| ---------------------------------------------------------- | ----------- | ------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------- |
+| ****![](<../../../../.gitbook/assets/Level 1.png>)****     | **Peasant** | Sign up for the campaign on Project Galaxe        | [peasant-prism++-campaign-signup.md](peasant-prism++-campaign-signup.md "mention") | March 24 - April 21 (GMT 0:00)            |
+| ****![](<../../../../.gitbook/assets/Level 2.png>)****     | **Pupil**   | Complete Prism Transfer Loop with FRC20 tokens    | [frc20-token-transfers.md](frc20-token-transfers.md "mention")                     | March 24 - April 21 (GMT 0:00)            |
+| ****![](<../../../../.gitbook/assets/Level 3 (1).png>)**** | **Pilgrim** | Complete Prism Transfer Loop with FRC721 tokens   | [pilgrim-frc-721-token-transfers.md](pilgrim-frc-721-token-transfers.md "mention") | March 24 - April 21 (GMT 0:00)            |
+| ****![](<../../../../.gitbook/assets/Level 4.png>)****     | **Prodigy** | Complete Prism Transfer Loop with FRC1155 tokens  | [prodigy-frc1155-token-transfers.md](prodigy-frc1155-token-transfers.md "mention") | March 24 - April 21 (GMT 0:00)            |
+| ****![](<../../../../.gitbook/assets/Level 5.png>)****     | **Pioneer** | Complete Prism Transfer Loop on mainnet with USDT | [Broken link](broken-reference "mention")                                          | April 10 (GMT 0:00) - April 21 (GMT 0:00) |
 
 \
 Once you become a Prism Peasant by entering the campaign, you’ll also need to share the two UTXO addresses you’ll use for confidential transfers as part of the Prism++ Transfer loop. Complete a Prism++ Transfer Loop for each token type on testnet. The final task is to complete a Prism++ Transfer Loop on mainnet using USDT.
