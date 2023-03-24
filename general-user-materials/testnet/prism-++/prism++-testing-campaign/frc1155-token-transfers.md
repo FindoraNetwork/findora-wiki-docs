@@ -10,7 +10,7 @@
 
 4\. Click Asset Type and search the FRC1155 by `token ID 0` and the contract address: `0xDFC09ffE02F665c7055Fe145dcDB1b697D58a984`.
 
-<figure><img src="../../../../.gitbook/assets/image (41) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
 9\. Input your native wallet address and the amount. Then submit the transaction.
 

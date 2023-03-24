@@ -26,7 +26,7 @@ Prism++ supports users to transfer FRC20, FRC721, FRC1155 between Findora EVM ne
 | Chian ID           | 2153                                       |
 | Block explorer URL | https://testnet-anvil.evm.findorascan.io   |
 
-![](<../../../.gitbook/assets/image (1).png>)
+![](<../../../.gitbook/assets/image (1) (5).png>)
 
 4. Create a new wallet in the testnet wallet, please do not import mnemonic or private keys that own mainnet assets into the testnet wallet
 
