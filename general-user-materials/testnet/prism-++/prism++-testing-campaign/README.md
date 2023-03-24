@@ -50,13 +50,13 @@ Once you have the wallet, you can enter the campaign on Project Galaxe here. Onc
 
 There are five tasks you’ll need to complete to increase your rank. Here they are with their corresponding rank:
 
-| Badge                                                      | Level       | Task Needed to Earn it                            |
-| ---------------------------------------------------------- | ----------- | ------------------------------------------------- |
-| ****![](<../../../../.gitbook/assets/Level 1.png>)****     | **Peasant** | Sign up for the campaign on Project Galaxe        |
-| ****![](<../../../../.gitbook/assets/Level 2.png>)****     | **Pupil**   | Complete Prism Transfer Loop with FRC20 tokens    |
-| ****![](<../../../../.gitbook/assets/Level 3 (1).png>)**** | **Pilgrim** | Complete Prism Transfer Loop with FRC721 tokens   |
-| ****![](<../../../../.gitbook/assets/Level 4.png>)****     | **Prodigy** | Complete Prism Transfer Loop with FRC1155 tokens  |
-| ****![](<../../../../.gitbook/assets/Level 5.png>)****     | **Pioneer** | Complete Prism Transfer Loop on mainnet with USDT |
+| Badge                                                      | Level       | Task Needed to Earn it                            | Step to Step Guide                                                                 |
+| ---------------------------------------------------------- | ----------- | ------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| ****![](<../../../../.gitbook/assets/Level 1.png>)****     | **Peasant** | Sign up for the campaign on Project Galaxe        | [peasant-prism++-campaign-signup.md](peasant-prism++-campaign-signup.md "mention") |
+| ****![](<../../../../.gitbook/assets/Level 2.png>)****     | **Pupil**   | Complete Prism Transfer Loop with FRC20 tokens    | [frc20-token-transfers.md](frc20-token-transfers.md "mention")                     |
+| ****![](<../../../../.gitbook/assets/Level 3 (1).png>)**** | **Pilgrim** | Complete Prism Transfer Loop with FRC721 tokens   | [pilgrim-frc-721-token-transfers.md](pilgrim-frc-721-token-transfers.md "mention") |
+| ****![](<../../../../.gitbook/assets/Level 4.png>)****     | **Prodigy** | Complete Prism Transfer Loop with FRC1155 tokens  | [prodigy-frc1155-token-transfers.md](prodigy-frc1155-token-transfers.md "mention") |
+| ****![](<../../../../.gitbook/assets/Level 5.png>)****     | **Pioneer** | Complete Prism Transfer Loop on mainnet with USDT | [pioneer-mainnet-transfers.md](pioneer-mainnet-transfers.md "mention")             |
 
 \
 Once you become a Prism Peasant by entering the campaign, you’ll also need to share the two UTXO addresses you’ll use for confidential transfers as part of the Prism++ Transfer loop. Complete a Prism++ Transfer Loop for each token type on testnet. The final task is to complete a Prism++ Transfer Loop on mainnet using USDT.
@@ -69,14 +69,27 @@ Once you complete transfers for each token type, and do a final one on mainnet, 
 
 ## Rules and Rewards
 
-The campaign will run from March 24th to April, 10th.&#x20;
+The campaign will run from March 24th to April, 20th.&#x20;
 
-There is a grand prize pool of $10,000 for addresses that earn all 5 badges (called OATs on Project Galaxe which stands for [On-chain Achievement Token](https://medium.com/galxe-news/introducing-galaxy-oat-on-chain-achievement-token-7e89779242b4)). 2,000 addresses that collect all 5 badges will share in the $10,000 grand prize pool, earning $5 each.
+There is **a grand prize pool of $10,000** for addresses that earn all 5 badges (called OATs on Project Galaxe which stands for [On-chain Achievement Token](https://medium.com/galxe-news/introducing-galaxy-oat-on-chain-achievement-token-7e89779242b4)). 2,000 addresses that collect all 5 badges will share in the $10,000 grand prize pool, earning $5 each.
 
 \
 You can claim the badges as you go from Project Galaxe, but it may take some time for your participation to be verified. Please wait at least a couple of days after completing tasks before claiming your badge (OAT) from Project Galaxe.
 
 Make sure that the EVM address you use for Prism++ Transfers is the same as the one used to sign up for the campaign with Project Galaxe. Also, be sure to use the same UTXO addresses for confidential transactions for each task. We’ll only be able to give you credit for your progress if you use the same UTXO addresses for each badge.
 
+### How To Guides
+
+To make the process as simple as possible, we’ve created a video walk-through:
+
+{% file src="../../../../.gitbook/assets/findora prism++ guide (frc20 transfers).mp4" %}
+
+{% file src="../../../../.gitbook/assets/findora prism++ guide (frc721 and 1155 transfers).mp4" %}
+
+
+
+
+
+\
 
 
