@@ -1,6 +1,6 @@
 # 👨🌾 Peasant: Prism++ Campaign Signup
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Go to the [Findora Spece](https://galxe.com/Findora/campaign/GCi1YUKd12) on Project Galaxe then choose [Findora's Prism++ Testnet Campaign](https://galxe.com/Findora/campaign/GCi1YUKd12).&#x20;
 
@@ -14,7 +14,7 @@ To sign up for the campaign, you need to claim the Peasant OAT by completing the
 * Visit Findora Prism++ Campaign Signup (register your fra addresses)&#x20;
   * if you are new to creating a Findor Native Wallet (staring with fra...) please go to [testnet-wallet-setup-funding.md](testnet-wallet-setup-funding.md "mention")
 
-{% hint style="info" %}
+{% hint style="success" %}
 NOTE: Be sure to always use the same EVM wallet address (“0x…”) that you used to sign up for the campaign on Project Galaxe to do your Prism++ transfers both on Anvil Testnet and the Findora Mainnet. That’s also the wallet address to which will airdrop the rewards.\
 \
 Also, be sure to use the same UTXO addresses for confidential transactions for each task. We’ll only be able to give you credit for your progress if you use the same UTXO addresses for each badge.

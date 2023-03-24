@@ -4,13 +4,15 @@ description: Setting up and funding your wallets (Findora Desktop Wallet)
 
 # 💰 Testnet Wallet Setup/Funding
 
-{% hint style="info" %}
+{% hint style="danger" %}
 #### NOTE: If you have a Findora wallet already, be sure to export your private keys before downloading the testnet wallet! This is the best practice for any wallet because the private keys will allow you to recover your wallet if anything happens.
+
+
 {% endhint %}
 
-
-
-### Wallet Setup&#x20;
+{% hint style="info" %}
+If you have 0.3.4 wallet (and have already configured Anvil testnet on this wallet) then when you download 0.4.0 test wallet for the campaign you will have issues loading the balance for Prism++ transfers (evm->native). Please delete the Anvil network configuration on Wallet 0.3.4.&#x20;
+{% endhint %}
 
 1\. Visit[ findora.org/testnet](https://www.findora.org/testnet), download and install the testnet wallet.&#x20;
 
@@ -50,7 +52,7 @@ You will need FRA tokens in both your EVM Wallet and your UTXO Wallet during the
 
 6\. Click Prism++, select EVM-Compatible Wallet to Native Wallet and choose FRA tokens.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 7\. Import the private key to your EVM wallet.
 
