@@ -1,4 +1,4 @@
-# FRC20 Token Transfers
+# Pupil: FRC20 Token Transfers
 
 1\. Visit[ Findora Faucet](https://faucet.findora.org/) to receive FRC20 test tokens
 
