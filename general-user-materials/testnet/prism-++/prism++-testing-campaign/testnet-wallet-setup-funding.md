@@ -31,10 +31,11 @@ If you have 0.3.4 wallet (and have already configured Anvil testnet on this wall
 
 3\. Add Anvil testnet to metamask and configure MetaMask to Anvil testnet.&#x20;
 
-| Network Name       | Anvil                                    |
-| ------------------ | ---------------------------------------- |
-| Chian ID           | 2153                                     |
-| Block explorer URL | https://testnet-anvil.evm.findorascan.io |
+| Network Name       | Anvil                                                                                    |
+| ------------------ | ---------------------------------------------------------------------------------------- |
+| RPC URL            | [https://prod-testnet.prod.findora.org:8545](https://prod-testnet.prod.findora.org:8545) |
+| Chain ID           | 2153                                                                                     |
+| Block explorer URL | https://testnet-anvil.evm.findorascan.io                                                 |
 
 <figure><img src="https://lh6.googleusercontent.com/g1PDPPV3mTtk9IK277qbnNlEjbdeyfKbe_ilfYnYG5qCL0OGr0ET0HChK6SlUz6--cqSAWw83JzslveHMcK8imdGS_rj0gDDTuwmzWt-SOGvZFd5sx5QCIIBiz2wPHH5dXopSU5mvJVWZQU2AFp-tiY" alt=""><figcaption></figcaption></figure>
 
