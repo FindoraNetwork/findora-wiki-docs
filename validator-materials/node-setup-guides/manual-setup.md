@@ -35,7 +35,7 @@ adduser servicefindora
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33) (2).png" alt=""><figcaption></figcaption></figure>
 
 > **✅ Completed**: Add the "servicefindora" user account.
 
@@ -87,7 +87,7 @@ sudo apt update -y && sudo apt install apt-transport-https ca-certificates curl 
 
 You'll see lengthy output from running this command, but it should return to the prompt after a few moments of setting up docker. This is the expected output:
 
-<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption><p>Example output during the docker installation step.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47) (2).png" alt=""><figcaption><p>Example output during the docker installation step.</p></figcaption></figure>
 
 > **✅ Completed**: Install docker and add "servicefindora" to the docker group.
 
@@ -95,7 +95,7 @@ You'll see lengthy output from running this command, but it should return to the
 
 After reconnecting, you can verify you are in the docker group by typing `groups` and verifying the docker group is listed as shown.
 
-<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43) (1).png" alt=""><figcaption></figcaption></figure>
 
 > &#x20;**✅ Completed**: Logout and reconnect as "servicefindora".
 
@@ -103,7 +103,7 @@ After reconnecting, you can verify you are in the docker group by typing `groups
 
 Run `docker ps` command. Below is the expected output:
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption><p>Output expected from the "docker ps" command.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34) (2).png" alt=""><figcaption><p>Output expected from the "docker ps" command.</p></figcaption></figure>
 
 > **✅ Completed**: Confirm the output above from the `docker ps` command.
 
@@ -211,7 +211,7 @@ sudo mkdir -p ${ROOT_DIR} && sudo chown -R servicefindora:servicefindora ${ROOT_
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (45) (1).png" alt=""><figcaption></figcaption></figure>
 
 > **✅ Completed**: Create a new ledger data directory and set user permissions.
 
@@ -269,7 +269,7 @@ wget -O "${ROOT_DIR}/latest" "https://prod-${NAMESPACE}-us-west-2-archive-data-b
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
 
 Run the following to verify the download link. It should display a link ending in .tar.gz.
 
@@ -299,7 +299,7 @@ wget -O "${ROOT_DIR}/snapshot" "${CHAINDATA_URL}"
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (49) (1).png" alt=""><figcaption></figcaption></figure>
 
 > **✅ Completed**: Download the Findora database.
 
@@ -347,7 +347,7 @@ cat ${ROOT_DIR}/tmp.gen.keypair
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (51) (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Important:

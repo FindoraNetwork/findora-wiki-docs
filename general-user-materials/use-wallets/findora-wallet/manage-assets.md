@@ -13,7 +13,7 @@ Below are the two steps needed to create a new asset:
 1. Goto `Manage Assets` ⇒ `Define New Asset`
    *   Fill out the input fields on the `Define New Asset` page
 
-       <figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/image (50) (1).png" alt=""><figcaption></figcaption></figure>
 
 * `Asset Creator` - select the wallet address which will create the new asset
 * `Asset Nickname` - enter a nickname for the asset (it can be edited later)

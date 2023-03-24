@@ -55,7 +55,7 @@ To view a wallet's `Balance`, click on the wallet address and you will be taken 
 
 To check the balance of other tokens stored with that specific wallet account, use the pull-down menu to change the token type (if they exist)
 
-<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Export Privatekey[​](https://wiki.findora.org/docs/evm\_guides/use\_wallet/findora\_wallet/walletbasic#export-privatekey) <a href="#export-privatekey" id="export-privatekey"></a>
 

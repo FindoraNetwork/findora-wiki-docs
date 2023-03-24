@@ -8,7 +8,7 @@ Hardware Wallets (also known as cold storage) are physical devices that are not 
 
 Step 1: Select `Connect hardware wallet` in your Metamask settings dropdown
 
-<figure><img src="../../.gitbook/assets/image (45) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (45) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Step 2: Select your device type. We will use ledger for this demo.
 
@@ -30,7 +30,7 @@ Make sure that any other applications (such as Ledger Live) which might be conne
 
 Step 4: Once connected, unlock your account.
 
-<figure><img src="../../.gitbook/assets/image (42) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (42) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **NOTE**
 
@@ -52,7 +52,7 @@ Receiving funds to you ledger address would be the same process as any other tra
 
 * Check the confirmed status on Metamask
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Verify that the transaction is successful on Findora EVM block explorer
 
@@ -74,7 +74,7 @@ Step 3: Follow on screen instructions to plug your device and open Ethereum app
 
 Step 4: The transaction should now pop up on your device
 
-<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (41) (1).png" alt=""><figcaption></figcaption></figure>
 
 Step 5: Verify the transaction details
 
@@ -90,6 +90,6 @@ Step 6: Approve the tx on the device by clicking both buttons together
 
 Step 7: Check confirmed status on Metamask and Block Explorer
 
-<figure><img src="../../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (37) (1).png" alt=""><figcaption></figcaption></figure>

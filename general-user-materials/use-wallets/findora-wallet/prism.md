@@ -14,7 +14,7 @@ Export the private key from MetaMask and store it in a secure location.&#x20;
 >
 > The private key gives any holder full access to your assets stored in your account. Do not share this with any untrusted individual, dApp, or service.
 
-<img src="../../../.gitbook/assets/image (42).png" alt="" data-size="original"><img src="../../../.gitbook/assets/image (1) (6).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (42) (1).png" alt="" data-size="original"><img src="../../../.gitbook/assets/image (1) (6).png" alt="" data-size="original">
 
 ### Step #2
 

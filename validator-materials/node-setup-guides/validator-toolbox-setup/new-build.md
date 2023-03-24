@@ -36,7 +36,7 @@ adduser servicefindora
 ```
 {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (33) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Provide Root Access to the New Account: <a href="#step-1-pull-findora-docker-image" id="step-1-pull-findora-docker-image"></a>
 
@@ -80,19 +80,19 @@ sudo apt update -y && sudo apt install apt-transport-https ca-certificates curl 
 
 You will see lengthy output from running this command, but it should return to the prompt after a few moments of setting up docker. This is the expected output:
 
-<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption><p>Example output during the docker installation step.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (47) (2).png" alt=""><figcaption><p>Example output during the docker installation step.</p></figcaption></figure>
 
 ### **Disconnect and Reconnect as "servicefindora"**
 
 After reconnecting, you can verify you are in the docker group by typing `groups` and verifying the docker group is listed as shown.
 
-<figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (43) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Run the "docker ps" Command
 
 Run `docker ps` command. Below is the expected output:
 
-<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption><p>Output expected from the "docker ps" command.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (34) (2).png" alt=""><figcaption><p>Output expected from the "docker ps" command.</p></figcaption></figure>
 
 ## Step 3: Firewall Setup
 
