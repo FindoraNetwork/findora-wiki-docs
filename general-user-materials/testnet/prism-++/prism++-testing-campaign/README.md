@@ -14,7 +14,7 @@ Those who complete the entire campaign, thus going from Prism Peasant to Pioneer
 
 It’s our small way of showing our gratitude for your effort in building ZK in Web3! Here are the details:&#x20;
 
-<figure><img src="../../../../.gitbook/assets/Prism++ Testnet Campaign (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Prism++ Testnet Campaign (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Campaign Overview&#x20;
 
@@ -77,17 +77,6 @@ There is a grand prize pool of $10,000 for addresses that earn all 5 badges (cal
 You can claim the badges as you go from Project Galaxe, but it may take some time for your participation to be verified. Please wait at least a couple of days after completing tasks before claiming your badge (OAT) from Project Galaxe.
 
 Make sure that the EVM address you use for Prism++ Transfers is the same as the one used to sign up for the campaign with Project Galaxe. Also, be sure to use the same UTXO addresses for confidential transactions for each task. We’ll only be able to give you credit for your progress if you use the same UTXO addresses for each badge.
-
-\
-
-
-
-
-
-
-
-
-
 
 
 
