@@ -143,6 +143,6 @@ const value = await myContract.getValue();
 console.log('value is:', value.toString())
 ```
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Congratulations, you have completed the Hardhat basic operation guide!

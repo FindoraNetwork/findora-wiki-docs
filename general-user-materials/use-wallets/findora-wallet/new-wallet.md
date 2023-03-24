@@ -29,7 +29,7 @@ To import `From Mnemonic`, type in all Mnemonic seed words related to that priva
 `2.From KeyStore`\
 To import `From KeyStore`, upload the KeyStore (which contains a private key inside) to the app. You will need to enter the password that was supplied with the KeyStore to complete the import process.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (1) (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 `3.From Private Key`\
 To import directly `From Private Key`, type in or paste in the private key value (i.e. a long string of random alphanumeric values).
@@ -51,7 +51,7 @@ The button on the left copies the wallet address to memory so you can paste into
 The button the right opens a QR code which you can scan with your mobile phone camera to import the address into your phone\
 To view a wallet's `Balance`, click on the wallet address and you will be taken to `Wallet Info` page. The default token type displayed is `fra`.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 To check the balance of other tokens stored with that specific wallet account, use the pull-down menu to change the token type (if they exist)
 

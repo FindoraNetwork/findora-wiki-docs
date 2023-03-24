@@ -28,7 +28,7 @@ Use the details below to configure Metamask and connect to Findora’s EVM netwo
 
 For example, if you would like to connect to the Anvil Testnet, your Metamask should be configured like this:
 
-<figure><img src="../../../.gitbook/assets/image (2) (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (5).png" alt=""><figcaption></figcaption></figure>
 
 Click on the `Save` button and you should have a screen like this and be ready to go!
 
