@@ -8,7 +8,7 @@ Prism++ supports users to transfer FRC20, FRC721, FRC1155 between Findora EVM ne
 
 2. Add Anvil testnet to the testnet wallet
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 | Paremeters              | Value                                 |
 | ----------------------- | ------------------------------------- |
@@ -26,7 +26,7 @@ Prism++ supports users to transfer FRC20, FRC721, FRC1155 between Findora EVM ne
 | Chian ID           | 2153                                       |
 | Block explorer URL | https://testnet-anvil.evm.findorascan.io   |
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../../.gitbook/assets/image (1).png>)
 
 4. Create a new wallet in the testnet wallet, please do not import mnemonic or private keys that own mainnet assets into the testnet wallet
 
@@ -34,7 +34,7 @@ Prism++ supports users to transfer FRC20, FRC721, FRC1155 between Findora EVM ne
 
 5. Visit [Findora Faucet](https://faucet.findora.org/) to receive Anvil FRA-EVM test coins and FRC20 test coins
 
-![](<../../.gitbook/assets/image (2) (1).png>)
+![](<../../../.gitbook/assets/image (2) (1).png>)
 
 6. Click Prism, select EVM-Compatible Wallet to Native Wallet
 
@@ -54,7 +54,7 @@ Prism++ supports users to transfer FRC20, FRC721, FRC1155 between Findora EVM ne
 
 <figure><img src="https://lh6.googleusercontent.com/qNPDp7wIkczutabO2rGTj4boeIHFmxsGwhmWwk87I-mrjWlXpFzRJyxgkjNWPVHKTJSfR3aJI_tMzqPmlEAVQAydjfM1a4Ctw_prFrQ0Ogv9tOcdBIua4OLJxA_bIpsQ2YDMBBLTv3lqycmQP9f29GY" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/telegram-cloud-photo-size-1-4958787928373439422-y.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/telegram-cloud-photo-size-1-4958787928373439422-y.jpg" alt=""><figcaption></figcaption></figure>
 
 10. You can also view the asset code of this asset in the Native network in asset management.
 

@@ -109,7 +109,14 @@
 * [Testnet](general-user-materials/testnet/README.md)
   * [Triple Masking](general-user-materials/testnet/triple-masking.md)
   * [EVM Staking](general-user-materials/testnet/evm-staking.md)
-  * [Prism ++](general-user-materials/testnet/prism-++.md)
+  * [Prism ++](general-user-materials/testnet/prism-++/README.md)
+    * [Prism++ Testing Campaign](general-user-materials/testnet/prism-++/prism++-testing-campaign/README.md)
+      * [👨🌾 Peasant: Prism++ Campaign Signup](general-user-materials/testnet/prism-++/prism++-testing-campaign/peasant-prism++-campaign-signup.md)
+      * [💰 Testnet Wallet Setup](general-user-materials/testnet/prism-++/prism++-testing-campaign/testnet-wallet-setup.md)
+      * [FRC20 Token Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/frc20-token-transfers.md)
+      * [FRC 721 Token Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/frc-721-token-transfers.md)
+      * [FRC1155 Token Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/frc1155-token-transfers.md)
+      * [Mainnet Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/mainnet-transfers.md)
 
 ## Validator Materials
 
