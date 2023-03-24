@@ -14,7 +14,7 @@ Those who complete the entire campaign, thus going from Prism Peasant to Pioneer
 
 It’s our small way of showing our gratitude for your effort in building ZK in Web3! Here are the details:&#x20;
 
-<figure><img src="../../../../.gitbook/assets/Prism++ Testnet Campaign (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Prism++ Testnet Campaign (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Campaign Overview&#x20;
 

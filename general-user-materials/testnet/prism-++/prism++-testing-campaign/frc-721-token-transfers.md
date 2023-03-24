@@ -12,7 +12,7 @@
 
 ![](<../../../../.gitbook/assets/image (43).png>)
 
-<figure><img src="../../../../.gitbook/assets/image (26) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
 
 4\. Click Asset Type and search the FRC721 by token ID and the contract address: `0x848bF2788E66E4f1fdE0499048b18D15D1e6E685`
 
@@ -24,7 +24,7 @@
 
 10\. On Send tab, perform the confidential transfer for FRC721 token from your one wallet to the other
 
-<figure><img src="../../../../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (25) (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://lh6.googleusercontent.com/bnR6PXICduhPlguWDU-_pyjH1-tdNe0qZ-aFa7JyiLKFc8KBHbjyH4rFxLMzUwBcqUcHhp5uMzqh1P5IM071an-tpgNgNPzw9bojf4r8OskNl468jGxb7YRfkIeDQ-PcubVKgNtnVXGC_V4mrN-f8nw" alt=""><figcaption></figcaption></figure>
 
@@ -38,6 +38,6 @@
 
 13\. Using Prism++ to transfer the FRC721 token back to your EVM wallet.
 
-<figure><img src="../../../../.gitbook/assets/image (29) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 \
