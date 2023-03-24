@@ -32,7 +32,7 @@ You’ll keep leveling up as you complete more tasks and Prism++ Transfer Loops.
 
 Do this for FRC20, FRC721 and FRC1155 tokens to level up.
 
-<figure><img src="https://lh4.googleusercontent.com/iTH9mRhVx-sqA2n-c6msA4YnCyNI6DPwNcYnW2VW5PmdCmyc7Phzi325zWy8ceoft-CIV1Sonl_ptOeDkaf6l71UOdzuwofkH967kUWYyaFparvUMuGrVjVKDYASeY2YtpvGIqSJJ9lsFSGgAPXQpVs" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Image (11).png" alt=""><figcaption></figcaption></figure>
 
 ## Campaign Tasks and Ranks
 
