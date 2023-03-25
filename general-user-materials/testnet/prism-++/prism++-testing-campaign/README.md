@@ -39,7 +39,7 @@ To complete a Prism++ Transfer Loop you will:
 * Transfer them back to the original EVM wallet using Prism++Then you’ll wallets before \
 
 
-<figure><img src="../../../../.gitbook/assets/prism++ loop (1).png" alt=""><figcaption><p>Prism++ Transfer Loop</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/prism++ loop.png" alt=""><figcaption><p>Prism++ Transfer Loop</p></figcaption></figure>
 
 ## Campaign Tasks and Ranks
 
@@ -65,7 +65,7 @@ There are five tasks you’ll need to complete to increase your rank. Here they 
 | Badge                                                      | Level       | Task                                              | Step by Step Guide                                                                 | Duration                                  |
 | ---------------------------------------------------------- | ----------- | ------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------- |
 | ****![](<../../../../.gitbook/assets/Level 1.png>)****     | **Peasant** | Sign up for the campaign on Project Galxe         | [peasant-prism++-campaign-signup.md](peasant-prism++-campaign-signup.md "mention") | March 24 - April 21 (GMT 0:00)            |
-| ****![](<../../../../.gitbook/assets/Level 2.png>)****     | **Pupil**   | Complete Prism Transfer Loop with FRC20 tokens    | [pupil-frc20-token-transfers.md](pupil-frc20-token-transfers.md "mention")         | March 24 - April 21 (GMT 0:00)            |
+| ****![](<../../../../.gitbook/assets/Level 2.png>)****     | **Pupil**   | Complete Prism Transfer Loop with FRC20 tokens    | [frc20-token-transfers.md](frc20-token-transfers.md "mention")                     | March 24 - April 21 (GMT 0:00)            |
 | ****![](<../../../../.gitbook/assets/Level 3 (1).png>)**** | **Pilgrim** | Complete Prism Transfer Loop with FRC721 tokens   | [pilgrim-frc-721-token-transfers.md](pilgrim-frc-721-token-transfers.md "mention") | March 24 - April 21 (GMT 0:00)            |
 | ****![](<../../../../.gitbook/assets/Level 4.png>)****     | **Prodigy** | Complete Prism Transfer Loop with FRC1155 tokens  | [prodigy-frc1155-token-transfers.md](prodigy-frc1155-token-transfers.md "mention") | March 24 - April 21 (GMT 0:00)            |
 | ****![](<../../../../.gitbook/assets/Level 5.png>)****     | **Pioneer** | Complete Prism Transfer Loop on mainnet with USDT | [Pioneer: Mainnet Transfers](pioneer-mainnet-transfers.md)                         | April 10 (GMT 0:00) - April 21 (GMT 0:00) |
@@ -92,9 +92,13 @@ Be sure to use the same UTXO addresses for confidential transactions for each ta
 
 ### How To Guides
 
-To make the process as simple as possible, we’ve created a video walk-through:
+To make the process as simple as possible, we’ve created two video walk-throughs:
 
 {% embed url="https://youtu.be/8gR237UaWlw" %}
+Testnet Wallet Setup | FRC20 Transfer
+{% endembed %}
 
 {% embed url="https://youtu.be/wButeneVmV4" %}
+FRC721 & FRC1155 Transfers
+{% endembed %}
 

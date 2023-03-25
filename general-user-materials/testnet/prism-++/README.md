@@ -1,4 +1,4 @@
-# Prism ++
+# Prism++
 
 Prism++ supports users to transfer FRC20, FRC721, FRC1155 between Findora EVM network and Findora Native. You can download the testnet wallet to experience it.
 

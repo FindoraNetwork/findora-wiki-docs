@@ -53,7 +53,7 @@ You will need FRA tokens in both your EVM Wallet and your UTXO Wallet during the
 
 6\. Click Prism++, select EVM-Compatible Wallet to Native Wallet and choose FRA tokens.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 7\. Import the private key to your EVM wallet.
 

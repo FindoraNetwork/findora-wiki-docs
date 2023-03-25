@@ -1,6 +1,6 @@
 # 👨🌾 Peasant: Prism++ Campaign Signup
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Go to the [Findora Spece](https://galxe.com/Findora/campaign/GCi1YUKd12) on Project Galxe then choose [Findora's Prism++ Testnet Campaign](https://galxe.com/Findora/campaign/GCi1YUKd12).&#x20;
 
