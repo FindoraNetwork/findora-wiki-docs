@@ -4,7 +4,7 @@
 
 Go to the [Findora Spece](https://galxe.com/Findora/campaign/GCi1YUKd12) on Project Galaxe then choose [Findora's Prism++ Testnet Campaign](https://galxe.com/Findora/campaign/GCi1YUKd12).&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (7).png" alt=""><figcaption></figcaption></figure>
 
 To sign up for the campaign, you need to claim the Peasant OAT by completing the following tasks：
 

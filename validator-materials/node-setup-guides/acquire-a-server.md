@@ -20,7 +20,7 @@ If you do not have a server now, we suggest renting a VPS on Contabo for a combi
 
 **Click this** [**link**](https://contabo.com/en/vps/vps-l-ssd?addons=1415\&image=ubuntu.267\&qty=1\&contract=3\&storage-type=vps-l-800-gb-ssd) **to rent a server.**
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
