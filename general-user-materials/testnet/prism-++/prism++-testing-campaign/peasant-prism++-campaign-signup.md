@@ -4,13 +4,13 @@ description: First stage of the Prism++ testnet campaign
 
 # 👨🌾 Peasant: Prism++ Campaign Signup
 
-**Step-1:** Go to the [Findora Space](https://galxe.com/Findora/campaign/GCi1YUKd12) on Project Galxe, switch your Metamask to the Polygon network, and then choose [Findora's Prism++ Testnet Campaign](https://galxe.com/Findora/campaign/GCi1YUKd12).&#x20;
+**1.** Go to the [Findora Space](https://galxe.com/Findora/campaign/GCi1YUKd12) on Project Galxe, switch your Metamask to the Polygon network, and then choose [Findora's Prism++ Testnet Campaign](https://galxe.com/Findora/campaign/GCi1YUKd12).&#x20;
 
 <figure><img src="../../../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (2) (7).png" alt=""><figcaption></figcaption></figure>
 
-**Step-2:** Complete the following tasks to claim the Prism++ Peasant OAT：
+**2.** Complete the following tasks to claim the Prism++ Peasant OAT：
 
 1. Sign up to the Findora Prism++ Campaign using our Google Form (link on Project Galxe)
    * You will be required to specify your EVM (0x...) and two UTXO (fra...) addresses.
