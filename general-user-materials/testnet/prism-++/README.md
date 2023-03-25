@@ -34,7 +34,7 @@ Prism++ supports users to transfer FRC20, FRC721, FRC1155 between Findora EVM ne
 
 5. Visit [Findora Faucet](https://faucet.findora.org/) to receive Anvil FRA-EVM test coins and FRC20 test coins
 
-![](<../../../.gitbook/assets/image (2) (1) (1).png>)
+![](<../../../.gitbook/assets/image (2) (1) (1) (1).png>)
 
 6. Click Prism, select EVM-Compatible Wallet to Native Wallet
 

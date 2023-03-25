@@ -20,7 +20,7 @@ To send a transaction follow the steps below:
 
 
 
-<img src="../../../.gitbook/assets/image (1) (2).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (1) (2) (1).png" alt="" data-size="original">
 
 3\. Click `Submit` to complete transfer
 

@@ -22,7 +22,7 @@ If you do not have a server now, we suggest renting a VPS on Contabo for a combi
 
 <figure><img src="../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 As an example, the Contabo VPS L server meets the recommended specs to run a Findora validator node. The minimum storage required for Findora Mainnet Validator is 200GB, but we suggest opting for 400GB NVMe for peace of mind.&#x20;
 
