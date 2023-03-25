@@ -32,7 +32,9 @@ You’ll keep leveling up as you complete more tasks and Prism++ Transfer Loops.
 
 <figure><img src="../../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
-6\. To perform a confidential transfer for the FRC721 token from your UTXO Wallet 1 to UTXO Wallet 2. Choose "Hide Amount" and "Hide Asset Type".
+6\. To perform a confidential transfer for the FRC721 token from your UTXO Wallet 1 to UTXO Wallet 2. Choose "Hide Amount" and "Hide Asset Type".&#x20;
+
+Findora Desktop Wallet supports confidential transfers to help you customize the level of privacy you prefer for your transfers. To complete the Campaign Tasks, please perform a fully Confidential Transfer in which you hide both the "Asset Type' and the "Asset Amount" of the transaction. You won't be able to see the transaction details (of this transfer) on the Findora Block Explorer.&#x20;
 
 <figure><img src="../../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
