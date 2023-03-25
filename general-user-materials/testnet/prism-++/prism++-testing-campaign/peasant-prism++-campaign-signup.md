@@ -1,23 +1,26 @@
+---
+description: First stage of the Prism++ testnet campaign
+---
+
 # 👨🌾 Peasant: Prism++ Campaign Signup
+
+**Step-1:** Go to the [Findora Space](https://galxe.com/Findora/campaign/GCi1YUKd12) on Project Galxe, switch your Metamask to the Polygon network, and then choose [Findora's Prism++ Testnet Campaign](https://galxe.com/Findora/campaign/GCi1YUKd12).&#x20;
 
 <figure><img src="../../../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-Go to the [Findora Spece](https://galxe.com/Findora/campaign/GCi1YUKd12) on Project Galxe then choose [Findora's Prism++ Testnet Campaign](https://galxe.com/Findora/campaign/GCi1YUKd12).&#x20;
-
 <figure><img src="../../../../.gitbook/assets/image (2) (7).png" alt=""><figcaption></figcaption></figure>
 
-To sign up for the campaign, you need to claim the Peasant OAT by completing the following tasks：
+**Step-2:** Complete the following tasks to claim the Prism++ Peasant OAT：
 
-* Join Findora on Telegram
-* Verify on Findora's Discord Server
-* Follow Findora on Twitter
-* Visit Findora Prism++ Campaign Signup (register your fra addresses)&#x20;
-  * if you are new to creating a Findor Native Wallet (staring with fra...) please go to [testnet-wallet-setup-funding.md](testnet-wallet-setup-funding.md "mention")
+1. Sign up to the Findora Prism++ Campaign using our Google Form (link on Project Galxe)
+   * You will be required to specify your EVM (0x...) and two UTXO (fra...) addresses.
+   * [Click here ](testnet-wallet-setup-funding.md)for help on setting up your testnet wallet.
+2. Join Findora on Telegram
+3. Verify on Findora's Discord Server
+4. Follow Findora on Twitter
 
-{% hint style="success" %}
-NOTE: Be sure to always use the same EVM wallet address (“0x…”) that you used to sign up for the campaign on Project Galxe to do your Prism++ transfers both on Anvil Testnet and the Findora Mainnet. That’s also the wallet address to which will airdrop the rewards.\
-\
-Also, be sure to use the same UTXO addresses for confidential transactions for each task. We’ll only be able to give you credit for your progress if you use the same UTXO addresses for each badge.
+{% hint style="warning" %}
+Be sure to always use the same EVM and UTXO addressed that you used to sign up for the campaign on Project Galxe throughout the campaign tasks. **Using different addresses will prevent you from completing the campaign and receiving end-of-campaign rewards.**
 {% endhint %}
 
 
