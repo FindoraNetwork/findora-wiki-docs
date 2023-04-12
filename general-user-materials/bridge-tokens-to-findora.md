@@ -1,8 +1,10 @@
 ---
-description: Rialto Bridge is a modular multi-directional blockchain bridge
+description: >-
+  There are currently two bridges you can use to move assets to Findora:
+  Multichain and Rialto.
 ---
 
-# Bridge Tokens to Findora
+# Bridging Tokens to Findora
 
 #### Multichain Router&#x20;
 
@@ -15,8 +17,6 @@ To learn how to use Multichain, check out their [video tutorial](../findora-basi
 Learn more about Multichain [here](https://findora.org/2023/03/findora-multichain-bridge-partnership/).
 
 #### Rialto Bridge
-
-<figure><img src="../.gitbook/assets/image (1) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 [Rialto Bridge](https://rialtobridge.io/) is a modular multi-directional blockchain bridge to allow data and value transfer between a number of blockchains. This should enable users to specify a destination blockchain from their source chain and send data to that blockchain for consumption on the destination chain.
 

@@ -18,7 +18,7 @@ Filling out this form lets us see your progress in the campaign so you can recei
 
 [https://docs.google.com/forms/d/e/1FAIpQLSfVFkLEPLswfw1Ju7t-AOhSLkpEt4dEgvEBHepAyJhXlSTj8A/viewform](https://docs.google.com/forms/d/e/1FAIpQLSfVFkLEPLswfw1Ju7t-AOhSLkpEt4dEgvEBHepAyJhXlSTj8A/viewform)&#x20;
 
-****
+
 
 **3. If I didn’t complete the sign-up form, can I get the rewards?**
 
@@ -67,3 +67,9 @@ You can get some FRA from the [faucet](https://faucet.findora.org/), then use th
 \
 **10. If I am stuck during the campaign tasks, where can I look for the help?**\
 Check our [detailed Prism++ campaign tutorials](https://docs.findora.org/general-user-materials/explore-testnet/prism++/prism++-testing-campaign). You can also ask our mods in the [telegram group](https://t.me/findoraen) or [discord server](https://discord.gg/findora) for help. We will be updating our docs as more questions come to make them more clear. Please feel free to reach out as needed!
+
+**11. I've completed the task; why can't I claim the OAT on Galxe immediately?**
+
+Your participation may take some time to be verified. Please wait at least a couple of days after completing tasks before attempting to claim your badge (OAT). If you still cannot claim it, feel free to reach out to us in the #prism++-testnet-update channel on [Discord](https://www.findora.org/discord).
+
+\
