@@ -62,13 +62,13 @@ Once you have the wallet, you can sign up for the campaign on Project Galxe [her
 
 There are five tasks you’ll need to complete to increase your rank. Here they are with their corresponding rank:
 
-| Badge                                              | Level       | Task                                              | Step by Step Guide                                                                 | Duration                                       |
-| -------------------------------------------------- | ----------- | ------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------- |
-| ![](<../../../../.gitbook/assets/Level 1.png>)     | **Peasant** | Sign up for the campaign on Project Galxe         | [peasant-prism++-campaign-signup.md](peasant-prism++-campaign-signup.md "mention") | March 24th - May 1st  (GMT 0:00)               |
-| ![](<../../../../.gitbook/assets/Level 2.png>)     | **Pupil**   | Complete Prism Transfer Loop with FRC20 tokens    | [frc20-token-transfers.md](frc20-token-transfers.md "mention")                     | <p>March 24th - May 1st </p><p> (GMT 0:00)</p> |
-| ![](<../../../../.gitbook/assets/Level 3 (1).png>) | **Pilgrim** | Complete Prism Transfer Loop with FRC721 tokens   | [pilgrim-frc-721-token-transfers.md](pilgrim-frc-721-token-transfers.md "mention") | March 24th - May 1st  (GMT 0:00)               |
-| ![](<../../../../.gitbook/assets/Level 4.png>)     | **Prodigy** | Complete Prism Transfer Loop with FRC1155 tokens  | [prodigy-frc1155-token-transfers.md](prodigy-frc1155-token-transfers.md "mention") | March 24th - May 1st  (GMT 0:00)               |
-| ![](<../../../../.gitbook/assets/Level 5.png>)     | **Pioneer** | Complete Prism Transfer Loop on mainnet with USDT | [Pioneer: Mainnet Transfers](pioneer-mainnet-transfers.md)                         | <p>April 24th - May 1st </p><p>(GMT 0:00)</p>  |
+| Badge                                              | Level       | Task                                                                | Step by Step Guide                                                                 | Duration                                       |
+| -------------------------------------------------- | ----------- | ------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------- |
+| ![](<../../../../.gitbook/assets/Level 1.png>)     | **Peasant** | Sign up for the campaign on Project Galxe.                          | [peasant-prism++-campaign-signup.md](peasant-prism++-campaign-signup.md "mention") | March 24th - May 1st  (GMT 0:00)               |
+| ![](<../../../../.gitbook/assets/Level 2.png>)     | **Pupil**   | Complete Prism Transfer Loop with FRC20 tokens on Anvil testnet.    | [frc20-token-transfers.md](frc20-token-transfers.md "mention")                     | <p>March 24th - May 1st </p><p> (GMT 0:00)</p> |
+| ![](<../../../../.gitbook/assets/Level 3 (1).png>) | **Pilgrim** | Complete Prism Transfer Loop with FRC721 tokens on Anvil testnet.   | [pilgrim-frc-721-token-transfers.md](pilgrim-frc-721-token-transfers.md "mention") | March 24th - May 1st  (GMT 0:00)               |
+| ![](<../../../../.gitbook/assets/Level 4.png>)     | **Prodigy** | Complete Prism Transfer Loop with FRC1155 tokens on Anvil testnet.  | [prodigy-frc1155-token-transfers.md](prodigy-frc1155-token-transfers.md "mention") | March 24th - May 1st  (GMT 0:00)               |
+| ![](<../../../../.gitbook/assets/Level 5.png>)     | **Pioneer** | Complete Prism Transfer Loop on Findora mainnet with USDT tokens.   | [Pioneer: Mainnet Transfers](pioneer-mainnet-transfers.md)                         | <p>April 24th - May 1st </p><p>(GMT 0:00)</p>  |
 
 {% hint style="info" %}
 Be sure to use the EVM wallet address (“0x…”) used to sign up for the campaign on Project Galxe to do your Prism++ transfers.
