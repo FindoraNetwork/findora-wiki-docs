@@ -1,7 +1,7 @@
 # Node Upgrades
 
 {% hint style="warning" %}
-An upgrade window for major version upgrade v0.3.42 has been scheduled for **April** **10th, 2023** through **April 14th, 2023**. <mark style="color:red;">This upgrade is mandatory for all node operators.</mark>
+An upgrade window for version upgrade **v0.3.42** has been scheduled for **April** **10th, 2023** through **April 14th, 2023**. <mark style="color:red;">This upgrade is mandatory for all node operators.</mark>
 {% endhint %}
 
 **IMPORTANT UPGRADE NOTES ⤵️**
@@ -14,9 +14,7 @@ An upgrade window for major version upgrade v0.3.42 has been scheduled for **Apr
 
 ## Update Binary Version via Docker[​](https://wiki.findora.org/docs/validators/update-version#update-image-version) <a href="#update-image-version" id="update-image-version"></a>
 
-### **Option #1 - Automatic**
-
-Run the command below to download the upgrade script to your node.
+Step1: Run the command below to download the upgrade script to your node.
 
 {% tabs %}
 {% tab title="Mainnet" %}
@@ -38,7 +36,7 @@ wget -O update_version_testnet.sh https://raw.githubusercontent.com/FindoraNetwo
 
 **✅ Completed**: Use WGET to download the latest binary.
 
-Run the command below to run the update script and upgrade your node.
+Step 2: Run the command below to run the update script and upgrade your node.
 
 {% code title="Enter the following command:" overflow="wrap" %}
 ```
@@ -50,29 +48,21 @@ The latest version will be displayed as output on your node once completed.
 
 **✅ Completed**: Use BASH to run the update script and upgrade your node. Confirm the version.
 
-### **Option #2 - Manual**
+Step 3: Once the upgrade script completes, run the following command to ensure your node is running the updated release.
 
-Download the script and transfer it to your node manually.
-
-{% tabs %}
-{% tab title="Mainnet" %}
-{% file src="../../.gitbook/assets/update_version_mainnet.sh" %}
-{% endtab %}
-
-{% tab title="Testnet" %}
-{% file src="../../.gitbook/assets/update_version_testnet.sh" %}
-{% endtab %}
-{% endtabs %}
-
-**✅ Completed**: Download and manually transfer the update script to your node,.
-
-Run the command below to run the update script and upgrade your node. Enter the command at the directory where the file has been transferred.
-
-```bash
-bash -x update_version_mainnet.sh
+{% code title="Enter the following command:" %}
 ```
+docker ps
+```
+{% endcode %}
 
-**✅ Completed**: Run the update script and update your node.
+Ensure part of the output displays `findoranetwork/findorad:v0.3.xx-release` where "xx" is the minor release number.&#x20;
+
+{% hint style="info" %}
+See above for the most up-to-date version.
+{% endhint %}
+
+**✅ Completed**: Ensure your node is upgraded.
 
 ### Expectations
 
@@ -84,8 +74,3 @@ The `Update Image Version` script will:
 3. Start a new Docker container with the latest version.
 4. Output the Docker container status and image version.
 ```
-
-To confirm if the upgrade worked correctly, the output of the script will display:
-
-1. Node status.&#x20;
-2. Running image version.
