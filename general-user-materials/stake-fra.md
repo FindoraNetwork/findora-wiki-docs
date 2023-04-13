@@ -7,7 +7,7 @@ description: >-
 # Stake FRA
 
 {% hint style="info" %}
-Visit the [**Staking: Key Concepts**](../key-concepts/staking/) **** documentation collection for commonly asked questions and an overview of staking concepts.
+Visit the [**Staking: Key Concepts**](../key-concepts/staking/) documentation collection for commonly asked questions and an overview of staking concepts.
 {% endhint %}
 
 ### User Guide to Staking on Findora[​](https://wiki.findora.org/docs/evm\_guides/use\_wallet/findora\_wallet/staking-user-guide#user-guide-to-staking-on-findora) <a href="#user-guide-to-staking-on-findora" id="user-guide-to-staking-on-findora"></a>

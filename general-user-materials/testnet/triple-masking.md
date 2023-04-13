@@ -66,7 +66,7 @@ Here is a table explaining the privacy options for different wallet transfers.
 {% hint style="info" %}
 #### The detailed calculation for the gas fee method is as follows:
 
-_****_
+
 
 _<mark style="color:blue;">**50\_0000 + 10\_0000 \* x + 20\_0000 \* y + (10\_000 \* extra\_outputs)**</mark>_
 

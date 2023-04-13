@@ -1,4 +1,4 @@
-# Automated Setup
+# Automated Setup (Deprecated)
 
 This guides shows how to use the automated setup scripts to configure your validator node and download the binaries automatically.
 
@@ -84,7 +84,7 @@ bash -x node_init_testnet.sh
 
 **NOTE**
 
-All existing validator and wallet information will be removed by running these scripts. If all you want is to keep your data, [Safety Clean](../operational-guides/node-upgrades.md#auto-safety-clean) should be used
+All existing validator and wallet information will be removed by running these scripts. If all you want is to keep your data, [Safety Clean](broken-reference) should be used
 
 #### Connect to the Network[​](https://wiki.findora.org/docs/validators/automated-setup#connect-to-the-network) <a href="#connect-to-the-network" id="connect-to-the-network"></a>
 

@@ -43,7 +43,7 @@ Below are the key flows that developers can build to replicate the web apps/Dapp
 
 * Credential Issuers must create a zero-knowledge `circuit` (zkCircuit) which is required to create a zkCredential and, later on, a zkProof. Alternatively, a pre-defined zkCircuit can be used as well (if the credential issuers wishes to outsource the zkCircuit creation process to a trusted third party).
 
-****
+
 
 **ii) Credential Issuer - DID Credential Creation Flow**
 

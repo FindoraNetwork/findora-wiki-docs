@@ -24,4 +24,3 @@ Finally, click the `Add-to-MetaMask` button to add the Findora Mainnet and confi
 Testnet: [https://chainlist.org/chain/2153](https://chainlist.org/chain/2153)
 {% endhint %}
 
-****
