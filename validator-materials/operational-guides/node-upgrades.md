@@ -1,16 +1,14 @@
 # Node Upgrades
 
 {% hint style="warning" %}
-An upgrade window for major version upgrade v0.3.35 has been scheduled for **December 12th, 2022** through **December 19th, 2022**. <mark style="color:red;">This upgrade is mandatory for all node operators.</mark>
+An upgrade window for major version upgrade v0.3.42 has been scheduled for **April** **10th, 2023** through **April 14th, 2023**. <mark style="color:red;">This upgrade is mandatory for all node operators.</mark>
 {% endhint %}
 
 **IMPORTANT UPGRADE NOTES ⤵️**
 
-> Node operators can begin updating their validator binary version on Monday, December 12th, 2022 at 6 PM Pacific. Upgrading must be completed by Monday, December 19th, 2022 by 6 PM Pacific.&#x20;
+> Node operators can begin updating their validator binary version on Thursday, April 13th, 2023 at 12 PM Pacific. Upgrading must be completed by Monday, April 24th, by block height 4,033,522.&#x20;
 >
-> To upgrade, run the script using the **`Update Binary Version via Docker`** instructions below. These steps will automatically update your validator to version v0.3.35.&#x20;
->
-> Node operators will be required to update their `fn` CLI tool as well to work with the v0.3.3x platform version. However, unlike the platform version, this 2nd update is not mandatory to participate in consensus. It is, however, required to ensure CLI wallet operations are successful.
+> To upgrade, run the script using the **`Update Binary Version via Docker`** instructions below. These steps will automatically update your validator to version v0.3.42.&#x20;
 >
 > <mark style="color:red;">**Expect a few minutes of downtime while the upgrade is performed.**</mark>
 
@@ -24,7 +22,7 @@ Run the command below to download the upgrade script to your node.
 {% tab title="Mainnet" %}
 {% code title="Enter the following command:" overflow="wrap" %}
 ```
-wget -O update_version_mainnet.sh https://338489037-files.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FRzwHg4ShKVrXd4rywBQ8%2Fuploads%2FEAcIVXJWLrYELbBShb2Z%2Fupdate_version_mainnet.sh\?alt\=media\&token\=1170a413-7dfc-4945-82f0-a406f4dd19b9
+wget -O update_version_mainnet.sh https://raw.githubusercontent.com/FindoraNetwork/findora-wiki-docs/main/.gitbook/assets/update_version_mainnet.sh
 ```
 {% endcode %}
 {% endtab %}
@@ -32,7 +30,7 @@ wget -O update_version_mainnet.sh https://338489037-files.gitbook.io/\~/files/v0
 {% tab title="Testnet" %}
 {% code title="Enter the following command:" overflow="wrap" %}
 ```
-wget -O update_version_testnet.sh https://338489037-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FRzwHg4ShKVrXd4rywBQ8%2Fuploads%2FimSkBv9TKvtckYUNeO78%2Fupdate_version_testnet.sh?alt=media&token=9c62fc4f-5442-4f8b-a488-ed9a711df3a3 bash -x update_version_testnet.sh
+wget -O update_version_testnet.sh https://raw.githubusercontent.com/FindoraNetwork/findora-wiki-docs/main/.gitbook/assets/update_version_testnet.sh
 ```
 {% endcode %}
 {% endtab %}
