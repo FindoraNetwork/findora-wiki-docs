@@ -35,7 +35,7 @@ Below are the two steps needed to create a new asset:
 
 *   Fill out the input fields on the `Issue Asset` page
 
-    <figure><img src="../../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (72) (1).png" alt=""><figcaption></figcaption></figure>
 * `Asset Creator` - select the wallet which created the custom asset
 * `Asset Nickname` - select from the list of custom assets that have been previously defined
 * `Issuance Amount` - enter the number of tokens to create. If the token was defined with a maximum units restriction, you will not be able to create tokens beyond the maximum limit.

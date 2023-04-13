@@ -1,7 +1,5 @@
 ---
-description: >-
-  Run the steps below to perform an upgrade on your Findora node using the
-  Validator Toolbox.
+description: Run the steps below to perform an upgrade on your Findora node at the CLI.
 ---
 
 # Node Upgrade (Manual)
