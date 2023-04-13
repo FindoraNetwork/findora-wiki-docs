@@ -24,11 +24,11 @@ To send a transaction follow the steps below:
 
 3\. Click `Submit` to complete transfer
 
-&#x20;![](<../../../.gitbook/assets/image (54) (1).png>)
+&#x20;![](<../../../.gitbook/assets/image (54) (1) (1).png>)
 
 4\. After submitting your transaction, you can view the public record of your transaction on any block explorer. Click `View Transaction` and you will be taken to Findora's own block explorer — findorascan.io.
 
-<figure><img src="../../../.gitbook/assets/image (52) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 Note: This transaction log was for a confidential transaction with `Hide Amounts` and `Hide Asset Type`enabled. Thus, the amounts and asset type is masked with \*\*\* on the public log shown on the block explorer
 

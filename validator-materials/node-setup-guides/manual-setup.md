@@ -225,7 +225,7 @@ docker run --rm -v ${ROOT_DIR}/tendermint:/root/.tendermint ${FINDORAD_IMG} init
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (54) (1).png" alt=""><figcaption></figcaption></figure>
 
 > &#x20;**✅ Completed**: Initialize Tendermint using the command above.
 
