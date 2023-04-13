@@ -1,8 +1,12 @@
 ---
-description: Run the steps below to perform an upgrade on your Findora node.
+description: >-
+  Run the steps below to perform an upgrade on your Findora node using the
+  Validator Toolbox.
 ---
 
-# Node Upgrade (Manual)
+# Node Upgrade (Toolbox)
+
+
 
 {% hint style="warning" %}
 An upgrade window for version upgrade **v0.3.42** has been scheduled for **April** **10th, 2023** through **April 14th, 2023**. <mark style="color:red;">This upgrade is mandatory for all node operators.</mark>
