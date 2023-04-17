@@ -34,7 +34,6 @@ mv "${ROOT_DIR}/snapshot_data/data/ledger" "${ROOT_DIR}/findorad"
 mv "${ROOT_DIR}/snapshot_data/data/tendermint/mainnet/node0/data" "${ROOT_DIR}/tendermint/data"
 
 rm -rf ${ROOT_DIR}/snapshot_data
-rm -f ${ROOT_DIR}/snapshot
 
 docker run -d \
     -v ${ROOT_DIR}/tendermint:/root/.tendermint \
@@ -52,3 +51,4 @@ docker run -d \
     --tendermint-node-key-config-path="/root/.tendermint/config/priv_validator_key.json" \
     --enable-query-service \
     --enable-eth-api-service
+
