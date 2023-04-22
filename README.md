@@ -1,8 +1,10 @@
 ---
-description: Scaling Ethereum Privacy
+description: >-
+  Build and explore on Findora, a layer-1 where you can #ExpectPrivacy that’s
+  auditable and programmable.
 ---
 
-# Findora - Short Overview
+# Overview
 
 **Findora is a privacy protection public blockchain based on zero-knowledge proof**. It aims to become the next-generation financial infrastructure. It is co-sponsored by world-class cryptographers, experienced distributed engineering teams, and entrepreneurs.&#x20;
 
