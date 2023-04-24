@@ -12,11 +12,13 @@ export ROOT_DIR=/data/findora/${NAMESPACE}
 ######################
 
 sed -i 's/timeout_propose = "8s"/timeout_propose = "3s"/g' /data/findora/mainnet/tendermint/config/config.toml
+sed -i 's/timeout_propose_delta = "100ms"/timeout_propose_delta = "500ms"/g' /data/findora/mainnet/tendermint/config/config.toml
 
 sed -i 's/timeout_prevote = "4s"/timeout_prevote = "1s"/g' /data/findora/mainnet/tendermint/config/config.toml
+sed -i 's/timeout_prevote_delta = "100ms"/timeout_prevote_delta = "500ms"/g' /data/findora/mainnet/tendermint/config/config.toml
 
 sed -i 's/timeout_precommit = "4s"/timeout_precommit = "1s"/g' /data/findora/mainnet/tendermint/config/config.toml
-
+sed -i 's/timeout_precommit_delta = "100ms"/timeout_precommit_delta = "500ms"/g' /data/findora/mainnet/tendermint/config/config.toml
 
 ###################
 # Run local node #
