@@ -112,11 +112,11 @@
   * [Prism++](general-user-materials/testnet/prism-++/README.md)
     * [Prism++ Testing Campaign](general-user-materials/testnet/prism-++/prism++-testing-campaign/README.md)
       * [💰 Testnet Wallet Setup/Funding](general-user-materials/testnet/prism-++/prism++-testing-campaign/testnet-wallet-setup-funding.md)
-      * [👨🌾 Peasant: Prism++ Campaign Signup](general-user-materials/testnet/prism-++/prism++-testing-campaign/peasant-prism++-campaign-signup.md)
+      * [👨🌾 👨🌾 Peasant: Prism++ Campaign Signup](general-user-materials/testnet/prism-++/prism++-testing-campaign/peasant-prism++-campaign-signup.md)
       * [🧒 Pupil: FRC20 Token Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/frc20-token-transfers.md)
-      * [🧑🎨 Pilgrim: FRC 721 Token Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/pilgrim-frc-721-token-transfers.md)
-      * [🧑🎓 Prodigy: FRC1155 Token Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/prodigy-frc1155-token-transfers.md)
-      * [🧑🚀 Pioneer: Mainnet Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/pioneer-mainnet-transfers.md)
+      * [🧑🎨 🧑🎨 Pilgrim: FRC 721 Token Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/pilgrim-frc-721-token-transfers.md)
+      * [🧑🎓 🧑🎓 Prodigy: FRC1155 Token Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/prodigy-frc1155-token-transfers.md)
+      * [🧑🚀 🧑🚀 Pioneer: Mainnet Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/pioneer-mainnet-transfers.md)
       * [Prism++ Testnet Campaign FAQs](general-user-materials/explore-testnet/prism++/prism++-testing-campaign/prism++-testnet-campaign-faqs.md)
 
 ## Validator Materials

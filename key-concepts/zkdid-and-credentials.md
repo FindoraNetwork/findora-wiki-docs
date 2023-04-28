@@ -57,7 +57,7 @@ Below are the key flows that developers can build to replicate the web apps/Dapp
 
 **iii) Verifier - User Creates zkProof and Uploads Credential for Dapp to Verify**
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p><strong>Create/Submit zkProof and Verify zkProof</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p><strong>Create/Submit zkProof and Verify zkProof</strong></p></figcaption></figure>
 
 * DID Holders must create a zkProof and submit this proof to the verifier
   * To create this proof, the DID holder provides their zkCredential as an input along with the info about the zkCircuit used to originally create the zkCredential
