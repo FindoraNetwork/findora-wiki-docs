@@ -28,7 +28,6 @@
     * [Overview](key-concepts/utxo-native-chain/confidential-transfers/overview.md)
     * [Concepts](key-concepts/utxo-native-chain/confidential-transfers/concepts.md)
     * [Technical Specifications](key-concepts/utxo-native-chain/confidential-transfers/technical-specifications.md)
-* [zkDID and Credentials](key-concepts/zkdid-and-credentials.md)
 * [Triple Masking](key-concepts/triple-masking/README.md)
   * [Overview](key-concepts/triple-masking/overview.md)
   * [SDK Installation](key-concepts/triple-masking/sdk-installation.md)
@@ -78,7 +77,8 @@
 * [Resources](developers/resources/README.md)
   * [Bug Bounties](developers/resources/bug-bounties.md)
   * [Events](developers/resources/events/README.md)
-    * [🏗 ETH San Francisco 2022](developers/resources/events/eth-san-francisco-2022.md)
+    * [🏗 ETH San Francisco 2022](developers/resources/events/eth-san-francisco-2022/README.md)
+      * [zkDID and Credentials](developers/resources/events/eth-san-francisco-2022/zkdid-and-credentials.md)
     * [🏗 ETH Denver 2023](developers/resources/events/eth-denver-2023.md)
 
 ## Network Settings
