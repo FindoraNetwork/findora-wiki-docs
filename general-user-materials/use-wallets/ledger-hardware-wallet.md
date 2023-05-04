@@ -12,7 +12,7 @@ Step 1: Select `Connect hardware wallet` in your Metamask settings dropdown
 
 Step 2: Select your device type. We will use ledger for this demo.
 
-<figure><img src="../../.gitbook/assets/image (59) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
 **NOTE**
 

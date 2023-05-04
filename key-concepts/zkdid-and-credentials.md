@@ -8,7 +8,7 @@ Of note, [zero-knowledge](https://hackernoon.com/eli5-zero-knowledge-proof-78a27
 
 For detailed information about DIDs and credential verification, please see the official [W3C DID specification](https://www.w3.org/2019/did-wg/).
 
-To skip directly, to installing the zkDID SDK [click here](../../../developer-sdks/zkdid-sdk/zkdid-sdk-installation.md).
+To skip directly, to installing the zkDID SDK [click here](../developers/developer-sdks/zkdid-sdk/zkdid-sdk-installation.md).
 
 ## Key Stakeholders
 
@@ -25,7 +25,7 @@ The key stakeholders in the zkDID SDK system include:
 
 ## Overall Architecture
 
-<figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption><p>zkDID Process Flow - Overall Flow</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>zkDID Process Flow - Overall Flow</p></figcaption></figure>
 
 Overall, the zkDID process consists of:
 
@@ -39,7 +39,7 @@ Below are the key flows that developers can build to replicate the web apps/Dapp
 
 **i) Credential Issuer - Create ZK Circuit for a Credentials to Issue**
 
-<figure><img src="../../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p><strong>Create zkCircuit</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p><strong>Create zkCircuit</strong></p></figcaption></figure>
 
 * Credential Issuers must create a zero-knowledge `circuit` (zkCircuit) which is required to create a zkCredential and, later on, a zkProof. Alternatively, a pre-defined zkCircuit can be used as well (if the credential issuers wishes to outsource the zkCircuit creation process to a trusted third party).
 
@@ -47,7 +47,7 @@ Below are the key flows that developers can build to replicate the web apps/Dapp
 
 **ii) Credential Issuer - DID Credential Creation Flow**
 
-<figure><img src="../../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p><strong>Credential Issuer - DID Credential Creation Flow</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p><strong>Credential Issuer - DID Credential Creation Flow</strong></p></figcaption></figure>
 
 * A Credential Issuer will create a new DID identifier for Metamask users who don’t currently have a DID identifier
 * Identity Issuer will create the DID identifier and the first identity-related credentials (i.e. name, date of birth, etc.)
@@ -57,7 +57,7 @@ Below are the key flows that developers can build to replicate the web apps/Dapp
 
 **iii) Verifier - User Creates zkProof and Uploads Credential for Dapp to Verify**
 
-<figure><img src="../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p><strong>Create/Submit zkProof and Verify zkProof</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p><strong>Create/Submit zkProof and Verify zkProof</strong></p></figcaption></figure>
 
 * DID Holders must create a zkProof and submit this proof to the verifier
   * To create this proof, the DID holder provides their zkCredential as an input along with the info about the zkCircuit used to originally create the zkCredential

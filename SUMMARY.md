@@ -77,8 +77,8 @@
 * [Resources](developers/resources/README.md)
   * [Bug Bounties](developers/resources/bug-bounties.md)
   * [Events](developers/resources/events/README.md)
-    * [🏗 ETH San Francisco 2022](developers/resources/events/eth-san-francisco-2022/README.md)
-      * [zkDID and Credentials](developers/resources/events/eth-san-francisco-2022/zkdid-and-credentials.md)
+    * [🏗 ETH San Francisco 2022](developers/resources/events/eth-san-francisco-2022.md)
+      * [zkDID and Credentials](key-concepts/zkdid-and-credentials.md)
     * [🏗 ETH Denver 2023](developers/resources/events/eth-denver-2023.md)
 
 ## Network Settings
@@ -113,7 +113,7 @@
     * [Prism++ Testing Campaign](general-user-materials/testnet/prism-++/prism++-testing-campaign/README.md)
       * [💰 Testnet Wallet Setup/Funding](general-user-materials/testnet/prism-++/prism++-testing-campaign/testnet-wallet-setup-funding.md)
       * [👨🌾 👨🌾 Peasant: Prism++ Campaign Signup](general-user-materials/testnet/prism-++/prism++-testing-campaign/peasant-prism++-campaign-signup.md)
-      * [🧒 Pupil: FRC20 Token Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/frc20-token-transfers.md)
+      * [🧒 Pupil: FRC20 Token Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/pupil-frc20-token-transfers.md)
       * [🧑🎨 🧑🎨 Pilgrim: FRC 721 Token Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/pilgrim-frc-721-token-transfers.md)
       * [🧑🎓 🧑🎓 Prodigy: FRC1155 Token Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/prodigy-frc1155-token-transfers.md)
       * [🧑🚀 🧑🚀 Pioneer: Mainnet Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/pioneer-mainnet-transfers.md)
@@ -134,7 +134,7 @@
 * [Upgrade Guides](validator-materials/upgrade-guides/README.md)
   * [Node Upgrade (Toolbox)](validator-materials/upgrade-guides/node-upgrades.md)
   * [Node Upgrade (Manual)](validator-materials/upgrade-guides/node-upgrades-1.md)
-  * [fn CLI Upgrade (Wallet)](validator-materials/upgrade-guides/fn-cli-upgrade-wallet.md)
+  * [fn CLI Upgrade (Wallet)](validator-materials/operational-guides/fn-cli-upgrade-wallet.md)
 * [Operational Guides](validator-materials/operational-guides/README.md)
   * [Emergency Recovery](validator-materials/operational-guides/emergency-recovery.md)
   * [Data Backup](validator-materials/operational-guides/data-backup.md)

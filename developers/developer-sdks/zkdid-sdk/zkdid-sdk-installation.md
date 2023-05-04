@@ -8,7 +8,7 @@ Findora’s `zkdid-js` SDK consists of a collection of APIs to create decentrali
 
 Zero-knowledge refers to the ability to cryptographically verify data without disclosing the exact credential value (i.e. cryptographically enable the verification that a DID holder’s credential contains credit score is above 700 — without revealing the exact number to the verifier).
 
-For a conceptual overview of DIDs, credentials and the stakeholders in the credentialing and verification processes, visit the [zkDID and Credentials](../../resources/events/eth-san-francisco-2022/zkdid-and-credentials.md) modules section of Findora’s documentation. Also, please see the official [W3C DID specification](https://www.notion.so/zkDID-Documentation-a-Modules-zkDID-Credentials-695f80687ec94d2fb32b3159f4ca945f).
+For a conceptual overview of DIDs, credentials and the stakeholders in the credentialing and verification processes, visit the [zkDID and Credentials](../../../key-concepts/zkdid-and-credentials.md) modules section of Findora’s documentation. Also, please see the official [W3C DID specification](https://www.notion.so/zkDID-Documentation-a-Modules-zkDID-Credentials-695f80687ec94d2fb32b3159f4ca945f).
 
 The key zkDID APIs are defined in the [zkDID Github repo](https://github.com/FindoraNetwork/zkdid-js/tree/main/src) and the key API definition files include:
 

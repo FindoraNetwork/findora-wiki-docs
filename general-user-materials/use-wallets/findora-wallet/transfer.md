@@ -24,7 +24,7 @@ To send a transaction follow the steps below:
 
 3\. Click `Submit` to complete transfer
 
-&#x20;![](<../../../.gitbook/assets/image (54) (1) (1).png>)
+&#x20;![](<../../../.gitbook/assets/image (54) (1).png>)
 
 4\. After submitting your transaction, you can view the public record of your transaction on any block explorer. Click `View Transaction` and you will be taken to Findora's own block explorer — findorascan.io.
 
@@ -96,7 +96,7 @@ Step 4: In the "To" input field, copy and paste the recipient's address and plea
 
 Step 5: Enter the amount you want to transfer
 
-<figure><img src="../../../.gitbook/assets/image (36) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
 
 Step 6: Now we get to the more important part. Select the appropriate choices for showing or hiding the amount and asset type based on your need of privacy for your transfer.
 

@@ -1,6 +1,6 @@
 # 🧑🚀 🧑🚀 Pioneer: Mainnet Transfers
 
-<figure><img src="../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Image (13).png" alt=""><figcaption></figcaption></figure>
 
 You’ll keep leveling up as you complete more tasks and Prism++ Transfer Loops. To complete a Prism++ Transfer Loop, you’ll transfer tokens from your EVM wallet to UTXO Wallet 1 using Prism++. Then you’ll confidentially transfer those tokens to UTXO Wallet 2 before transferring them back to the original EVM wallet using Prism++.
 

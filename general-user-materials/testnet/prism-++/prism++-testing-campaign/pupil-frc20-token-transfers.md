@@ -6,6 +6,8 @@ description: Second stage of the Prism++ testnet campaign. Transferring FRC20.
 
 For the Pupil, Pilgrim, and Prodigy badge, you will need to complete a Prism++ Transfer loop FRC20, FRC721, and FRC1155 tokens, respectively.
 
+<figure><img src="../../../../.gitbook/assets/prism++ loop (1).png" alt=""><figcaption></figcaption></figure>
+
 **In this stage you will:**
 
 a. Obtain FRC20 testnet tokens to your Metamask.
@@ -15,8 +17,6 @@ b. Transfer these tokens to your Findora Testnet Wallet app using Prism++.
 c. Initiate a confidential transfer from UTXO wallet 1 to UTXO wallet 2 and back.
 
 d. Transfer these tokens back to your Metamask using Prism++.
-
-<figure><img src="../../../../.gitbook/assets/prism++ loop (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Fund your EVM Wallet with FRC20 Tokens
 
@@ -29,6 +29,12 @@ d. Transfer these tokens back to your Metamask using Prism++.
 {% hint style="info" %}
 **FRC20 contract address**: 0x5b15Cdff7Fe65161C377eDeDc34A4E4E31ffb00B
 {% endhint %}
+
+{% hint style="info" %}
+Token Decimal: 6
+{% endhint %}
+
+
 
 <figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Import FRC20 to Metamask</p></figcaption></figure>
 

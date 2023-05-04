@@ -22,7 +22,7 @@ python3 ~/findora-toolbox/src/app.py
 
 **Step 2:** Initiate the upgrade by selecting option #8 and select Y to begin the upgrade. Note your node is expected to go offline briefly during the upgrade process.
 
-<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption><p>Validator Toolbox Main Menu</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (54) (2).png" alt=""><figcaption><p>Validator Toolbox Main Menu</p></figcaption></figure>
 
 **✅** Completed: Use BASH to run the update script and upgrade your node. Confirm the version.
 

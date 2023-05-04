@@ -1,4 +1,10 @@
-# 🧑🎨 Pilgrim: FRC 721 Token Transfers
+---
+description: >-
+  Complete the Transfer Loop described in the Pupil: FRC20 Token Transfer page
+  using FRC721 tokens.
+---
+
+# 🧑🎨 🧑🎨 Pilgrim: FRC 721 Token Transfers
 
 ### Fund your EVM Wallet with 721 Tokens
 
