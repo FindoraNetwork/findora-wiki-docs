@@ -1,9 +1,3 @@
----
-description: >-
-  Complete the Transfer Loop described in the Pupil: FRC20 Token Transfer page
-  using FRC1155 tokens.
----
-
 # 🧑🎓 🧑🎓 Prodigy: FRC1155 Token Transfers
 
 ### Fund Your EVM Wallet with 1155 Tokens&#x20;

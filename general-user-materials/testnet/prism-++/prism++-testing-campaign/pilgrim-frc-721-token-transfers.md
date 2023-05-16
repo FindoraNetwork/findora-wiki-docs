@@ -1,9 +1,3 @@
----
-description: >-
-  Complete the Transfer Loop described in the Pupil: FRC20 Token Transfer page
-  using FRC721 tokens.
----
-
 # 🧑🎨 🧑🎨 Pilgrim: FRC 721 Token Transfers
 
 ### Fund your EVM Wallet with 721 Tokens
@@ -18,7 +12,7 @@ description: >-
 
 Once in input the Token contract address, the Token symbol, F2NFT should auto-populate, but you will still need to put 0 as the token decimal.&#x20;
 
-Token contract address: 0x848bF2788E66E4f1fdE0499048b18D15D1e6E685
+Token contract address: 0xBCFb3d28807144D852Cde836510c64793CB7f1Ba
 
 ### Transfer FRC721 Tokens from MetaMask to the Findora Wallet
 
@@ -26,7 +20,7 @@ Token contract address: 0x848bF2788E66E4f1fdE0499048b18D15D1e6E685
 
 <figure><img src="https://lh6.googleusercontent.com/UUz_ThmzLXC16UsFygIGeYXZm50Z-R_EJa49heMnB2SRoQurmNSGrtkOdxzqj_oYCr44Kz0Dg9u7agFfMf-T6uf1Nzmuk2ZoEM0rPAZRCqWwIJS7_62DJ8j3aVGsJB_Ml5K3UzbX_ooafYbTUK1vWPs" alt=""><figcaption></figcaption></figure>
 
-2. In asset type, select FRC721 tokens. Put in the Token contract address for FRC721 tokens: 0x848bF2788E66E4f1fdE0499048b18D15D1e6E685&#x20;
+2. In asset type, select FRC721 tokens. Put in the Token contract address for FRC721 tokens: 0xBCFb3d28807144D852Cde836510c64793CB7f1Ba&#x20;
 3. To find the Token ID of your FRC721 tokens, you'll need to use the Findora Anvil chain explorer: [https://testnet-anvil.evm.findorascan.io/](https://testnet-anvil.evm.findorascan.io/)&#x20;
 4. Once there, search your EVM wallet address and click the "Token Transfers" tab. You should see the transaction funding your EVM wallet with FRC721 tokens and see the token ID in the lower left corner of the transaction.
 

@@ -27,7 +27,7 @@ d. Transfer these tokens back to your Metamask using Prism++.
 **2.** To view the tokens, add FRC20 via Import Tokens on Metamask.
 
 {% hint style="info" %}
-**FRC20 contract address**: 0x5b15Cdff7Fe65161C377eDeDc34A4E4E31ffb00B
+**FRC20 contract address**: 0x0066dDAE5A510Bc751947057D2155783c9DdE1A6
 {% endhint %}
 
 {% hint style="info" %}
@@ -50,9 +50,9 @@ If you haven't imported your Metamask private key, see the [Testnet Wallet Setup
 
 <figure><img src="https://lh6.googleusercontent.com/UUz_ThmzLXC16UsFygIGeYXZm50Z-R_EJa49heMnB2SRoQurmNSGrtkOdxzqj_oYCr44Kz0Dg9u7agFfMf-T6uf1Nzmuk2ZoEM0rPAZRCqWwIJS7_62DJ8j3aVGsJB_Ml5K3UzbX_ooafYbTUK1vWPs" alt=""><figcaption><p>Prism++ | Setting Direction and Selecting the EVM and UTXO Wallets</p></figcaption></figure>
 
-**3.** On the same screen, click Asset Type and then paste the FRC20 contract address below: `0x5b15Cdff7Fe65161C377eDeDc34A4E4E31ffb00B`. **Click "Findora Faucet" in the search results.**
+**3.** On the same screen, click Asset Type and then paste the FRC20 contract address below: 0x0066dDAE5A510Bc751947057D2155783c9DdE1A6. **Click "Findora Faucet" in the search results.**
 
-<figure><img src="https://lh3.googleusercontent.com/7Al7RrJC3quvmHplpTszCg-YipyHXdqYIHWhHDQfpD1iJ07b8DXAQ09p0cfplD-_HJr-6fITtqaQE7gTKupYIG7vOlDfWLrARnKkWLL8_b-k9GJjfYyTvxZFFjCgaN3bYB8L6PDobtt_bVy3oFwLSVo" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh3.googleusercontent.com/7Al7RrJC3quvmHplpTszCg-YipyHXdqYIHWhHDQfpD1iJ07b8DXAQ09p0cfplD-_HJr-6fITtqaQE7gTKupYIG7vOlDfWLrARnKkWLL8_b-k9GJjfYyTvxZFFjCgaN3bYB8L6PDobtt_bVy3oFwLSVo" alt=""><figcaption><p>The address in the screenshot is an old contract address. Use the one in the documentation</p></figcaption></figure>
 
 **4.** Set the amount to any value below maximum available (10 for example).
 

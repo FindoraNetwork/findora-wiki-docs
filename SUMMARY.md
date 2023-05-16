@@ -23,7 +23,7 @@
   * [Consensus](key-concepts/staking/consensus.md)
   * [Rewards](key-concepts/staking/rewards.md)
   * [Penalties](key-concepts/staking/penalties.md)
-* [UTXO Native Chain](key-concepts/utxo-native-chain/README.md)
+* [UTXO Chain](key-concepts/utxo-native-chain/README.md)
   * [Confidential transfers](key-concepts/utxo-native-chain/confidential-transfers/README.md)
     * [Overview](key-concepts/utxo-native-chain/confidential-transfers/overview.md)
     * [Concepts](key-concepts/utxo-native-chain/confidential-transfers/concepts.md)
