@@ -1,10 +1,10 @@
 ---
-description: The Findora Smart Chain is the EVM-compatible layer of Findora blockchain.
+description: The EVM Chain is for EVM compatibility in Findora.
 ---
 
-# EVM Smart Chain
+# EVM Chain
 
-The Findora Smart Chain is the EVM-compatible layer of Findora blockchain (and can connect with the UTXO-based layer of Findora via the Prism feature). With the power of Findora’s EVM, developers have access to building fully compatible EVM apps with Solidity, Web3 tools like Metamask, Truffle, Remix and all Ethereum’s token specifications (e.g. ERC-20, ERC-721, etc.) while they leverage the privacy that Findora offers. The marriage between Findora’s EVM and UTXO models into a single multi-chain architecture ensures that they share the same consensus and storage layer, and even better, all incompatibility between address types are solved through a new atomic transfer model called Prism. This allows users to own and control various assets on Findora with versatile approaches for programmable privacy.
+The EVM Chain is the EVM-compatible layer of the Findora blockchain (and can connect with the UTXO Chain through Prism++). With the power of Findora’s EVM, developers have access to building fully compatible EVM on all Ethereum’s token specifications (e.g. ERC-20, ERC-721) while leveraging the privacy that Findora offers. The marriage between Findora’s EVM and UTXO models into a single multi-chain architecture ensures that they share the same consensus and storage layer, and even better, all incompatibility between address types are solved through a new atomic transfer model called Prism. This allows users to own and control various assets on Findora with versatile approaches for programmable privacy.
 
 The Findora EVM guides below will walk developers through setting up Findora EVM integration tools, deploying a Findora smart contract and launching FRC-20 tokens on Findora EVM.
 
