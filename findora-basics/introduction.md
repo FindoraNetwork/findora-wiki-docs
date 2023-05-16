@@ -1,6 +1,6 @@
 # Architecture
 
-Founded in 2017, Findora is an open, permissionless blockchain featuring programmable privacy features. The blockchain is secured by a decentralized network of global validators running the Tendermint consensus mechanism.
+Findora is an open, permissionless blockchain featuring programmable privacy features. The blockchain is secured by a decentralized network of global validators running the Tendermint consensus mechanism.
 
 With Findora, developers can create digital assets, applications and smart contracts which can preserve confidential information using advanced cryptography. Findora supports zero-knowledge proof cryptography and multi-party computation technologies to enable developers to build privacy-focused applications.
 
