@@ -18,11 +18,6 @@
   * [TurboPlonk](key-concepts/cryptography/turboplonk.md)
 * [EVM Chain](key-concepts/evm-smart-chain.md)
 * [Prism++ Transfer](key-concepts/prism-transfer.md)
-* [Staking](key-concepts/staking/README.md)
-  * [Overview](key-concepts/staking/overview.md)
-  * [Consensus](key-concepts/staking/consensus.md)
-  * [Rewards](key-concepts/staking/rewards.md)
-  * [Penalties](key-concepts/staking/penalties.md)
 * [UTXO Chain](key-concepts/utxo-native-chain/README.md)
   * [Confidential transfers](key-concepts/utxo-native-chain/confidential-transfers/README.md)
     * [Overview](key-concepts/utxo-native-chain/confidential-transfers/overview.md)
@@ -34,6 +29,11 @@
   * [Bar to Abar](key-concepts/triple-masking/bar-to-abar.md)
   * [Abar to Bar](key-concepts/triple-masking/abar-to-bar.md)
   * [Abar Transfer](key-concepts/triple-masking/abar-transfer.md)
+* [Staking](key-concepts/staking/README.md)
+  * [Overview](key-concepts/staking/overview.md)
+  * [Consensus](key-concepts/staking/consensus.md)
+  * [Rewards](key-concepts/staking/rewards.md)
+  * [Penalties](key-concepts/staking/penalties.md)
 
 ## Developers
 
