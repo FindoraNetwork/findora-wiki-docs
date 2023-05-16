@@ -30,7 +30,6 @@
 ***
 
 * [Cryptography](cryptography/README.md)
-  * [Cryptography Primitives](cryptography/cryptography-primitives.md)
   * [Delegated Schnorr](cryptography/delegated-schnorr.md)
   * [Field Simulation](cryptography/field-simulation.md)
   * [TurboPlonk](cryptography/turboplonk.md)
