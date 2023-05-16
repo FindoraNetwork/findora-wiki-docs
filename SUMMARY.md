@@ -5,7 +5,6 @@
 ## Basics
 
 * [Architecture](basics/introduction.md)
-* [Change Log](basics/change-log.md)
 
 ## Key Concepts
 
