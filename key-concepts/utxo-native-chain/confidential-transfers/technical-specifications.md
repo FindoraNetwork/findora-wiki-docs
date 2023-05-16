@@ -14,7 +14,7 @@ Schnorr's protocol is a zero-knowledge protocol that allows a Prover to prove th
 
 Given commitments to pairs representing asset-types and amounts, this protocol can be used to prove that two commitments are to the same asset-type. With minor modifications, the protocol can also be used to prove that the commitments are to distinct asset types if necessary.
 
-For a detailed explanation of the delegated Schnorr protocol, [check this page](../../cryptography/delegated-schnorr.md)
+For a detailed explanation of the delegated Schnorr protocol, [check this page](../../../cryptography/delegated-schnorr.md)
 
 #### Pedersen commitments
 
@@ -32,7 +32,7 @@ The range proofs are derived from a zero-knowledge proof scheme called _Bulletpr
 
 We first describe a straightforward albeit inefficient way to create a range proof. The Prover decomposes the integer representing the amount into its binary representation. He then creates commitments to each of those bits and then sends a proof attesting to the claim that each of these commitments is to a bit and that the amount is the aggregation of these bits. But this proof size is linear in the bit length of the amount, which is quite inefficient in practice. Bulletproofs is an efficient range proof which is logarithmic in the size of the amount. The core of the bulletproof protocol hinges on a technique called the _recursive inner product argument_.
 
-[Check this link](../../cryptography/bulletproofs.md#bulletproofs-based-mixing-protocol) for details on the Bulletproofs-based mixing protocol
+[Check this link](../../../cryptography/bulletproofs.md#bulletproofs-based-mixing-protocol) for details on the Bulletproofs-based mixing protocol
 
 #### Range proofs via inner product arguments
 

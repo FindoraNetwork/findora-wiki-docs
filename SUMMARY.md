@@ -2,19 +2,13 @@
 
 * [Overview](README.md)
 
-## Findora Basics
+## Basics
 
-* [Architecture](findora-basics/introduction.md)
-* [Change Log](findora-basics/change-log.md)
+* [Architecture](basics/introduction.md)
+* [Change Log](basics/change-log.md)
 
 ## Key Concepts
 
-* [Cryptography](key-concepts/cryptography/README.md)
-  * [Bulletproofs](key-concepts/cryptography/bulletproofs.md)
-  * [Cryptography Primitives](key-concepts/cryptography/cryptography-primitives.md)
-  * [Delegated Schnorr](key-concepts/cryptography/delegated-schnorr.md)
-  * [Field Simulation](key-concepts/cryptography/field-simulation.md)
-  * [TurboPlonk](key-concepts/cryptography/turboplonk.md)
 * [EVM Chain](key-concepts/evm-smart-chain.md)
 * [UTXO Chain](key-concepts/utxo-native-chain/README.md)
   * [Confidential transfers](key-concepts/utxo-native-chain/confidential-transfers/README.md)
@@ -33,6 +27,15 @@
   * [Consensus](key-concepts/staking/consensus.md)
   * [Rewards](key-concepts/staking/rewards.md)
   * [Penalties](key-concepts/staking/penalties.md)
+
+***
+
+* [Cryptography](cryptography/README.md)
+  * [Bulletproofs](cryptography/bulletproofs.md)
+  * [Cryptography Primitives](cryptography/cryptography-primitives.md)
+  * [Delegated Schnorr](cryptography/delegated-schnorr.md)
+  * [Field Simulation](cryptography/field-simulation.md)
+  * [TurboPlonk](cryptography/turboplonk.md)
 
 ## Developers
 
