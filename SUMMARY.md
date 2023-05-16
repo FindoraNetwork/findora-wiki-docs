@@ -30,7 +30,6 @@
 ***
 
 * [Cryptography](cryptography/README.md)
-  * [Field Simulation](cryptography/field-simulation.md)
   * [TurboPlonk](cryptography/turboplonk.md)
 
 ## Developers
