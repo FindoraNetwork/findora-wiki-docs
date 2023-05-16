@@ -20,22 +20,22 @@ Findora’s blockchain technology solves many of these privacy-related issues as
 
 Findora consists of the following key modules:
 
-* UTXO Native Chain
-* EVM Smart Chain
+* UTXO Chain
+* EVM Chain
 * Cryptography Library (zkSNARK, Bulletproofs, etc.)
 * Prism Transfers
 * Staking (Tendermint-based Consensus and PoS)
 
 See `Modules` section of documentation for details of each module.
 
-#### Dual-Blockchain Architecture (UTXO and EVM) and PRISM Transfer[​](https://wiki.findora.org/docs/findora\_basics/introduction#dual-blockchain-architecture-utxo-and-evm-and-prism-transfer) <a href="#dual-blockchain-architecture-utxo-and-evm-and-prism-transfer" id="dual-blockchain-architecture-utxo-and-evm-and-prism-transfer"></a>
+#### Dual-chain Architecture (UTXO and EVM) and Prism++ Transfer[​](https://wiki.findora.org/docs/findora\_basics/introduction#dual-blockchain-architecture-utxo-and-evm-and-prism-transfer) <a href="#dual-blockchain-architecture-utxo-and-evm-and-prism-transfer" id="dual-blockchain-architecture-utxo-and-evm-and-prism-transfer"></a>
 
 A key concept to understand about Findora is that it is composed of two different blockchains combined into a single “multi-chain” model. These two blockchains include:
 
-* Findora Native Chain - a UTXO-based blockchain
-* Findora Smart Chain - an accounts-based blockchain
+* Findora UTXO Chain - a UTXO-based blockchain
+* Findora EVM Chain - an accounts-based blockchain
 
-The _**Prism**_ transfer feature is what enables users to bridge (aka transfer) assets from Findora Native Chain to Findora Smart Chain -- and vice versa.
+The _**Prism++**_ transfer feature is what enables users to bridge (aka transfer) assets from Findora UTXO Chain to Findora EVM Chain -- and vice versa.
 
 #### Key Platform Primitives and Developer Tools[​](https://wiki.findora.org/docs/findora\_basics/introduction#key-platform-primitives-and-developer-tools) <a href="#key-platform-primitives-and-developer-tools" id="key-platform-primitives-and-developer-tools"></a>
 
