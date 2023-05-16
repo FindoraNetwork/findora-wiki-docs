@@ -27,11 +27,6 @@
   * [Rewards](key-concepts/staking/rewards.md)
   * [Penalties](key-concepts/staking/penalties.md)
 
-***
-
-* [Cryptography](cryptography/README.md)
-  * [TurboPlonk](cryptography/turboplonk.md)
-
 ## Developers
 
 * [EVM Tools & Tutorials](developers/evm-tools-and-tutorials/README.md)
