@@ -6,7 +6,6 @@
 
 * [Architecture](findora-basics/introduction.md)
 * [Change Log](findora-basics/change-log.md)
-* [Contribute](findora-basics/contribute.md)
 
 ## Key Concepts
 
@@ -17,12 +16,12 @@
   * [Field Simulation](key-concepts/cryptography/field-simulation.md)
   * [TurboPlonk](key-concepts/cryptography/turboplonk.md)
 * [EVM Chain](key-concepts/evm-smart-chain.md)
-* [Prism++ Transfer](key-concepts/prism-transfer.md)
 * [UTXO Chain](key-concepts/utxo-native-chain/README.md)
   * [Confidential transfers](key-concepts/utxo-native-chain/confidential-transfers/README.md)
     * [Overview](key-concepts/utxo-native-chain/confidential-transfers/overview.md)
     * [Concepts](key-concepts/utxo-native-chain/confidential-transfers/concepts.md)
     * [Technical Specifications](key-concepts/utxo-native-chain/confidential-transfers/technical-specifications.md)
+* [Prism++ Transfer](key-concepts/prism-transfer.md)
 * [Triple Masking](key-concepts/triple-masking/README.md)
   * [Overview](key-concepts/triple-masking/overview.md)
   * [SDK Installation](key-concepts/triple-masking/sdk-installation.md)
