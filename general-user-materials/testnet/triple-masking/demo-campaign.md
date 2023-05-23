@@ -1,8 +1,8 @@
 ---
-description: A Step-By-Step Walkthrough of Findora's Triple Masing Demo
+description: A Step-By-Step Walk-through of Findora's Triple Masking Demo
 ---
 
-# Triple Masking Demo Campaign
+# Demo Campaign
 
 ### Download the Triple Masking Demo
 
@@ -17,7 +17,7 @@ You might need to bypass the security measures on MacOS and Windows. Allowing th
 
 <summary>Installing on Windows</summary>
 
-
+When you install it on Windows, Windows will tell you a security scan is required. Click "Dismiss" to download the executable. Once you do so, you'll get another warning message saying Windows protected your PC. Click "More Info" and then "Run Anyway." After that, you can run the Triple Masking Demo to finish the process.
 
 </details>
 
