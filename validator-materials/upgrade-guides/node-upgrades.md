@@ -12,7 +12,7 @@ description: >-
 
 {% code title="Enter the following command:" %}
 ```
-python3 ~/findora-toolbox/src/app.py
+./findora.sh
 ```
 {% endcode %}
 
