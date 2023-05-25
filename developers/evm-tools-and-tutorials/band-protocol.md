@@ -6,6 +6,15 @@ description: >-
 
 # Band Protocol
 
+{% embed url="https://docs.bandchain.org/" %}
+
+## Price Feeds
+
+| Environment | Contract Address                             |
+| ----------- | -------------------------------------------- |
+| Testnet     | `0x8c064bCf7C0DA3B3b090BAbFE8f3323534D84d68` |
+| Mainnet     | `0x9c5490fc68005dF8b2DC124309c2C036B93d785f` |
+
 ## Band Protocol's Solidity Standard Reference Contracts
 
 ### Overview
