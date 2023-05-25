@@ -47,7 +47,7 @@ Follow the prompts to create a new crypto wallet.&#x20;
 
 ### Acquiring Testnet Tokens
 
-With your wallet set up, you'll now need some testnet tokens from our testnet [web-faucet](https://faucet.findora.org/). Head to [https://faucet.findora.org/](https://faucet.findora.org/), connect your MetaMask wallet and switch to the QA01 network at the top of the page.
+With your wallet set up, you'll now need some testnet tokens from our testnet [web-faucet](https://faucet.findora.org/). Head to [https://faucet.findora.org/](https://faucet.findora.org/), connect your MetaMask wallet and switch to the Anvil testnet network at the top of the page.
 
 At the bottom of the page, Select “Sealed-FRA” and input your newly created Triple Masking wallet address. It should begin “fra…”
 
