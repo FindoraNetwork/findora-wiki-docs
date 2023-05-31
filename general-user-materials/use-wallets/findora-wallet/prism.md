@@ -2,9 +2,9 @@
 description: How to transfer FRA between the EVM and UTXO chains.
 ---
 
-# Prism
+# Prism++
 
-Prism allows you to transfer FRA between the EVM and UTXO chains on Findora. By using Prism, users can move their FRA from their MetaMask wallet (EVM) to their native wallet (UTXO) for staking purposes.
+Prism++ allows you to transfer any FRC-20, 721, or 1155 token between the EVM and UTXO ledgers on Findora. By using Prism, users can move their FRA from their MetaMask wallet (EVM) to their native wallet (UTXO) for staking.
 
 ### Step #1
 
@@ -18,7 +18,7 @@ Export the private key from MetaMask and store it in a secure location.&#x20;
 
 ### Step #2
 
-Go to the **Prism** section on the [Findora Wallet](https://wallet.findora.org/) and choose a transfer direction by clicking the arrow icon. In this guide, we show how to transfer from an EVM-compatible Wallet such as MetaMask to the Native Wallet. However, you can reverse the direction according to your needs by clicking the allow, as shown below.
+Go to the **Prism++** section on the [Findora Wallet](https://wallet.findora.org/) and choose a transfer direction by clicking the arrow icon. In this guide, we show how to transfer from an EVM-compatible Wallet such as MetaMask to the Native Wallet. However, you can reverse the direction according to your needs by clicking the allow, as shown below.
 
 ![](https://miro.medium.com/max/1400/0\*lluDOL4k\_37ocXei)
 
@@ -27,10 +27,6 @@ Go to the **Prism** section on the [Findora Wallet](https://wallet.findora.org/)
 Click the EVM-compatible Wallet and add your MetaMask wallet private key that was exported in [Step #1 ](prism.md#step-1)above. Click the `Confirm` button once you're ready to continue.
 
 ![](https://miro.medium.com/max/1400/0\*qPKhiAU4UksuqwWD)
-
-> Note:
->
-> Prism currently supports the private key extracted from MetaMask. If you meet any problem when importing private key from other EVM-compatible wallet, please use MetaMask instead.
 
 ### Step #4
 

@@ -8,16 +8,8 @@ These network settings are commonly used when configuring Metmask, Findora walle
 
 #### Smart Chain (EVM)
 
-|          |                Mainnet                |                Anvil Testnet               |               Forge Testnet              |
-| -------- | :-----------------------------------: | :----------------------------------------: | :--------------------------------------: |
-| RPC      |    https://rpc-mainnet.findora.org    | https://prod-testnet.prod.findora.org:8545 | https://prod-forge.prod.findora.org:8545 |
-| Archive  | https://archive.prod.findora.org:8545 |                     N/A                    |                    N/A                   |
-| Chain ID |                  2152                 |                    2153                    |                   2154                   |
-| Explorer |       https://evm.findorascan.io      |  https://testnet-anvil.evm.findorascan.io  | https://testnet-forge.evm.findorascan.io |
+<table><thead><tr><th width="112.33333333333331"> </th><th width="197" align="center">Mainnet</th><th align="center">Anvil Testnet</th><th width="205.66666666666669" align="center">Forge Testnet</th></tr></thead><tbody><tr><td>RPC</td><td align="center">https://rpc-mainnet.findora.org</td><td align="center">https://prod-testnet.prod.findora.org:8545</td><td align="center">https://prod-forge.prod.findora.org:8545</td></tr><tr><td>Archive</td><td align="center">https://archive.prod.findora.org:8545</td><td align="center">N/A</td><td align="center">N/A</td></tr><tr><td>Chain ID</td><td align="center">2152</td><td align="center">2153</td><td align="center">2154</td></tr><tr><td>Explorer</td><td align="center">https://evm.findorascan.io</td><td align="center">https://testnet-anvil.evm.findorascan.io</td><td align="center">https://testnet-forge.evm.findorascan.io</td></tr></tbody></table>
 
 #### Native Chain (UTXO)
 
-|          |                Mainnet                |             Anvil Testnet             |               Forge Testnet              |
-| -------- | :-----------------------------------: | :-----------------------------------: | :--------------------------------------: |
-| Node     | https://prod-mainnet.prod.findora.org | https://prod-testnet.prod.findora.org |    https://prod-forge.prod.findora.org   |
-| Explorer |         https://findorascan.io        |  https://prod-testnet.findorascan.io  | https://testnet-forge.evm.findorascan.io |
+<table><thead><tr><th width="113"> </th><th width="198" align="center">Mainnet</th><th width="222.66666666666666" align="center">Anvil Testnet</th><th width="206.33333333333337" align="center">Forge Testnet</th></tr></thead><tbody><tr><td>Node</td><td align="center">https://prod-mainnet.prod.findora.org</td><td align="center">https://prod-testnet.prod.findora.org</td><td align="center">https://prod-forge.prod.findora.org</td></tr><tr><td>Explorer</td><td align="center">https://findorascan.io</td><td align="center">https://prod-testnet.findorascan.io</td><td align="center">https://testnet-forge.evm.findorascan.io</td></tr></tbody></table>

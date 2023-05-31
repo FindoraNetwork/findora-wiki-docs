@@ -31,13 +31,9 @@ To bypass it, go to System Settings >  Privacy and Security and allow the downlo
 
 </details>
 
-### Create a Crypto Wallet
+### Create a Wallet
 
-Once you have downloaded the app, create a wallet inside the demo to send and receive triple-masked transactions. Click on the Test Wallet tab. You can import an existing wallet, but the simplest option is to click create to make a new one:
-
-Follow the prompts to create a new crypto wallet.&#x20;
-
-<figure><img src="../../../.gitbook/assets/TestWalletTab.png" alt="" width="563"><figcaption></figcaption></figure>
+Once you have downloaded the app, create a wallet inside the demo to send and receive triple-masked transactions. Click on the Test Wallet tab. You can import an existing wallet, but the simplest option is to click "Create" to make a new one.
 
 Follow the prompts to create a new crypto wallet.&#x20;
 
@@ -47,7 +43,7 @@ Follow the prompts to create a new crypto wallet.&#x20;
 
 ### Acquiring Testnet Tokens
 
-With your wallet set up, you'll now need some testnet tokens from our testnet [web-faucet](https://faucet.findora.org/). Head to [https://faucet.findora.org/](https://faucet.findora.org/), connect your MetaMask wallet and switch to the Anvil testnet network at the top of the page.
+With your wallet set up, you'll now need some testnet tokens from our testnet [web-faucet](https://faucet.findora.org/). Head to [https://faucet.findora.org/](https://faucet.findora.org/), connect your MetaMask wallet, and switch to the Anvil testnet network at the top of the page.
 
 At the bottom of the page, Select “Sealed-FRA” and input your newly created Triple Masking wallet address. It should begin “fra…”
 
@@ -75,15 +71,17 @@ As you’ll be able to see, your transaction information is protected; the walle
 
 ### Completing the Feedback Survey
 
-Lastly, we'd love your thoughts and feedback! To finish the campaign, we’ll have you fill out the Demo Survey on Typeform, where we’ll ask for your feedback on&#x20;
+Lastly, we'd love your thoughts and feedback! To finish the campaign, we’ll have you fill out the [Demo Survey on Typeform](https://form.typeform.com/to/OlI3WGAG), where we’ll ask for your feedback on Triple Masking and how it can be applied in Web3.
 
-Your responses will help us improve, and you'll also be entered into a sweepstakes with the chance to win FRA tokens.
+Your [responses](https://form.typeform.com/to/OlI3WGAG) will help us improve, and you'll also be entered into a sweepstakes with the chance to win FRA tokens!
 
 {% hint style="info" %}
 💡The winners of the sweepstake rewards will be determined by the quality of their responses.
 {% endhint %}
 
-Those who finish the Typeform will also be able to join an exclusive Discord chat. There, you’ll be able to talk to others who completed the campaign and share their thoughts about Triple Masking directly with the Discreet Labs team.
+Those who finish the [Typeform](https://form.typeform.com/to/OlI3WGAG) will also be able to join an exclusive Discord chat. There, you’ll be able to talk to others who completed the campaign and share their thoughts about Triple Masking directly with the Discreet Labs team.&#x20;
+
+Leave feedback [here](https://form.typeform.com/to/OlI3WGAG).
 
 ### Sweepstakes Rewards
 
@@ -94,6 +92,6 @@ We will be rewarding 10 people in a sweepstakes-style system:
 * 3 winners at $50
 * 4 winners at $25
 
-Winners will be selected based on the quality of their feedback. Rewards will be paid in FRA tokens, the value of which will be based on the tokens' average value over the 7 days after the end of the campaign on May 30th.
+Winners will be selected based on the quality of their feedback. Rewards will be paid in FRA tokens, the value of which will be calculated as the average price of FRA during the second half of the campaign from June 7th-June 14th.&#x20;
 
 We're excited to see your involvement in our campaign. Thank you for your participation!

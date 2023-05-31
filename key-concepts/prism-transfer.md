@@ -71,10 +71,7 @@ Special Note: A key innovation of the Findora’s Smart Chain is the design of t
 
 ## Prism and Prism++ Transfers&#x20;
 
-| Transfer Type      | Supported Tokens       |
-| ------------------ | ---------------------- |
-| Prism Transfer     | FRA                    |
-| Prism++ Transfers  | FRC20, FRC721, FRC1155 |
+<table><thead><tr><th width="235">Transfer Type </th><th>Supported Tokens</th></tr></thead><tbody><tr><td>Prism Transfer</td><td>FRA </td></tr><tr><td>Prism++ Transfers </td><td>FRC20, FRC721, FRC1155</td></tr></tbody></table>
 
 ### Prism for FRA-native and FRA-smart[​](https://wiki.findora.org/docs/modules/prism/Overview#prism-for-fra-native-and-fra-smart) <a href="#prism-for-fra-native-and-fra-smart" id="prism-for-fra-native-and-fra-smart"></a>
 

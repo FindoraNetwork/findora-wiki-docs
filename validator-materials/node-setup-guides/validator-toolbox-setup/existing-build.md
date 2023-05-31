@@ -44,21 +44,7 @@ See below for notes on each option presented in the full menu.&#x20;
 Keep in mind that options 8, 9, 10, and 999 may result in missed blocks!
 {% endhint %}
 
-| Option |          Function         | Notes                                                                                             |
-| ------ | :-----------------------: | ------------------------------------------------------------------------------------------------- |
-| 1      |   Show 'curl' stats info  | Shows output of `curl 'http://localhost:26657/status'`, most info will be moved to the front page |
-| 2      |    Show 'fn' stats info   | Shows output of `fn show`, most info will be moved to the front page                              |
-| 3      |     Claim Pending FRA     | Claim your pending rewards                                                                        |
-| 4      |        Transfer FRA       | Send your FRA to another address                                                                  |
-| 5      | Set Transfer Options Menu | A menu to configure your transfer options                                                         |
-| 6      |  Change Rate or Info Menu | A menu to configure your rate or update your validator's info via staker\_memo                    |
-| 7      |  Update `fn` Application  | Pull and update to the latest version of the `fn` application                                     |
-| 8      |  Update Findora Container | Pull latest version, re-create and restart local server container, you may miss blocks            |
-| 9      |      Run Safety Clean     | Runs the safety\_clean script, wipes database, preserves wallet info, full reset of system        |
-| 10     |  Update Operating System  | Safely stops your container before running updates, you may miss blocks                           |
-| 11     |   Show system disk info   | Info about hard drive space!                                                                      |
-| 12     |   TMI about your Server   | All of the hardware information on your VPS                                                       |
-| 999    |       Reboot Server       | Safely stop your container & reboot your server. You will miss blocks with this option!           |
+<table><thead><tr><th width="112">Option</th><th align="center">Function</th><th>Notes</th></tr></thead><tbody><tr><td>1</td><td align="center">Show 'curl' stats info</td><td>Shows output of <code>curl 'http://localhost:26657/status'</code>, most info will be moved to the front page</td></tr><tr><td>2</td><td align="center">Show 'fn' stats info</td><td>Shows output of <code>fn show</code>, most info will be moved to the front page</td></tr><tr><td>3</td><td align="center">Claim Pending FRA</td><td>Claim your pending rewards</td></tr><tr><td>4</td><td align="center">Transfer FRA</td><td>Send your FRA to another address</td></tr><tr><td>5</td><td align="center">Set Transfer Options Menu</td><td>A menu to configure your transfer options</td></tr><tr><td>6</td><td align="center">Change Rate or Info Menu</td><td>A menu to configure your rate or update your validator's info via staker_memo</td></tr><tr><td>7</td><td align="center">Update <code>fn</code> Application</td><td>Pull and update to the latest version of the <code>fn</code> application</td></tr><tr><td>8</td><td align="center">Update Findora Container</td><td>Pull latest version, re-create and restart local server container, you may miss blocks</td></tr><tr><td>9</td><td align="center">Run Safety Clean</td><td>Runs the safety_clean script, wipes database, preserves wallet info, full reset of system</td></tr><tr><td>10</td><td align="center">Update Operating System</td><td>Safely stops your container before running updates, you may miss blocks</td></tr><tr><td>11</td><td align="center">Show system disk info</td><td>Info about hard drive space!</td></tr><tr><td>12</td><td align="center">TMI about your Server</td><td>All of the hardware information on your VPS</td></tr><tr><td>999</td><td align="center">Reboot Server</td><td>Safely stop your container &#x26; reboot your server. You will miss blocks with this option!</td></tr></tbody></table>
 
 ### Help Menu
 
