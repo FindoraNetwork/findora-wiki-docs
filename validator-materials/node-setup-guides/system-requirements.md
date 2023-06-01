@@ -13,11 +13,6 @@
   * Firewall ports opened: 22, 8545, 8667-8669, 26657
   * User account with root access
 
-**Hardware Requirements**:
-
-* Minimum: 8GB RAM, 2 Core CPU (2.90GHz per core), 100GB Hard Disk
-* Recommended: 16GB RAM, 4 Core CPU (2.90Ghz per core), 300GB Hard Disk
-
 Example cloud providers & nodes meeting recommended specs:&#x20;
 
 * **Contabo**: Cloud VPS L w/ 400GB NVMe (Recommended)
