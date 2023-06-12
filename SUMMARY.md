@@ -101,7 +101,7 @@
 * [Use Block Explorers](general-user-materials/use-block-explorers.md)
 * [Explore Testnet](general-user-materials/testnet/README.md)
   * [Triple Masking](general-user-materials/testnet/triple-masking/README.md)
-    * [Demo Campaign](general-user-materials/testnet/triple-masking/demo-campaign.md)
+    * [Triple Masking Demo](general-user-materials/testnet/triple-masking/triple-masking-demo.md)
   * [EVM Staking](general-user-materials/testnet/evm-staking.md)
   * [Prism++](general-user-materials/testnet/prism-++/README.md)
     * [Prism++ Testing Campaign](general-user-materials/testnet/prism-++/prism++-testing-campaign/README.md)
