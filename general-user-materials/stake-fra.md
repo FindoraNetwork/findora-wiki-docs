@@ -50,7 +50,7 @@ _Stake FRA tokens_
 
 * By clicking on the "UNSTAKE" button, you unbond your FRA tokens with the validator.
 * The unbonding period lasts 21 days. FRA that is in the process of being unbonded can not be traded on an exchange or sent to other users.
-* Your FRA tokens are still eligible for the block rewards and slashing risk during the unbonding period.
+* Your FRA tokens are not eligible for block rewards during this period. Slashing risk still exists during the unbonding period.
 
 ### Frequently Asked Questions (FAQ)[​](https://wiki.findora.org/docs/evm\_guides/use\_wallet/findora\_wallet/staking-user-guide#frequently-asked-questions-faq) <a href="#frequently-asked-questions-faq" id="frequently-asked-questions-faq"></a>
 
