@@ -40,7 +40,7 @@ Enjoying a card game on the Ethereum blockchain presents a unique set of challen
 Additionally, players desire to keep their own cards concealed from one another until it is time to reveal them.
 
 {% hint style="info" %}
-Note: Privacy Routing SDK can currently only be used on the Findora **Forge** Testnet. See [network settings](../../../network-settings/network-settings.md) for RPC details and request **Forge** EVM testnet `FRA` tokens [here](../../../general-user-materials/acquire-fra/request-fra-testnet.md).
+Note: Privacy Routing SDK can currently only be used on the Findora **Forge** Testnet. See [network settings](../../../network-settings/network-settings.md) for RPC details and request **Forge** EVM testnet `FRA` tokens [here](../../../general-user-materials/request-fra-testnet.md).
 {% endhint %}
 
 ## Findora Private Transactions
@@ -61,6 +61,6 @@ Findora developers will attend the Denver on-site event to help support the hack
 
 * [Discord support](https://findora.org/discord) (#dev-chat channel)
 * [Findora EVM network settings](../../../network-settings/network-settings.md)
-* [Testnet FRA faucet](../../../general-user-materials/acquire-fra/request-fra-testnet.md)
+* [Testnet FRA faucet](../../../general-user-materials/request-fra-testnet.md)
 * [Subgraph deployment](../../evm-tools-and-tutorials/the-graph/)
 

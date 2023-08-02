@@ -32,7 +32,7 @@ Developers can take a look at the `Privacy-Routing-SDK` example on Github.
 {% embed url="https://github.com/FindoraNetwork/privacy-routing-sdk-example" %}
 
 {% hint style="info" %}
-Note: Privacy-Routing-SDK is now available only on the Findora **Forge** Testnet. See [network settings](../../network-settings/network-settings.md) for RPC details and request **Forge** EVM testnet `FRA` tokens [here](../../general-user-materials/acquire-fra/request-fra-testnet.md).
+Note: Privacy-Routing-SDK is now available only on the Findora **Forge** Testnet. See [network settings](../../network-settings/network-settings.md) for RPC details and request **Forge** EVM testnet `FRA` tokens [here](../../general-user-materials/request-fra-testnet.md).
 {% endhint %}
 
 ### DeFi Integration

@@ -19,7 +19,7 @@ Single Winner earns **$5,000 🎉**
 {% endhint %}
 
 {% hint style="info" %}
-Note: Privacy Routing SDK can currently only be used on the Findora **Forge** Testnet. See [network settings](../../../network-settings/network-settings.md) for RPC details and request **Forge** EVM testnet `FRA` tokens [here](../../../general-user-materials/acquire-fra/request-fra-testnet.md).
+Note: Privacy Routing SDK can currently only be used on the Findora **Forge** Testnet. See [network settings](../../../network-settings/network-settings.md) for RPC details and request **Forge** EVM testnet `FRA` tokens [here](../../../general-user-materials/request-fra-testnet.md).
 {% endhint %}
 
 ## Findora Private Transactions
@@ -52,6 +52,6 @@ Findora developers will be attending the onsite event in San Francisco to help s
 
 * [Discord support](https://findora.org/discord) (#dev-chat channel)
 * [Findora EVM network settings](../../../network-settings/network-settings.md)
-* [Testnet FRA faucet](../../../general-user-materials/acquire-fra/request-fra-testnet.md)
+* [Testnet FRA faucet](../../../general-user-materials/request-fra-testnet.md)
 * [Subgraph deployment](../../evm-tools-and-tutorials/the-graph/)
 

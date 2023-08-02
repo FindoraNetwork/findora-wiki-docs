@@ -28,7 +28,7 @@ The full example codebase can be accessed here: [https://zkdid.pages.dev](https:
 
 // In real-world, the identity issuer would create the DID identifier and first zkCredential (”createZKCredential()”) with name and perhaps date of birth for the DID holder. The identity issuer would also create their own zkCircuit (”ZKCircuit()”) or have a trusted partner create it to be used to generate a zkProof to prove the date of birth. A 3rd party (or even verifier) Dapp would enable users to create the zkProof (”generateZKProof()”), and the verifier Dapp would verify the proof.
 
-***
+
 
 ## Example 2
 
@@ -52,7 +52,7 @@ The code example below showcases how to create your own custom zkCircuit and zkC
 
 // Part e) Create a zkCredential and zkProof for each DID holder created earlier and then verify the zkProof
 
-***
+
 
 ## Example 3
 

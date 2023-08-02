@@ -8,7 +8,7 @@ The original tutorial can be found here:
 
 * [https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft](https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft)
 
-***
+\---
 
 With NFTs bringing blockchain into the public eye, now is an excellent opportunity to understand the hype yourself by publishing your own NFT (FRC-721 Token) on the Findora blockchain!
 
@@ -28,7 +28,7 @@ Then, select Anvil Testnet in the upper right drop-down menu on Metamask.
 
 #### Step 2: Add (free) FRA From Faucet[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/Mint%20NFTs/p1\_deploy\_nft#step-2-add-free-fra-from-faucet) <a href="#step-2-add-free-fra-from-faucet" id="step-2-add-free-fra-from-faucet"></a>
 
-In order to deploy our smart contract to the test network, we’ll need some testnet FRA. To request testnet FRA, please refer to the [guide](../../../general-user-materials/acquire-fra/request-fra-testnet.md).
+In order to deploy our smart contract to the test network, we’ll need some testnet FRA. To request testnet FRA, please refer to the [guide](../../../general-user-materials/request-fra-testnet.md).
 
 #### Step 3: Initialize Project[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/Mint%20NFTs/p1\_deploy\_nft#step-3-initialize-project) <a href="#step-3-initialize-project" id="step-3-initialize-project"></a>
 

@@ -2,13 +2,7 @@
 
 ## Add with Chainlist
 
-You can quickly add Findora to your Metamask by connecting your wallet using Chainlist.&#x20;
-
-**Mainnet**: [https://chainlist.org/chain/2152](https://chainlist.org/chain/2152)
-
-> Note:
->
-> Most general users will only need to add Mainnet to MetaMask.
+You can quickly add Findora to your Metamask by connecting your wallet using Chainlist: [https://chainlist.org/chain/2152](https://chainlist.org/chain/2152)
 
 ### Step #1
 

@@ -24,7 +24,7 @@ Visit the [**Staking: Key Concepts**](../key-concepts/staking/) documentation co
 
     <figure><img src="../.gitbook/assets/image (36) (1).png" alt=""><figcaption></figcaption></figure>
 2. If you don't own any FRA, you can acquire some from a CEX partner.
-   * [Guide of How to Buy (Smart) FRA on KuCoin](acquire-fra/acquire-fra.md)​
+   * [Guide of How to Buy (Smart) FRA on KuCoin](acquire-fra.md)​
 3. Transfer your FRA to EVM-compatible Wallet:&#x20;
    * [Guide of Withdraw from KuCoin to Findora Smart Chain](https://medium.com/findorafoundation/tutorial-2-how-to-withdraw-smart-fra-from-kucoin-to-metamask-beneficial-to-findora-66dfa7c92dee)​
 4. Config Metamask for Findora Mainnet. [Check this guide](../developers/evm-references/metamask.md) on how to use MetaMask. [Visit this page](../network-settings/network-settings.md) for the latest Mainnet Network Info.
