@@ -72,6 +72,10 @@
     * [🏗 ETH San Francisco 2022](developers/resources/events/eth-san-francisco-2022.md)
       * [zkDID and Credentials](key-concepts/zkdid-and-credentials.md)
     * [🏗 ETH Denver 2023](developers/resources/events/eth-denver-2023.md)
+* [Game-Specific Chains](developers/game-specific-chains/README.md)
+  * [GSC Highlights](developers/game-specific-chains/gsc-highlights.md)
+  * [User Guide](developers/game-specific-chains/user-guide.md)
+  * [Developer Tools](developers/game-specific-chains/developer-tools.md)
 
 ## Network Settings
 
