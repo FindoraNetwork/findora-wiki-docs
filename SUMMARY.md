@@ -115,6 +115,11 @@
       * [🧑🎓 🧑🎓 Prodigy: FRC1155 Token Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/prodigy-frc1155-token-transfers.md)
       * [🧑🚀 🧑🚀 Pioneer: Mainnet Transfers](general-user-materials/testnet/prism-++/prism++-testing-campaign/pioneer-mainnet-transfers.md)
       * [Prism++ Testnet Campaign FAQs](general-user-materials/explore-testnet/prism++/prism++-testing-campaign/prism++-testnet-campaign-faqs.md)
+* [Gaxle Events](general-user-materials/gaxle-events/README.md)
+  * [Game Chain Challenges](general-user-materials/gaxle-events/game-chain-challenges/README.md)
+    * [Getting Started](general-user-materials/gaxle-events/game-chain-challenges/getting-started.md)
+    * [The Campaigns](general-user-materials/gaxle-events/game-chain-challenges/the-campaigns.md)
+    * [The Reward Raffles](general-user-materials/gaxle-events/game-chain-challenges/the-reward-raffles.md)
 
 ## Validator Materials
 
