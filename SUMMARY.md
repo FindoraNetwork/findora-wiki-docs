@@ -85,7 +85,7 @@
 ## General User Materials
 
 * [Acquire FRA](general-user-materials/acquire-fra.md)
-* [Request FRA (Testnet)](general-user-materials/request-fra-testnet.md)
+* [Acquire FRA (Testnet)](general-user-materials/request-fra-testnet.md)
 * [Stake FRA](general-user-materials/stake-fra.md)
 * [Use Wallets](general-user-materials/use-wallets/README.md)
   * [MetaMask](general-user-materials/use-wallets/metamask/README.md)
