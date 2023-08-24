@@ -29,6 +29,7 @@
 
 ## Developers
 
+* [Acquire Testnet FRA](developers/request-fra-testnet.md)
 * [EVM Tools & Tutorials](developers/evm-tools-and-tutorials/README.md)
   * [Contract Deployment](developers/evm-tools-and-tutorials/contract-deployment/README.md)
     * [Ganache](developers/evm-tools-and-tutorials/contract-deployment/ganache.md)
