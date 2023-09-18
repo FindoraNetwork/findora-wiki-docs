@@ -1,5 +1,5 @@
 ---
-description: Encrypted on-chain transactions for every FRC20 transfer
+description: Anonymous routing for every FRC20 transfer
 ---
 
 # ZkRouting SDK
