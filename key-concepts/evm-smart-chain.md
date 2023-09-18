@@ -2,9 +2,9 @@
 description: The EVM Chain is for EVM compatibility in Findora.
 ---
 
-# EVM Chain
+# EVM Ledger
 
-The EVM Chain is the EVM-compatible layer of the Findora blockchain (and can connect with the UTXO Chain through Prism++). With the power of Findora’s EVM, developers have access to building fully compatible EVM on all Ethereum’s token specifications (e.g. ERC-20, ERC-721) while leveraging the privacy that Findora offers. The marriage between Findora’s EVM and UTXO models into a single multi-chain architecture ensures that they share the same consensus and storage layer, and even better, all incompatibility between address types are solved through a new atomic transfer model called Prism. This allows users to own and control various assets on Findora with versatile approaches for programmable privacy.
+The EVM ledger is the EVM-compatible layer of the Findora blockchain connecting with the UTXO ledger through Prism++. With the power of Findora’s EVM, developers can easily build fully compatible EVM dApps that use Ethereum token standards (e.g. ERC-20, ERC-721) and leverage zk functions. The marriage between Findora’s EVM and UTXO models into a single multi-chain architecture ensures that they share the same consensus and storage layer, and even better, all incompatibility between address types are solved through a new atomic transfer model called Prism. This gives users selective on-chain transparency and privacy.
 
 The Findora EVM guides below will walk developers through setting up Findora EVM integration tools, deploying a Findora smart contract and launching FRC-20 tokens on Findora EVM.
 

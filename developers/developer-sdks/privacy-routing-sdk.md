@@ -1,8 +1,8 @@
 ---
-description: Anonymous routing for every FRC20 transfer
+description: Encrypted on-chain transactions for every FRC20 transfer
 ---
 
-# Privacy Routing SDK
+# ZkRouting SDK
 
 ### Introduction
 

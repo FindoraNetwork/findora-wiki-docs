@@ -8,7 +8,7 @@
 
 ## Key Concepts
 
-* [EVM Chain](key-concepts/evm-smart-chain.md)
+* [EVM Ledger](key-concepts/evm-smart-chain.md)
 * [UTXO Chain](key-concepts/utxo-native-chain/README.md)
   * [Confidential transfers](key-concepts/utxo-native-chain/confidential-transfers/README.md)
     * [Overview](key-concepts/utxo-native-chain/confidential-transfers/overview.md)
@@ -56,7 +56,7 @@
       * [Staking](developers/developer-sdks/utxo-native-chain-sdk/utxo-api-reference/staking.md)
       * [Transaction](developers/developer-sdks/utxo-native-chain-sdk/utxo-api-reference/transaction.md)
       * [Helpers](developers/developer-sdks/utxo-native-chain-sdk/utxo-api-reference/helpers.md)
-  * [Privacy Routing SDK](developers/developer-sdks/privacy-routing-sdk.md)
+  * [ZkRouting SDK](developers/developer-sdks/privacy-routing-sdk.md)
   * [zkDID SDK](developers/developer-sdks/zkdid-sdk/README.md)
     * [zkDID SDK Installation](developers/developer-sdks/zkdid-sdk/zkdid-sdk-installation.md)
     * [zkDID API Reference](developers/developer-sdks/zkdid-sdk/zkdid-api-reference.md)
