@@ -18,7 +18,7 @@ For more info on using RanDAO's contracts, see their documentation: [https://git
 
 ### RanDAO Contract Address on GSC
 
-<table data-header-hidden><thead><tr><th width="204"></th><th></th></tr></thead><tbody><tr><td>GSC Testnet</td><td><p>0xfB45f8B9705FFA9d05D42b72E73afE7E2ceEa860</p><p><br></p></td></tr><tr><td>GSC Mainnet</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="204"></th><th></th></tr></thead><tbody><tr><td>GSC Testnet</td><td><p>0xfB45f8B9705FFA9d05D42b72E73afE7E2ceEa860</p><p><br></p></td></tr><tr><td>GSC Mainnet</td><td>0x0419c41d9a24f8f6B8d190CAf2C5C8254A1ae2D9</td></tr></tbody></table>
 
 ### The ZkGaming SDK
 
