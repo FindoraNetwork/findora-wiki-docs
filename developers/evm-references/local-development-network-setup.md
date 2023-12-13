@@ -134,7 +134,7 @@ The local blockchain can be stopped and restarted anytime during development and
         go get -u golang.org/x/sys
         ```
 
-    ***
+
 * Problem 2
   * `.findora` file is missing
 * Solution

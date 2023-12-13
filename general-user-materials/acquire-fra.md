@@ -25,6 +25,6 @@ The EVM network can send and receive to your MetaMask wallet, while the UTXO can
 
 <figure><img src="../.gitbook/assets/image (90).png" alt=""><figcaption><p><a href="https://www.lbank.com/en-US/trade/fra_usdt/">LBANK (USDT/FRA)</a></p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/SimpleSwa (2).png" alt=""><figcaption><p><a href="http://127.0.0.1:5000/s/za3V5NlXBSy2wcJR0pFy/miscellaneous/contracts">SimpleSwap</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/SimpleSwa (2).png" alt=""><figcaption><p><a href="https://app.gitbook.com/s/za3V5NlXBSy2wcJR0pFy/miscellaneous/contracts">SimpleSwap</a></p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/LetsExchange.png" alt="LetsExchange Logo"><figcaption><p><a href="https://letsexchange.io/">LetsExchange</a></p></figcaption></figure>

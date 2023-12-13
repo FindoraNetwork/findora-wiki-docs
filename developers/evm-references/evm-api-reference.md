@@ -141,7 +141,7 @@ Response
 
 #### eth\_sendTransaction[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/web3#eth\_sendtransaction) <a href="#eth_sendtransaction" id="eth_sendtransaction"></a>
 
-***
+
 
 Creates new message call transaction or a contract creation, if the data field contains code.
 
@@ -201,7 +201,7 @@ Response
 
 #### eth\_call[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/web3#eth\_call) <a href="#eth_call" id="eth_call"></a>
 
-***
+
 
 Creates new message call transaction or a contract creation, if the data field contains code.
 
@@ -257,7 +257,7 @@ Response
 
 #### eth\_coinbase[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/web3#eth\_coinbase) <a href="#eth_coinbase" id="eth_coinbase"></a>
 
-***
+
 
 Returns the client coinbase address.
 
@@ -298,7 +298,7 @@ Response
 
 #### eth\_gasPrice[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/web3#eth\_gasprice) <a href="#eth_gasprice" id="eth_gasprice"></a>
 
-***
+
 
 Returns the current price per gas in wei.
 
@@ -378,7 +378,7 @@ Response
 
 #### eth\_getStorageAt[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/web3#eth\_getstorageat) <a href="#eth_getstorageat" id="eth_getstorageat"></a>
 
-***
+
 
 Returns the value from a storage position at a given address.
 
@@ -431,7 +431,7 @@ Response
 
 #### eth\_getBlockByHash[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/web3#eth\_getblockbyhash) <a href="#eth_getblockbyhash" id="eth_getblockbyhash"></a>
 
-***
+
 
 Returns information about a block by hash.
 
@@ -523,7 +523,7 @@ Response
 
 #### eth\_getBlockByNumber[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/web3#eth\_getblockbynumber) <a href="#eth_getblockbynumber" id="eth_getblockbynumber"></a>
 
-***
+
 
 Returns information about a block by hash.
 
@@ -608,7 +608,7 @@ Response
 
 #### eth\_getTransactionCount[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/web3#eth\_gettransactioncount) <a href="#eth_gettransactioncount" id="eth_gettransactioncount"></a>
 
-***
+
 
 Returns the number of transactions sent from an address.
 
@@ -652,7 +652,7 @@ Response
 
 #### eth\_getBlockTransactionCountByHash[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/web3#eth\_getblocktransactioncountbyhash) <a href="#eth_getblocktransactioncountbyhash" id="eth_getblocktransactioncountbyhash"></a>
 
-***
+
 
 Returns the number of transactions in a block from a block matching the given block hash.
 
@@ -695,7 +695,7 @@ Response
 
 #### eth\_getBlockTransactionCountByNumber[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/web3#eth\_getblocktransactioncountbynumber) <a href="#eth_getblocktransactioncountbynumber" id="eth_getblocktransactioncountbynumber"></a>
 
-***
+
 
 Returns the number of transactions in a block matching the given block number.
 
@@ -738,7 +738,7 @@ Response
 
 #### eth\_getCode[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/web3#eth\_getcode) <a href="#eth_getcode" id="eth_getcode"></a>
 
-***
+
 
 Returns code at a given address
 
@@ -787,7 +787,7 @@ Response
 
 #### eth\_sendRawTransaction[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/web3#eth\_sendrawtransaction) <a href="#eth_sendrawtransaction" id="eth_sendrawtransaction"></a>
 
-***
+
 
 Creates new message call transaction or a contract creation for signed transactions.
 
@@ -832,7 +832,7 @@ Response
 
 #### eth\_estimateGas[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/web3#eth\_estimategas) <a href="#eth_estimategas" id="eth_estimategas"></a>
 
-***
+
 
 Makes a call or transaction, which won't be added to the blockchain and returns the used gas, which can be used for estimating the used gas.
 
@@ -886,7 +886,7 @@ Response
 
 #### eth\_getTransactionByHash[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/web3#eth\_gettransactionbyhash) <a href="#eth_gettransactionbyhash" id="eth_gettransactionbyhash"></a>
 
-***
+
 
 Returns the information about a transaction requested by transaction hash.
 
@@ -964,7 +964,7 @@ Response
 
 #### eth\_getTransactionByBlockHashAndIndex[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/web3#eth\_gettransactionbyblockhashandindex) <a href="#eth_gettransactionbyblockhashandindex" id="eth_gettransactionbyblockhashandindex"></a>
 
-***
+
 
 Returns information about a transaction by block hash and transaction index position.
 
@@ -1003,7 +1003,7 @@ Response See [eth\_getTransactionByHash](evm-api-reference.md#eth\_gettransactio
 
 #### eth\_getTransactionByBlockNumberAndIndex[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/web3#eth\_gettransactionbyblocknumberandindex) <a href="#eth_gettransactionbyblocknumberandindex" id="eth_gettransactionbyblocknumberandindex"></a>
 
-***
+
 
 Returns information about a transaction by block number and transaction index position.
 
@@ -1044,7 +1044,7 @@ Response See [eth\_getTransactionByHash](evm-api-reference.md#eth\_gettransactio
 
 #### eth\_getTransactionReceipt[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/web3#eth\_gettransactionreceipt) <a href="#eth_gettransactionreceipt" id="eth_gettransactionreceipt"></a>
 
-***
+
 
 Returns the receipt of a transaction by transaction hash.
 
@@ -1116,7 +1116,7 @@ Response
 
 #### eth\_getLogs[​](https://wiki.findora.org/docs/developers/evm\_smart\_chain/web3#eth\_getlogs) <a href="#eth_getlogs" id="eth_getlogs"></a>
 
-***
+
 
 Returns an array of all logs matching a given filter object.
 
