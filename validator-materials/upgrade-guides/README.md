@@ -7,12 +7,12 @@ description: Follow the instructions below to upgrade your Findora validator nod
 &#x20;<mark style="background-color:orange;">**Latest Version:**</mark>&#x20;
 
 ```
-v0.3.48-3-release
+v0.4.4-release
 ```
 
-**IMPORTANT UPGRADE NOTES FOR v0.3.48-3 ⤵️**
+**IMPORTANT UPGRADE NOTES FOR v0.4.4 ⤵️**
 
-Upgrading must be completed by Monday afternoon, PDT, June 5th, or by block height 4,111,000.&#x20;
+Upgrading must be completed by Friday 3:00 pm, PDT, December 22nd.&#x20;
 
 To upgrade, choose your upgrade path, either manually or using the Validator Toolbox, and follow the steps to upgrade your node when necessary. These steps will update your validator to the latest version.&#x20;
 
