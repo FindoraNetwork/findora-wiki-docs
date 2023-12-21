@@ -470,7 +470,7 @@ docker run -d \
     --tendermint-host 0.0.0.0 \
     --tendermint-node-key-config-path="/root/.tendermint/config/priv_validator_key.json" \
     --enable-query-service \
-    --enable-eth-api-serviceStep 10: Check Local Node Status
+    --enable-eth-api-service
 ```
 {% endcode %}
 
