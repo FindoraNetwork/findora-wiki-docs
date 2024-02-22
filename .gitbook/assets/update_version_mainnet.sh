@@ -5,7 +5,11 @@ NAMESPACE=mainnet
 LIVE_VERSION=$(curl -s https://${ENV}-${NAMESPACE}.${ENV}.findora.org:8668/version | awk -F\  '{print $2}')
 FINDORAD_IMG=findoranetwork/findorad:${LIVE_VERSION}
 
-export ROOT_DIR=/data/findora/${NAMESPACE}
+if [ -d "/data/findora/" ]; then
+  export ROOT_DIR=/data/findora/${NAMESPACE}
+else
+  export ROOT_DIR=/data/fractal/${NAMESPACE}
+fi
 
 # remove the exist addrbook file
 rm -rf "${ROOT_DIR}/tendermint/config/addrbook.json"
