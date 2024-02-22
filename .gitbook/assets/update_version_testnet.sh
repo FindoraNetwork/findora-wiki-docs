@@ -5,7 +5,12 @@ LIVE_VERSION=$(curl -s https://${ENV}-${NAMESPACE}.${ENV}.findora.org:8668/versi
 FINDORAD_IMG=findoranetwork/findorad:${LIVE_VERSION}
 CHECKPOINT_URL=https://${ENV}-${NAMESPACE}-us-west-2-ec2-instance.s3.us-west-2.amazonaws.com/${NAMESPACE}/checkpoint
 
-export ROOT_DIR=/data/findora/${NAMESPACE}
+if [ -d "/data/findora/" ]; then
+  export ROOT_DIR=/data/findora/${NAMESPACE}
+else
+  export ROOT_DIR=/data/fractal/${NAMESPACE}
+fi
+
 rm -rf "${ROOT_DIR}/tendermint/config/addrbook.json"
 ###################
 # Get checkpoint  #
